@@ -1,0 +1,1519 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="tr">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Lisans Tercih Sihirbazı</title>
+<meta name="description" content="SÖZ puan türü ile öğrenci alan lisans programları için Tercih Sihirbazı ?" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/main.css?v=2" />
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/blitzer/jquery-ui.css" />
+<link rel="stylesheet" href="inc/datatables/jquery.dataTables.min.css" />
+<link rel="stylesheet" href="inc/datatables/responsive.dataTables.min.css" />
+<link rel="stylesheet" href="inc/datatables/dataTables.bootstrap.min.css" />
+<link rel="stylesheet" href="inc/datatables/responsive.bootstrap.min.css" />
+<link href="assets/css/featherlight.min.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/jquery.dataTables.yadcf.css" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+<script src="inc/datatables/jquery.dataTables.min.js"></script>
+<script src="inc/datatables/dataTables.responsive.min.js"></script>
+<script src="inc/datatables/dataTables.bootstrap.min.js"></script>
+<script src="inc/datatables/responsive.bootstrap.min.js"></script>
+<script src="assets/js/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="assets/js/jquery.dataTables.yadcf.js"></script>
+<script src="assets/js/mamut-js.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/i18n/tr.min.js"></script>
+<script>
+(function($) {
+
+var Defaults = $.fn.select2.amd.require('select2/defaults');
+/*
+$.extend(Defaults.defaults, {
+	searchInputPlaceholder: ''
+});
+*/
+var SearchDropdown = $.fn.select2.amd.require('select2/dropdown/search');
+
+var _renderSearchDropdown = SearchDropdown.prototype.render;
+
+SearchDropdown.prototype.render = function(decorated) {
+
+	// invoke parent method
+	var $rendered = _renderSearchDropdown.apply(this, Array.prototype.slice.apply(arguments));
+
+	this.$search.attr('placeholder', this.options.get('searchInputPlaceholder'));
+
+	return $rendered;
+};
+
+})(window.jQuery);
+
+</script>
+<style>
+.dataTables_filter {
+  	display: none;
+}
+
+.notify-link:hover {
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+	color: white;
+}
+
+.notify-link {
+	color: white;
+}
+
+.notifyjs-foo-base {
+	opacity: 1;
+	width: 200px;
+	background: #F5F5F5;
+	padding: 2px;
+	border-radius: 10px;
+}
+
+.notifyjs-foo-success {
+	opacity: 1;
+	width: 200px;
+	background: #5cb85c;
+	padding: 2px;
+	border-radius: 10px;
+}
+
+.notifyjs-foo-info {
+	opacity: 1;
+	width: 200px;
+	background: #5bc0de;
+	padding: 2px;
+	border-radius: 10px;
+}
+
+.notifyjs-foo-error {
+	opacity: 1;
+	width: 200px;
+	background: #d9534f;
+	padding: 2px;
+	border-radius: 10px;
+}
+
+.notifyjs-foo-base .title {
+	color: white;
+	font-weight: bold;
+	width: 180px;
+	margin: 10px 0 0 10px;
+	text-align: left;
+}
+
+.notifyjs-foo-base .buttons {
+	width: 70px;
+	float: right;
+	font-size: 9px;
+	padding: 5px;
+	margin: 2px;
+}
+
+.notifyjs-foo-base button {
+	font-size: 9px;
+	padding: 5px;
+	margin: 2px;
+	width: 60px;
+}
+
+.inner {
+	height: 100px !important;
+	margin: 0px !important;
+	padding: 10px;
+}
+
+table.dataTable thead .sorting:after {
+	display: none;
+}
+
+.search_init {
+	max-width: 120px;
+}
+
+@media ( min-width :768px) and (max-width:950px) {
+	.tablo_ortala {
+		width: 100%;
+		max-width: 750px !important;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.tablo_ortala {
+		width: 100%;
+		max-width: 87% !important;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.tablo_ortala {
+		width: 100%;
+		max-width: 1280px !important;
+		margin: 0 auto;
+	}
+}
+
+.yadcf-filter {
+	width: 60px;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+	padding: 6px;
+}
+
+.vcenter {
+	vertical-align: middle !important;
+}
+
+table.dataTable thead th, table.dataTable thead td, table.dataTable td {
+	padding: 2px 2px 5px 5px !important;
+	margin: 0px 0px 0px 0px !important;
+	font-size: 10px;
+}
+
+.dtr-data {
+	float: right !important;
+	vertical-align: bottom !important;
+}
+
+/* Özet görünüm stilleri */
+.summary-view th {
+	background-color: #f8f9fa;
+	font-weight: bold;
+	border-bottom: 2px solid #dee2e6;
+	font-size: 14px !important;
+}
+
+.summary-view td {
+	font-size: 14px !important;
+	padding: 8px 8px 8px 8px !important;
+}
+
+.summary-view .table-striped > tbody > tr:nth-of-type(odd) {
+	background-color: rgba(0,0,0,.02);
+}
+
+/* Özet görünümde tablo genişliği */
+.summary-view table {
+	width: 100% !important;
+}
+
+/* Mobilde özet görünümde yazı boyutlarını detaylı görünümle aynı yap */
+@media screen and (max-width: 768px) {
+	.summary-view th,
+	.summary-view td {
+		font-size: 12px !important;
+		padding: 2px 2px 5px 5px !important;
+	}
+}
+
+/* Mobile Filter Toggle Styling */
+.mobile-filter-toggle .btn-outline-primary {
+	border: 2px solid #00bcd6 !important;
+	color: #00bcd6 !important;
+	background: white !important;
+	border-radius: 10px !important;
+	font-weight: 600 !important;
+	font-family: 'Inter', sans-serif !important;
+	padding: 12px 16px !important;
+	transition: all 0.3s ease !important;
+}
+
+.mobile-filter-toggle .btn-outline-primary:hover {
+	background: #00bcd6 !important;
+	color: white !important;
+	transform: translateY(-2px) !important;
+	box-shadow: 0 8px 25px rgba(0, 188, 214, 0.3) !important;
+}
+
+.mobile-filter-toggle .btn-outline-primary:focus {
+	box-shadow: 0 0 0 3px rgba(0, 188, 214, 0.1) !important;
+}
+
+.filter-chevron {
+	transition: transform 0.3s ease !important;
+	margin-left: 5px;
+}
+
+.mobile-filter-toggle .btn-outline-primary[aria-expanded="true"] .filter-chevron {
+	transform: rotate(180deg) !important;
+}
+
+/* Collapse behavior adjustments */
+@media (max-width: 767px) {
+	#filterCollapse {
+		transition: all 0.3s ease;
+	}
+}
+
+/* Ensure proper visibility control */
+.mobile-filter-toggle {
+	display: none;
+}
+
+.mobile-filter-toggle.show {
+	display: block;
+}
+
+</style>
+<style>
+        /* Modern Input Placeholder Styling */
+        input::placeholder {
+            color: #9ca3af;
+            font-weight: 400;
+            font-size: 14px;
+            opacity: 0.8;
+            transition: all 0.3s ease;
+        }
+        
+        input:focus::placeholder {
+            color: #00bcd6;
+            opacity: 1;
+            transform: translateY(-1px);
+        }
+        
+        /* Form control modern styling */
+        .form-control {
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            padding: 6px 8px;
+            font-size: 12px;
+            transition: all 0.3s ease;
+            background: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .form-control:focus {
+            border-color: #00bcd6;
+            box-shadow: 0 0 0 3px rgba(0, 188, 214, 0.1);
+            outline: none;
+            transform: translateY(-1px);
+        }
+        
+        		/* Label modern styling */
+		.form-label {
+			font-size: 12px;
+			margin-bottom: 6px;
+			margin-top: 8px;
+			color: #374151;
+			font-weight: 600;
+			letter-spacing: 0.025em;
+		}
+		
+
+		
+		#puan_turu:focus {
+			border-color: #00bcd6;
+			box-shadow: 0 0 0 3px rgba(0, 188, 214, 0.1);
+			outline: none;
+			transform: translateY(-1px);
+		}
+		
+		#puan_turu option {
+			padding: 6px 10px;
+			font-size: 12px;
+			font-weight: 500;
+			color: #374151;
+			background: #ffffff;
+		}
+		
+		#puan_turu option:checked {
+			background: linear-gradient(135deg, #00bcd6, #00a0b0);
+			color: white;
+			font-weight: 600;
+		}
+		
+		#puan_turu option:hover {
+			background: #f8f9fa;
+			color: #00bcd6;
+		}
+        .btns{
+            float:right;
+        }
+        .cbxNew{
+            margin-top: 5px;
+        }
+        .card{
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #f3f3f3ff;
+            background-clip: border-box;
+            border: 1px solid rgba(0, 0, 0, .125);
+            border-radius: .25rem;
+        }
+        .card-body{
+            flex: 1 1 auto;
+            min-height: 1px;
+            padding: 1.25rem;
+        }
+        
+        .form-label {
+            font-size: 12px;
+            margin-bottom: 3px;
+			margin-top: 5px;
+            color: #555;
+        }
+    </style>
+	<style>
+		/* Başlangıçta tüm reset butonlarını gizle */
+		.yadcf-filter-reset-button {
+			display: none;
+		}
+
+		/* Filtre input/select'i aktif olduğunda (inuse sınıfı eklendiğinde) ilgili reset butonunu göster */
+		/* Bu örnekte, reset butonunun filtre input/select'i ile aynı ebeveyn içinde olduğunu varsayıyoruz */
+		.yadcf-filter.inuse + .yadcf-filter-reset-button { /* Eğer reset butonu input/select'ten hemen sonra geliyorsa */
+			display: inline-block; 
+		}
+
+		/* Veya eğer reset butonu bir wrapper içindeyse */
+		.yadcf-filter-wrapper .yadcf-filter.inuse ~ .yadcf-filter-reset-button { 
+			display: inline-block;
+		}
+	</style>
+	
+	<!-- Modern Select2 CSS -->
+	<style>
+		/* Modern Select2 Styling */
+		.select2-container--default .select2-selection--multiple {
+			border: 2px solid #e9ecef;
+			border-radius: 8px;
+			min-height: 38px;
+			background: #ffffff;
+			transition: all 0.3s ease;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+		}
+		
+		.select2-container--default.select2-container--focus .select2-selection--multiple {
+			border-color: #00bcd6;
+			box-shadow: 0 0 0 3px rgba(0, 188, 214, 0.1);
+		}
+		
+		.select2-container--default .select2-selection--multiple .select2-selection__choice {
+			background: linear-gradient(135deg, #00bcd6, #00a0b0);
+			color: white;
+			border: none;
+			border-radius: 20px;
+			padding: 4px 12px;
+			margin: 2px 4px 2px 0;
+			font-size: 12px;
+			font-weight: 500;
+			box-shadow: 0 2px 4px rgba(0, 188, 214, 0.3);
+			transition: all 0.2s ease;
+		}
+		
+		.select2-container--default .select2-selection--multiple .select2-selection__choice:hover {
+			transform: translateY(-1px);
+			box-shadow: 0 4px 8px rgba(0, 188, 214, 0.4);
+		}
+		
+		.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+			color: white;
+			margin-right: 5px;
+			font-weight: bold;
+			opacity: 0.8;
+			transition: opacity 0.2s ease;
+		}
+		
+		.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+			opacity: 1;
+			color: #fff;
+		}
+		
+		.select2-dropdown {
+			border: 2px solid #e9ecef;
+			border-radius: 8px;
+			box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+			background: white;
+		}
+		
+		.select2-container--default .select2-results__option--highlighted[aria-selected] {
+			background: linear-gradient(135deg, #00bcd6, #00a0b0);
+			color: white;
+		}
+		
+		.select2-container--default .select2-results__option[aria-selected=true] {
+			background: #f8f9fa;
+			color: #495057;
+		}
+		
+		.select2-search--dropdown .select2-search__field {
+			border: 2px solid #e9ecef;
+			border-radius: 6px;
+			padding: 8px 12px;
+			font-size: 14px;
+		}
+		
+		.select2-search--dropdown .select2-search__field:focus {
+			border-color: #00bcd6;
+			box-shadow: 0 0 0 3px rgba(0, 188, 214, 0.1);
+			outline: none;
+		}
+		
+		/* Modern Placeholder styling */
+		.select2-container--default .select2-selection--multiple .select2-selection__placeholder {
+			color: #9ca3af;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			padding: 8px 12px;
+			opacity: 0.8;
+			transition: all 0.3s ease;
+		}
+		
+		.select2-container--default.select2-container--focus .select2-selection--multiple .select2-selection__placeholder {
+			color: #00bcd6;
+			opacity: 1;
+			transform: translateY(-1px);
+		}
+		
+		/* Single select placeholder styling */
+		.select2-container--default .select2-selection--single .select2-selection__placeholder {
+			color: #9ca3af;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14px;
+			padding: 8px 12px;
+			opacity: 0.8;
+			transition: all 0.3s ease;
+		}
+		
+		.select2-container--default.select2-container--focus .select2-selection--single .select2-selection__placeholder {
+			color: #00bcd6;
+			opacity: 1;
+		}
+		
+		/* Placeholder animation */
+		@keyframes placeholderPulse {
+			0% { opacity: 0.8; }
+			50% { opacity: 1; }
+			100% { opacity: 0.8; }
+		}
+		
+		.select2-container--default .select2-selection--multiple:not(.select2-container--focus) .select2-selection__placeholder {
+			animation: placeholderPulse 3s ease-in-out infinite;
+		}
+		
+		/* Loading indicator */
+		.select2-container--default .select2-results__option--loading {
+			color: #6c757d;
+			font-style: italic;
+		}
+		
+		/* Responsive adjustments */
+		@media (max-width: 768px) {
+			.select2-container--default .select2-selection--multiple {
+				min-height: 42px;
+			}
+			
+			.select2-container--default .select2-selection--multiple .select2-selection__choice {
+				font-size: 11px;
+				padding: 3px 8px;
+			}
+		}
+		
+		/* Animation for new selections */
+		@keyframes select2ChoiceAppear {
+			from {
+				opacity: 0;
+				transform: scale(0.8);
+			}
+			to {
+				opacity: 1;
+				transform: scale(1);
+			}
+		}
+		
+		.select2-container--default .select2-selection--multiple .select2-selection__choice {
+			animation: select2ChoiceAppear 0.3s ease-out;
+		}
+		
+		/* Custom scrollbar for dropdown */
+		.select2-results__options::-webkit-scrollbar {
+			width: 6px;
+		}
+		
+		.select2-results__options::-webkit-scrollbar-track {
+			background: #f1f1f1;
+			border-radius: 3px;
+		}
+		
+		.select2-results__options::-webkit-scrollbar-thumb {
+			background: #00bcd6;
+			border-radius: 3px;
+		}
+		
+		.select2-results__options::-webkit-scrollbar-thumb:hover {
+			background: #00a0b0;
+		}
+		
+		.select2-container .select2-search--inline .select2-search__field {
+			margin-top: 9px !important;
+		}
+	</style>
+<script type="text/javascript">
+										
+var oTable;
+var isDetailedView = false; // Başlangıçta özet görünüm
+
+$(document).ready(function(){
+
+	// Mobil kontrolü
+	function mobilkontrol() {
+		if( navigator.userAgent.match(/Android/i)
+		|| navigator.userAgent.match(/webOS/i)
+		|| navigator.userAgent.match(/iPhone/i)
+		|| navigator.userAgent.match(/iPad/i)
+		|| navigator.userAgent.match(/iPod/i)
+		|| navigator.userAgent.match(/BlackBerry/i)
+		|| navigator.userAgent.match(/Windows Phone/i)
+		){
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+
+	// Toggle butonunu sadece desktop'ta göster
+	if (!mobilkontrol()) {
+		$('#toggle_view').show();
+	}
+
+	// Initialize filter collapse state based on screen size
+	function initializeFilterState() {
+		if ($(window).width() >= 768) {
+			// Desktop: Show filters and hide toggle
+			$('#filterCollapse').addClass('show');
+			$('.mobile-filter-toggle').removeClass('show').hide();
+		} else {
+			// Mobile: Hide filters and show toggle
+			$('#filterCollapse').removeClass('show');
+			$('.mobile-filter-toggle').addClass('show').show();
+		}
+	}
+	
+	// Initialize on page load
+	initializeFilterState();
+	
+	// Reinitialize on window resize
+	$(window).resize(function() {
+		initializeFilterState();
+	});
+
+	// Mobile filter collapse handling
+	$('#filterCollapse').on('shown.bs.collapse', function () {
+		$('.filter-chevron').addClass('fa-chevron-up').removeClass('fa-chevron-down');
+	});
+	
+	$('#filterCollapse').on('hidden.bs.collapse', function () {
+		$('.filter-chevron').addClass('fa-chevron-down').removeClass('fa-chevron-up');
+	});
+
+$('#puan_turu').on('change', function(){
+var selected = $(this).find("option:selected").val();
+window.location.href = "tercih-sihirbazi-t4-tablo.php?p=" + selected;
+});
+
+String.prototype.turkishToUpper = function(){
+var string = this;
+var letters = { "i": "İ", "ş": "Ş", "ğ": "Ğ", "ü": "Ü", "ö": "Ö", "ç": "Ç", "ı": "I" };
+string = string.replace(/(([iışğüçö]))/g, function(letter){ return letters[letter]; })
+return string.toUpperCase();
+}
+
+		// Select2 placeholder konfigürasyonu
+		$.fn.select2.defaults.set('searchInputPlaceholder', 'Ara...');
+		
+		$('#universite_filter').select2({
+			multiple: true,
+			language: 'tr',
+			dropdownAutoWidth: true,
+			width: '100%',
+			tags: false,
+			maximumSelectionLength: 10,
+			closeOnSelect: false,
+			placeholder: 'Ara...'
+		});
+		
+		$('#program_filter').select2({
+			multiple: true,
+			language: 'tr',
+			dropdownAutoWidth: true,
+			width: '100%',
+			tags: false,
+			maximumSelectionLength: 10,
+			closeOnSelect: false,
+			placeholder: 'Ara...'
+		});
+		
+		$('#sehir_filter').select2({
+			multiple: true,
+			language: 'tr',
+			dropdownAutoWidth: true,
+			width: '100%',
+			tags: false,
+			maximumSelectionLength: 10,
+			closeOnSelect: false,
+			placeholder: 'Ara...'
+		});
+		
+		$('#universite_turu_filter').select2({
+			multiple: true,
+			language: 'tr',
+			dropdownAutoWidth: true,
+			width: '100%',
+			tags: false,
+			maximumSelectionLength: 5,
+			closeOnSelect: false
+		});
+		
+		$('#ucret_filter').select2({
+			multiple: true,
+			language: 'tr',
+			dropdownAutoWidth: true,
+			width: '100%',
+			tags: false,
+			maximumSelectionLength: 5,
+			closeOnSelect: false
+		});
+		
+		$('#ogretim_turu_filter').select2({
+			multiple: true,
+			language: 'tr',
+			dropdownAutoWidth: true,
+			width: '100%',
+			tags: false,
+			maximumSelectionLength: 5,
+			closeOnSelect: false
+		});
+		
+		$('#doluluk_filter').select2({
+			multiple: true,
+			language: 'tr',
+			dropdownAutoWidth: true,
+			width: '100%',
+			tags: false,
+			maximumSelectionLength: 5,
+			closeOnSelect: false
+		});
+
+		// Sayfa yüklendiğinde tüm select'leri sıfırla (puan türü hariç)
+		$('#universite_filter').val(null).trigger('change');
+		$('#program_filter').val(null).trigger('change');
+		$('#sehir_filter').val(null).trigger('change');
+		$('#universite_turu_filter').val(null).trigger('change');
+		$('#ucret_filter').val(null).trigger('change');
+		$('#ogretim_turu_filter').val(null).trigger('change');
+		$('#doluluk_filter').val(null).trigger('change');
+		
+console.log($('#ucret_filter').val());
+
+		oTable = $('#mydata').DataTable( {
+			"searching": true,
+			"processing": true,
+    	    "serverSide": true,
+			"ajax": {
+					"type": 'POST',
+                    "url": 'server_side/server_processing-atlas2016-TS-t4.php',
+            		"data": function(d){
+ 						d.puan_turu = "söz";
+						d.ust_bs = $('#ust_bs').val();
+						d.alt_bs = $('#alt_bs').val();
+						d.yeniler = $('#yeniler').is(':checked') ? 1 : 0;
+						d.kilavuz_kodu = $('#kilavuz_kodu').val();
+						d.universite = JSON.stringify($('#universite_filter').val());
+						d.program = JSON.stringify($('#program_filter').val());
+						d.sehir = JSON.stringify($('#sehir_filter').val());
+						d.universite_turu = JSON.stringify($('#universite_turu_filter').val());
+						d.ucret = $('#ucret_filter').val().length > 0 ? btoa(unescape(encodeURIComponent(JSON.stringify($('#ucret_filter').val())))) : [];
+						d.ogretim_turu = JSON.stringify($('#ogretim_turu_filter').val());
+						d.doluluk = JSON.stringify($('#doluluk_filter').val());
+				    }
+            },
+			responsive: {
+            details: {
+                type: 'column'
+            }
+			},
+			columnDefs: [ {
+				className: 'control',
+				orderable: false,
+				targets: 0,
+				responsivePriority: 100
+			},
+			{ "orderable": false, "className": "dt-center vcenter", "targets": 1 , responsivePriority: 100000},
+			{ "orderable": false,"className": "dt-left vcenter", "targets": 2 , responsivePriority: 1}, // Üniversite
+			{ "bVisible": false, "className": "dt-left vcenter", "targets": 3 , responsivePriority: 10000},
+			{ "orderable": false, "className": "vcenter", "targets": 4 , responsivePriority: 2}, // Program
+			{ "bVisible": false,  "targets": 5, responsivePriority: 3 },
+			{ "orderable": false, "className": "dt-center vcenter", "targets": 6, responsivePriority: 10000 },
+			{ "orderable": false, "className": "dt-center vcenter", "targets": 7, responsivePriority: 10000 },
+			{ "orderable": false, "className": "dt-center vcenter", "targets": 8, responsivePriority: 10000 },
+			{ "orderable": false, "className": "dt-center vcenter", "targets": 9, responsivePriority: 10000 },
+			{ "orderable": false, "className": "dt-center vcenter", "targets": 10, responsivePriority: 10000 },
+			{ "bVisible": false,  "targets": 11, responsivePriority: 10000 },
+			{ "bVisible": false,  "targets": 12, responsivePriority: 10000 },
+			{ "bVisible": false,  "targets": 13, responsivePriority: 10000 },
+			{ "orderable": false, "className": "dt-center vcenter", "targets": 14, responsivePriority: 10000 },
+			{ "orderable": false, "className": "dt-center vcenter", "targets": 15, responsivePriority: 10000 },
+			{ "bVisible": false,  "targets": 16, responsivePriority: 10000 },
+			{ "bVisible": false,  "targets": 17, responsivePriority: 10000 },
+			{ "bVisible": false,  "targets": 18, responsivePriority: 10000 },
+			{ "orderable": true, "className": "dt-center vcenter", "targets": 19, "orderData": 39, responsivePriority: 1}, // TBS SIRALAMA, TERCİH ZAMANI "orderData": 38 YAPILIR, EN DÜŞÜK TBS VERİSİ YÜKLENDİĞİNDE "orderData": 39 yapılır
+			{ "bVisible": false,  "targets": 20 },
+			{ "bVisible": false,  "targets": 21 },
+			{ "bVisible": false,  "targets": 22 },
+			{ "bVisible": false, "className": "dt-center vcenter", "targets": 23 },
+			{ "bVisible": false,  "targets": 24 },
+			{ "bVisible": false,  "targets": 25 },
+			{ "bVisible": false,  "targets": 26 },
+			{ "orderable": true, "className": "dt-center vcenter", "targets": 27, responsivePriority: 10000 },
+			{ "orderable": true, "className": "dt-center vcenter", "targets": 28, responsivePriority: 4 }, // TP SIRALAMA, TERCİH ZAMANI "orderData": 28 YAPILIR, EN DÜŞÜK TP VERİSİ YÜKLENDİĞİNDE "orderData": 27 yapılır
+			{ "bVisible": false,  "targets": 28 },
+			{ "bVisible": false,  "targets": 29 },
+			{ "bVisible": false,  "targets": 30 },
+			{ "bVisible": false,  "targets": 31 },
+			{ "bVisible": false,  "targets": 32 },
+			{ "bVisible": false,  "targets": 33 },
+			{ "bVisible": false,  "targets": 34 },
+			{ "bVisible": false,  "targets": 35 },
+			{ "bVisible": false,  "targets": 36 },
+			{ "bVisible": false,  "targets": 37 },
+			{ "bVisible": false,  "targets": 38 },
+			{ "bVisible": false,  "targets": 39 },
+			{ "bVisible": false,  "targets": 40 },
+			{ "bVisible": false,  "targets": 41 },
+			{ "bVisible": false,  "targets": 42 },
+			{ "bVisible": false,  "targets": 43 },
+			{ "bVisible": false,  "targets": 44 }
+			],
+			language: { "url": "inc/datatables/Turkish.json" },
+			pageLength: 50,
+			bAutoWidth: false,
+			header: "bootstrap",
+			fixedHeader: true,
+			//order: [28, 'desc'] // DEFAULT TP SIRALAMA, TERCİH ZAMANI 28 YAPILIR, EN DÜŞÜK TP VERİSİ YÜKLENDİĞİNDE 27 yapılır
+			 // TERCİH ZAMANI 34 (2016_TP_NUM), EN DÜŞÜK TP VERİSİ YÜKLENDİĞİNDE 37 (2017_TP_NUM) @KAĞAN
+			order: [
+				[37, 'desc'], // PUAN
+				[41, 'asc'], // ÜNİVERSİTE
+				[42, 'asc'] // PROGRAM
+			], // ESKİ --> DEFAULT TP SIRALAMA, TERCİH ZAMANI 28 (2016_TP_TXT) YAPILIR , EN DÜŞÜK TP VERİSİ YÜKLENDİĞİNDE 27 (2017_TP_TXT) yapılır
+			"initComplete": function(settings, json) {
+				// Tablo yüklendikten sonra özet görünümü aktifleştir (sadece desktop'ta)
+				if (!mobilkontrol()) {
+					setTimeout(function() {
+						activateSummaryView();
+					}, 100);
+				}
+			}
+
+    	} );
+
+
+
+
+
+
+						
+  $( "#bs-range" ).slider({
+      range: true,
+      min: 0,
+      max: 10000000,
+      values: [ 0, 10000000 ],
+	  step: 100,
+      slide: function( event, ui ) {
+		  if (ui.values[ 1 ] != 10000000) {
+	        $("#bs_aralik").html( ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+			$('#ust_bs').val(ui.values[ 0 ]);
+			$('#alt_bs').val(ui.values[ 1 ]);
+		  }
+		  else {
+		    $( "#bs_aralik" ).html( ui.values[ 0 ] + " - Sınırsız" );
+			$('#ust_bs').val(ui.values[ 0 ]);
+			$('#alt_bs').val(10000000);		
+		  }  		
+      },
+	  change: function( event, ui ) {
+		  if (ui.values[ 1 ] != 10000000) {
+	        $( "#bs_aralik" ).html( ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+			$('#ust_bs').val(ui.values[ 0 ]);
+			$('#alt_bs').val(ui.values[ 1 ]);
+		  }
+		  else {
+		    $( "#bs_aralik" ).html( ui.values[ 0 ] + " - Sınırsız" );
+			$('#ust_bs').val(ui.values[ 0 ]);
+			$('#alt_bs').val(10000000);		
+		  }
+        }
+    });
+	$( "#bs_aralik" ).html( "0" + " - Sınırsız" );
+
+	$('#bt_filtre_uygula').click( function () {
+
+			const enAz = document.getElementById('ust_bs');
+            const enCok = document.getElementById('alt_bs');
+
+            // Input değerlerini sayıya çevirme (eğer sayısal değerler bekliyorsak)
+            const enAzDeger = parseFloat(enAz.value);
+            const enCokDeger = parseFloat(enCok.value);
+
+            // Değerleri karşılaştırma
+        if (enCokDeger < enAzDeger) {
+                alert("'En Çok' Değeri 'En Az' değerinden büyük veya eşit olmalıdır.");
+                enAz.value = "";
+                enCok.value = "";
+        } else {
+			$('#mydata').DataTable().ajax.reload(null, true);
+		}
+
+	});
+
+	$('#bt_filtre_sifirla').click( function () {
+		$("#alt_bs").val(null);
+		$("#ust_bs").val(null);
+		$('#kilavuz_kodu').val('');
+		//$('#puan_turu').val('say').trigger('change');
+		$('#universite_filter').val(null).trigger('change');
+		$('#program_filter').val(null).trigger('change');
+		$('#sehir_filter').val(null).trigger('change');
+		$('#universite_turu_filter').val(null).trigger('change');
+		$('#ucret_filter').val(null).trigger('change');
+		$('#ogretim_turu_filter').val(null).trigger('change');
+		$('#doluluk_filter').val(null).trigger('change');
+		$('#yeniler').prop('checked', true);
+		$('#bt_filtre_uygula').click();
+	});
+
+// ÖZET/DETAYLI görünüm toggle fonksiyonu
+$('#toggle_view').click(function() {
+	toggleTableView();
+});
+
+function activateSummaryView() {
+	// Sadece özet sütunlarını göster
+	oTable.column(1).visible(false); // YOP Kodu
+	oTable.column(6).visible(false); // Şehir
+	oTable.column(7).visible(false); // Üniversite Türü
+	oTable.column(8).visible(false); // Ücret/Burs
+	oTable.column(9).visible(false); // Öğretim Türü
+	oTable.column(10).visible(false); // Kontenjan
+	oTable.column(14).visible(false); // Doluluk/Statü
+	oTable.column(15).visible(false); // Yerleşen
+	
+	// CSS sınıfı ekle
+	$('#mydata').addClass('summary-view');
+}
+
+function toggleTableView() {
+	if (isDetailedView) {
+		// ÖZET görünüme geç
+		activateSummaryView();
+		$('#toggle_view').html('<i class="fa fa-table"></i> Detaylı Görünüm');
+		isDetailedView = false;
+	} else {
+		// DETAYLI görünüme geç - tüm sütunları göster
+		oTable.column(1).visible(true); // YOP Kodu
+		oTable.column(6).visible(true); // Şehir
+		oTable.column(7).visible(true); // Üniversite Türü
+		oTable.column(8).visible(true); // Ücret/Burs
+		oTable.column(9).visible(true); // Öğretim Türü
+		oTable.column(10).visible(true); // Kontenjan
+		oTable.column(14).visible(true); // Doluluk/Statü
+		oTable.column(15).visible(true); // Yerleşen
+		
+		// CSS sınıfını kaldır
+		$('#mydata').removeClass('summary-view');
+		
+		$('#toggle_view').html('<i class="fa fa-list"></i> Özet Görünüm');
+		isDetailedView = true;
+	}
+}
+});
+
+$.fn.dataTable.ext.errMode = 'none';
+
+</script>
+﻿<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-74941122-1', 'auto');
+  ga('send', 'pageview');
+ 
+</script></head>
+<body>
+﻿<script>console.log('atlas25');</script><script type="text/javascript">
+$( document ).ready(function() {
+      $('ul.nav li.dropdown').hover(function() {
+      $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+    }, function() {
+      $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+    });
+});
+</script>
+<style>
+@media print {
+   a[href]:after {
+      display: none;
+      visibility: hidden;
+   }
+}
+</style>
+
+    <nav class="navbar navbar-default navbar-fixed-top" style="padding:0px;">
+      <div class="container">
+        <div class="navbar-header"> 
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Navigasyon</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.php">
+          <img src="assets/img/layout_set_logo.png" height="46" style="margin-top:-12px" />
+          </a>
+
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+		  <li ><a href="universite.php">Üniversitelerimiz</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Program Atlası<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li ><a href="lisans-anasayfa.php">Lisans Atlası</a></li>
+                <li ><a href="onlisans-anasayfa.php">Önlisans Atlası</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tercih Sihirbazı <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="active"><a href="tercih-sihirbazi-t4-tablo.php">Lisans Tercih Sihirbazı</a></li>
+                <li ><a href="tercih-sihirbazi-t3-tablo.php">Önlisans Tercih Sihirbazı</a></li>
+              </ul>
+            </li>
+			
+            <li ><a href="mezun-basari-atlasi.php">Mezun Başarı Atlası</a></li>
+            <li ><a href="netler.php">Net Sihirbazı</a></li>
+			<li ><a href="meslek-anasayfa.php">Meslek Atlası</a></li>
+			<li ><a href="uye_girisi.php">Tercih Listem</a></li>
+		<!--	<li ><a href="dgs-anasayfa.php">DGS Atlası</a></li> -->
+			
+            <!--<li ><a href="basari-sirasi.php">Başarı Sırası</a></li>-->
+           </ul>
+
+	     <form class="navbar-form" onsubmit="return false;">
+        <div class="form-group" style="display:inline;">
+          <div class="input-group" style="display:table;">
+            <input class="form-control pull-right" name="search" id="search" placeholder="Ara" autocomplete="off" autofocus="autofocus" type="text" style="max-width:440px;" title="Arama yapmak için, arama kutucuğuna en az 5 karakter girin ve sonuçlardan birini seçin">
+            <span class="input-group-addon" style="width:1%;"><span class="glyphicon glyphicon-search" title="Arama yapmak için, arama kutucuğuna en az 3 karakter girin ve sonuçlardan birini seçin" onclick="alert('Arama yapmak için, arama kutucuğuna en az 5 karakter girin ve sonuçlardan birini seçin');"></span></span>
+          </div>
+        </div>
+      </form>
+        </div>
+      </div>
+    </nav>
+	<div class="row">
+		<div class="container">
+			<div class="panel panel-primary" style="border-color: #00bcd6;">
+				<div class="panel-heading"
+					style="background-color: #00bcd6; background-image: -webkit-linear-gradient(top, #00bcd6 0, #00bcd6 100%); background-image: -o-linear-gradient(top, #00bcd6 0, #00bcd6 100%); background-image: -webkit-gradient(linear, left top, left bottom, from(#00bcd6), to(#00bcd6)); background-image: linear-gradient(to bottom, #00bcd6 0, #00bcd6 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00bcd6', endColorstr='#ff2e6da4', GradientType=0); background-repeat: repeat-x; border-color: #00bcd6">
+					<a href="https://twitter.com/intent/tweet?text=Lisans Tercih Sihirbazı - SÖZ&url=http%3A%2F%2Fyokatlas.yok.gov.tr%2Ftercih-sihirbazi-t4-tablo.php%3Fp%3Ds%C3%B6z" target="_blank" title="Twitter'da Paylaş"><span class="fa fa-twitter-square fa-2x pull-right" style="margin-top: -5px; color: #FFF"></span></a> <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fyokatlas.yok.gov.tr%2Ftercih-sihirbazi-t4-tablo.php%3Fp%3Ds%C3%B6z"
+						target="_blank" title="Facebook'ta Paylaş"><span class="fa fa-facebook-square fa-2x pull-right" style="margin-top: -5px; color: #FFF"></span></a> <span class="pull-left panel-logo2"><img src="assets/img/ypa_b.png" width="24" /></span>
+					<h2 class="panel-title">&nbsp;Lisans Tercih Sihirbazı</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="container">
+			<!--
+			<div class="col-sm-6">
+				<div class="face front">
+					<div class="well well-sm">
+
+						 <form class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<label for="puan_turu" class="control-label pull-left">Puan Türü Seçin:</label> <select id="puan_turu" class="selectpicker show-tick form-control" title="Seç...">
+										<option value="say" >SAY</option>
+										<option value="söz" selected >SÖZ</option>
+										<option value="ea" >EA</option>
+										<option value="dil" >DiL</option>
+									</select>
+								</div>
+							</div>
+						</form> 
+
+					</div>
+				</div>
+				<br />
+			</div>
+			<div class="col-sm-6">
+				<div class="face front">
+					<div class="well well-sm">
+						<form class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<p>
+										<b>Başarı Sırası Aralığı (0.12)</b>
+										<strong><span id="bs_aralik"></span></strong> 
+									</p>
+									 <div id="bs-range"></div> 
+									<div class="form-inline" style="margin:15px 30px;display:flex; justify-content: space-between;">
+										<div class="form-group">
+											<label>En Az:</label>
+											<input type="number" class="form-control" name="ust_bs" id="ust_bs" style="width:140px;" />
+										</div>
+										<div class="form-group">
+											<label>En Çok:</label>
+											<input type="number" class="form-control" name="alt_bs" id="alt_bs" style="width:140px;" />
+										</div>
+									</div>
+									<div class="form-check" style="margin-top:-10px;margin-bottom:5px;">
+										<input type="checkbox" class="form-check-input" id="yeniler" value="1" checked>
+										<label class="form-check-label" style="font-weight:normal;" for="yeniler"><small>Yeni açılan veya kontenjanı dolmayan programlar listeye dahil edilsin</small></label>
+									</div>
+									<button id="bt_filtre_uygula" name="bt_filtre_uygula" type="button" class="btn btn-danger btn-md">Uygula</button>
+									<button id="bt_filtre_sifirla" name="bt_filtre_sifirla" type="button" class="btn btn-secondary btn-md">Sıfırla</button>
+								</div>
+							</div>
+						</form>
+						 <small> Alt ve üst sınırı mouse ile iki ucu sürükleyerek belirleyebilirsiniz.<br /> Hassas ayar için klavyedeki sol ve sağ ok tuşlarını kullanınız.
+						</small>
+					</div>
+				</div>
+			</div>
+-->
+
+						<div class="card" style="margin-top:-5px;margin-bottom:15px;">
+					
+							<div class="card-body">
+								<!-- Mobile Filter Toggle -->
+								<div class="mobile-filter-toggle d-md-none" style="margin-bottom: 15px;">
+									<button class="btn btn-outline-primary btn-block" type="button" data-toggle="collapse" data-target="#filterCollapse" aria-expanded="false" aria-controls="filterCollapse">
+										<i class="fa fa-filter"></i> Filtrelemeler <i class="fa fa-chevron-down filter-chevron"></i>
+									</button>
+								</div>
+								<div class="collapse" id="filterCollapse">
+																
+								<!-- İlk Satır -->
+								<div class="row" style="margin-bottom: 15px;">
+									<div class="col-md-3">
+										<label for="puan_turu" class="form-label"><strong>Puan Türü</strong></label>
+										<select class="form-control" id="puan_turu">
+											<option value="say" >SAY</option>
+											<option value="söz" selected >SÖZ</option>
+											<option value="ea" >EA</option>
+											<option value="dil" >DİL</option>
+										</select>
+									</div>
+									<div class="col-md-3">
+										<label for="universite_filter" class="form-label"><strong>Üniversite</strong></label>
+										<select class="form-control" id="universite_filter">
+											<option value="ABDULLAH GÜL ÜNİVERSİTESİ">ABDULLAH GÜL ÜNİVERSİTESİ</option><option value="ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ">ACIBADEM MEHMET ALİ AYDINLAR ÜNİVERSİTESİ</option><option value="ADA KENT ÜNİVERSİTESİ">ADA KENT ÜNİVERSİTESİ</option><option value="ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ">ADANA ALPARSLAN TÜRKEŞ BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ</option><option value="ADIYAMAN ÜNİVERSİTESİ">ADIYAMAN ÜNİVERSİTESİ</option><option value="AFYON KOCATEPE ÜNİVERSİTESİ">AFYON KOCATEPE ÜNİVERSİTESİ</option><option value="AFYONKARAHİSAR SAĞLIK BİLİMLERİ ÜNİVERSİTESİ">AFYONKARAHİSAR SAĞLIK BİLİMLERİ ÜNİVERSİTESİ</option><option value="AĞRI İBRAHİM ÇEÇEN ÜNİVERSİTESİ">AĞRI İBRAHİM ÇEÇEN ÜNİVERSİTESİ</option><option value="AKDENİZ KARPAZ ÜNİVERSİTESİ">AKDENİZ KARPAZ ÜNİVERSİTESİ</option><option value="AKDENİZ ÜNİVERSİTESİ">AKDENİZ ÜNİVERSİTESİ</option><option value="AKSARAY ÜNİVERSİTESİ">AKSARAY ÜNİVERSİTESİ</option><option value="ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ">ALANYA ALAADDİN KEYKUBAT ÜNİVERSİTESİ</option><option value="ALANYA ÜNİVERSİTESİ">ALANYA ÜNİVERSİTESİ</option><option value="ALTINBAŞ ÜNİVERSİTESİ">ALTINBAŞ ÜNİVERSİTESİ</option><option value="AMASYA ÜNİVERSİTESİ">AMASYA ÜNİVERSİTESİ</option><option value="ANADOLU ÜNİVERSİTESİ">ANADOLU ÜNİVERSİTESİ</option><option value="ANKARA BİLİM ÜNİVERSİTESİ">ANKARA BİLİM ÜNİVERSİTESİ</option><option value="ANKARA HACI BAYRAM VELİ ÜNİVERSİTESİ">ANKARA HACI BAYRAM VELİ ÜNİVERSİTESİ</option><option value="ANKARA MEDİPOL ÜNİVERSİTESİ">ANKARA MEDİPOL ÜNİVERSİTESİ</option><option value="ANKARA MÜZİK VE GÜZEL SANATLAR ÜNİVERSİTESİ">ANKARA MÜZİK VE GÜZEL SANATLAR ÜNİVERSİTESİ</option><option value="ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ">ANKARA SOSYAL BİLİMLER ÜNİVERSİTESİ</option><option value="ANKARA ÜNİVERSİTESİ">ANKARA ÜNİVERSİTESİ</option><option value="ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ">ANKARA YILDIRIM BEYAZIT ÜNİVERSİTESİ</option><option value="ANTALYA BELEK ÜNİVERSİTESİ">ANTALYA BELEK ÜNİVERSİTESİ</option><option value="ANTALYA BİLİM ÜNİVERSİTESİ">ANTALYA BİLİM ÜNİVERSİTESİ</option><option value="ARDAHAN ÜNİVERSİTESİ">ARDAHAN ÜNİVERSİTESİ</option><option value="ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ">ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ</option><option value="ARTVİN ÇORUH ÜNİVERSİTESİ">ARTVİN ÇORUH ÜNİVERSİTESİ</option><option value="ATATÜRK ÜNİVERSİTESİ">ATATÜRK ÜNİVERSİTESİ</option><option value="ATILIM ÜNİVERSİTESİ">ATILIM ÜNİVERSİTESİ</option><option value="AVRASYA ÜNİVERSİTESİ">AVRASYA ÜNİVERSİTESİ</option><option value="AYDIN ADNAN MENDERES ÜNİVERSİTESİ">AYDIN ADNAN MENDERES ÜNİVERSİTESİ</option><option value="AZERBAYCAN DEVLET PEDAGOJİ ÜNİVERSİTESİ">AZERBAYCAN DEVLET PEDAGOJİ ÜNİVERSİTESİ</option><option value="BAHÇEŞEHİR KIBRIS ÜNİVERSİTESİ">BAHÇEŞEHİR KIBRIS ÜNİVERSİTESİ</option><option value="BAHÇEŞEHİR ÜNİVERSİTESİ">BAHÇEŞEHİR ÜNİVERSİTESİ</option><option value="BALIKESİR ÜNİVERSİTESİ">BALIKESİR ÜNİVERSİTESİ</option><option value="BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ">BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ</option><option value="BARTIN ÜNİVERSİTESİ">BARTIN ÜNİVERSİTESİ</option><option value="BAŞKENT ÜNİVERSİTESİ">BAŞKENT ÜNİVERSİTESİ</option><option value="BATMAN ÜNİVERSİTESİ">BATMAN ÜNİVERSİTESİ</option><option value="BAYBURT ÜNİVERSİTESİ">BAYBURT ÜNİVERSİTESİ</option><option value="BEYKOZ ÜNİVERSİTESİ">BEYKOZ ÜNİVERSİTESİ</option><option value="BEZM-İ ÂLEM VAKIF ÜNİVERSİTESİ">BEZM-İ ÂLEM VAKIF ÜNİVERSİTESİ</option><option value="BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ">BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ</option><option value="BİNGÖL ÜNİVERSİTESİ">BİNGÖL ÜNİVERSİTESİ</option><option value="BİRUNİ ÜNİVERSİTESİ">BİRUNİ ÜNİVERSİTESİ</option><option value="BİTLİS EREN ÜNİVERSİTESİ">BİTLİS EREN ÜNİVERSİTESİ</option><option value="BOĞAZİÇİ ÜNİVERSİTESİ">BOĞAZİÇİ ÜNİVERSİTESİ</option><option value="BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ">BOLU ABANT İZZET BAYSAL ÜNİVERSİTESİ</option><option value="BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ">BURDUR MEHMET AKİF ERSOY ÜNİVERSİTESİ</option><option value="BURSA TEKNİK ÜNİVERSİTESİ">BURSA TEKNİK ÜNİVERSİTESİ</option><option value="BURSA ULUDAĞ ÜNİVERSİTESİ">BURSA ULUDAĞ ÜNİVERSİTESİ</option><option value="ÇAĞ ÜNİVERSİTESİ">ÇAĞ ÜNİVERSİTESİ</option><option value="ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ">ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ</option><option value="ÇANKAYA ÜNİVERSİTESİ">ÇANKAYA ÜNİVERSİTESİ</option><option value="ÇANKIRI KARATEKİN ÜNİVERSİTESİ">ÇANKIRI KARATEKİN ÜNİVERSİTESİ</option><option value="ÇUKUROVA ÜNİVERSİTESİ">ÇUKUROVA ÜNİVERSİTESİ</option><option value="DEMİROĞLU BİLİM ÜNİVERSİTESİ">DEMİROĞLU BİLİM ÜNİVERSİTESİ</option><option value="DİCLE ÜNİVERSİTESİ">DİCLE ÜNİVERSİTESİ</option><option value="DOĞU AKDENİZ ÜNİVERSİTESİ">DOĞU AKDENİZ ÜNİVERSİTESİ</option><option value="DOĞUŞ ÜNİVERSİTESİ">DOĞUŞ ÜNİVERSİTESİ</option><option value="DOKUZ EYLÜL ÜNİVERSİTESİ">DOKUZ EYLÜL ÜNİVERSİTESİ</option><option value="DÜZCE ÜNİVERSİTESİ">DÜZCE ÜNİVERSİTESİ</option><option value="EGE ÜNİVERSİTESİ">EGE ÜNİVERSİTESİ</option><option value="ERCİYES ÜNİVERSİTESİ">ERCİYES ÜNİVERSİTESİ</option><option value="ERZİNCAN BİNALİ YILDIRIM ÜNİVERSİTESİ">ERZİNCAN BİNALİ YILDIRIM ÜNİVERSİTESİ</option><option value="ERZURUM TEKNİK ÜNİVERSİTESİ">ERZURUM TEKNİK ÜNİVERSİTESİ</option><option value="ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ">ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ</option><option value="ESKİŞEHİR TEKNİK ÜNİVERSİTESİ">ESKİŞEHİR TEKNİK ÜNİVERSİTESİ</option><option value="FATİH SULTAN MEHMET VAKIF ÜNİVERSİTESİ">FATİH SULTAN MEHMET VAKIF ÜNİVERSİTESİ</option><option value="FENERBAHÇE ÜNİVERSİTESİ">FENERBAHÇE ÜNİVERSİTESİ</option><option value="FIRAT ÜNİVERSİTESİ">FIRAT ÜNİVERSİTESİ</option><option value="GALATASARAY ÜNİVERSİTESİ">GALATASARAY ÜNİVERSİTESİ</option><option value="GAZİ ÜNİVERSİTESİ">GAZİ ÜNİVERSİTESİ</option><option value="GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ">GAZİANTEP İSLAM BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ</option><option value="GAZİANTEP ÜNİVERSİTESİ">GAZİANTEP ÜNİVERSİTESİ</option><option value="GEBZE TEKNİK ÜNİVERSİTESİ">GEBZE TEKNİK ÜNİVERSİTESİ</option><option value="GİRESUN ÜNİVERSİTESİ">GİRESUN ÜNİVERSİTESİ</option><option value="GİRNE AMERİKAN ÜNİVERSİTESİ">GİRNE AMERİKAN ÜNİVERSİTESİ</option><option value="GİRNE ÜNİVERSİTESİ">GİRNE ÜNİVERSİTESİ</option><option value="GÜMÜŞHANE ÜNİVERSİTESİ">GÜMÜŞHANE ÜNİVERSİTESİ</option><option value="HACETTEPE ÜNİVERSİTESİ">HACETTEPE ÜNİVERSİTESİ</option><option value="HAKKARİ ÜNİVERSİTESİ">HAKKARİ ÜNİVERSİTESİ</option><option value="HALİÇ ÜNİVERSİTESİ">HALİÇ ÜNİVERSİTESİ</option><option value="HARRAN ÜNİVERSİTESİ">HARRAN ÜNİVERSİTESİ</option><option value="HASAN KALYONCU ÜNİVERSİTESİ">HASAN KALYONCU ÜNİVERSİTESİ</option><option value="HATAY MUSTAFA KEMAL ÜNİVERSİTESİ">HATAY MUSTAFA KEMAL ÜNİVERSİTESİ</option><option value="HİTİT ÜNİVERSİTESİ">HİTİT ÜNİVERSİTESİ</option><option value="HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ">HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ</option><option value="IĞDIR ÜNİVERSİTESİ">IĞDIR ÜNİVERSİTESİ</option><option value="ISPARTA UYGULAMALI BİLİMLER ÜNİVERSİTESİ">ISPARTA UYGULAMALI BİLİMLER ÜNİVERSİTESİ</option><option value="IŞIK ÜNİVERSİTESİ">IŞIK ÜNİVERSİTESİ</option><option value="İBN HALDUN ÜNİVERSİTESİ">İBN HALDUN ÜNİVERSİTESİ</option><option value="İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ">İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ</option><option value="İNÖNÜ ÜNİVERSİTESİ">İNÖNÜ ÜNİVERSİTESİ</option><option value="İSKENDERUN TEKNİK ÜNİVERSİTESİ">İSKENDERUN TEKNİK ÜNİVERSİTESİ</option><option value="İSTANBUL 29 MAYIS ÜNİVERSİTESİ">İSTANBUL 29 MAYIS ÜNİVERSİTESİ</option><option value="İSTANBUL AREL ÜNİVERSİTESİ">İSTANBUL AREL ÜNİVERSİTESİ</option><option value="İSTANBUL ATLAS ÜNİVERSİTESİ">İSTANBUL ATLAS ÜNİVERSİTESİ</option><option value="İSTANBUL AYDIN ÜNİVERSİTESİ">İSTANBUL AYDIN ÜNİVERSİTESİ</option><option value="İSTANBUL BEYKENT ÜNİVERSİTESİ">İSTANBUL BEYKENT ÜNİVERSİTESİ</option><option value="İSTANBUL BİLGİ ÜNİVERSİTESİ">İSTANBUL BİLGİ ÜNİVERSİTESİ</option><option value="İSTANBUL ESENYURT ÜNİVERSİTESİ">İSTANBUL ESENYURT ÜNİVERSİTESİ</option><option value="İSTANBUL GALATA ÜNİVERSİTESİ">İSTANBUL GALATA ÜNİVERSİTESİ</option><option value="İSTANBUL GEDİK ÜNİVERSİTESİ">İSTANBUL GEDİK ÜNİVERSİTESİ</option><option value="İSTANBUL GELİŞİM ÜNİVERSİTESİ">İSTANBUL GELİŞİM ÜNİVERSİTESİ</option><option value="İSTANBUL KENT ÜNİVERSİTESİ">İSTANBUL KENT ÜNİVERSİTESİ</option><option value="İSTANBUL KÜLTÜR ÜNİVERSİTESİ">İSTANBUL KÜLTÜR ÜNİVERSİTESİ</option><option value="İSTANBUL MEDENİYET ÜNİVERSİTESİ">İSTANBUL MEDENİYET ÜNİVERSİTESİ</option><option value="İSTANBUL MEDİPOL ÜNİVERSİTESİ">İSTANBUL MEDİPOL ÜNİVERSİTESİ</option><option value="İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ">İSTANBUL NİŞANTAŞI ÜNİVERSİTESİ</option><option value="İSTANBUL OKAN ÜNİVERSİTESİ">İSTANBUL OKAN ÜNİVERSİTESİ</option><option value="İSTANBUL RUMELİ ÜNİVERSİTESİ">İSTANBUL RUMELİ ÜNİVERSİTESİ</option><option value="İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ">İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ</option><option value="İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ">İSTANBUL SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ</option><option value="İSTANBUL TEKNİK ÜNİVERSİTESİ">İSTANBUL TEKNİK ÜNİVERSİTESİ</option><option value="İSTANBUL TİCARET ÜNİVERSİTESİ">İSTANBUL TİCARET ÜNİVERSİTESİ</option><option value="İSTANBUL TOPKAPI ÜNİVERSİTESİ">İSTANBUL TOPKAPI ÜNİVERSİTESİ</option><option value="İSTANBUL ÜNİVERSİTESİ">İSTANBUL ÜNİVERSİTESİ</option><option value="İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA">İSTANBUL ÜNİVERSİTESİ-CERRAHPAŞA</option><option value="İSTANBUL YENİ YÜZYIL ÜNİVERSİTESİ">İSTANBUL YENİ YÜZYIL ÜNİVERSİTESİ</option><option value="İSTİNYE ÜNİVERSİTESİ">İSTİNYE ÜNİVERSİTESİ</option><option value="İZMİR BAKIRÇAY ÜNİVERSİTESİ">İZMİR BAKIRÇAY ÜNİVERSİTESİ</option><option value="İZMİR DEMOKRASİ ÜNİVERSİTESİ">İZMİR DEMOKRASİ ÜNİVERSİTESİ</option><option value="İZMİR EKONOMİ ÜNİVERSİTESİ">İZMİR EKONOMİ ÜNİVERSİTESİ</option><option value="İZMİR KATİP ÇELEBİ ÜNİVERSİTESİ">İZMİR KATİP ÇELEBİ ÜNİVERSİTESİ</option><option value="İZMİR TINAZTEPE ÜNİVERSİTESİ">İZMİR TINAZTEPE ÜNİVERSİTESİ</option><option value="İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ">İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ</option><option value="KADİR HAS ÜNİVERSİTESİ">KADİR HAS ÜNİVERSİTESİ</option><option value="KAFKAS ÜNİVERSİTESİ">KAFKAS ÜNİVERSİTESİ</option><option value="KAHRAMANMARAŞ İSTİKLAL ÜNİVERSİTESİ">KAHRAMANMARAŞ İSTİKLAL ÜNİVERSİTESİ</option><option value="KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ">KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ</option><option value="KAPADOKYA ÜNİVERSİTESİ">KAPADOKYA ÜNİVERSİTESİ</option><option value="KARABÜK ÜNİVERSİTESİ">KARABÜK ÜNİVERSİTESİ</option><option value="KARADENİZ TEKNİK ÜNİVERSİTESİ">KARADENİZ TEKNİK ÜNİVERSİTESİ</option><option value="KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ">KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ</option><option value="KASTAMONU ÜNİVERSİTESİ">KASTAMONU ÜNİVERSİTESİ</option><option value="KAYSERİ ÜNİVERSİTESİ">KAYSERİ ÜNİVERSİTESİ</option><option value="KIBRIS AMERİKAN ÜNİVERSİTESİ">KIBRIS AMERİKAN ÜNİVERSİTESİ</option><option value="KIBRIS AYDIN ÜNİVERSİTESİ">KIBRIS AYDIN ÜNİVERSİTESİ</option><option value="KIBRIS BATI ÜNİVERSİTESİ">KIBRIS BATI ÜNİVERSİTESİ</option><option value="KIBRIS SAĞLIK VE TOPLUM BİLİMLERİ ÜNİVERSİTESİ">KIBRIS SAĞLIK VE TOPLUM BİLİMLERİ ÜNİVERSİTESİ</option><option value="KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ">KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ</option><option value="KIRIKKALE ÜNİVERSİTESİ">KIRIKKALE ÜNİVERSİTESİ</option><option value="KIRKLARELİ ÜNİVERSİTESİ">KIRKLARELİ ÜNİVERSİTESİ</option><option value="KIRŞEHİR AHİ EVRAN ÜNİVERSİTESİ">KIRŞEHİR AHİ EVRAN ÜNİVERSİTESİ</option><option value="KİLİS 7 ARALIK ÜNİVERSİTESİ">KİLİS 7 ARALIK ÜNİVERSİTESİ</option><option value="KOCAELİ SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ">KOCAELİ SAĞLIK VE TEKNOLOJİ ÜNİVERSİTESİ</option><option value="KOCAELİ ÜNİVERSİTESİ">KOCAELİ ÜNİVERSİTESİ</option><option value="KOÇ ÜNİVERSİTESİ">KOÇ ÜNİVERSİTESİ</option><option value="KONYA GIDA VE TARIM ÜNİVERSİTESİ">KONYA GIDA VE TARIM ÜNİVERSİTESİ</option><option value="KONYA TEKNİK ÜNİVERSİTESİ">KONYA TEKNİK ÜNİVERSİTESİ</option><option value="KTO KARATAY ÜNİVERSİTESİ">KTO KARATAY ÜNİVERSİTESİ</option><option value="KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ">KÜTAHYA DUMLUPINAR ÜNİVERSİTESİ</option><option value="KÜTAHYA SAĞLIK BİLİMLERİ ÜNİVERSİTESİ">KÜTAHYA SAĞLIK BİLİMLERİ ÜNİVERSİTESİ</option><option value="LEFKE AVRUPA ÜNİVERSİTESİ">LEFKE AVRUPA ÜNİVERSİTESİ</option><option value="LOKMAN HEKİM ÜNİVERSİTESİ">LOKMAN HEKİM ÜNİVERSİTESİ</option><option value="MALATYA TURGUT ÖZAL ÜNİVERSİTESİ">MALATYA TURGUT ÖZAL ÜNİVERSİTESİ</option><option value="MALTEPE ÜNİVERSİTESİ">MALTEPE ÜNİVERSİTESİ</option><option value="MANİSA CELÂL BAYAR ÜNİVERSİTESİ">MANİSA CELÂL BAYAR ÜNİVERSİTESİ</option><option value="MARDİN ARTUKLU ÜNİVERSİTESİ">MARDİN ARTUKLU ÜNİVERSİTESİ</option><option value="MARMARA ÜNİVERSİTESİ">MARMARA ÜNİVERSİTESİ</option><option value="MEF ÜNİVERSİTESİ">MEF ÜNİVERSİTESİ</option><option value="MERSİN ÜNİVERSİTESİ">MERSİN ÜNİVERSİTESİ</option><option value="MİMAR SİNAN GÜZEL SANATLAR ÜNİVERSİTESİ">MİMAR SİNAN GÜZEL SANATLAR ÜNİVERSİTESİ</option><option value="MUDANYA ÜNİVERSİTESİ">MUDANYA ÜNİVERSİTESİ</option><option value="MUĞLA SITKI KOÇMAN ÜNİVERSİTESİ">MUĞLA SITKI KOÇMAN ÜNİVERSİTESİ</option><option value="MUNZUR ÜNİVERSİTESİ">MUNZUR ÜNİVERSİTESİ</option><option value="MUŞ ALPARSLAN ÜNİVERSİTESİ">MUŞ ALPARSLAN ÜNİVERSİTESİ</option><option value="NECMETTİN ERBAKAN ÜNİVERSİTESİ">NECMETTİN ERBAKAN ÜNİVERSİTESİ</option><option value="NEVŞEHİR HACI BEKTAŞ VELİ ÜNİVERSİTESİ">NEVŞEHİR HACI BEKTAŞ VELİ ÜNİVERSİTESİ</option><option value="NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ">NİĞDE ÖMER HALİSDEMİR ÜNİVERSİTESİ</option><option value="NUH NACİ YAZGAN ÜNİVERSİTESİ">NUH NACİ YAZGAN ÜNİVERSİTESİ</option><option value="ONDOKUZ MAYIS ÜNİVERSİTESİ">ONDOKUZ MAYIS ÜNİVERSİTESİ</option><option value="ORDU ÜNİVERSİTESİ">ORDU ÜNİVERSİTESİ</option><option value="ORTA DOĞU TEKNİK ÜNİVERSİTESİ">ORTA DOĞU TEKNİK ÜNİVERSİTESİ</option><option value="OSMANİYE KORKUT ATA ÜNİVERSİTESİ">OSMANİYE KORKUT ATA ÜNİVERSİTESİ</option><option value="OSTİM TEKNİK ÜNİVERSİTESİ">OSTİM TEKNİK ÜNİVERSİTESİ</option><option value="ÖZYEĞİN ÜNİVERSİTESİ">ÖZYEĞİN ÜNİVERSİTESİ</option><option value="PAMUKKALE ÜNİVERSİTESİ">PAMUKKALE ÜNİVERSİTESİ</option><option value="PİRİ REİS ÜNİVERSİTESİ">PİRİ REİS ÜNİVERSİTESİ</option><option value="RAUF DENKTAŞ ÜNİVERSİTESİ">RAUF DENKTAŞ ÜNİVERSİTESİ</option><option value="RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ">RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ</option><option value="SABANCI ÜNİVERSİTESİ">SABANCI ÜNİVERSİTESİ</option><option value="SAĞLIK BİLİMLERİ ÜNİVERSİTESİ">SAĞLIK BİLİMLERİ ÜNİVERSİTESİ</option><option value="SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ">SAKARYA UYGULAMALI BİLİMLER ÜNİVERSİTESİ</option><option value="SAKARYA ÜNİVERSİTESİ">SAKARYA ÜNİVERSİTESİ</option><option value="SAMSUN ÜNİVERSİTESİ">SAMSUN ÜNİVERSİTESİ</option><option value="SANKO ÜNİVERSİTESİ">SANKO ÜNİVERSİTESİ</option><option value="SELÇUK ÜNİVERSİTESİ">SELÇUK ÜNİVERSİTESİ</option><option value="SİİRT ÜNİVERSİTESİ">SİİRT ÜNİVERSİTESİ</option><option value="SİNOP ÜNİVERSİTESİ">SİNOP ÜNİVERSİTESİ</option><option value="SİVAS BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ">SİVAS BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ</option><option value="SİVAS CUMHURİYET ÜNİVERSİTESİ">SİVAS CUMHURİYET ÜNİVERSİTESİ</option><option value="SÜLEYMAN DEMİREL ÜNİVERSİTESİ">SÜLEYMAN DEMİREL ÜNİVERSİTESİ</option><option value="ŞIRNAK ÜNİVERSİTESİ">ŞIRNAK ÜNİVERSİTESİ</option><option value="TARSUS ÜNİVERSİTESİ">TARSUS ÜNİVERSİTESİ</option><option value="TED ÜNİVERSİTESİ">TED ÜNİVERSİTESİ</option><option value="TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ">TEKİRDAĞ NAMIK KEMAL ÜNİVERSİTESİ</option><option value="TİRAN NEW YORK ÜNİVERSİTESİ">TİRAN NEW YORK ÜNİVERSİTESİ</option><option value="TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ">TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ</option><option value="TOKAT GAZİOSMANPAŞA ÜNİVERSİTESİ">TOKAT GAZİOSMANPAŞA ÜNİVERSİTESİ</option><option value="TOROS ÜNİVERSİTESİ">TOROS ÜNİVERSİTESİ</option><option value="TRABZON ÜNİVERSİTESİ">TRABZON ÜNİVERSİTESİ</option><option value="TRAKYA ÜNİVERSİTESİ">TRAKYA ÜNİVERSİTESİ</option><option value="TÜRK HAVA KURUMU ÜNİVERSİTESİ">TÜRK HAVA KURUMU ÜNİVERSİTESİ</option><option value="TÜRK-ALMAN ÜNİVERSİTESİ">TÜRK-ALMAN ÜNİVERSİTESİ</option><option value="UFUK ÜNİVERSİTESİ">UFUK ÜNİVERSİTESİ</option><option value="ULUSLARARASI BALKAN ÜNİVERSİTESİ">ULUSLARARASI BALKAN ÜNİVERSİTESİ</option><option value="ULUSLARARASI FİNAL ÜNİVERSİTESİ">ULUSLARARASI FİNAL ÜNİVERSİTESİ</option><option value="ULUSLARARASI KIBRIS ÜNİVERSİTESİ">ULUSLARARASI KIBRIS ÜNİVERSİTESİ</option><option value="ULUSLARARASI SARAYBOSNA ÜNİVERSİTESİ">ULUSLARARASI SARAYBOSNA ÜNİVERSİTESİ</option><option value="UŞAK ÜNİVERSİTESİ">UŞAK ÜNİVERSİTESİ</option><option value="ÜSKÜDAR ÜNİVERSİTESİ">ÜSKÜDAR ÜNİVERSİTESİ</option><option value="VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ">VAN YÜZÜNCÜ YIL ÜNİVERSİTESİ</option><option value="YAKIN DOĞU ÜNİVERSİTESİ">YAKIN DOĞU ÜNİVERSİTESİ</option><option value="YALOVA ÜNİVERSİTESİ">YALOVA ÜNİVERSİTESİ</option><option value="YAŞAR ÜNİVERSİTESİ">YAŞAR ÜNİVERSİTESİ</option><option value="YEDİTEPE ÜNİVERSİTESİ">YEDİTEPE ÜNİVERSİTESİ</option><option value="YILDIZ TEKNİK ÜNİVERSİTESİ">YILDIZ TEKNİK ÜNİVERSİTESİ</option><option value="YOZGAT BOZOK ÜNİVERSİTESİ">YOZGAT BOZOK ÜNİVERSİTESİ</option><option value="YÜKSEK İHTİSAS ÜNİVERSİTESİ">YÜKSEK İHTİSAS ÜNİVERSİTESİ</option><option value="ZONGULDAK BÜLENT ECEVİT ÜNİVERSİTESİ">ZONGULDAK BÜLENT ECEVİT ÜNİVERSİTESİ</option>										</select>
+									</div>
+									<div class="col-md-3">
+										<label for="program_filter" class="form-label"><strong>Program</strong></label>
+										<select class="form-control" id="program_filter">
+											<option value="Abaza Dili ve Edebiyatı">Abaza Dili ve Edebiyatı</option><option value="Arkeoloji ve Sanat Tarihi">Arkeoloji ve Sanat Tarihi</option><option value="Azerbaycan Türkçesi ve Edebiyatı">Azerbaycan Türkçesi ve Edebiyatı</option><option value="Basın ve Yayın">Basın ve Yayın</option><option value="Coğrafya">Coğrafya</option><option value="Coğrafya Öğretmenliği">Coğrafya Öğretmenliği</option><option value="Çağdaş Türk Lehçeleri ve Edebiyatları">Çağdaş Türk Lehçeleri ve Edebiyatları</option><option value="Çerkez Dili ve Edebiyatı">Çerkez Dili ve Edebiyatı</option><option value="Çerkez Dili ve Kültürü">Çerkez Dili ve Kültürü</option><option value="Çizgi Film ve Animasyon">Çizgi Film ve Animasyon</option><option value="El Sanatları">El Sanatları</option><option value="Film Tasarımı ve Yazarlığı">Film Tasarımı ve Yazarlığı</option><option value="Film Tasarımı ve Yönetimi">Film Tasarımı ve Yönetimi</option><option value="Film Tasarımı ve Yönetmenliği">Film Tasarımı ve Yönetmenliği</option><option value="Fotoğraf">Fotoğraf</option><option value="Fotoğraf ve Video">Fotoğraf ve Video</option><option value="Gastronomi ve Mutfak Sanatları">Gastronomi ve Mutfak Sanatları</option><option value="Gazetecilik">Gazetecilik</option><option value="Geleneksel Türk Sanatları">Geleneksel Türk Sanatları</option><option value="Görsel İletişim Tasarımı">Görsel İletişim Tasarımı</option><option value="Görsel Sanatlar">Görsel Sanatlar</option><option value="Görsel Sanatlar ve İletişim Tasarımı">Görsel Sanatlar ve İletişim Tasarımı</option><option value="Gürcü Dili ve Edebiyatı">Gürcü Dili ve Edebiyatı</option><option value="Halkbilimi">Halkbilimi</option><option value="Halkla İlişkiler ve Pazarlama İletişimi">Halkla İlişkiler ve Pazarlama İletişimi</option><option value="Halkla İlişkiler ve Reklamcılık">Halkla İlişkiler ve Reklamcılık</option><option value="Halkla İlişkiler ve Tanıtım">Halkla İlişkiler ve Tanıtım</option><option value="İlahiyat">İlahiyat</option><option value="İletişim">İletişim</option><option value="İletişim Bilimleri">İletişim Bilimleri</option><option value="İletişim Tasarımı ve Yönetimi">İletişim Tasarımı ve Yönetimi</option><option value="İletişim ve Tasarımı">İletişim ve Tasarımı</option><option value="İslami İlimler">İslami İlimler</option><option value="Kurgu, Ses ve Görüntü Yönetimi">Kurgu, Ses ve Görüntü Yönetimi</option><option value="Kültür ve İletişim Bilimleri">Kültür ve İletişim Bilimleri</option><option value="Kürt Dili ve Edebiyatı">Kürt Dili ve Edebiyatı</option><option value="Medya ve Görsel Sanatlar">Medya ve Görsel Sanatlar</option><option value="Medya ve İletişim">Medya ve İletişim</option><option value="Okul Öncesi Öğretmenliği">Okul Öncesi Öğretmenliği</option><option value="Özel Eğitim Öğretmenliği">Özel Eğitim Öğretmenliği</option><option value="Radyo, Televizyon ve Sinema">Radyo, Televizyon ve Sinema</option><option value="Reklam Tasarımı ve İletişimi">Reklam Tasarımı ve İletişimi</option><option value="Reklamcılık">Reklamcılık</option><option value="Rekreasyon Yönetimi">Rekreasyon Yönetimi</option><option value="Sanat Tarihi">Sanat Tarihi</option><option value="Sanat ve Kültür Yönetimi">Sanat ve Kültür Yönetimi</option><option value="Sinema ve Dijital Medya">Sinema ve Dijital Medya</option><option value="Sinema ve Televizyon">Sinema ve Televizyon</option><option value="Sosyal Bilgiler Öğretmenliği">Sosyal Bilgiler Öğretmenliği</option><option value="Sümeroloji">Sümeroloji</option><option value="Süryani Dili ve Edebiyatı">Süryani Dili ve Edebiyatı</option><option value="Tarih">Tarih</option><option value="Tarih Öğretmenliği">Tarih Öğretmenliği</option><option value="Televizyon Haberciliği ve Programcılığı">Televizyon Haberciliği ve Programcılığı</option><option value="Tiyatro Eleştirmenliği ve Dramaturji">Tiyatro Eleştirmenliği ve Dramaturji</option><option value="Türk Dili ve Edebiyatı">Türk Dili ve Edebiyatı</option><option value="Türk Dili ve Edebiyatı Öğretmenliği">Türk Dili ve Edebiyatı Öğretmenliği</option><option value="Türk Halkbilimi">Türk Halkbilimi</option><option value="Türkçe Öğretmenliği">Türkçe Öğretmenliği</option><option value="Türkoloji">Türkoloji</option><option value="Yeni Medya">Yeni Medya</option><option value="Yeni Medya ve İletişim">Yeni Medya ve İletişim</option><option value="Zaza Dili ve Edebiyatı">Zaza Dili ve Edebiyatı</option>										</select>
+									</div>
+									<div class="col-md-3">
+										<label for="sehir_filter" class="form-label"><strong>Şehir</strong></label>
+										<select class="form-control" id="sehir_filter" placeholder="Şehir">
+											<option value="ADANA">ADANA</option>
+											<option value="ADIYAMAN">ADIYAMAN</option>
+											<option value="AFYONKARAHİSAR">AFYONKARAHİSAR</option>
+											<option value="AĞRI">AĞRI</option>
+											<option value="AKSARAY">AKSARAY</option>
+											<option value="AMASYA">AMASYA</option>
+											<option value="ANKARA">ANKARA</option>
+											<option value="ANTALYA">ANTALYA</option>
+											<option value="ARDAHAN">ARDAHAN</option>
+											<option value="ARTVİN">ARTVİN</option>
+											<option value="AYDIN">AYDIN</option>
+											<option value="BALIKESİR">BALIKESİR</option>
+											<option value="BARTIN">BARTIN</option>
+											<option value="BATMAN">BATMAN</option>
+											<option value="BAYBURT">BAYBURT</option>
+											<option value="BİLECİK">BİLECİK</option>
+											<option value="BİNGÖL">BİNGÖL</option>
+											<option value="BİTLİS">BİTLİS</option>
+											<option value="BOLU">BOLU</option>
+											<option value="BURDUR">BURDUR</option>
+											<option value="BURSA">BURSA</option>
+											<option value="ÇANAKKALE">ÇANAKKALE</option>
+											<option value="ÇANKIRI">ÇANKIRI</option>
+											<option value="ÇORUM">ÇORUM</option>
+											<option value="DENİZLİ">DENİZLİ</option>
+											<option value="DİYARBAKIR">DİYARBAKIR</option>
+											<option value="DÜZCE">DÜZCE</option>
+											<option value="EDİRNE">EDİRNE</option>
+											<option value="ELAZIĞ">ELAZIĞ</option>
+											<option value="ERZİNCAN">ERZİNCAN</option>
+											<option value="ERZURUM">ERZURUM</option>
+											<option value="ESKİŞEHİR">ESKİŞEHİR</option>
+											<option value="GAZİANTEP">GAZİANTEP</option>
+											<option value="GİRESUN">GİRESUN</option>
+											<option value="GÜMÜŞHANE">GÜMÜŞHANE</option>
+											<option value="HAKKARİ">HAKKARİ</option>
+											<option value="HATAY">HATAY</option>
+											<option value="IĞDIR">IĞDIR</option>
+											<option value="ISPARTA">ISPARTA</option>
+											<option value="İSTANBUL">İSTANBUL</option>
+											<option value="İZMİR">İZMİR</option>
+											<option value="KAHRAMANMARAŞ">KAHRAMANMARAŞ</option>
+											<option value="KARABÜK">KARABÜK</option>
+											<option value="KARAMAN">KARAMAN</option>
+											<option value="KARS">KARS</option>
+											<option value="KASTAMONU">KASTAMONU</option>
+											<option value="KAYSERİ">KAYSERİ</option>
+											<option value="KIRIKKALE">KIRIKKALE</option>
+											<option value="KIRKLARELİ">KIRKLARELİ</option>
+											<option value="KIRŞEHİR">KIRŞEHİR</option>
+											<option value="KİLİS">KİLİS</option>
+											<option value="KOCAELİ">KOCAELİ</option>
+											<option value="KONYA">KONYA</option>
+											<option value="KÜTAHYA">KÜTAHYA</option>
+											<option value="MALATYA">MALATYA</option>
+											<option value="MANİSA">MANİSA</option>
+											<option value="MARDİN">MARDİN</option>
+											<option value="MERSİN">MERSİN</option>
+											<option value="MUĞLA">MUĞLA</option>
+											<option value="MUŞ">MUŞ</option>
+											<option value="NEVŞEHİR">NEVŞEHİR</option>
+											<option value="NİĞDE">NİĞDE</option>
+											<option value="ORDU">ORDU</option>
+											<option value="OSMANİYE">OSMANİYE</option>
+											<option value="RİZE">RİZE</option>
+											<option value="SAKARYA">SAKARYA</option>
+											<option value="SAMSUN">SAMSUN</option>
+											<option value="SİİRT">SİİRT</option>
+											<option value="SİNOP">SİNOP</option>
+											<option value="SİVAS">SİVAS</option>
+											<option value="ŞANLIURFA">ŞANLIURFA</option>
+											<option value="ŞIRNAK">ŞIRNAK</option>
+											<option value="TEKİRDAĞ">TEKİRDAĞ</option>
+											<option value="TOKAT">TOKAT</option>
+											<option value="TRABZON">TRABZON</option>
+											<option value="TUNCELİ">TUNCELİ</option>
+											<option value="UŞAK">UŞAK</option>
+											<option value="VAN">VAN</option>
+											<option value="YALOVA">YALOVA</option>
+											<option value="YOZGAT">YOZGAT</option>
+											<option value="ZONGULDAK">ZONGULDAK</option>
+										</select>
+									</div>
+								</div>
+								
+								<!-- İkinci Satır -->
+								<div class="row" style="margin-bottom: 15px;">
+									<div class="col-md-3">
+										<label for="universite_turu_filter" class="form-label"><strong>Üniversite Türü</strong></label>
+										<select class="form-control" id="universite_turu_filter" placeholder="Üniversite Türü">
+											<option value="Devlet">Devlet</option>
+											<option value="Vakıf">Vakıf</option>
+											<option value="KKTC">KKTC</option>
+											<option value="Yurt Dışı">Yurt Dışı</option>
+										</select>
+									</div>
+									<div class="col-md-3">
+										<label for="ucret_filter" class="form-label"><strong>Ücret/Burs</strong></label>
+										<select class="form-control" id="ucret_filter">
+											<option value="Ücretsiz">Ücretsiz</option>
+											<option value="Ücretli">Ücretli</option>
+											<option value="İÖ-Ücretli">İÖ-Ücretli</option>
+											<option value="Burslu">Burslu</option>
+											<option value="%50 İndirimli">%50 İndirimli</option>
+											<option value="%25 İndirimli">%25 İndirimli</option>
+											<option value="AÖ-Ücretli">AÖ-Ücretli</option>
+											<option value="UÖ-Ücretli">UÖ-Ücretli</option>
+										</select>
+									</div>
+									<div class="col-md-3">
+										<label for="ogretim_turu_filter" class="form-label"><strong>Öğretim Türü</strong></label>
+										<select class="form-control" id="ogretim_turu_filter" placeholder="Öğretim Türü">
+											<option value="Örgün">Örgün</option>
+											<option value="İkinci">İkinci</option>
+											<option value="Açıköğretim">Açıköğretim</option>
+											<option value="Uzaktan">Uzaktan</option>
+										</select>
+									</div>
+									<div class="col-md-3">
+										<label for="doluluk_filter" class="form-label"><strong>Doluluk</strong></label>
+										<select class="form-control" id="doluluk_filter" placeholder="Doluluk">
+											<option value="Doldu">Doldu</option>
+											<option value="Doldu#">Doldu#</option>
+											<option value="Dolmadı">Dolmadı</option>
+											<option value="Yeni">Yeni</option>
+										</select>
+									</div>
+								</div>
+								
+								<!-- Üçüncü Satır -->
+								<div class="row" style="margin-bottom: 15px;">
+									<div class="col-md-3">
+										<label for="kilavuz_kodu" class="form-label"><strong>Program Kodu</strong></label>
+										<input type="number" class="form-control" id="kilavuz_kodu">
+									</div>
+									<div class="col-md-3">
+										<label for="ust_bs" class="form-label"><strong>En Az Başarı Sırası</strong></label>
+										<input type="number" class="form-control" id="ust_bs">
+									</div>
+									<div class="col-md-3">
+										<label for="alt_bs" class="form-label"><strong>En Çok Başarı Sırası</strong></label>
+										<input type="number" class="form-control" id="alt_bs">
+									</div>
+									<div class="col-md-3">
+										<label class="form-label"><strong>&nbsp;</strong></label>
+										<div class="form-check" style="margin-top: 8px;">
+											<input type="checkbox" class="form-check-input" value="1" id="yeniler" checked style="float: left; margin-right: 5px;">
+											<label class="form-check-label" for="yeniler" style="font-size: 11px; line-height: 1.2; display: block; margin-left: 20px;">Yeni açılan veya kontenjanı dolmayan programlar</label>
+										</div>
+									</div>
+								</div>
+									<div class="col-md-12" style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+										<div>
+																							<button id="toggle_view" type="button" class="btn btn-success" style="display: none;"><i class="fa fa-table"></i> Detaylı Görünüm</button>
+																					</div>
+										<div>
+											<button id="bt_filtre_uygula" name="bt_filtre_uygula" type="button" class="btn btn-primary ml-2">Ara</button>
+											<button id="bt_filtre_sifirla" name="bt_filtre_sifirla" type="button" class="btn btn-info ml-2">Sıfırla</button>
+										</div>
+									</div>
+								</div>           
+							</div>
+						</div>
+
+
+		</div>
+		<div class="row">
+						<div class="row">
+				<div class="tablo_ortala table-responsive" align="center">
+								<div style="display: flex;justify-centent:space-between;margin-bottom:5px;">
+					<marquee style="width:100%;"><font color='#CC0000'><b>Bilgiler 2025-YKS Yükseköğretim Programları ve Kontenjanları Kılavuzu'ndan derlenmiş olup, nihai kontrollerinizi ÖSYM'nin internet sitesindeki 2025-YKS Yükseköğretim Programları ve Kontenjanları Kılavuzu'ndan yapmanız uygun olacaktır.</b></font></marquee>
+				</div>
+									<table id="mydata" class="table table-striped table-bordered dt-responsive" cellspacing="0" style="font-size: 12px; width:100%;">
+						<thead>
+							<tr>
+								<th width="5%"></th>
+								<th class="text-center" width="5%">YOP Kodu</th>
+								<th class="text-center" width="15%">Üniversite<br /></th>
+								<th></th>
+								<th class="text-center" width="15%">Program Adı<br /> <font color="#cc0000">Öğretim Süresi</font><br /></th>
+								<th></th>
+								<th class="text-center" width="5%">Şehir<br /></th>
+								<th class="text-center" width="5%">Üniversite Türü</th>
+								<th class="text-center" width="5%">Ücret/Burs</th>
+								<th class="text-center" width="5%">Öğretim Türü</th>
+								<th class="text-center" width="5%">Kontenjan** <br /> <font color="red">2025</font><br /> <font color="purple">2024</font><br /> <font color="blue">2023</font><br /> <font color="green">2022</font></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th class="text-center" width="5%">Doluluk/Statü<font color="purple">***</font><br /></th>
+								<th class="text-center" width="5%">Yerleşen<br /> <font color="red">2025</font><br /> <font color="purple">2024</font><br /> <font color="blue">2023</font><br /> <font color="green">2022</font><br /></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th class="text-center" width="5%">Taban Başarı Sırası<br /> <font color="red">2025</font><br /> <font color="purple">2024</font><br /> <font color="blue">2023</font><br /> <font color="green">2022</font></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th class="text-center" width="5%">TBS (Ek)<br /> <font color="red">2025</font><br /> <font color="purple">2024</font><br /> <font color="blue">2023</font><br /> <font color="green">2022</font></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th class="text-center" width="5%">Taban Puan<br /> <font color="red">2025</font><br /> <font color="purple">2024</font><br /> <font color="blue">2023</font><br /> <font color="green">2022</font></th>
+							</tr>
+						</thead>
+						<tfoot>
+							<tr>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+								<th></th>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<div align="left">
+		<div class="container" style="line-height: 140%;">
+			<hr />
+			<h4>
+				<strong>AÇIKLAMALAR</strong>
+			</h4>
+			0.12'lik katsayı ile yerleşen son kişinin puan ve başarı sıraları verilmiştir.<br/>
+			Programlar taban başarı sıralarına göre yüksekten düşüğe doğru sıralanmıştır.<br/>
+			<strong>* :</strong> Eski ÖSYM Program Kodu<br/>
+			<strong>** :</strong> Kontenjan = Genel + Okul Birincisi + Şehit-Gazi Yakını + 34 Yaş Üstü Kadın + Depremzede Aday <br/>
+			<!-- <font color="purple"><strong>** :</strong> 2018, 2019, 2020 ve 2021 Yıllarında 0,12'lik Taban Puan Alınmıştır.</font><br/> -->
+			<font color="purple">*** : 2025 Yılı Kontenjanlarından Genel Kontenjan veya Tüm Kontenjanların dolup dolmadığını gösterir. (<b>Doldu:</b> Genel Kontenjanın Dolduğunu, <b>Doldu#:</b> Tüm Kontenjanların Dolduğunu, <b>Dolmadı:</b> Genel Kontenjanın Dolmadığını ifade eder.</font><br />
+			<!-- <font color="purple"><strong>**** :</strong> 0,12'lik Taban Puan</font><br/> -->
+			<!-- <font color="blue"><strong>2019 Yılı Puan Türüne Karşılık Gelen 2018 Puan Türleri:</strong> </font><font color="red"><strong>SAY</strong></font>
+			(MF-1,MF-2,MF-3,MF-4,MF#), <font color="red"><strong>SÖZ</strong></font> (TS-1,TS-2), <font color="red"><strong>EA</strong></font> (TM-1,TM-2,TM-3), <font color="red"><strong>DİL</strong></font> (DİL-1,DİL-2,DİL-3), <font color="red"><strong>TYT</strong></font>(YGS-1,YGS-2,YGS-3,YGS-4,YGS-5,YGS-6) -->
+
+		</div>
+	</div>
+		﻿<footer class="footer">
+	<div class="container">
+		<table style="width: 100%; border: 0">
+			<tr>
+				<td width="33%">
+					<p class="text-muted pull-left" align="left">
+						<small>Bize Önerilerinizi İletebilirsiniz:<br> <a href="mailto:yokatlas@yok.gov.tr">yokatlas@yok.gov.tr</a></small>
+					</p>
+				</td>
+				<td align="center" width="33%">
+					<p class="text-muted pull-left" align="center">
+						<!--<small>Girdi Göstergelerindeki bilgiler ÖSYM'den 2016, 2017, 2018 ve 2019 Ağustos ayında alınan verilerden derlenmiştir.<br></small>-->
+					<!-- <small>Girdi Göstergelerindeki bilgiler ÖSYM'den alınan verilerden derlenmiştir.<br></small> -->
+					</p>
+				</td>
+				<td width="33%">
+					<p class="text-muted pull-right" align="right">
+						<small>Yükseköğretim Program Atlası<br> <span title="&copy; Yükseköğretim Kurulu Bilgi İşlem Daire Başkanlığı">&copy;<a href="http://www.yok.gov.tr" target="_blank">Yükseköğretim Kurulu</a> Bilgi İşlem Daire Başkanlığı </span></small>
+					</p>
+				</td>
+			</tr>
+		</table>
+	</div>
+</footer>
+<span id="top-link-block" class="hidden"> <a href="#top" class="well well-sm" onclick="$('html,body').animate({scrollTop:0},'slow');return false;"> <i class="glyphicon glyphicon-chevron-up"></i> Yukarı Çık </a> </span>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script>
+
+function listeyeEkle(e) {
+
+  	 $.ajax({	
+       type: 'POST',
+	   cache: false,
+       url: 'listeme_ekle.php',
+	   data: {ekle:e,tur:1},
+       success: function(response){
+		  if(response.substring(0,7)=='eklendi'){
+			  var sira=response.substring(7);
+			  var baslik = '';
+				if (sira == '50'){
+					baslik = sira + ' numaralı tercihiniz listeye eklendi. Listenize daha fazla program ekleyemezsiniz!';
+				}
+				else{
+					baslik = sira + ' numaralı tercihiniz listeye eklendi';
+				}
+				Swal.fire({
+					title: baslik,
+					icon: 'success',
+					toast:true,
+					timer: 2500,
+					position: 'bottom',
+					showConfirmButton: false,
+					background: '#444444',
+					color:'white'
+				})
+		  }
+		  else if(response=='sepette'){
+				Swal.fire({
+					title: "Bu program zaten listenizde.",
+					icon: 'info',
+					confirmButtonText: 'Tamam'
+				})
+			  
+		  }
+		  else if(response=='dolu'){
+				Swal.fire({
+					title: "Uyarı!",
+					text: "Tercih listenize en fazla 50 tercih ekleyebilirsiniz.",
+					icon: 'info',
+					confirmButtonText: 'Tamam'
+				})
+
+		  }
+		  else if(response=='login'){
+				Swal.fire({
+					title: "Üye girişi yapmalısınız!",
+					text: "",
+					icon: 'error',
+					confirmButtonText: 'Üye Girişi'
+					}).then((result) => {
+						if (result.isConfirmed) {
+						location.href = 'uye_girisi.php';
+					}
+				})
+		  }
+		  else{
+				Swal.fire({
+					title: "Üyelik sistemi geçici olarak kullanım dışıdır.",
+					text: "",
+					icon: 'info'
+				})
+		  }
+       }
+    });
+}
+
+
+</script>
+<script>
+        function kontrolEt() {
+            const enAz = document.getElementById('ust_bs');
+            const enCok = document.getElementById('alt_bs');
+
+            // Input değerlerini sayıya çevirme (eğer sayısal değerler bekliyorsak)
+            const enAzDeger = parseFloat(enAz.value);
+            const enCokDeger = parseFloat(enCok.value);
+
+            // Değerleri karşılaştırma
+            if (enCokDeger < enAzDeger) {
+                alert("'En Çok' Değeri 'En Az' değerinden büyük veya eşit olmalıdır.");
+                enAz.value = "";
+                enCok.value = "";
+            }
+        }
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

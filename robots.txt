@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Henüz tamamlanmamış sayfalar - Google taramasın
+Disallow: /dil.html
+Disallow: /ea.html
+Disallow: /sayisal.html
+Disallow: /sozel.html
+
+# Geliştirme dosyaları - indekslenmemeli
+Disallow: /*.py$
+Disallow: /*.xlsx$
+Disallow: /*.pdf$
+
+# API ve geliştirme klasörleri
+Disallow: /GeleceginiSec.API/
+Disallow: /.vercel/
+
+Sitemap: https://www.edulock.com.tr/sitemap.xml

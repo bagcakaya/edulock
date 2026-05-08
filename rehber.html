@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLock: Tercih ve Puan Rehberi - Tercih Robotu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #ec4899;
+            --bg-color: #f8fafc;
+            --surface: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: rgba(255, 255, 255, 0.85) !important;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            padding: 15px 0;
+            transition: all 0.3s ease;
+        }
+        .navbar-brand {
+            color: var(--text-main) !important;
+            font-weight: 800;
+            font-size: 1.4rem;
+            letter-spacing: -0.5px;
+        }
+        .nav-link {
+            color: var(--text-muted) !important;
+            font-weight: 500;
+            margin-left: 15px;
+            transition: color 0.3s;
+        }
+        .nav-link:hover, .nav-link.active {
+            color: var(--primary) !important;
+        }
+
+        /* Hero Background / Overall page background effect */
+        .page-bg {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: -1;
+            overflow: hidden;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(236, 72, 153, 0.05) 100%);
+        }
+        .page-bg::before {
+            content: ''; position: absolute; width: 400px; height: 400px;
+            background: rgba(99, 102, 241, 0.15); border-radius: 50%;
+            top: -100px; left: -100px; filter: blur(60px);
+        }
+        .page-bg::after {
+            content: ''; position: absolute; width: 300px; height: 300px;
+            background: rgba(236, 72, 153, 0.15); border-radius: 50%;
+            bottom: -50px; right: -50px; filter: blur(40px);
+        }
+
+        /* Wizard Card */
+        .wizard-card {
+            background: var(--surface);
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+            padding: 50px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            position: relative;
+            z-index: 10;
+        }
+        
+        .step-title {
+            color: var(--text-main);
+            font-weight: 800;
+            margin-bottom: 25px;
+            letter-spacing: -0.5px;
+        }
+
+        /* Buttons (SAY, EA, vs) */
+        .btn-alan {
+            border-radius: 16px;
+            padding: 24px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            border: 2px solid transparent;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            width: 100%;
+        }
+        .btn-alan-say { background: rgba(99, 102, 241, 0.08); color: var(--primary); border-color: rgba(99, 102, 241, 0.2); }
+        .btn-alan-say:hover { background: var(--primary); color: white; transform: translateY(-4px); box-shadow: 0 12px 24px rgba(99, 102, 241, 0.25); }
+        
+        .btn-alan-ea { background: rgba(245, 158, 11, 0.08); color: #d97706; border-color: rgba(245, 158, 11, 0.2); }
+        .btn-alan-ea:hover { background: #f59e0b; color: white; transform: translateY(-4px); box-shadow: 0 12px 24px rgba(245, 158, 11, 0.25); }
+
+        .btn-alan-soz { background: rgba(16, 185, 129, 0.08); color: #059669; border-color: rgba(16, 185, 129, 0.2); }
+        .btn-alan-soz:hover { background: #10b981; color: white; transform: translateY(-4px); box-shadow: 0 12px 24px rgba(16, 185, 129, 0.25); }
+
+        .btn-alan-dil { background: rgba(236, 72, 153, 0.08); color: var(--secondary); border-color: rgba(236, 72, 153, 0.2); }
+        .btn-alan-dil:hover { background: var(--secondary); color: white; transform: translateY(-4px); box-shadow: 0 12px 24px rgba(236, 72, 153, 0.25); }
+
+        .btn-alan-tyt { background: rgba(14, 165, 233, 0.08); color: #0284c7; border-color: rgba(14, 165, 233, 0.2); }
+        .btn-alan-tyt:hover { background: #0ea5e9; color: white; transform: translateY(-4px); box-shadow: 0 12px 24px rgba(14, 165, 233, 0.25); }
+
+        /* Progress Bar */
+        .progress {
+            height: 12px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            background-color: #e2e8f0;
+            overflow: hidden;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .progress-bar {
+            background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+            border-radius: 10px;
+            transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Checkbox labels styling */
+        .btn-check-label {
+            border: 2px solid #e2e8f0;
+            border-radius: 14px;
+            transition: all 0.2s;
+            color: var(--text-main);
+            background: white;
+            font-weight: 500;
+        }
+        .btn-check:checked + .btn-check-label {
+            border-color: var(--primary);
+            background-color: rgba(99, 102, 241, 0.05);
+            color: var(--primary);
+            font-weight: 700;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.1);
+        }
+        .btn-check-label:hover {
+            border-color: rgba(99, 102, 241, 0.3);
+            transform: translateY(-1px);
+        }
+
+        .question-box {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 40px;
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        /* Main CTA */
+        .btn-cta {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            border: none;
+            border-radius: 14px;
+            font-weight: 600;
+            padding: 16px 30px;
+            transition: all 0.3s;
+            box-shadow: 0 10px 20px rgba(99, 102, 241, 0.2);
+        }
+        .btn-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 30px rgba(99, 102, 241, 0.3);
+            color: white;
+        }
+
+        /* Answer Buttons */
+        .btn-answer {
+            border-radius: 14px;
+            padding: 14px 20px;
+            font-weight: 600;
+            border: 2px solid;
+            transition: all 0.2s;
+            flex: 1;
+        }
+        .btn-answer-yes { color: #10b981; border-color: #10b981; background: transparent; }
+        .btn-answer-yes:hover { background: #10b981; color: white; transform: translateY(-2px); box-shadow: 0 8px 15px rgba(16, 185, 129, 0.2); }
+        
+        .btn-answer-no { color: #ef4444; border-color: #ef4444; background: transparent; }
+        .btn-answer-no:hover { background: #ef4444; color: white; transform: translateY(-2px); box-shadow: 0 8px 15px rgba(239, 68, 68, 0.2); }
+
+        .btn-answer-mid { color: #64748b; border-color: #64748b; background: transparent; }
+        .btn-answer-mid:hover { background: #64748b; color: white; transform: translateY(-2px); box-shadow: 0 8px 15px rgba(100, 116, 139, 0.2); }
+
+        /* Custom scrollbar for bolumListesi */
+        #bolumListesi::-webkit-scrollbar { width: 6px; }
+        #bolumListesi::-webkit-scrollbar-track { background: #f1f5f9; border-radius: 4px; }
+        #bolumListesi::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        #bolumListesi::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    </style>
+</head>
+<body>
+<div class="page-bg"></div>
+
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+        <i class="fa-solid fa-graduation-cap me-2 text-primary"></i>EduLock: Tercih ve Puan Rehberi
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#anaMenu">
+      <i class="fa-solid fa-bars fs-4 text-dark"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="anaMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><i class="fa-solid fa-house me-1"></i> Ana Sayfa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="rehber.html"><i class="fa-solid fa-robot me-1"></i> Tercih Robotu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hakkimizda.html"><i class="fa-solid fa-circle-info me-1"></i> Hakkımızda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="iletisim.html"><i class="fa-solid fa-envelope me-1"></i> İletişim</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="wizard-card">
+                
+                <div class="progress">
+                    <div id="progressBar" class="progress-bar" role="progressbar" style="width: 0%"></div>
+                </div>
+
+                <!-- ADIM 1 -->
+                <div id="step1" class="text-center">
+                    <h3 class="step-title">Lisedeki Alanın Nedir?</h3>
+                    <p class="text-muted mb-4">Sana en uygun bölümleri bulmamız için öncelikle alanını seçmelisin.</p>
+                    <div class="row g-3 mt-2">
+                        <div class="col-sm-6">
+                            <button onclick="alanSec('SAY')" class="btn-alan btn-alan-say">
+                                <i class="fa-solid fa-square-root-variable d-block mb-2 fs-3"></i>SAYISAL (SAY)
+                            </button>
+                        </div>
+                        <div class="col-sm-6">
+                            <button onclick="alanSec('EA')" class="btn-alan btn-alan-ea">
+                                <i class="fa-solid fa-scale-balanced d-block mb-2 fs-3"></i>EŞİT AĞIRLIK (EA)
+                            </button>
+                        </div>
+                        <div class="col-sm-6">
+                            <button onclick="alanSec('SÖZ')" class="btn-alan btn-alan-soz">
+                                <i class="fa-solid fa-book-open d-block mb-2 fs-3"></i>SÖZEL (SÖZ)
+                            </button>
+                        </div>
+                        <div class="col-sm-6">
+                            <button onclick="alanSec('DİL')" class="btn-alan btn-alan-dil">
+                                <i class="fa-solid fa-language d-block mb-2 fs-3"></i>YABANCI DİL (DİL)
+                            </button>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <h5 class="text-muted mb-3 fs-6">Veya 2 Yıllık Bölümler İçin:</h5>
+                            <button onclick="alanSec('TYT')" class="btn-alan btn-alan-tyt w-100">
+                                <i class="fa-solid fa-user-nurse d-block mb-2 fs-3"></i>ÖNLİSANS (TYT - 2 YILLIK)
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ADIM 2 -->
+                <div id="step2" style="display:none;" class="text-center">
+                    <h3 class="step-title">Arada Kaldığın Bölümleri Seç</h3>
+                    <p class="text-muted mb-4">Analiz yapabilmemiz için listelenen bölümlerden <strong>en az 2 tanesini</strong> seçmelisin.</p>
+                    <div id="bolumListesi" class="row g-3 overflow-auto text-start" style="max-height: 400px; padding: 10px;">
+                        <!-- JS ile dolacak -->
+                    </div>
+                    <div class="mt-5 text-end">
+                        <button onclick="sorularaGec()" class="btn-cta w-100 w-sm-auto">
+                            Analize Başla <i class="fa-solid fa-arrow-right ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ADIM 3 -->
+                <div id="step3" style="display:none;">
+                    <div class="text-center mb-4">
+                        <span class="badge bg-light text-primary border px-3 py-2 rounded-pill mb-3" id="soruKategoriBaslik"></span>
+                        <div class="question-box" id="soruMetni">
+                            Sorular yükleniyor...
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-5">
+                        <button onclick="cevapVer(0)" class="btn-answer btn-answer-no">
+                            <i class="fa-solid fa-xmark me-2"></i>Hayır
+                        </button>
+                        <button onclick="cevapVer(0.5)" class="btn-answer btn-answer-mid">
+                            <i class="fa-solid fa-minus me-2"></i>Kararsızım
+                        </button>
+                        <button onclick="cevapVer(1)" class="btn-answer btn-answer-yes">
+                            <i class="fa-solid fa-check me-2"></i>Evet
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ADIM 4 -->
+                <div id="step4" style="display:none;" class="text-center">
+                    <div class="mb-4">
+                        <div class="d-inline-block p-3 rounded-circle" style="background: rgba(16, 185, 129, 0.1); color: #10b981;">
+                            <i class="fa-solid fa-clipboard-check fs-1"></i>
+                        </div>
+                    </div>
+                    <h2 class="step-title mb-2">Analiz Sonucun Hazır</h2>
+                    <p class="text-muted mb-5">Verdiğin cevaplara göre kişiliğine ve hedeflerine en uygun bölümler aşağıda sıralandı.</p>
+                    
+                    <div id="sonucListesi" class="mt-4 mb-5 text-start">
+                        <!-- JS ile dolacak -->
+                    </div>
+
+                    <div class="d-grid gap-3">
+                        <button onclick="anaSayfayaGit()" class="btn-cta fs-5 py-3">
+                            <i class="fa-solid fa-trophy me-2 text-warning"></i> Kazanan Bölümü İncele
+                        </button>
+                        <button onclick="location.reload()" class="btn btn-light text-muted border-0 py-3 rounded-4 fw-medium hover-bg-light">
+                            <i class="fa-solid fa-rotate-right me-2"></i>Testi Tekrarla
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="py-5 text-center text-muted border-top mt-5">
+        <p class="mb-1">© 2026 <strong>EduLock: Tercih ve Puan Rehberi</strong> - Tüm hakları saklıdır.</p>
+        <p class="small">İletişim: <a href="iletisim.html" class="text-decoration-none text-primary">info@edulock.com.tr</a></p>
+    </footer>
+
+<script>
+    // --- 1. DEVASA SORU HAVUZU ---
+    // --- DÜZELTİLMİŞ VE EŞLEŞTİRİLMİŞ SORU HAVUZU ---
+    const bolumVerileri = {
+        "SAY": {
+            "Tıp": [
+                "Kan, açık yara veya ameliyat videoları izlemek seni rahatsız eder mi? (Hayır cevabı puan kazandırır)",
+                "İnsan anatomisi ve hastalıkların nedenlerini araştırmak ilgini çeker mi?",
+                "Geceleri nöbet tutmak ve bayramlarda bile çalışmak senin için sorun olur mu? (Hayır cevabı puan kazandırır)",
+                "İnsanlara doğrudan yardım etmek ve hayat kurtarmak en büyük motivasyonun mu?",
+                "Ezber yeteneğine ve çalışma disiplinine güveniyor musun?"
+            ],
+            "Diş Hekimliği": [
+                "El becerine (ince işçilik, maket yapma vb.) güveniyor musun?",
+                "Kendi muayenehaneni açıp kendi işinin patronu olmak ister misin?",
+                "Dar bir alanda (ağız içi) uzun süre odaklanarak çalışabilir misin?",
+                "Diş tedavisi sesleri veya tükürükle uğraşmak seni rahatsız eder mi? (Hayır cevabı puan kazandırır)"
+            ],
+            "Eczacılık": [
+                "Kimya dersini sever misin ve ilaçların etki mekanizmaları ilgini çeker mi?",
+                "Laboratuvar ortamında ilaç hazırlamak veya analiz yapmak ister misin?",
+                "Ticaretle uğraşmak ve kendi eczaneni işletmek hayalin mi?",
+                "Detaylara dikkat eder ve titiz çalışır mısın?"
+            ],
+            "Bilgisayar Mühendisliği": [
+                "Bilgisayar başında saatlerce problem çözmekten sıkılır mısın? (Hayır cevabı puan kazandırır)",
+                "Sürekli yeni teknolojiler öğrenmek ve kendini güncellemek seni heyecanlandırır mı?",
+                "Mantıksal bulmacalar çözmeyi ve algoritma kurmayı sever misin?",
+                "Donanım (parçalar) ve sistemlerin nasıl çalıştığı ilgini çeker mi?"
+            ],
+            "Yazılım Mühendisliği": [
+                "Sadece kod yazmaya ve uygulama geliştirmeye odaklanmak ister misin?",
+                "Bir işi otomatikleştirmek için yazılım üretmek ilgini çeker mi?",
+                "Takım halinde projeler geliştirmek ve kod analizi yapmak ister misin?",
+                "Soyut düşünme becerine güveniyor musun?"
+            ],
+            "Endüstri Mühendisliği": [
+                "Bir sistemi (fabrikada veya ofiste) daha verimli hale getirmek ilgini çeker mi?",
+                "Hem insan yönetimi hem de teknik analiz yapmak ister misin?",
+                "Karar verirken maliyet, zaman ve kar hesabını iyi yapar mısın?",
+                "Büyük resmi görmeyi sever misin?"
+            ],
+            "Makine Mühendisliği": [
+                "Mekanik sistemlerin (motorlar, dişliler, robotlar) nasıl çalıştığını merak eder misin?",
+                "Fizik dersinin kuvvet ve hareket konularını sever misin?",
+                "Kirli ve gürültülü fabrika ortamlarında çalışmak senin için sorun olur mu? (Hayır cevabı puan kazandırır)",
+                "Üç boyutlu tasarımlar yapmayı ve makineleri tamir etmeyi sever misin?"
+            ],
+            "Elektrik-Elektronik Mühendisliği": [
+                "Elektrik devreleri, sinyaller ve haberleşme sistemleri ilgini çeker mi?",
+                "Görünmeyen bir gücü (elektrik) formüllerle kontrol etmek sana heyecan verir mi?",
+                "Karmaşık matematiksel problemlerle uğraşmaktan zevk alır mısın?",
+                "Teknolojik cihazların içini açıp bakmayı sever misin?"
+            ],
+            "İnşaat Mühendisliği": [
+                "Devasa yapılar (köprüler, barajlar, gökdelenler) tasarlamak hayalin mi?",
+                "Şantiyede, tozlu ve açık hava ortamında çalışmaya dayanabilir misin?",
+                "Statik hesaplamalar ve fizik kuralları ilgini çeker mi?",
+                "Proje yönetimi ve ekip liderliği yapmak ister misin?"
+            ],
+            "Mimarlık": [
+                "Çizim yapmayı ve tasarım oluşturmayı sever misin?",
+                "Gezdiğin binaların estetiğine ve detaylarına dikkat eder misin?",
+                "Sabahlara kadar proje çizmek ve maket yapmak seni korkutuyor mu? (Hayır cevabı puan kazandırır)",
+                "Sanat ve tekniği birleştirmek ister misin?"
+            ],
+            "Hemşirelik": [
+                "İnsanlara şefkatle yaklaşabilir ve sabırlı olabilir misin?",
+                "Hastanede yoğun tempoda çalışmak ve nöbet tutmak ister misin?",
+                "Tıbbi müdahaleler (iğne yapma, pansuman) yapmak elinden gelir mi?",
+                "Doktorlarla ve hastalarla sürekli iletişim halinde olmak ister misin?"
+            ],
+            "Veteriner": [
+                "Hayvanları insanlardan daha çok seviyor olabilir misin?",
+                "Her türden hayvanın (kedi, köpek, inek, at) tedavisiyle ilgilenmek ister misin?",
+                "Kırsal alanda veya çiftlik ortamında çalışmak seni rahatsız eder mi? (Hayır cevabı puan kazandırır)",
+                "Biyoloji ve anatomiye ilgin var mı?"
+            ],
+            "Fizyoterapi ve Rehabilitasyon": [ // İsim Düzeltildi
+                "İnsan vücudunun hareket sistemi ve kas yapısı ilgini çeker mi?",
+                "İnsanlara fiziksel egzersiz yaptırarak iyileşmelerini sağlamak ister misin?",
+                "Sabırlı ve motive edici bir kişiliğin var mı?",
+                "İnsanlarla birebir temas halinde çalışmak ister misin?"
+            ],
+            "Beslenme ve Diyetetik": [
+                "Sağlıklı yaşam, kalori hesapları ve besin değerleri ilgini çeker mi?",
+                "İnsanları zayıflatmak veya sağlıklı beslenmeye ikna etmek ister misin?",
+                "Yemeklerin içeriğini ve insan vücuduna etkisini araştırmayı sever misin?",
+                "İletişim becerine güveniyor musun?"
+            ],
+            "Uçak Mühendisliği": [
+                "Gökyüzü, uçaklar ve aerodinamik konuları tutkun mu?",
+                "Hata kabul etmeyen, çok titiz hesaplamalar gerektiren işleri sever misin?",
+                "Havacılık teknolojilerini takip eder misin?",
+                "Yüksek matematik ve fizik bilgisi gerektiren derslere hazır mısın?"
+            ],
+            "Moleküler Biyoloji ve Genetik": [
+                "Mikroskop başında saatlerce araştırma yapabilir misin?",
+                "DNA, genler ve kalıtsal hastalıkların çözümü ilgini çeker mi?",
+                "Akademik kariyer yapmayı ve laboratuvarda yaşamayı düşünür müsün?",
+                "Bilimin sınırlarını zorlamak sana heyecan verir mi?"
+            ],
+            "Matematik": [
+                "Soyut düşünmeyi ve ispat yapmayı sever misin?",
+                "Problemler üzerine saatlerce kafa yormak seni sıkmaz mı?",
+                "Sayıların dünyasında kaybolmak sana keyif verir mi?",
+                "Akademisyenlik veya veri analistliği gibi alanlar ilgini çeker mi?"
+            ],
+            "Ebelik": [
+                "Doğum mucizesine tanıklık etmek ve anne-bebek sağlığıyla ilgilenmek ister misin?",
+                "Soğukkanlılığını koruyabilir ve kriz anlarını yönetebilir misin?",
+                "Sabırlı ve şefkatli bir yapın var mı?"
+            ],
+            "Yapay Zeka ve Veri Mühendisliği": [
+                "Büyük veri kümeleriyle çalışmak ve bilgisayarlara öğrenmeyi öğretmek ilgini çeker mi?",
+                "Matematik, istatistik ve algoritmalarla saatlerce uğraşmak seni yorar mı? (Hayır cevabı puan kazandırır)",
+                "Geleceğin teknolojilerini (robotlar, otonom araçlar) geliştirmek hayalin mi?",
+                "Bir problemin çözümü için onlarca farklı deneme yanılma yapacak sabrın var mı?"
+            ],
+            "Havacılık ve Uzay Mühendisliği": [
+                "Uçaklar, uydular ve roketlerin tasarımı seni heyecanlandırır mı?",
+                "Hava akımları, fizik kuralları ve aerodinamik ilgini çeken konular mı?",
+                "Matematiksel hata payının 'sıfır' olması gereken stresli projelerde yer alabilir misin?",
+                "Uzay teknolojileri ve savunma sanayisinde çalışmak ister misin?"
+            ],
+            "Mekatronik Mühendisliği": [
+                "Hem yazılım (kodlama) hem de donanım (makine, elektronik) ile uğraşmak ister misin?",
+                "Robotik sistemler tasarlamak ve üretmek ilgini çeker mi?",
+                "Disiplinler arası çalışmak, sürekli yeni mühendislik alanlarından bir şeyler öğrenmek sana uygun mu?",
+                "Fabrikalardaki otomasyon sistemlerini kurmak ve yönetmek ister misin?"
+            ],
+            "Biyomedikal Mühendisliği": [
+                "Tıp dünyasında kullanılan cihazların (MR, ultrason, protez) tasarımını yapmak ister misin?",
+                "Hem biyoloji/sağlık hem de mühendislik konularına aynı anda ilgin var mı?",
+                "Hastanelerde veya tıbbi cihaz üreten şirketlerde çalışmak sana uygun mu?",
+                "İnsan sağlığını teknoloji ile iyileştirme fikri seni motive eder mi?"
+            ]
+        },
+
+        "EA": {
+            "Hukuk": [
+                "Haksızlığa uğradığını düşündüğünde sonuna kadar savunur musun?",
+                "Kalın kitaplar okumak ve uzun metinleri analiz etmek seni sıkar mı? (Hayır cevabı puan kazandırır)",
+                "Toplumsal olaylar, adalet ve hak kavramları üzerine kafa yorar mısın?",
+                "İkna kabiliyetin yüksek midir ve tartışmayı sever misin?"
+            ],
+            "Psikoloji": [
+                "İnsanların davranışlarının altındaki nedenleri merak eder misin?",
+                "Arkadaşların dertlerini anlatmak için hep sana mı gelir?",
+                "İyi bir dinleyici misindir ve empati yeteneğin yüksek mi?",
+                "İnsan beyninin işleyişi ve ruh sağlığı ilgini çeker mi?"
+            ],
+            "Rehberlik ve Psikolojik Danışmanlık": [ // İsim Düzeltildi
+                "Okul ortamında çalışmayı ve öğrencilere yol göstermeyi sever misin?",
+                "İnsanların sorunlarını çözmelerine yardımcı olmak seni mutlu eder mi?",
+                "Eğitim bilimleri ve pedagoji ilgini çeker mi?",
+                "Sabırlı ve hoşgörülü bir yapın var mı?"
+            ],
+            "İşletme": [
+                "Liderlik etmek, bir ekibi veya şirketi yönetmek ister misin?",
+                "Para yönetimi, borsa, finans ve kar/zarar hesapları ilgini çeker mi?",
+                "Risk almayı sever misin?",
+                "Girişimcilik ruhun var mı, kendi işini kurmak ister misin?"
+            ],
+            "İktisat": [ // İsim Düzeltildi
+                "Ülke ekonomisi, enflasyon, dolar kurları gibi konuları takip eder misin?",
+                "Grafikler, istatistikler ve matematiksel analizlerle aran iyi mi?",
+                "Piyasaların nasıl işlediğini anlamak ister misin?",
+                "Bankacılık veya finans sektöründe çalışmak hayalin mi?"
+            ],
+            "Siyaset Bilimi ve Kamu Yönetimi": [
+                "Politika, devlet yönetimi ve seçimler ilgini çeker mi?",
+                "Kaymakam, vali veya idari bürokrat olmak gibi bir hayalin var mı?",
+                "Tarih ve sosyoloji konularını sever misin?",
+                "Liderlik vasıflarına sahip olduğunu düşünüyor musun?"
+            ],
+            "Uluslararası İlişkiler": [
+                "Dünya gündemini, ülkeler arası krizleri ve diplomasiyi takip eder misin?",
+                "Yabancı dil öğrenmeye hevesli misin?",
+                "Büyükelçi olmak veya uluslararası kuruluşlarda çalışmak ister misin?",
+                "Farklı kültürleri ve tarihleri araştırmayı sever misin?"
+            ],
+            "Yönetim Bilişim Sistemleri": [ // İsim Düzeltildi
+                "Hem bilgisayardan (yazılım) hem de işletmeden (yönetim) anlayan biri olmak ister misin?",
+                "Teknoloji ve iş dünyası arasındaki köprüyü kurmak ilgini çeker mi?",
+                "Veri analizi yapmak ve rapor hazırlamak ister misin?",
+                "Ofis ortamında ve bilgisayar başında çalışmak sana uygun mu?"
+            ],
+            "Sınıf Öğretmenliği": [
+                "Çocukları çok sever misin ve onlarla vakit geçirmekten sıkılmaz mısın?",
+                "Bir çocuğa okuma-yazma öğretmenin hazzını yaşamak ister misin?",
+                "Sabır senin en güçlü özelliklerinden biri mi?",
+                "Her dersten (Matematik, Türkçe, Hayat Bilgisi) biraz anlamak sana uygun mu?"
+            ],
+            "Sosyoloji": [
+                "Toplumların yapısını, değişimini ve kültürel farkları incelemek ilgini çeker mi?",
+                "Toplumsal sorunlara (göç, suç, aile yapısı) çözüm üretmek ister misin?",
+                "Araştırma yapmayı, anket hazırlamayı ve veri yorumlamayı sever misin?",
+                "Olaylara eleştirel bir gözle bakabilir misin?"
+            ],
+            "Çocuk Gelişimi": [
+                "0-6 yaş grubu çocukların eğitimi ve psikolojisiyle ilgilenmek ister misin?",
+                "Oyun oynamayı ve çocuklara eğitici materyaller hazırlamayı sever misin?",
+                "Çocuk sağlığı ve bakımı konuları ilgini çeker mi?",
+                "Kreş veya rehabilitasyon merkezlerinde çalışmak ister misin?"
+            ],
+            "Maliye": [
+                "Vergi kanunları, bütçe hesaplamaları ve devlet harcamaları ilgini çeker mi?",
+                "Devlet kurumlarında müfettiş veya uzman olarak çalışmak ister misin?",
+                "Rakamlarla ve yasalarla uğraşmak seni sıkar mı? (Hayır cevabı puan kazandırır)",
+                "Muhasebe mantığını kavramak ister misin?"
+            ],
+            "İç Mimarlık ve Çevre Tasarımı": [
+                "Mekanları dekore etmek, renkler ve eşyalarla oynamak hobin midir?",
+                "Estetik bakış açına güveniyor musun?",
+                "Çizim yeteneğin var mı veya geliştirmek ister misin?",
+                "Müşterilerin isteklerine göre tasarımlar yapabilir misin?"
+            ],
+            "Grafik Tasarım": [
+                "Bilgisayarda logo, afiş veya görsel tasarımlar yapmak ilgini çeker mi?",
+                "Yaratıcılığına güveniyor musun?",
+                "Reklam dünyası ve görsel iletişim ilgini çeker mi?",
+                "Saatlerce bilgisayar başında tasarım programlarıyla uğraşabilir misin?"
+            ],
+            "Bankacılık ve Finans": [
+                "Paranın yönetimi, krediler ve yatırım araçları ilgini çeker mi?",
+                "Stresli ve hedef odaklı bir ortamda çalışabilir misin?",
+                "Müşteri ilişkilerin kuvvetli midir?",
+                "Matematiksel analiz yeteneğine güveniyor musun?"
+            ],
+            "Havacılık Yönetimi": [
+                "Havalimanı işletmeciliği, uçuş planlamaları ve havacılık sektörü ilgini çeker mi?",
+                "Havacılığın kendine has kurallarına, disiplinine ve stresine ayak uydurabilir misin?",
+                "Kriz anlarında soğukkanlı kalıp hızlı operasyonel kararlar alabilir misin?",
+                "Yabancı dilini geliştirip uluslararası bir ortamda çalışmak ister misin?"
+            ],
+            "Uluslararası Ticaret ve Lojistik": [
+                "Dünya çapında ticaret yapmak, ithalat ve ihracat operasyonlarını yönetmek ister misin?",
+                "Tedarik zinciri, gümrük işlemleri ve ulaştırma ağları ilgini çeken konular mı?",
+                "Farklı ülkelerin ticaret kanunlarını ve kültürlerini araştırmayı sever misin?",
+                "Hızlı değişen küresel piyasalarda risk alıp strateji geliştirebilir misin?"
+            ],
+            "Turizm İşletmeciliği": [
+                "Otel, tatil köyü veya seyahat acentelerini yönetmek hayalin mi?",
+                "Farklı ülkelerden insanlarla tanışmak, konuk ağırlamak ve sosyalleşmek yaşam tarzın mı?",
+                "Turizm sezonunda (yaz aylarında) yoğun ve tatilsiz çalışmak senin için sorun olur mu? (Hayır cevabı puan kazandırır)",
+                "Müşteri memnuniyetini sağlamak için sabırlı ve çözüm odaklı olabilir misin?"
+            ]
+        },
+
+        "SÖZ": {
+            "Okul Öncesi Öğretmenliği": [
+                "Küçük çocuklarla oyun oynamaktan ve onlara şarkı öğretmekten keyif alır mısın?",
+                "Enerjin yüksek midir, çocukların temposuna ayak uydurabilir misin?",
+                "El işi kağıtları, boyalar ve oyuncaklarla uğraşmayı sever misin?",
+                "Sabrın sınırlarını zorlayan durumlarda sakin kalabilir misin?"
+            ],
+            "Özel Eğitim Öğretmenliği": [
+                "Engelli bireylerin hayatına dokunmak ve onlara bir şeyler öğretmek ister misin?",
+                "Çok üst düzeyde sabır ve şefkat gösterebilir misin?",
+                "Küçük ilerlemelerle mutlu olmayı bilir misin?",
+                "Zorlu davranışlarla başa çıkabilecek duygusal gücün var mı?"
+            ],
+            "Türkçe Öğretmenliği": [
+                "Dil bilgisi kuralları ve Türkçenin incelikleri ilgini çeker mi?",
+                "Kitap okumayı ve okutmayı sever misin?",
+                "Öğrencilere ana dilimizi sevdirmek idealin mi?",
+                "Hitabet yeteneğine güveniyor musun?"
+            ],
+            "Sosyal Bilgiler Öğretmenliği": [ // İsim Düzeltildi
+                "Tarih, coğrafya ve vatandaşlık konularını bir arada anlatmak ister misin?",
+                "Toplumsal olayları çocuklara basitçe anlatabilir misin?",
+                "Milli ve kültürel değerleri aktarmak senin için önemli mi?",
+                "Öğretmenlik mesleğini seviyor musun?"
+            ],
+            "Tarih": [
+                "Geçmiş medeniyetleri, savaşları ve anlaşmaları araştırmak hobin midir?",
+                "Eski belgeleri okumak, arşivlerde zaman geçirmek ve detaylarda kaybolmak ister misin?",
+                "Olaylar arasında neden-sonuç ilişkisi kurmayı sever misin?",
+                "Akademik bir kariyer yapmayı düşünür müsün?"
+            ],
+            "Coğrafya": [
+                "Haritalar, iklimler, dağlar ve ülkeler ilgini çeker mi?",
+                "Doğa olaylarının nedenlerini araştırmayı sever misin?",
+                "Gezmeyi ve yerinde gözlem yapmayı sever misin?",
+                "Dünyanın fiziki ve beşeri yapısını incelemek ister misin?"
+            ],
+            "İlahiyat": [
+                "Dini metinleri (Kuran, Hadis) derinlemesine incelemek ve yorumlamak ilgini çeker mi?",
+                "Topluma manevi rehberlik etmek (İmam, Vaiz, Öğretmen) ister misin?",
+                "Arapça öğrenmeye hevesli misin?",
+                "Felsefi ve dini tartışmaları sever misin?"
+            ],
+            "Radyo, Televizyon ve Sinema": [ // İsim Düzeltildi
+                "Kamera arkası, senaryo yazımı veya yönetmenlik ilgini çeker mi?",
+                "Film izlerken teknik detaylara (ışık, kurgu) dikkat eder misin?",
+                "Yaratıcı projeler üretmek ve medya sektöründe çalışmak ister misin?",
+                "Düzensiz çalışma saatlerine uyum sağlayabilir misin?"
+            ],
+            "Gazetecilik": [
+                "Meraklı bir yapın var mı, gerçeğin peşinden koşmak ister misin?",
+                "Yazı yazmayı ve haber oluşturmayı sever misin?",
+                "İnsanlarla röportaj yapmak ve sokağın nabzını tutmak ilgini çeker mi?",
+                "Baskı altında ve hızlı çalışabilir misin?"
+            ],
+            "Halkla İlişkiler ve Tanıtım": [
+                "İnsanlarla iletişim kurmak ve ikna etmek senin işin mi?",
+                "Marka yönetimi, reklam kampanyaları ve etkinlik organizasyonu ilgini çeker mi?",
+                "Kriz anlarında sakin kalıp çözüm üretebilir misin?",
+                "Dış görünüşüne ve diksiyonuna özen gösterir misin?"
+            ],
+            "Sanat Tarihi": [
+                "Müzeleri gezmek, tabloları ve heykelleri incelemek sana keyif verir mi?",
+                "Eserlerin dönemlerini ve sanatçılarını araştırmayı sever misin?",
+                "Görsel hafızan kuvvetli mi?",
+                "Kültür ve turizm bakanlığında veya müzelerde çalışmak ister misin?"
+            ],
+            "Türk Dili ve Edebiyatı": [
+                "Eski Türkçe metinleri (Osmanlıca) çözmek ilgini çeker mi?",
+                "Şiir, roman ve hikaye analizleri yapmaktan hoşlanır mısın?",
+                "Edebiyat eleştirmeni veya yazar olmak ister misin?",
+                "Kütüphanelerde vakit geçirmeyi sever misin?"
+            ],
+            "Reklamcılık": [
+                "Yaratıcı fikirler bulmak ve slogan üretmek hoşuna gider mi?",
+                "Tüketici davranışlarını analiz etmek ister misin?",
+                "Trendleri takip eder misin?",
+                "Hayal gücüne güveniyor musun?"
+            ],
+            "Yeni Medya ve İletişim": [
+                "Sosyal medya algoritmaları, dijital içerik üretimi ilgini çeker mi?",
+                "YouTuber, Influencer yönetimi veya dijital pazarlama alanında çalışmak ister misin?",
+                "Teknoloji ve iletişimi birleştirmek ister misin?",
+                "Sürekli değişen dijital dünyaya ayak uydurabilir misin?"
+            ],
+            "Gastronomi ve Mutfak Sanatları": [ // İsim Düzeltildi
+                "Mutfakta yeni tatlar denemeyi ve yemek yapmayı tutku derecesinde sever misin?",
+                "Yemek yaparken saatlerin nasıl geçtiğini unutur musun?",
+                "Yoğun, sıcak ve stresli mutfak ortamında, ayakta çalışmaya dayanabilir misin?",
+                "Kendi restoranını açmak veya ünlü bir şef olmak hayalin mi?"
+            ],
+            "Çizgi Film ve Animasyon": [
+                "Oyun karakterleri, 3D animasyonlar veya çizgi filmler tasarlamak hayalin mi?",
+                "Saatlerce bilgisayar başında detaylı çizimler ve görsel efektlerle uğraşabilir misin?",
+                "Hayal gücünün çok geniş olduğunu ve yaratıcı fikirler üretebildiğini düşünüyor musun?",
+                "Sanat ile dijital teknolojiyi bir araya getirmek ilgini çeker mi?"
+            ],
+            "İslami İlimler": [
+                "Arapça, tefsir, hadis ve fıkıh gibi alanlarda derinlemesine akademik çalışmalar yapmak ister misin?",
+                "İslam tarihi ve dini felsefeler üzerine okumalar yapmayı sever misin?",
+                "Toplumu dini konularda aydınlatmak ve eğitimci/akademisyen olmak ister misin?",
+                "Ezber yeteneğine ve metin analizine güveniyor musun?"
+            ]
+        },
+
+        "DİL": {
+            "İngilizce Öğretmenliği": [
+                "İngilizceyi başkalarına öğretmekten keyif alır mısın?",
+                "Çocuklarla veya gençlerle iletişim kurmayı sever misin?",
+                "Dilin gramer yapısını anlatmak senin için kolay mı?",
+                "Sabırlı bir öğretmen olabilir misin?"
+            ],
+            "İngiliz Dili ve Edebiyatı": [
+                "İngiliz romanlarını, şiirlerini ve tiyatrolarını orijinal dilinde okumak ister misin?",
+                "Edebi metinleri derinlemesine analiz etmeyi sever misin?",
+                "Kültür araştırmaları yapmak ilgini çeker mi?",
+                "Akademik bir dil kariyeri düşünür müsün?"
+            ],
+            "Mütercim-Tercümanlık": [
+                "Bir dilden diğerine anlık çeviri yapmak (Simultane) seni heyecanlandırır mı?",
+                "Farklı kültürler arasında köprü olmak ister misin?",
+                "Yazılı metinleri çevirirken en doğru kelimeyi bulmak için uğraşır mısın?",
+                "Dikkatli ve titiz bir yapın var mı?"
+            ],
+            "Turizm Rehberliği": [
+                "Gezmeyi, yeni yerler görmeyi ve anlatmayı sever misin?",
+                "Farklı insanlarla tanışmak ve sosyalleşmek yaşam tarzın mı?",
+                "Tarih, sanat ve kültür konularına ilgin var mı?",
+                "Sürekli seyahat halinde olmak seni yormaz mı?"
+            ],
+            "Çeviribilim": [
+                "Sadece dilleri çevirmek değil, çeviri teorileri ve dilin yapısı üzerine de çalışmak ister misin?",
+                "Çeviri yazılımları (CAT Tools) ve yapay zeka çeviri araçlarına ilgi duyuyor musun?",
+                "Farklı metin türlerinde (teknik, tıbbi, hukuki) profesyonel çeviriler yapmak ister misin?",
+                "İki dil arasında kültürel köprüler kurarken ince detaylara dikkat eder misin?"
+            ],
+            "Kore Dili ve Edebiyatı": [
+                "Kore kültürü, tarihi ve edebi eserleri seni heyecanlandırıyor mu?",
+                "Tamamen farklı bir alfabe (Hangul) ve dil yapısı öğrenmek için sabrın var mı?",
+                "Türkiye'deki veya Kore'deki uluslararası şirketlerde çevirmen/uzman olarak çalışmak ister misin?",
+                "Uzak Doğu Asya'nın hızla gelişen ekonomisi ve popüler kültürü ilgini çekiyor mu?"
+            ],
+            "Japon Dili ve Edebiyatı": [
+                "Japon kültürü, animeleri, teknolojisi veya edebiyatına özel bir ilgin var mı?",
+                "Kanji, Hiragana ve Katakana gibi karmaşık yazı sistemlerini öğrenmek gözünü korkutur mu? (Hayır cevabı puan kazandırır)",
+                "Son derece disiplinli ve saygıya dayalı bir kültürün dilini profesyonelce kullanmak ister misin?",
+                "Otomotiv veya teknoloji gibi alanlarda Japon şirketleriyle çalışmak ilgini çeker mi?"
+            ]
+        },
+
+        "TYT": {
+            "İlk ve Acil Yardım": [
+                "Ambulans sireni, kan ve acil durum stresi altında sakin kalabilir misin?",
+                "Kriz anlarında hızlı ve doğru karar verme yeteneğine sahip misin?",
+                "Nöbet usulü, düzensiz saatlerde çalışmak senin için sorun olur mu? (Hayır cevabı puan kazandırır)",
+                "Fiziksel olarak güç gerektiren işlerde (hasta taşıma vb.) zorlanır mısın? (Hayır cevabı puan kazandırır)"
+            ],
+            "Bilgisayar Programcılığı": [
+                "Bilgisayar başında uzun saatler boyunca kod yazmak seni sıkar mı? (Hayır cevabı puan kazandırır)",
+                "Problem çözmeyi ve mantıksal bulmacalarla uğraşmayı sever misin?",
+                "Teknolojiyi sadece kullanmak değil, nasıl yapıldığını da öğrenmek ister misin?",
+                "Sürekli kendini geliştirmeye ve yeni şeyler öğrenmeye açık mısın?"
+            ],
+            "Ağız ve Diş Sağlığı": [
+                "Diş hekiminin yanında asistanlık yapıp tedavi sürecini organize etmek ister misin?",
+                "Sterilizasyon, hijyen ve düzen konularında son derece titiz misindir?",
+                "İnsanlarla iletişim kurmayı ve hastaları rahatlatmayı sever misin?",
+                "El becerisine dayalı pratik işlerde kendine güvenir misin?"
+            ],
+            "Anestezi": [
+                "Ameliyathane ortamında, doktorlarla omuz omuza çalışmak ister misin?",
+                "Hastanın uyutulması ve yaşam bulgularının takibi gibi hayati konularda sorumluluk alabilir misin?",
+                "Dikkat gerektiren, anlık müdahalelerin önemli olduğu durumlarda soğukkanlı mısındır?",
+                "İlaç dozajları ve tıbbi cihazların kullanımı ilgini çeker mi?"
+            ],
+            "Adalet": [
+                "Hukuk ve adalet konularına her zaman ilgi duyar mısın?",
+                "Evrak işleri, dosya düzenleme ve resmi yazışmalar yapmak seni sıkar mı? (Hayır cevabı puan kazandırır)",
+                "Adliye, mahkeme veya hukuk bürolarında çalışmak sana uygun mu?",
+                "Kurallara ve kanunlara titizlikle uyan, disiplinli bir yapın var mı?"
+            ],
+            "Aşçılık": [
+                "Mutfakta yeni tarifler denemekten ve yemek yapmaktan büyük keyif alır mısın?",
+                "Sıcak, hızlı tempolu ve stresli bir mutfak ortamında çalışmaya dayanabilir misin?",
+                "Yemek yaparken sadece lezzete değil, sunuma da (görsellik) önem verir misin?",
+                "Ayakta uzun süre çalışmak senin için fiziksel bir engel yaratır mı? (Hayır cevabı puan kazandırır)"
+            ],
+            "Sivil Havacılık Kabin Hizmetleri": [
+                "Uçakta seyahat etmekten ve sürekli yeni yerlere uçmaktan heyecan duyar mısın?",
+                "Farklı kültürlerden insanlarla iletişim kurmayı sever misin?",
+                "Kriz anlarında (türbülans, acil durum) yolcuları sakinleştirebilecek yapıda mısın?",
+                "Kişisel bakımına, dış görünüşüne ve diksiyonuna her zaman özen gösterir misin?"
+            ],
+            "Tıbbi Görüntüleme Teknikleri": [
+                "Hastanelerde MR, Röntgen, Tomografi cihazlarını kullanmak ilgini çeker mi?",
+                "Teknolojik cihazları ve bilgisayar programlarını kullanmaya yatkın mısın?",
+                "Karanlık odalarda veya cihaz başında uzun süre kalmak seni rahatsız eder mi? (Hayır cevabı puan kazandırır)",
+                "İnsan anatomi yapısını radyolojik görüntüler üzerinden incelemek ister misin?"
+            ]
+        }
+    };
+
+    // --- DEĞİŞKENLER ---
+    let secilenAlan = "";
+    let secilenBolumler = [];
+    let sorulacakSorular = []; // {bolum: "Yazılım", soru: "..."} formatında
+    let aktifSoruIndex = 0;
+    let puanlar = {}; 
+
+    // ADIM 1: Alan Seçimi
+    function alanSec(alan) {
+        secilenAlan = alan;
+        document.getElementById('step1').style.display = 'none';
+        document.getElementById('step2').style.display = 'block';
+        bolumleriListele();
+        ilerlemeGuncelle(25);
+    }
+
+    // ADIM 2: Bölümleri Listele
+    function bolumleriListele() {
+        const listeDiv = document.getElementById('bolumListesi');
+        listeDiv.innerHTML = "";
+        
+        // O alana ait tanımlı bölümleri getir
+        const bolumler = bolumVerileri[secilenAlan] || {};
+        
+        Object.keys(bolumler).forEach(bolumAdi => {
+            listeDiv.innerHTML += `
+                <div class="col-md-6">
+                    <input type="checkbox" class="btn-check" id="btn-${bolumAdi}" value="${bolumAdi}" onchange="bolumSecimKontrol('${bolumAdi}')">
+                    <label class="btn-check-label w-100 p-3 text-start d-flex align-items-center" for="btn-${bolumAdi}">
+                        <div class="form-check-circle me-3" style="width: 20px; height: 20px; border: 2px solid #cbd5e1; border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+                            <i class="fa-solid fa-check text-white" style="font-size: 10px;"></i>
+                        </div>
+                        ${bolumAdi}
+                    </label>
+                </div>
+            `;
+        });
+
+        if(Object.keys(bolumler).length === 0) {
+            listeDiv.innerHTML = "<div class='alert alert-warning'>Bu alan için henüz soru havuzu oluşturulmadı. Lütfen SAY, EA veya SÖZ seçiniz.</div>";
+        }
+    }
+
+    function bolumSecimKontrol(bolumAdi) {
+        const checkbox = document.getElementById(`btn-${bolumAdi}`);
+        if(checkbox.checked) {
+            secilenBolumler.push(bolumAdi);
+        } else {
+            secilenBolumler = secilenBolumler.filter(b => b !== bolumAdi);
+        }
+    }
+
+    // ADIM 3: Soruları Hazırla ve Başla
+    function sorularaGec() {
+        if(secilenBolumler.length < 2) {
+            alert("Lütfen karşılaştırma yapabilmemiz için en az 2 bölüm seçin!");
+            return;
+        }
+
+        // Seçilen bölümlerin sorularını havuza at ve karıştır
+        sorulacakSorular = [];
+        puanlar = {};
+
+        secilenBolumler.forEach(bolum => {
+            puanlar[bolum] = 0; // Puanları sıfırla
+            bolumVerileri[secilenAlan][bolum].forEach(soru => {
+                sorulacakSorular.push({
+                    bolum: bolum,
+                    metin: soru
+                });
+            });
+        });
+
+        // Soruları karıştır (Random)
+        sorulacakSorular.sort(() => Math.random() - 0.5);
+
+        document.getElementById('step2').style.display = 'none';
+        document.getElementById('step3').style.display = 'block';
+        soruGoster();
+        ilerlemeGuncelle(50);
+    }
+
+    // Soruyu Ekrana Bas
+    function soruGoster() {
+        if(aktifSoruIndex >= sorulacakSorular.length) {
+            sonuclariGoster();
+            return;
+        }
+
+        const soruObj = sorulacakSorular[aktifSoruIndex];
+        document.getElementById('soruKategoriBaslik').innerText = `${soruObj.bolum} ile ilgili soru:`;
+        document.getElementById('soruMetni').innerText = soruObj.metin;
+        
+        // İlerleme çubuğunu soru sayısına göre ilerlet
+        let yuzde = 50 + ((aktifSoruIndex / sorulacakSorular.length) * 40);
+        ilerlemeGuncelle(yuzde);
+    }
+
+    // --- YENİ AKILLI CEVAP FONKSİYONU ---
+    function cevapVer(puan) {
+        const soruObj = sorulacakSorular[aktifSoruIndex];
+        
+        // Soru metninde "(Hayır cevabı puan kazandırır)" ibaresi var mı?
+        // Örn: "Kan görmekten korkar mısın? (Hayır cevabı puan kazandırır)"
+        let tersSoru = soruObj.metin.includes("(Hayır");
+        
+        let eklenecekPuan = puan;
+
+        // Eğer ters soruysa ve kullanıcı "Hayır" (0) dediyse -> Puan 1 olmalı.
+        // Eğer ters soruysa ve kullanıcı "Evet" (1) dediyse -> Puan 0 olmalı.
+        if (tersSoru) {
+            if (puan === 0) eklenecekPuan = 1;      // Hayır dedi, +1 puan aldı
+            if (puan === 1) eklenecekPuan = 0;      // Evet dedi, 0 puan aldı
+            // Kararsız (0.5) değişmez.
+        }
+        
+        puanlar[soruObj.bolum] += eklenecekPuan;
+        
+        aktifSoruIndex++;
+        soruGoster();
+    }
+
+    // ADIM 4: Sonuç Hesapla
+    function sonuclariGoster() {
+        document.getElementById('step3').style.display = 'none';
+        document.getElementById('step4').style.display = 'block';
+        ilerlemeGuncelle(100);
+
+        const sonucDiv = document.getElementById('sonucListesi');
+        sonucDiv.innerHTML = "";
+
+        const siraliBolumler = Object.keys(puanlar).sort((a,b) => {
+            let aYuzde = (puanlar[a] / bolumVerileri[secilenAlan][a].length);
+            let bYuzde = (puanlar[b] / bolumVerileri[secilenAlan][b].length);
+            return bYuzde - aYuzde;
+        });
+
+        siraliBolumler.forEach(bolum => {
+            const soruSayisi = bolumVerileri[secilenAlan][bolum].length;
+            const alinanPuan = puanlar[bolum];
+            let yuzde = Math.round((alinanPuan / soruSayisi) * 100);
+            
+            // Renk belirle
+            let renk = "linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%)";
+            if(yuzde < 50) renk = "#94a3b8"; // slate-400
+            if(yuzde > 80) renk = "linear-gradient(90deg, #10b981 0%, #34d399 100%)"; // emerald
+
+            sonucDiv.innerHTML += `
+                <div class="mb-4 bg-light p-4 rounded-4 border">
+                    <div class="d-flex justify-content-between mb-3 align-items-center">
+                        <span class="fw-bold fs-5 text-dark"><i class="fa-solid fa-star me-2 text-warning"></i>${bolum}</span>
+                        <span class="badge bg-white text-dark border px-3 py-2 rounded-pill shadow-sm">%${yuzde} Uygun</span>
+                    </div>
+                    <div class="progress" style="height: 16px; background-color: #f1f5f9;">
+                        <div class="progress-bar" role="progressbar" style="width: ${yuzde}%; background: ${renk}; border-radius: 10px;"></div>
+                    </div>
+                </div>
+            `;
+        });
+
+        kazananBolum = siraliBolumler[0];
+    }
+
+    let kazananBolum = "";
+
+    function anaSayfayaGit() {
+        window.location.href = `index.html?bolum=${encodeURIComponent(kazananBolum)}`;
+    }
+
+    function ilerlemeGuncelle(val) {
+        document.getElementById('progressBar').style.width = val + "%";
+    }
+
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

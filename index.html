@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLock: Tercih ve Puan Rehberi - Üniversite Rehberi</title>
+    <meta name="description"
+        content="Üniversite tercihlerinizde en doğru verilerle yanınızdayız. YÖK Atlas verileriyle desteklenen rehberimizle geleceğinizi şekillendirin.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            /* Indigo */
+            --primary-dark: #4f46e5;
+            --secondary: #ec4899;
+            /* Pink */
+            --bg-color: #f8fafc;
+            /* Slate 50 */
+            --surface: #ffffff;
+            --text-main: #0f172a;
+            /* Slate 900 */
+            --text-muted: #64748b;
+            /* Slate 500 */
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+        }
+
+        /* Navbar */
+        .navbar {
+            background: rgba(255, 255, 255, 0.85) !important;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            padding: 15px 0;
+            transition: all 0.3s ease;
+        }
+
+        .navbar-brand {
+            color: var(--text-main) !important;
+            font-weight: 800;
+            font-size: 1.4rem;
+            letter-spacing: -0.5px;
+        }
+
+        .nav-link {
+            color: var(--text-muted) !important;
+            font-weight: 500;
+            margin-left: 15px;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            color: var(--primary) !important;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 120px 0 100px 0;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 50%;
+            top: -100px;
+            left: -100px;
+            filter: blur(60px);
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            bottom: -50px;
+            right: -50px;
+            filter: blur(40px);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-weight: 800;
+            font-size: 3.5rem;
+            letter-spacing: -1px;
+            margin-bottom: 20px;
+            text-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Search Container */
+        .search-container {
+            background: var(--surface);
+            border-radius: 24px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+            transform: translateY(-50px);
+            position: relative;
+            z-index: 10;
+        }
+
+        .form-control,
+        .form-select {
+            border-radius: 14px;
+            border: 1.5px solid #e2e8f0;
+            padding: 14px 20px;
+            font-size: 1rem;
+            color: var(--text-main);
+            transition: all 0.3s;
+            background-color: #f8fafc;
+        }
+
+        .form-control:focus,
+        .form-select:focus {
+            box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
+            border-color: var(--primary);
+            background-color: var(--surface);
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            border: none;
+            border-radius: 14px;
+            padding: 14px 24px;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
+        }
+
+        /* Cards */
+        .card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            border: none;
+            border-radius: 20px;
+            background: var(--surface);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+            height: 100%;
+            overflow: hidden;
+            border: 1px solid rgba(0, 0, 0, 0.02);
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+            border-color: rgba(99, 102, 241, 0.2);
+        }
+
+        .card-body {
+            padding: 25px;
+        }
+
+        .badge-custom {
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--primary);
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.85rem;
+        }
+
+        .univ-title {
+            font-weight: 700;
+            color: var(--text-main);
+            font-size: 1.25rem;
+            line-height: 1.4;
+        }
+
+        .univ-subtitle {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        .card hr {
+            border-color: #e2e8f0;
+            margin: 20px 0;
+        }
+
+        .btn-outline-danger {
+            border-radius: 12px;
+            font-weight: 600;
+            padding: 10px;
+            transition: all 0.3s;
+        }
+
+        /* Modal */
+        .modal-content {
+            border: none;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+
+        .modal-header {
+            background: #ffffff;
+            border-bottom: 1px solid #f1f5f9;
+            padding: 25px 30px;
+        }
+
+        .modal-title {
+            font-weight: 800;
+            color: var(--text-main);
+        }
+
+        .btn-close {
+            background-color: #f1f5f9;
+            border-radius: 50%;
+            padding: 10px;
+            opacity: 1;
+            transition: background-color 0.2s;
+        }
+
+        .btn-close:hover {
+            background-color: #e2e8f0;
+        }
+
+        .modal-body {
+            padding: 30px;
+            background-color: #f8fafc;
+        }
+
+        .info-box {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 25px;
+            border: 1px solid #e2e8f0;
+            height: 100%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+        }
+
+        .info-box h5 {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-box.bolum h5 {
+            color: var(--primary);
+        }
+
+        .info-box.konum h5 {
+            color: #10b981;
+        }
+
+        .btn-yok-atlas {
+            background: linear-gradient(135deg, #ef4444, #dc2626);
+            color: white;
+            font-weight: 600;
+            border-radius: 14px;
+            padding: 12px;
+            border: none;
+            transition: all 0.3s;
+        }
+
+        .btn-yok-atlas:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(239, 68, 68, 0.2);
+            color: white;
+        }
+
+        .score-box {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            padding: 15px;
+            text-align: center;
+            flex: 1;
+        }
+
+        .score-box .label {
+            display: block;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .score-box .value {
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+
+        .score-box.taban .value {
+            color: var(--primary);
+        }
+
+        .score-box.tavan .value {
+            color: #10b981;
+        }
+
+        .loader {
+            width: 48px;
+            height: 48px;
+            border: 5px solid #e2e8f0;
+            border-bottom-color: var(--primary);
+            border-radius: 50%;
+            display: inline-block;
+            box-sizing: border-box;
+            animation: rotation 1s linear infinite;
+        }
+
+        .btn-robot-cta {
+            display: none;
+        }
+
+        .feature-teaser {
+            background: white;
+            border-radius: 16px;
+            padding: 25px;
+            margin-top: 40px;
+            position: relative;
+            z-index: 10;
+            border: 1px solid rgba(0,0,0,0.05);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        .hero {
+            padding: 120px 0 100px;
+            background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background: linear-gradient(to top, #f8fafc, transparent);
+        }
+
+        .btn-load-more {
+            background: white;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+            padding: 15px 40px;
+            border-radius: 100px;
+            font-weight: 700;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 6px -1px rgba(99, 102, 241, 0.1);
+        }
+
+        .btn-load-more:hover {
+            background: var(--primary);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.3);
+        }
+
+        .btn-load-more:active {
+            transform: translateY(0);
+        }
+
+        .btn-load-more i {
+            transition: transform 0.3s;
+        }
+
+        .btn-load-more:hover i {
+            transform: translateY(3px);
+        }
+
+        @keyframes rotation {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">🎓 EduLock: Tercih ve Puan Rehberi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#anaMenu"
+                aria-controls="anaMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="anaMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fa-solid fa-house me-1"></i> Ana Sayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="rehber.html"><i class="fa-solid fa-robot me-1"></i> Tercih Robotu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hakkimizda.html"><i class="fa-solid fa-circle-info me-1"></i> Hakkımızda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="iletisim.html"><i class="fa-solid fa-envelope me-1"></i> İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="container hero-content">
+            <h1 class="display-3 fw-bold mb-3">Geleceğini Şekillendir</h1>
+            <p class="fs-5 opacity-75 mb-0">Güncel verilerle hedeflerine en uygun üniversiteyi ve bölümü keşfet.</p>
+        </div>
+    </div>
+
+    <div class="container pb-5">
+        <div class="feature-teaser mb-5">
+            <div class="row align-items-center">
+                <div class="col-md-9 text-center text-md-start">
+                    <h5 class="fw-bold mb-1 text-primary"><i class="fa-solid fa-wand-magic-sparkles me-2"></i>Karar Veremiyor musun?</h5>
+                    <p class="text-muted small mb-0">4 adımlık testimizi çöz, karakterine ve yeteneklerine en uygun mesleği robotumuzla keşfet.</p>
+                </div>
+                <div class="col-md-3 text-center text-md-end mt-3 mt-md-0">
+                    <a href="rehber.html" class="btn btn-primary btn-sm px-4 py-2 rounded-pill fw-bold shadow-sm">
+                        Robotu Dene
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="search-container mb-5">
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <input type="text" id="sehirInput" class="form-control" placeholder="Hangi Şehir? (Örn: Eskişehir)">
+                </div>
+                <div class="col-md-4">
+                    <input type="text" id="bolumInput" class="form-control" placeholder="Hangi Bölüm? (Örn: Hukuk)">
+                </div>
+                <div class="col-md-3">
+                    <select id="puanTuruSelect" class="form-select">
+                        <option value="Tümü" selected>Tüm Puan Türleri</option>
+                        <option value="SAY">Sayısal (SAY)</option>
+                        <option value="EA">Eşit Ağırlık (EA)</option>
+                        <option value="SÖZ">Sözel (SÖZ)</option>
+                        <option value="DİL">Yabancı Dil (DİL)</option>
+                    </select>
+                </div>
+                <div class="col-md-2 d-grid">
+                    <button onclick="yeniArama()" class="btn btn-primary"><i
+                            class="fa-solid fa-magnifying-glass me-2"></i>Ara</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="liste" class="row g-4"></div>
+
+        <div class="text-center mt-5">
+            <button id="btnDahaFazla" class="btn btn-load-more" onclick="dahaFazlaGetir()" style="display:none;">
+                <span>Diğer Bölümleri Keşfet</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div id="yukleniyorYazisi" class="mt-4" style="display:none;">
+                <span class="loader"></span>
+                <p class="text-muted mt-3 fw-medium">Veriler getiriliyor, lütfen bekleyin...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="detayModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header d-flex align-items-center">
+                    <h4 class="modal-title mb-0" id="modalBaslik">Üniversite Detayı</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="info-box bolum">
+                                <h5><i class="fa-solid fa-graduation-cap"></i> Bölüm Bilgileri</h5>
+                                <p class="mb-4"><strong>Bölüm:</strong> <span id="mdlBolum"
+                                        class="text-dark fw-medium"></span></p>
+
+                                <div class="d-flex flex-wrap gap-3 mb-4">
+                                    <div class="score-box taban flex-fill" style="min-width: 140px;">
+                                        <span class="label">Taban Puan</span>
+                                        <span class="value" id="mdlTaban"></span>
+                                    </div>
+                                    <div class="score-box tavan flex-fill" style="min-width: 140px;">
+                                        <span class="label">Tavan Puan</span>
+                                        <span class="value" id="mdlTavan"></span>
+                                    </div>
+                                </div>
+
+                                <p class="mb-4"><strong>Kontenjan:</strong> <span id="mdlKontenjan"
+                                        class="badge bg-dark ms-2 px-2 py-1"></span></p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-box konum h-100">
+                                <h5><i class="fa-solid fa-map-location-dot"></i> Şehir ve Kampüs</h5>
+
+                                <div class="mt-4 mb-4">
+                                    <p class="mb-2"><i class="fa-solid fa-location-dot text-muted me-2"></i> <strong>Konum:</strong> 
+                                        <a id="mdlKonumLink" href="#" target="_blank" class="text-primary text-decoration-none fw-medium">
+                                            <span id="mdlKonum"></span> <i class="fa-solid fa-up-right-from-square ms-1" style="font-size: 0.8rem;"></i>
+                                        </a>
+                                    </p>
+                                    <a id="mdlGsbLink" href="#" target="_blank" class="btn btn-outline-primary w-100 mt-2 d-flex align-items-center justify-content-center gap-2" style="border-radius: 12px; padding: 12px;">
+                                        <i class="fa-solid fa-bed"></i> GSB Yurtlarını Haritada Gör
+                                    </a>
+                                </div>
+
+                                <div id="alertOgrenciDostu"
+                                    class="alert d-flex flex-column align-items-center justify-content-center py-4 mb-0"
+                                    role="alert" style="border-radius: 14px;">
+                                    <span class="fw-bold mb-1"><i class="fa-solid fa-face-smile me-2"></i>Öğrenci Dostu mu?</span>
+                                    <span id="mdlOgrenciDostu" class="fs-5 text-center"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-5 text-center text-muted border-top mt-5 bg-white">
+        <p class="mb-1">© 2026 <strong>EduLock: Tercih ve Puan Rehberi</strong> - Tüm hakları saklıdır.</p>
+        <p class="small">İletişim: <a href="iletisim.html" class="text-decoration-none text-primary">info@edulock.com.tr</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="universiteler.js"></script>
+
+    <script>
+        // Verileri universiteler.js dosyasından (universiteVerileri) alıyoruz.
+        let tumVeriler = (typeof universiteVerileri !== 'undefined') ? universiteVerileri : [];
+        let filtrelenmisVeriler = [];
+        let suankiSayfa = 1;
+        const sayfaBasinaKayit = 12; // Her sayfada 12 kart gösterilsin
+
+        // URL'den gelen parametreleri al (p: Puan Türü, bolum: Bölüm Adı)
+        const urlParams = new URLSearchParams(window.location.search);
+        const gelenPuan = urlParams.get('p');
+        const gelenBolum = urlParams.get('bolum');
+
+        if (gelenPuan) {
+            document.getElementById("puanTuruSelect").value = gelenPuan;
+        }
+        if (gelenBolum) {
+            document.getElementById("bolumInput").value = gelenBolum;
+        }
+
+        // Sayfa açıldığında verileri yükle
+        yeniArama();
+
+        function yeniArama() {
+            suankiSayfa = 1;
+            document.getElementById("liste").innerHTML = "";
+            filtreleVeGoster();
+        }
+
+        function dahaFazlaGetir() {
+            suankiSayfa++;
+            filtreleVeGoster();
+        }
+
+        function filtreleVeGoster() {
+            const btnDahaFazla = document.getElementById("btnDahaFazla");
+            const yukleniyor = document.getElementById("yukleniyorYazisi");
+            btnDahaFazla.style.display = "none";
+            yukleniyor.style.display = "block";
+
+            // Sadece ilk sayfa yüklenirken filtreleme yap
+            if (suankiSayfa === 1) {
+                const sehir = document.getElementById("sehirInput").value.toLowerCase();
+                const bolum = document.getElementById("bolumInput").value.toLowerCase();
+                const puanTuru = document.getElementById("puanTuruSelect").value;
+
+                filtrelenmisVeriler = tumVeriler.filter(item => {
+                    const sehirUygun = sehir ? item.sehir.toLowerCase().includes(sehir) : true;
+                    const bolumUygun = bolum ? item.bolum.toLowerCase().includes(bolum) : true;
+                    const puanTuruUygun = (puanTuru && puanTuru !== "Tümü") ? item.puanTuru === puanTuru : true;
+                    return sehirUygun && bolumUygun && puanTuruUygun;
+                });
+            }
+
+            // Gecikme ile göster (gerçekçi arama hissi için)
+            setTimeout(() => {
+                yukleniyor.style.display = "none";
+
+                if (filtrelenmisVeriler.length === 0 && suankiSayfa === 1) {
+                    document.getElementById("liste").innerHTML = '<div class="col-12"><div class="alert alert-warning p-4 rounded-4 text-center border-0 shadow-sm"><i class="fa-solid fa-circle-exclamation fs-3 mb-2 d-block"></i>Aradığınız kriterlere uygun sonuç bulunamadı.</div></div>';
+                    return;
+                }
+
+                const listeDiv = document.getElementById("liste");
+                const baslangicIndex = (suankiSayfa - 1) * sayfaBasinaKayit;
+                const gosterilecekData = filtrelenmisVeriler.slice(baslangicIndex, baslangicIndex + sayfaBasinaKayit);
+
+                gosterilecekData.forEach(item => {
+                    const itemString = JSON.stringify(item).replace(/"/g, '&quot;');
+                    const tabanGoster = (item.tabanPuan) ? item.tabanPuan : "Dolmadı";
+
+                    const kart = `
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card" onclick="detayGoster(${itemString})">
+                                <div class="card-body d-flex flex-column">
+                                    <div class="d-flex justify-content-between align-items-start mb-3">
+                                        <span class="badge-custom">${item.puanTuru}</span>
+                                        <div class="bg-light rounded-circle p-2 text-primary" style="width: 35px; height: 35px; display: flex; align-items: center; justify-content: center;">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </div>
+                                    </div>
+                                    <h5 class="univ-title text-truncate" title="${item.bolum}">${item.bolum}</h5>
+                                    <h6 class="univ-subtitle mb-3">${item.universite}</h6>
+                                    
+                                    <div class="mt-auto">
+                                        <p class="mb-3 text-muted"><i class="fa-solid fa-location-dot me-2 text-danger"></i>${item.sehir}</p>
+                                        <div class="d-flex justify-content-between align-items-center p-3 bg-light rounded-3 mb-3">
+                                            <span class="text-muted fw-medium fs-6">Taban Puan</span>
+                                            <strong class="text-primary fs-5">${tabanGoster}</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    listeDiv.innerHTML += kart;
+                });
+
+                if (baslangicIndex + sayfaBasinaKayit < filtrelenmisVeriler.length) {
+                    btnDahaFazla.style.display = "inline-flex";
+                }
+            }, 300);
+        }
+
+        // Tanımsız olan baslangic() çağrısı kaldırıldı.
+        
+        const sehirDostuVerileri = {
+            "eskisehir": { puan: 91, not: "A+" }, "ankara": { puan: 89, not: "A+" }, "canakkale": { puan: 88, not: "A+" },
+            "aydin": { puan: 87, not: "A+" }, "mugla": { puan: 86, not: "A+" }, "antalya": { puan: 85, not: "A+" },
+            "edirne": { puan: 85, not: "A+" }, "samsun": { puan: 85, not: "A+" }, "istanbul": { puan: 84, not: "A" },
+            "manisa": { puan: 84, not: "A" }, "tekirdag": { puan: 84, not: "A" }, "mersin": { puan: 84, not: "A" },
+            "izmir": { puan: 83, not: "A" }, "balikesir": { puan: 82, not: "A" }, "ordu": { puan: 82, not: "A" },
+            "trabzon": { puan: 81, not: "A" }, "bursa": { puan: 80, not: "A" }, "denizli": { puan: 78, not: "B" },
+            "giresun": { puan: 78, not: "B" }, "kirklareli": { puan: 78, not: "B" }, "bolu": { puan: 78, not: "B" },
+            "kirsehir": { puan: 77, not: "B" }, "kocaeli": { puan: 77, not: "B" }, "kayseri": { puan: 76, not: "B" },
+            "isparta": { puan: 75, not: "B" }, "sinop": { puan: 75, not: "B" }, "kutahya": { puan: 73, not: "C" },
+            "konya": { puan: 72, not: "C" }, "duzce": { puan: 71, not: "C" }, "zonguldak": { puan: 71, not: "C" },
+            "bartin": { puan: 70, not: "C" }, "sakarya": { puan: 70, not: "D" }, "yalova": { puan: 68, not: "D" },
+            "erzurum": { puan: 68, not: "D" }, "artvin": { puan: 67, not: "D" }, "sivas": { puan: 65, not: "D" },
+            "bilecik": { puan: 62, not: "D" }, "karabuk": { puan: 62, not: "D" }, "tunceli": { puan: 62, not: "D" },
+            "van": { puan: 61, not: "D" }, "rize": { puan: 59, not: "FF" }, "burdur": { puan: 57, not: "FF" },
+            "amasya": { puan: 56, not: "FF" }, "kirikkale": { puan: 56, not: "FF" }, "nigde": { puan: 56, not: "FF" },
+            "nevsehir": { puan: 55, not: "FF" }, "ardahan": { puan: 54, not: "FF" }, "kastamonu": { puan: 52, not: "FF" },
+            "siirt": { puan: 50, not: "FF" }, "erzincan": { puan: 49, not: "FF" }, "batman": { puan: 49, not: "FF" },
+            "mardin": { puan: 47, not: "FF" }, "agri": { puan: 47, not: "FF" }, "gumushane": { puan: 46, not: "FF" },
+            "aksaray": { puan: 46, not: "FF" }, "corum": { puan: 45, not: "FF" }, "afyonkarahisar": { puan: 42, not: "FF" },
+            "kars": { puan: 42, not: "FF" }, "bitlis": { puan: 41, not: "FF" }, "tokat": { puan: 41, not: "FF" },
+            "usak": { puan: 41, not: "FF" }, "cankiri": { puan: 40, not: "FF" }, "karaman": { puan: 40, not: "FF" },
+            "igdir": { puan: 39, not: "FF" }, "yozgat": { puan: 37, not: "FF" }, "sirnak": { puan: 33, not: "FF" },
+            "bayburt": { puan: 32, not: "FF" }, "mus": { puan: 30, not: "FF" }, "bingol": { puan: 27, not: "FF" },
+            "hakkari": { puan: 25, not: "FF" }
+        };
+
+        function sehirNormalize(text) {
+            if (!text) return "";
+            return text.toLowerCase()
+                .replace(/i̇/g, "i")
+                .replace(/ı/g, "i")
+                .replace(/ğ/g, "g")
+                .replace(/ü/g, "u")
+                .replace(/ş/g, "s")
+                .replace(/ö/g, "o")
+                .replace(/ç/g, "c")
+                .trim();
+        }
+
+        function detayGoster(item) {
+            document.getElementById('modalBaslik').innerText = item.universite;
+            document.getElementById('mdlBolum').innerText = item.bolum;
+            document.getElementById('mdlTaban').innerText = (item.tabanPuan) ? item.tabanPuan : "Dolmadı";
+            document.getElementById('mdlTavan').innerText = (item.tavanPuan) ? item.tavanPuan : "-";
+            document.getElementById('mdlKontenjan').innerText = item.kontenjan;
+
+            const konumMetni = (item.detaylar && item.detaylar.konum) ? item.detaylar.konum : item.sehir + " Kampüsü";
+            document.getElementById('mdlKonum').innerText = konumMetni;
+            document.getElementById('mdlKonumLink').href = `https://www.google.com/maps/search/${item.universite}+${konumMetni}`;
+            document.getElementById('mdlGsbLink').href = `https://www.google.com/maps/search/GSB+KYK+Yurdu+${item.sehir}`;
+
+            const normalizedSehir = sehirNormalize(item.sehir);
+            const sehirVerisi = sehirDostuVerileri[normalizedSehir];
+            
+            let dostuMu = "Veri Yok";
+            if (sehirVerisi) {
+                dostuMu = `${sehirVerisi.not} (${sehirVerisi.puan} Puan)`;
+            }
+
+            document.getElementById('mdlOgrenciDostu').innerText = dostuMu;
+            const alertKutu = document.getElementById('alertOgrenciDostu');
+
+            if (!sehirVerisi) {
+                alertKutu.className = "alert alert-secondary d-flex flex-column align-items-center justify-content-center py-4 mb-0";
+                alertKutu.style.backgroundColor = "#f8fafc";
+                alertKutu.style.borderColor = "#e2e8f0";
+                alertKutu.style.color = "#64748b";
+            } else {
+                const not = sehirVerisi.not;
+                if (not === "A+" || not === "A") {
+                    alertKutu.className = "alert alert-success d-flex flex-column align-items-center justify-content-center py-4 mb-0";
+                    alertKutu.style.backgroundColor = "#f0fdf4";
+                    alertKutu.style.borderColor = "#bbf7d0";
+                    alertKutu.style.color = "#166534";
+                } else if (not === "FF" || not === "D") {
+                    alertKutu.className = "alert alert-danger d-flex flex-column align-items-center justify-content-center py-4 mb-0";
+                    alertKutu.style.backgroundColor = "#fef2f2";
+                    alertKutu.style.borderColor = "#fecaca";
+                    alertKutu.style.color = "#991b1b";
+                } else {
+                    alertKutu.className = "alert alert-warning d-flex flex-column align-items-center justify-content-center py-4 mb-0";
+                    alertKutu.style.backgroundColor = "#fef3c7";
+                    alertKutu.style.borderColor = "#fde68a";
+                    alertKutu.style.color = "#92400e";
+                }
+            }
+
+            const myModal = new bootstrap.Modal(document.getElementById('detayModal'));
+            myModal.show();
+        }
+    </script>
+</body>
+
+</html>

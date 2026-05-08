@@ -1,0 +1,12 @@
+.vercel
+node_modules/ 
+*.log 
+.DS_Store 
+GeleceginiSec.API/ 
+bin/ 
+obj/ 
+*.dll 
+*.exe 
+*.pdb 
+.vs/ 
+appsettings*.json 
