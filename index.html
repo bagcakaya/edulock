@@ -324,6 +324,10 @@
             color: var(--primary);
         }
 
+        .score-box.siralama .value {
+            color: #f59e0b;
+        }
+
         .score-box.tavan .value {
             color: #10b981;
         }
@@ -515,11 +519,15 @@
                                         class="text-dark fw-medium"></span></p>
 
                                 <div class="d-flex flex-wrap gap-3 mb-4">
-                                    <div class="score-box taban flex-fill" style="min-width: 140px;">
+                                    <div class="score-box taban flex-fill" style="min-width: 100px;">
                                         <span class="label">Taban Puan</span>
                                         <span class="value" id="mdlTaban"></span>
                                     </div>
-                                    <div class="score-box tavan flex-fill" style="min-width: 140px;">
+                                    <div class="score-box siralama flex-fill" style="min-width: 100px;">
+                                        <span class="label">Başarı Sırası</span>
+                                        <span class="value" id="mdlSiralama"></span>
+                                    </div>
+                                    <div class="score-box tavan flex-fill" style="min-width: 100px;">
                                         <span class="label">Tavan Puan</span>
                                         <span class="value" id="mdlTavan"></span>
                                     </div>
@@ -636,6 +644,7 @@
                 gosterilecekData.forEach(item => {
                     const itemString = JSON.stringify(item).replace(/"/g, '&quot;');
                     const tabanGoster = (item.tabanPuan) ? item.tabanPuan : "Dolmadı";
+                    const siralamaGoster = (item.basariSirasi) ? Number(item.basariSirasi).toLocaleString('tr-TR') : "Belirtilmemiş";
 
                     const kart = `
                         <div class="col-md-6 col-lg-4">
@@ -653,8 +662,15 @@
                                     <div class="mt-auto">
                                         <p class="mb-3 text-muted"><i class="fa-solid fa-location-dot me-2 text-danger"></i>${item.sehir}</p>
                                         <div class="d-flex justify-content-between align-items-center p-3 bg-light rounded-3 mb-3">
-                                            <span class="text-muted fw-medium fs-6">Taban Puan</span>
-                                            <strong class="text-primary fs-5">${tabanGoster}</strong>
+                                            <div class="d-flex flex-column text-start">
+                                                <span class="text-muted small fw-medium">Taban Puan</span>
+                                                <strong class="text-primary fs-5">${tabanGoster}</strong>
+                                            </div>
+                                            <div class="d-flex flex-column text-end border-start ps-3">
+                                                <span class="text-muted small fw-medium">Sıralama</span>
+                                                <strong class="text-success fs-5">${siralamaGoster}</strong>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -715,6 +731,7 @@
             document.getElementById('modalBaslik').innerText = item.universite;
             document.getElementById('mdlBolum').innerText = item.bolum;
             document.getElementById('mdlTaban').innerText = (item.tabanPuan) ? item.tabanPuan : "Dolmadı";
+            document.getElementById('mdlSiralama').innerText = (item.basariSirasi) ? Number(item.basariSirasi).toLocaleString('tr-TR') : "Belirtilmemiş";
             document.getElementById('mdlTavan').innerText = (item.tavanPuan) ? item.tavanPuan : "-";
             document.getElementById('mdlKontenjan').innerText = item.kontenjan;
 
