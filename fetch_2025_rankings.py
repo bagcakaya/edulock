@@ -15,14 +15,13 @@ def fetch_and_merge():
         print(f"HATA: {js_file} dosyasi bulunamadi.")
         return
 
-    print("YOK Atlas API'sinden 2025 Basari Siralamalari cekiliyor...")
+    print("YOK Atlas API'sinden 2025 Basari Siralamalari ve Ilce Yerleske bilgileri cekiliyor...")
     
     rank_dict = {}
     page_size = 500
     current_page = 0
     total_elements = None
     
-    # 21,602 kayıt olduğu için page_size=500 ile yaklaşık 44 sayfa sürecektir
     while True:
         payload = {
             "filters": {
@@ -61,13 +60,37 @@ def fetch_and_merge():
                     for prog in content:
                         code = str(prog.get('kilavuzKodu', '')).strip()
                         sira = prog.get('basariSirasi')
+                        ilce = prog.get('fymkIlceAdi')
+                        
+                        # Ilce adini duzgun formatlayalim (örn: KOCASINAN -> Kocasinan)
+                        konum = ""
+                        if ilce and str(ilce).strip() not in ['', 'None', 'null', 'nan']:
+                            # Turkce i/I donusumlerini dikkate alarak capitalize yapalim
+                            ilce_str = str(ilce).strip()
+                            # Basit bas harf buyutme
+                            if len(ilce_str) > 0:
+                                ilce_clean = ilce_str[0].upper() + ilce_str[1:].lower()
+                            else:
+                                ilce_clean = ilce_str
+                            
+                            # MERKEZ veya Merkez kelimesini guzellestirelim
+                            if ilce_clean.lower() == 'merkez':
+                                konum = "Merkez Yerleşkesi"
+                            else:
+                                konum = f"{ilce_clean} Yerleşkesi"
+                        
+                        sira_val = ""
+                        if sira is not None and str(sira).strip() not in ['', 'None', 'null', 'nan', '0']:
+                            try:
+                                sira_val = int(float(str(sira).replace(' ', '').replace('.', '')))
+                            except:
+                                sira_val = sira
                         
                         if code:
-                            if sira is not None and str(sira).strip() not in ['', 'None', 'null', 'nan', '0']:
-                                try:
-                                    rank_dict[code] = int(float(str(sira).replace(' ', '').replace('.', '')))
-                                except:
-                                    rank_dict[code] = sira
+                            rank_dict[code] = {
+                                'sira': sira_val,
+                                'konum': konum
+                            }
                     
                     print(f" -> {len(content)} bolum okundu.")
                     success = True
@@ -85,16 +108,14 @@ def fetch_and_merge():
             print("\n❌ HATA: Sayfa cekilemedi, islem iptal ediliyor.")
             return
             
-        # Son sayfaya gelip gelmedigimizi kontrol et
-        # totalPages de kullanilabilir
         total_pages = data.get('totalPages', 0)
         if current_page >= total_pages - 1 or len(content) < page_size:
             break
             
         current_page += 1
-        time.sleep(0.1)  # Sunucuyu yormamak icin cok ufak bir bekleme süresi
+        time.sleep(0.1)
 
-    print(f"\nVeri cekme islemi tamamlandi! Toplam {len(rank_dict)} programin 2025 siralamasi alindi.")
+    print(f"\nVeri cekme islemi tamamlandi! Toplam {len(rank_dict)} programin bilgisi alindi.")
     
     # 3. universiteler.js dosyasini oku ve guncelle
     print(f"universiteler.js dosyasi yukleniyor ve guncelleniyor...")
@@ -109,15 +130,33 @@ def fetch_and_merge():
         return
 
     matched_count = 0
+    konum_updated = 0
     for item in uni_data:
         code = str(item.get('yokAtlasKodu', '')).strip()
         if code in rank_dict:
-            item['basariSirasi'] = rank_dict[code]
+            info = rank_dict[code]
+            item['basariSirasi'] = info['sira']
+            
+            # Yerleske konumunu ilce duzeyinde guncelle
+            new_konum = info['konum']
+            if new_konum:
+                if 'detaylar' not in item or not isinstance(item['detaylar'], dict):
+                    item['detaylar'] = {
+                        "konum": new_konum,
+                        "yurt": "GSB Haritada Gör",
+                        "mesafe": "Değişken",
+                        "ogrenciDostu": "Veri Yok"
+                    }
+                else:
+                    item['detaylar']['konum'] = new_konum
+                konum_updated += 1
+            
             matched_count += 1
         else:
             item['basariSirasi'] = '' # 2025 verisi yoksa bos kalsin
 
     print(f"Eslestirme tamamlandi: {len(uni_data)} programdan {matched_count} tanesi 2025 YKS siralamasi ile eslestirildi.")
+    print(f"Toplam {konum_updated} programin kampys konumu ilce bazli yerleske olarak guncellendi.")
 
     # 4. Kaydet
     with open(js_file, 'w', encoding='utf-8') as f:
@@ -125,7 +164,7 @@ def fetch_and_merge():
         json.dump(uni_data, f, ensure_ascii=False, indent=4)
         f.write(';')
         
-    print("Kaydedildi! Sitenizdeki tum veriler 2025 YKS siralamalari ile basariyla guncellendi.")
+    print("Kaydedildi! Sitenizdeki tum veriler 2025 YKS siralamalari ve ilce yerleske konumlari ile basariyla guncellendi.")
 
 if __name__ == '__main__':
     fetch_and_merge()
