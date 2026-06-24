@@ -63,6 +63,16 @@
         .email-link:hover {
             color: var(--primary);
         }
+
+        .store-badge img {
+            transition: transform 0.2s, box-shadow 0.2s;
+            border-radius: 8px;
+        }
+
+        .store-badge img:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(99, 102, 241, 0.2);
+        }
     </style>
 </head>
 <body>
@@ -97,7 +107,15 @@
                     <a href="mailto:info@edulock.com.tr" class="email-link">info@edulock.com.tr</a>
                     
                     <div class="mt-5 pt-4 border-top">
-                        <p class="small text-muted mb-0">Çok yakında mobil uygulamamızla da yanınızda olacağız!</p>
+                        <p class="fw-semibold text-muted mb-3"><i class="fa-solid fa-mobile-screen-button me-2 text-primary"></i>EduLock Mobil Uygulaması Yayında!</p>
+                        <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
+                            <a href="https://play.google.com/store/apps/details?id=com.agcakaya.edutakip" target="_blank" class="store-badge">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play'den İndirin" style="height: 46px;">
+                            </a>
+                            <a href="https://apps.apple.com/app/id6778349898" target="_blank" class="store-badge">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store'dan İndirin" style="height: 46px;">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
