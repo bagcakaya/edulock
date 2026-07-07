@@ -193,6 +193,29 @@
             font-size: 0.85rem;
         }
 
+        .badge-custom-type {
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.85rem;
+        }
+        .badge-devlet {
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--primary);
+        }
+        .badge-vakif {
+            background: rgba(236, 72, 153, 0.1);
+            color: var(--secondary);
+        }
+        .badge-kktc {
+            background: rgba(245, 158, 11, 0.1);
+            color: #d97706;
+        }
+        .badge-yurtdisi {
+            background: rgba(16, 185, 129, 0.1);
+            color: #059669;
+        }
+
         .univ-title {
             font-weight: 700;
             color: var(--text-main);
@@ -681,12 +704,30 @@
                     const tabanGoster = (item.tabanPuan) ? item.tabanPuan : "Dolmadı";
                     const siralamaGoster = (item.basariSirasi) ? Number(item.basariSirasi).toLocaleString('tr-TR') : "Belirtilmemiş";
 
+                    // Üniversite Türü belirleme
+                    const rawTuru = (item.detaylar && item.detaylar.turu) ? item.detaylar.turu : "DEVLET";
+                    let turuGoster = "Devlet";
+                    let turuClass = "badge-devlet";
+                    if (rawTuru === "VAKIF" || rawTuru === "VAKIF MYO") {
+                        turuGoster = "Vakıf";
+                        turuClass = "badge-vakif";
+                    } else if (rawTuru === "KKTC") {
+                        turuGoster = "KKTC";
+                        turuClass = "badge-kktc";
+                    } else if (rawTuru.includes("YURTDISI")) {
+                        turuGoster = "Yurtdışı";
+                        turuClass = "badge-yurtdisi";
+                    }
+
                     const kart = `
                         <div class="col-md-6 col-lg-4">
                             <div class="card" onclick="detayGoster(${itemString})">
                                 <div class="card-body d-flex flex-column">
                                     <div class="d-flex justify-content-between align-items-start mb-3">
-                                        <span class="badge-custom">${item.puanTuru}</span>
+                                        <div class="d-flex gap-2">
+                                            <span class="badge-custom">${item.puanTuru}</span>
+                                            <span class="badge-custom-type ${turuClass}">${turuGoster}</span>
+                                        </div>
                                         <div class="bg-light rounded-circle p-2 text-primary" style="width: 35px; height: 35px; display: flex; align-items: center; justify-content: center;">
                                             <i class="fa-solid fa-chevron-right"></i>
                                         </div>
@@ -762,8 +803,23 @@
                 .trim();
         }
 
-        function detayGoster(item) {
-            document.getElementById('modalBaslik').innerText = item.universite;
+         function detayGoster(item) {
+            // Üniversite Türü belirleme
+            const rawTuru = (item.detaylar && item.detaylar.turu) ? item.detaylar.turu : "DEVLET";
+            let turuGoster = "Devlet";
+            let turuClass = "badge-devlet";
+            if (rawTuru === "VAKIF" || rawTuru === "VAKIF MYO") {
+                turuGoster = "Vakıf";
+                turuClass = "badge-vakif";
+            } else if (rawTuru === "KKTC") {
+                turuGoster = "KKTC";
+                turuClass = "badge-kktc";
+            } else if (rawTuru.includes("YURTDISI")) {
+                turuGoster = "Yurtdışı";
+                turuClass = "badge-yurtdisi";
+            }
+
+            document.getElementById('modalBaslik').innerHTML = item.universite + ' <span class="badge-custom-type ' + turuClass + ' ms-2" style="font-size: 0.8rem; font-weight: 700; padding: 4px 10px; border-radius: 10px; display: inline-block; vertical-align: middle;">' + turuGoster + '</span>';
             document.getElementById('mdlBolum').innerText = item.bolum;
             document.getElementById('mdlTaban').innerText = (item.tabanPuan) ? item.tabanPuan : "Dolmadı";
             document.getElementById('mdlSiralama').innerText = (item.basariSirasi) ? Number(item.basariSirasi).toLocaleString('tr-TR') : "Belirtilmemiş";
