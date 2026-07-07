@@ -626,6 +626,13 @@
                     const puanTuruUygun = (puanTuru && puanTuru !== "Tümü") ? item.puanTuru === puanTuru : true;
                     return sehirUygun && bolumUygun && puanTuruUygun;
                 });
+
+                // Başarı sırasına göre en iyi dereceden en düşüğe doğru sırala
+                filtrelenmisVeriler.sort((a, b) => {
+                    const siralamaA = a.basariSirasi ? parseInt(a.basariSirasi) : Infinity;
+                    const siralamaB = b.basariSirasi ? parseInt(b.basariSirasi) : Infinity;
+                    return siralamaA - siralamaB;
+                });
             }
 
             // Gecikme ile göster (gerçekçi arama hissi için)
