@@ -667,13 +667,13 @@
 
             // Sadece ilk sayfa yüklenirken filtreleme yap
             if (suankiSayfa === 1) {
-                const sehir = document.getElementById("sehirInput").value.toLowerCase();
-                const bolum = document.getElementById("bolumInput").value.toLowerCase();
+                const sehir = turkceNormalize(document.getElementById("sehirInput").value);
+                const bolum = turkceNormalize(document.getElementById("bolumInput").value);
                 const puanTuru = document.getElementById("puanTuruSelect").value;
 
                 filtrelenmisVeriler = tumVeriler.filter(item => {
-                    const sehirUygun = sehir ? item.sehir.toLowerCase().includes(sehir) : true;
-                    const bolumUygun = bolum ? item.bolum.toLowerCase().includes(bolum) : true;
+                    const sehirUygun = sehir ? turkceNormalize(item.sehir).includes(sehir) : true;
+                    const bolumUygun = bolum ? turkceNormalize(item.bolum).includes(bolum) : true;
                     const puanTuruUygun = (puanTuru && puanTuru !== "Tümü") ? item.puanTuru === puanTuru : true;
                     return sehirUygun && bolumUygun && puanTuruUygun;
                 });
@@ -790,7 +790,7 @@
             "hakkari": { puan: 25, not: "FF" }
         };
 
-        function sehirNormalize(text) {
+        function turkceNormalize(text) {
             if (!text) return "";
             return text.toLowerCase()
                 .replace(/i̇/g, "i")
@@ -801,6 +801,10 @@
                 .replace(/ö/g, "o")
                 .replace(/ç/g, "c")
                 .trim();
+        }
+
+        function sehirNormalize(text) {
+            return turkceNormalize(text);
         }
 
          function detayGoster(item) {
