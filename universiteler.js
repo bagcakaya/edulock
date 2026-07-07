@@ -1,7 +1,7 @@
 const universiteVerileri = [
     {
         "universite": "ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Psikoloji (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 380.15232,
@@ -20,7 +20,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Siyaset Bilimi ve Uluslararası İlişkiler (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 337.21961,
@@ -39,7 +39,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Mimarlık (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 358.12963,
@@ -58,7 +58,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Bilgisayar Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 442.53227,
@@ -77,7 +77,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 430.68304,
@@ -96,7 +96,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Endüstri Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 419.16586,
@@ -115,7 +115,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İnşaat Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 335.75752,
@@ -134,7 +134,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Makine Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 403.5398,
@@ -153,7 +153,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Malzeme Bilimi ve Nanoteknoloji Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 386.70083,
@@ -172,7 +172,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Biyomühendislik (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 327.86793,
@@ -191,7 +191,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Moleküler Biyoloji ve Genetik (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 369.34897,
@@ -210,7 +210,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Ekonomi (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 340.28688,
@@ -229,7 +229,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İşletme (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 357.34521,
@@ -837,7 +837,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ADA KENT ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Diş Hekimliği (%25 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 416.72342,
@@ -856,7 +856,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ADA KENT ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Diş Hekimliği (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 453.03554,
@@ -875,7 +875,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ADA KENT ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İngilizce Öğretmenliği (İngilizce) (%25 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 195.3121,
@@ -894,7 +894,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ADA KENT ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İngilizce Öğretmenliği (İngilizce) (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 350.98339,
@@ -913,7 +913,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ADA KENT ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Hukuk (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 350.62232,
@@ -932,7 +932,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ADA KENT ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Hukuk (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 380.8298,
@@ -951,7 +951,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ADA KENT ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Psikoloji (%25 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 180.99093,
@@ -970,7 +970,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ADA KENT ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Psikoloji (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 307.5217,
@@ -989,7 +989,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ADA KENT ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Yazılım Mühendisliği (İngilizce) (%25 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -1008,7 +1008,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ADA KENT ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Yazılım Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 308.21413,
@@ -2338,7 +2338,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "EA",
         "tabanPuan": 247.99558,
@@ -2357,7 +2357,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Lojistik Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 249.631,
@@ -2376,7 +2376,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Muhasebe ve Finans Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 249.46796,
@@ -2395,7 +2395,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Endüstriyel Tasarım",
         "puanTuru": "SAY",
         "tabanPuan": 264.77764,
@@ -2414,7 +2414,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Sigortacılık",
         "puanTuru": "EA",
         "tabanPuan": 231.89807,
@@ -2433,7 +2433,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Fen Bilgisi Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 303.19622,
@@ -2452,7 +2452,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İlköğretim Matematik Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 306.96559,
@@ -2471,7 +2471,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İngilizce Öğretmenliği (İngilizce)",
         "puanTuru": "DİL",
         "tabanPuan": 412.38207,
@@ -2490,7 +2490,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Okul Öncesi Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 377.75998,
@@ -2509,7 +2509,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Özel Eğitim Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 402.21997,
@@ -2528,7 +2528,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık",
         "puanTuru": "EA",
         "tabanPuan": 346.61156,
@@ -2547,7 +2547,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Sınıf Öğretmenliği",
         "puanTuru": "EA",
         "tabanPuan": 357.64817,
@@ -2566,7 +2566,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Sosyal Bilgiler Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 308.4492,
@@ -2585,7 +2585,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Türkçe Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 324.26415,
@@ -2604,7 +2604,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Coğrafya",
         "puanTuru": "SÖZ",
         "tabanPuan": 276.16717,
@@ -2623,7 +2623,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Çağdaş Türk Lehçeleri ve Edebiyatları",
         "puanTuru": "SÖZ",
         "tabanPuan": 237.4324,
@@ -2642,7 +2642,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Felsefe",
         "puanTuru": "EA",
         "tabanPuan": 232.63881,
@@ -2661,7 +2661,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İngilizce Mütercim ve Tercümanlık",
         "puanTuru": "DİL",
         "tabanPuan": 391.17006,
@@ -2680,7 +2680,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Kimya",
         "puanTuru": "SAY",
         "tabanPuan": 291.12296,
@@ -2699,7 +2699,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Matematik",
         "puanTuru": "SAY",
         "tabanPuan": 288.87586,
@@ -2718,7 +2718,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Moleküler Biyoloji ve Genetik",
         "puanTuru": "SAY",
         "tabanPuan": 293.09981,
@@ -2737,7 +2737,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Moleküler Biyoloji ve Genetik (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": 219.99002,
@@ -2756,7 +2756,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Psikoloji",
         "puanTuru": "EA",
         "tabanPuan": 355.23202,
@@ -2775,7 +2775,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Sanat Tarihi",
         "puanTuru": "SÖZ",
         "tabanPuan": 261.97593,
@@ -2794,7 +2794,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Sosyoloji",
         "puanTuru": "EA",
         "tabanPuan": 258.93281,
@@ -2813,7 +2813,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Tarih",
         "puanTuru": "SÖZ",
         "tabanPuan": 279.13683,
@@ -2832,7 +2832,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Türk Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 287.684,
@@ -2851,7 +2851,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İç Mimarlık ve Çevre Tasarımı",
         "puanTuru": "EA",
         "tabanPuan": 331.57303,
@@ -2870,7 +2870,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (KKTC Uyruklu)",
         "puanTuru": "EA",
         "tabanPuan": 207.98863,
@@ -2889,7 +2889,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Sinema ve Televizyon",
         "puanTuru": "SÖZ",
         "tabanPuan": 274.77266,
@@ -2908,7 +2908,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Hukuk",
         "puanTuru": "EA",
         "tabanPuan": 401.24966,
@@ -2927,7 +2927,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İktisat",
         "puanTuru": "EA",
         "tabanPuan": 265.61718,
@@ -2946,7 +2946,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İşletme",
         "puanTuru": "EA",
         "tabanPuan": 278.39627,
@@ -2965,7 +2965,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İşletme (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 297.11134,
@@ -2984,7 +2984,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Maliye",
         "puanTuru": "EA",
         "tabanPuan": 277.58634,
@@ -3003,7 +3003,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 272.28162,
@@ -3022,7 +3022,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Uluslararası Ticaret ve Finansman",
         "puanTuru": "EA",
         "tabanPuan": 262.08144,
@@ -3041,7 +3041,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Yönetim Bilişim Sistemleri",
         "puanTuru": "EA",
         "tabanPuan": 344.44783,
@@ -3060,7 +3060,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İlahiyat",
         "puanTuru": "SÖZ",
         "tabanPuan": 265.28338,
@@ -3079,7 +3079,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İlahiyat (M.T.O.K.)",
         "puanTuru": "SÖZ",
         "tabanPuan": 273.66462,
@@ -3098,7 +3098,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Bilgisayar Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 367.80877,
@@ -3117,7 +3117,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Biyomedikal Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 308.9403,
@@ -3136,7 +3136,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Biyomedikal Mühendisliği (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -3155,7 +3155,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Elektrik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 317.02243,
@@ -3174,7 +3174,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Gıda Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 305.16228,
@@ -3193,7 +3193,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Harita Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 302.50667,
@@ -3212,7 +3212,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İnşaat Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 315.37155,
@@ -3231,7 +3231,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Kimya Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 332.64565,
@@ -3250,7 +3250,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Maden Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 302.53261,
@@ -3269,7 +3269,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Malzeme Bilimi ve Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 303.3182,
@@ -3288,7 +3288,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Yazılım Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 365.32513,
@@ -3307,7 +3307,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "EA",
         "tabanPuan": 302.93794,
@@ -3326,7 +3326,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Sosyal Hizmet",
         "puanTuru": "EA",
         "tabanPuan": 272.15273,
@@ -3345,7 +3345,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Elektrik-Elektronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 348.82412,
@@ -3364,7 +3364,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Elektrik-Elektronik Mühendisliği (M.T.O.K.)",
         "puanTuru": "SAY",
         "tabanPuan": 326.77091,
@@ -3383,7 +3383,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Makine Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 331.79591,
@@ -3402,7 +3402,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Mekatronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 327.00311,
@@ -3421,7 +3421,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Metalurji ve Malzeme Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 317.51993,
@@ -3440,7 +3440,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Metalurji ve Malzeme Mühendisliği (M.T.O.K.)",
         "puanTuru": "SAY",
         "tabanPuan": 304.37195,
@@ -3459,7 +3459,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Otomotiv Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 320.64123,
@@ -3478,7 +3478,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Gastronomi ve Mutfak Sanatları",
         "puanTuru": "SÖZ",
         "tabanPuan": 352.14589,
@@ -3497,7 +3497,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Turizm İşletmeciliği",
         "puanTuru": "EA",
         "tabanPuan": 251.64327,
@@ -3516,7 +3516,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Turizm Rehberliği",
         "puanTuru": "DİL",
         "tabanPuan": 330.40117,
@@ -3535,7 +3535,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Turizm ve Gastronomi Yönetimi Programları (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 280.9166,
@@ -3554,7 +3554,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Veteriner",
         "puanTuru": "SAY",
         "tabanPuan": 388.79208,
@@ -3573,7 +3573,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Veteriner (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": 248.25028,
@@ -10090,7 +10090,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Çalışma Ekonomisi ve Endüstri İlişkileri (Açıköğretim)",
         "puanTuru": "EA",
         "tabanPuan": 250.0424,
@@ -10109,7 +10109,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Felsefe (Açıköğretim)",
         "puanTuru": "EA",
         "tabanPuan": 264.73848,
@@ -10128,7 +10128,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Görsel İletişim Tasarımı (Açıköğretim)",
         "puanTuru": "SÖZ",
         "tabanPuan": 215.49395,
@@ -10147,7 +10147,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Halkla İlişkiler ve Reklamcılık (Açıköğretim)",
         "puanTuru": "SÖZ",
         "tabanPuan": 224.05383,
@@ -10166,7 +10166,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Havacılık Yönetimi (Açıköğretim)",
         "puanTuru": "EA",
         "tabanPuan": 295.16496,
@@ -10185,7 +10185,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "İktisat (Açıköğretim)",
         "puanTuru": "EA",
         "tabanPuan": 261.67458,
@@ -10204,7 +10204,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "İktisat (İngilizce) (Açıköğretim)",
         "puanTuru": "EA",
         "tabanPuan": 240.01316,
@@ -10223,7 +10223,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "İşletme (Açıköğretim)",
         "puanTuru": "EA",
         "tabanPuan": 284.75501,
@@ -10242,7 +10242,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "İşletme (İngilizce) (Açıköğretim)",
         "puanTuru": "EA",
         "tabanPuan": 269.07571,
@@ -10261,7 +10261,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Maliye (Açıköğretim)",
         "puanTuru": "EA",
         "tabanPuan": 261.13953,
@@ -10280,7 +10280,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Sağlık Yönetimi (Açıköğretim)",
         "puanTuru": "EA",
         "tabanPuan": 305.5033,
@@ -10299,7 +10299,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi (Açıköğretim)",
         "puanTuru": "EA",
         "tabanPuan": 277.8452,
@@ -10318,7 +10318,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi (İngilizce) (Açıköğretim)",
         "puanTuru": "EA",
         "tabanPuan": 235.30361,
@@ -10337,7 +10337,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Sosyoloji (Açıköğretim)",
         "puanTuru": "EA",
         "tabanPuan": 286.17283,
@@ -10356,7 +10356,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Tarih (Açıköğretim)",
         "puanTuru": "SÖZ",
         "tabanPuan": 344.0335,
@@ -10375,7 +10375,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Türk Dili ve Edebiyatı (Açıköğretim)",
         "puanTuru": "SÖZ",
         "tabanPuan": 323.92749,
@@ -10394,7 +10394,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Uluslararası İlişkiler (Açıköğretim)",
         "puanTuru": "EA",
         "tabanPuan": 262.01158,
@@ -10413,7 +10413,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Uluslararası İlişkiler (İngilizce) (Açıköğretim)",
         "puanTuru": "EA",
         "tabanPuan": 254.30545,
@@ -10432,7 +10432,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Uluslararası Ticaret ve Lojistik (Açıköğretim)",
         "puanTuru": "EA",
         "tabanPuan": 256.28861,
@@ -10451,7 +10451,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Yönetim Bilişim Sistemleri (Açıköğretim)",
         "puanTuru": "EA",
         "tabanPuan": 304.50194,
@@ -10470,7 +10470,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Eczacılık",
         "puanTuru": "SAY",
         "tabanPuan": 455.43487,
@@ -10489,7 +10489,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Arapça Mütercim ve Tercümanlık (Arapça)",
         "puanTuru": "DİL",
         "tabanPuan": 327.50972,
@@ -10508,7 +10508,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Arkeoloji",
         "puanTuru": "EA",
         "tabanPuan": 286.65076,
@@ -10527,7 +10527,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Felsefe",
         "puanTuru": "EA",
         "tabanPuan": 288.83479,
@@ -10546,7 +10546,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Psikoloji",
         "puanTuru": "EA",
         "tabanPuan": 395.86921,
@@ -10565,7 +10565,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Rus Dili ve Edebiyatı (Rusça)",
         "puanTuru": "DİL",
         "tabanPuan": 400.05614,
@@ -10584,7 +10584,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Sanat Tarihi",
         "puanTuru": "SÖZ",
         "tabanPuan": 331.33843,
@@ -10603,7 +10603,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Sosyoloji",
         "puanTuru": "EA",
         "tabanPuan": 316.57816,
@@ -10622,7 +10622,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Tarih",
         "puanTuru": "SÖZ",
         "tabanPuan": 358.80821,
@@ -10641,7 +10641,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Türk Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 341.29982,
@@ -10660,7 +10660,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Almanca Öğretmenliği",
         "puanTuru": "DİL",
         "tabanPuan": 399.29793,
@@ -10679,7 +10679,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Bilgisayar ve Öğretim Teknolojileri Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 312.9987,
@@ -10698,7 +10698,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Fransızca Öğretmenliği",
         "puanTuru": "DİL",
         "tabanPuan": 391.14662,
@@ -10717,7 +10717,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "İlköğretim Matematik Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 343.10151,
@@ -10736,7 +10736,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "İngilizce Öğretmenliği",
         "puanTuru": "DİL",
         "tabanPuan": 450.90314,
@@ -10755,7 +10755,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "İngilizce Öğretmenliği (İngilizce) (UOLP-Suny Cortland) (Ücretli)",
         "puanTuru": "DİL",
         "tabanPuan": 323.48979,
@@ -10774,7 +10774,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Okul Öncesi Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 393.65607,
@@ -10793,7 +10793,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Özel Eğitim Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 418.99293,
@@ -10812,7 +10812,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık",
         "puanTuru": "EA",
         "tabanPuan": 379.39447,
@@ -10831,7 +10831,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Sınıf Öğretmenliği",
         "puanTuru": "EA",
         "tabanPuan": 381.50311,
@@ -10850,7 +10850,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Sosyal Bilgiler Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 350.99446,
@@ -10869,7 +10869,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Dijital Oyun Tasarımı",
         "puanTuru": "SAY",
         "tabanPuan": 358.49377,
@@ -10888,7 +10888,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Hukuk",
         "puanTuru": "EA",
         "tabanPuan": 425.96214,
@@ -10907,7 +10907,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Çalışma Ekonomisi ve Endüstri İlişkileri",
         "puanTuru": "EA",
         "tabanPuan": 321.29472,
@@ -10926,7 +10926,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "İktisat",
         "puanTuru": "EA",
         "tabanPuan": 338.50763,
@@ -10945,7 +10945,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "İktisat (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 361.07979,
@@ -10964,7 +10964,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "İktisat (İngilizce) (UOLP-Suny Cortland) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 292.95126,
@@ -10983,7 +10983,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "İşletme",
         "puanTuru": "EA",
         "tabanPuan": 343.43593,
@@ -11002,7 +11002,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "İşletme (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 370.2549,
@@ -11021,7 +11021,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Maliye",
         "puanTuru": "EA",
         "tabanPuan": 329.79768,
@@ -11040,7 +11040,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 341.81796,
@@ -11059,7 +11059,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Uluslararası Ticaret ve Lojistik (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 349.58813,
@@ -11078,7 +11078,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Yönetim Bilişim Sistemleri (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 384.05793,
@@ -11097,7 +11097,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Gazetecilik",
         "puanTuru": "SÖZ",
         "tabanPuan": 341.38505,
@@ -11116,7 +11116,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Halkla İlişkiler ve Reklamcılık",
         "puanTuru": "SÖZ",
         "tabanPuan": 351.69733,
@@ -11135,7 +11135,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Sinema ve Televizyon",
         "puanTuru": "SÖZ",
         "tabanPuan": 358.21269,
@@ -11154,7 +11154,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Yeni Medya ve İletişim",
         "puanTuru": "SÖZ",
         "tabanPuan": 352.79601,
@@ -11173,7 +11173,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Beslenme ve Diyetetik",
         "puanTuru": "SAY",
         "tabanPuan": 359.46197,
@@ -11192,7 +11192,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Dil ve Konuşma Terapisi",
         "puanTuru": "SAY",
         "tabanPuan": 440.60274,
@@ -11211,7 +11211,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Dil ve Konuşma Terapisi (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": 236.47552,
@@ -11230,7 +11230,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Sosyal Hizmet",
         "puanTuru": "EA",
         "tabanPuan": 322.28028,
@@ -11249,7 +11249,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Gastronomi ve Mutfak Sanatları",
         "puanTuru": "SÖZ",
         "tabanPuan": 391.49159,
@@ -11268,7 +11268,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Turizm İşletmeciliği",
         "puanTuru": "EA",
         "tabanPuan": 302.47644,
@@ -11287,7 +11287,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Turizm Rehberliği",
         "puanTuru": "DİL",
         "tabanPuan": 395.32672,
@@ -11306,7 +11306,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Turizm Rehberliği (KKTC Uyruklu)",
         "puanTuru": "DİL",
         "tabanPuan": "",
@@ -20958,7 +20958,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Dijital Oyun Tasarımı (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 204.7477,
@@ -20977,7 +20977,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Dijital Oyun Tasarımı (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 209.62778,
@@ -20996,7 +20996,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Dijital Oyun Tasarımı (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 198.1758,
@@ -21015,7 +21015,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Görsel İletişim Tasarımı (İngilizce) (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -21034,7 +21034,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Görsel İletişim Tasarımı (İngilizce) (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 155.84207,
@@ -21053,7 +21053,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Görsel İletişim Tasarımı (İngilizce) (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -21072,7 +21072,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Yeni Medya ve İletişim (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 178.02915,
@@ -21091,7 +21091,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Yeni Medya ve İletişim (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 174.26156,
@@ -21110,7 +21110,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Yeni Medya ve İletişim (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -21129,7 +21129,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Arkeoloji (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -21148,7 +21148,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Arkeoloji (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 179.44479,
@@ -21167,7 +21167,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Arkeoloji (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -21186,7 +21186,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Film Tasarımı ve Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -21205,7 +21205,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Film Tasarımı ve Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 178.90191,
@@ -21224,7 +21224,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Film Tasarımı ve Yönetimi (İngilizce) (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -21243,7 +21243,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Endüstriyel Tasarım (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -21262,7 +21262,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Endüstriyel Tasarım (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 211.49945,
@@ -21281,7 +21281,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Endüstriyel Tasarım (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 212.63101,
@@ -21300,7 +21300,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 180.25263,
@@ -21319,7 +21319,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 261.33383,
@@ -21338,7 +21338,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 204.43614,
@@ -21357,7 +21357,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Kentsel Tasarım ve Peyzaj Mimarlığı (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -21376,7 +21376,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Kentsel Tasarım ve Peyzaj Mimarlığı (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 187.85435,
@@ -21395,7 +21395,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Kentsel Tasarım ve Peyzaj Mimarlığı (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -21414,7 +21414,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ARKIN YARATICI SANATLAR VE TASARIM ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Mimarlık (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -32624,7 +32624,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Deniz Ulaştırma İşletme Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 392.23478,
@@ -32643,7 +32643,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Denizcilik İşletmeleri Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 322.20447,
@@ -32662,7 +32662,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Gemi İnşaatı ve Gemi Makineleri Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 404.96903,
@@ -32681,7 +32681,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Gemi Makineleri İşletme Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 393.46658,
@@ -32700,7 +32700,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Gemi Makineleri İşletme Mühendisliği (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -32719,7 +32719,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Çalışma Ekonomisi ve Endüstri İlişkileri",
         "puanTuru": "EA",
         "tabanPuan": 283.62705,
@@ -32738,7 +32738,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Ekonometri",
         "puanTuru": "EA",
         "tabanPuan": 277.16347,
@@ -32757,7 +32757,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "İktisat",
         "puanTuru": "EA",
         "tabanPuan": 291.28088,
@@ -32776,7 +32776,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "İktisat (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 308.71359,
@@ -32795,7 +32795,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "İşletme",
         "puanTuru": "EA",
         "tabanPuan": 298.87512,
@@ -32814,7 +32814,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "İşletme (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 312.8177,
@@ -32833,7 +32833,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Maliye",
         "puanTuru": "EA",
         "tabanPuan": 289.2189,
@@ -32852,7 +32852,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 288.6868,
@@ -32871,7 +32871,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Uluslararası İlişkiler",
         "puanTuru": "EA",
         "tabanPuan": 299.63411,
@@ -32890,7 +32890,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "İlahiyat",
         "puanTuru": "SÖZ",
         "tabanPuan": 268.31451,
@@ -32909,7 +32909,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "İlahiyat (M.T.O.K.)",
         "puanTuru": "SÖZ",
         "tabanPuan": 260.52859,
@@ -32928,7 +32928,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Halkla İlişkiler ve Reklamcılık",
         "puanTuru": "SÖZ",
         "tabanPuan": 308.76875,
@@ -32947,7 +32947,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Yeni Medya ve İletişim",
         "puanTuru": "SÖZ",
         "tabanPuan": 317.84116,
@@ -32966,7 +32966,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "İngilizce Mütercim ve Tercümanlık",
         "puanTuru": "DİL",
         "tabanPuan": 402.71062,
@@ -32985,7 +32985,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Sanat Tarihi",
         "puanTuru": "SÖZ",
         "tabanPuan": 289.5814,
@@ -33004,7 +33004,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Sosyoloji",
         "puanTuru": "EA",
         "tabanPuan": 269.00298,
@@ -33023,7 +33023,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Tarih",
         "puanTuru": "SÖZ",
         "tabanPuan": 299.57084,
@@ -33042,7 +33042,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Türk Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 305.46403,
@@ -33061,7 +33061,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Bilgisayar Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 388.92562,
@@ -33080,7 +33080,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Elektrik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 337.14491,
@@ -33099,7 +33099,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Elektrik Mühendisliği (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -33118,7 +33118,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Elektrik-Elektronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 375.14708,
@@ -33137,7 +33137,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Yazılım Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 379.36514,
@@ -33156,7 +33156,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Uluslararası Ticaret ve Lojistik",
         "puanTuru": "EA",
         "tabanPuan": 309.97087,
@@ -33175,7 +33175,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Yönetim Bilişim Sistemleri",
         "puanTuru": "EA",
         "tabanPuan": 362.64122,
@@ -33194,7 +33194,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Beslenme ve Diyetetik",
         "puanTuru": "SAY",
         "tabanPuan": 319.9909,
@@ -33213,7 +33213,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Fizyoterapi ve Rehabilitasyon",
         "puanTuru": "SAY",
         "tabanPuan": 317.26947,
@@ -33232,7 +33232,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Hemşirelik",
         "puanTuru": "SAY",
         "tabanPuan": 370.12971,
@@ -33251,7 +33251,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Sağlık Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 295.36786,
@@ -33270,7 +33270,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Sosyal Hizmet",
         "puanTuru": "EA",
         "tabanPuan": 298.33046,
@@ -33289,7 +33289,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Spor Yöneticiliği",
         "puanTuru": "EA",
         "tabanPuan": 257.10806,
@@ -33308,7 +33308,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Tıp",
         "puanTuru": "SAY",
         "tabanPuan": 488.50522,
@@ -48565,7 +48565,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İngilizce Mütercim ve Tercümanlık (%50 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 174.53498,
@@ -48584,7 +48584,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İngilizce Mütercim ve Tercümanlık (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 395.9303,
@@ -48603,7 +48603,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Psikoloji (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 288.60303,
@@ -48622,7 +48622,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Psikoloji (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 354.64728,
@@ -48641,7 +48641,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Türk Dili ve Edebiyatı (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 174.82175,
@@ -48660,7 +48660,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Türk Dili ve Edebiyatı (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 271.49649,
@@ -48679,7 +48679,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Hukuk (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 350.17411,
@@ -48698,7 +48698,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Hukuk (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 395.55767,
@@ -48717,7 +48717,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Uluslararası Finans ve Bankacılık (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 178.76608,
@@ -48736,7 +48736,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Uluslararası Finans ve Bankacılık (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 310.2567,
@@ -48755,7 +48755,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Uluslararası İlişkiler (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 167.30346,
@@ -48774,7 +48774,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Uluslararası İlişkiler (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 323.20702,
@@ -48793,7 +48793,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Uluslararası İşletme Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 217.679,
@@ -48812,7 +48812,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Uluslararası İşletme Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 317.35969,
@@ -48831,7 +48831,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Uluslararası Ticaret ve Lojistik (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 235.36982,
@@ -48850,7 +48850,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Uluslararası Ticaret ve Lojistik (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 329.26832,
@@ -54208,7 +54208,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Beslenme ve Diyetetik",
         "puanTuru": "SAY",
         "tabanPuan": 311.84584,
@@ -54227,7 +54227,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Hemşirelik",
         "puanTuru": "SAY",
         "tabanPuan": 418.20494,
@@ -54246,7 +54246,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Spor Yöneticiliği",
         "puanTuru": "EA",
         "tabanPuan": 250.43599,
@@ -54265,7 +54265,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Diş Hekimliği",
         "puanTuru": "SAY",
         "tabanPuan": 467.29349,
@@ -54284,7 +54284,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Eczacılık",
         "puanTuru": "SAY",
         "tabanPuan": 448.62111,
@@ -54303,7 +54303,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Biyoloji",
         "puanTuru": "SAY",
         "tabanPuan": 269.95416,
@@ -54322,7 +54322,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Fizik",
         "puanTuru": "SAY",
         "tabanPuan": 262.77051,
@@ -54341,7 +54341,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Kimya",
         "puanTuru": "SAY",
         "tabanPuan": 271.22027,
@@ -54360,7 +54360,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Matematik",
         "puanTuru": "SAY",
         "tabanPuan": 295.94038,
@@ -54379,7 +54379,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Moleküler Biyoloji ve Genetik",
         "puanTuru": "SAY",
         "tabanPuan": 289.26469,
@@ -54398,7 +54398,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Hukuk",
         "puanTuru": "EA",
         "tabanPuan": 401.99049,
@@ -54417,7 +54417,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "İktisat",
         "puanTuru": "EA",
         "tabanPuan": 267.83242,
@@ -54436,7 +54436,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "İşletme",
         "puanTuru": "EA",
         "tabanPuan": 283.85321,
@@ -54455,7 +54455,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Sağlık Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 296.93393,
@@ -54474,7 +54474,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 284.20369,
@@ -54493,7 +54493,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Sosyal Hizmet",
         "puanTuru": "EA",
         "tabanPuan": 294.83443,
@@ -54512,7 +54512,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "İlahiyat",
         "puanTuru": "SÖZ",
         "tabanPuan": 283.20534,
@@ -54531,7 +54531,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "İlahiyat (M.T.O.K.)",
         "puanTuru": "SÖZ",
         "tabanPuan": 255.36609,
@@ -54550,7 +54550,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Gazetecilik",
         "puanTuru": "SÖZ",
         "tabanPuan": 275.67842,
@@ -54569,7 +54569,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Halkla İlişkiler ve Tanıtım",
         "puanTuru": "SÖZ",
         "tabanPuan": 275.4096,
@@ -54588,7 +54588,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Radyo, Televizyon ve Sinema",
         "puanTuru": "SÖZ",
         "tabanPuan": 294.18991,
@@ -54607,7 +54607,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Mimarlık",
         "puanTuru": "SAY",
         "tabanPuan": 318.65668,
@@ -54626,7 +54626,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Bilgisayar Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 368.80985,
@@ -54645,7 +54645,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Elektrik-Elektronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 320.45416,
@@ -54664,7 +54664,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "İnşaat Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 325.40352,
@@ -54683,7 +54683,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Maden Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 309.32919,
@@ -54702,7 +54702,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Makine Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 316.15843,
@@ -54721,7 +54721,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Arap Dili ve Edebiyatı",
         "puanTuru": "DİL",
         "tabanPuan": 254.65333,
@@ -54740,7 +54740,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Arkeoloji",
         "puanTuru": "EA",
         "tabanPuan": 253.47346,
@@ -54759,7 +54759,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Çağdaş Türk Lehçeleri ve Edebiyatları",
         "puanTuru": "SÖZ",
         "tabanPuan": 246.68431,
@@ -54778,7 +54778,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Felsefe",
         "puanTuru": "EA",
         "tabanPuan": 247.39603,
@@ -54797,7 +54797,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "İngiliz Dili ve Edebiyatı",
         "puanTuru": "DİL",
         "tabanPuan": 381.53201,
@@ -54816,7 +54816,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "İngiliz Dili ve Edebiyatı (KKTC Uyruklu)",
         "puanTuru": "DİL",
         "tabanPuan": "",
@@ -54835,7 +54835,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Kürt Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 347.14699,
@@ -54854,7 +54854,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Psikoloji",
         "puanTuru": "EA",
         "tabanPuan": 354.83574,
@@ -54873,7 +54873,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Sosyoloji",
         "puanTuru": "EA",
         "tabanPuan": 269.01652,
@@ -54892,7 +54892,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Tarih",
         "puanTuru": "SÖZ",
         "tabanPuan": 292.6043,
@@ -54911,7 +54911,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Türk Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 285.71442,
@@ -54930,7 +54930,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Havacılık Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 311.77308,
@@ -54949,7 +54949,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Tıp",
         "puanTuru": "SAY",
         "tabanPuan": 488.15602,
@@ -54968,7 +54968,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Veteriner",
         "puanTuru": "SAY",
         "tabanPuan": 352.03247,
@@ -54987,7 +54987,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Bahçe Bitkileri",
         "puanTuru": "SAY",
         "tabanPuan": 267.6555,
@@ -55006,7 +55006,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Bitki Koruma",
         "puanTuru": "SAY",
         "tabanPuan": 291.58812,
@@ -55025,7 +55025,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Tarım Makineleri ve Teknolojileri Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 260.88044,
@@ -55044,7 +55044,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Tarım Makineleri ve Teknolojileri Mühendisliği (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -55063,7 +55063,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Tarla Bitkileri",
         "puanTuru": "SAY",
         "tabanPuan": 280.58706,
@@ -55082,7 +55082,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Zootekni",
         "puanTuru": "SAY",
         "tabanPuan": 254.42786,
@@ -55101,7 +55101,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Almanca Öğretmenliği",
         "puanTuru": "DİL",
         "tabanPuan": 315.46481,
@@ -55120,7 +55120,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Coğrafya Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 328.06786,
@@ -55139,7 +55139,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Fen Bilgisi Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 309.17427,
@@ -55158,7 +55158,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "İlköğretim Matematik Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 325.72016,
@@ -55177,7 +55177,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "İngilizce Öğretmenliği",
         "puanTuru": "DİL",
         "tabanPuan": 419.3342,
@@ -55196,7 +55196,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Matematik Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 322.81959,
@@ -55215,7 +55215,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Okul Öncesi Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 386.34561,
@@ -55234,7 +55234,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Sınıf Öğretmenliği",
         "puanTuru": "EA",
         "tabanPuan": 371.69284,
@@ -55253,7 +55253,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Sosyal Bilgiler Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 333.29632,
@@ -55272,7 +55272,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Tarih Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 314.80418,
@@ -55291,7 +55291,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Türk Dili ve Edebiyatı Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 316.07973,
@@ -55310,7 +55310,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Türkçe Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 365.49603,
@@ -55329,7 +55329,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilgi Güvenliği Teknolojisi (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 182.77889,
@@ -55348,7 +55348,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilgi Güvenliği Teknolojisi (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 292.02622,
@@ -55367,7 +55367,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilgi Güvenliği Teknolojisi (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 235.05956,
@@ -55386,7 +55386,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilişim Sistemleri ve Teknolojileri (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 188.23445,
@@ -55405,7 +55405,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilişim Sistemleri ve Teknolojileri (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 290.83607,
@@ -55424,7 +55424,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilişim Sistemleri ve Teknolojileri (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 199.70351,
@@ -55443,7 +55443,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilişim Sistemleri ve Teknolojileri (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 299.10652,
@@ -55462,7 +55462,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilişim Sistemleri ve Teknolojileri (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 228.88244,
@@ -55481,7 +55481,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilişim Sistemleri ve Teknolojileri (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 174.65113,
@@ -55500,7 +55500,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Diş Hekimliği (Uolp-Sağlık Bilimleri Üniversitesi) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 442.70217,
@@ -55519,7 +55519,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Diş Hekimliği (Uolp-Sağlık Bilimleri Üniversitesi) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 461.10043,
@@ -55538,7 +55538,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Diş Hekimliği (Uolp-Sağlık Bilimleri Üniversitesi) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 429.33402,
@@ -55557,7 +55557,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Eczacılık (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 410.88627,
@@ -55576,7 +55576,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Eczacılık (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 443.90908,
@@ -55595,7 +55595,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Eczacılık (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 416.83667,
@@ -55614,7 +55614,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilgisayar ve Öğretim Teknolojileri Öğretmenliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -55633,7 +55633,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İlköğretim Matematik Öğretmenliği (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -55652,7 +55652,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İlköğretim Matematik Öğretmenliği (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -55671,7 +55671,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İlköğretim Matematik Öğretmenliği (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -55690,7 +55690,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İngilizce Öğretmenliği-Elt (İngilizce) (%50 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 245.58742,
@@ -55709,7 +55709,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İngilizce Öğretmenliği-Elt (İngilizce) (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 396.43602,
@@ -55728,7 +55728,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İngilizce Öğretmenliği-Elt (İngilizce) (Ücretli)",
         "puanTuru": "DİL",
         "tabanPuan": 320.4164,
@@ -55747,7 +55747,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Okul Öncesi Öğretmenliği (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 331.61069,
@@ -55766,7 +55766,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Okul Öncesi Öğretmenliği (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 367.13794,
@@ -55785,7 +55785,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Okul Öncesi Öğretmenliği (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 296.07188,
@@ -55804,7 +55804,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Özel Eğitim Öğretmenliği (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 335.16598,
@@ -55823,7 +55823,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Özel Eğitim Öğretmenliği (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 392.01902,
@@ -55842,7 +55842,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Özel Eğitim Öğretmenliği (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 361.68127,
@@ -55861,7 +55861,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 322.24868,
@@ -55880,7 +55880,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 327.63303,
@@ -55899,7 +55899,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 315.78339,
@@ -55918,7 +55918,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Sınıf Öğretmenliği (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 314.89415,
@@ -55937,7 +55937,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Sınıf Öğretmenliği (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 344.04549,
@@ -55956,7 +55956,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Sınıf Öğretmenliği (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 311.05487,
@@ -55975,7 +55975,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Türkçe Öğretmenliği (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 293.50393,
@@ -55994,7 +55994,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Türkçe Öğretmenliği (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 326.44949,
@@ -56013,7 +56013,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Türkçe Öğretmenliği (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -56032,7 +56032,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Aktüerya Bilimleri (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 237.42507,
@@ -56051,7 +56051,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Aktüerya Bilimleri (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 257.33468,
@@ -56070,7 +56070,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Aktüerya Bilimleri (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 207.71097,
@@ -56089,7 +56089,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Arkeoloji ve Sanat Tarihi (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 226.86892,
@@ -56108,7 +56108,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Arkeoloji ve Sanat Tarihi (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 240.00896,
@@ -56127,7 +56127,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Fizik (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 269.55798,
@@ -56146,7 +56146,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Fizik (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 220.55811,
@@ -56165,7 +56165,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İngilizce Mütercim ve Tercümanlık (%50 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 261.79684,
@@ -56184,7 +56184,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İngilizce Mütercim ve Tercümanlık (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 398.28985,
@@ -56203,7 +56203,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İngilizce Mütercim ve Tercümanlık (Ücretli)",
         "puanTuru": "DİL",
         "tabanPuan": 168.81536,
@@ -56222,7 +56222,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İstatistik ve Bilgisayar Bilimleri (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 248.52078,
@@ -56241,7 +56241,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İstatistik ve Bilgisayar Bilimleri (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 290.61884,
@@ -56260,7 +56260,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İstatistik ve Bilgisayar Bilimleri (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 212.19918,
@@ -56279,7 +56279,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Kimya (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 271.67216,
@@ -56298,7 +56298,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Kimya (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 245.96568,
@@ -56317,7 +56317,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Matematik ve Bilgisayar Bilimleri (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 178.97007,
@@ -56336,7 +56336,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Matematik ve Bilgisayar Bilimleri (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 294.32109,
@@ -56355,7 +56355,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Matematik ve Bilgisayar Bilimleri (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 160.11703,
@@ -56374,7 +56374,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Moleküler Biyoloji ve Genetik (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 223.88228,
@@ -56393,7 +56393,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Moleküler Biyoloji ve Genetik (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 327.30451,
@@ -56412,7 +56412,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Moleküler Biyoloji ve Genetik (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 221.78687,
@@ -56431,7 +56431,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Psikoloji (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 239.13613,
@@ -56450,7 +56450,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Psikoloji (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 338.84516,
@@ -56469,7 +56469,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Psikoloji (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 199.12247,
@@ -56488,7 +56488,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Psikoloji (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 344.52845,
@@ -56507,7 +56507,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Psikoloji (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 298.7646,
@@ -56526,7 +56526,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Psikoloji (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 208.13716,
@@ -56545,7 +56545,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Türk Dili ve Edebiyatı (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 246.07921,
@@ -56564,7 +56564,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Türk Dili ve Edebiyatı (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 218.75172,
@@ -56583,7 +56583,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Hukuk (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 350.79083,
@@ -56602,7 +56602,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Hukuk (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 388.87969,
@@ -56621,7 +56621,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Hukuk (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 356.37238,
@@ -56640,7 +56640,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Dijital Oyun Tasarımı (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 201.45615,
@@ -56659,7 +56659,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Dijital Oyun Tasarımı (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 300.27892,
@@ -56678,7 +56678,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Dijital Oyun Tasarımı (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 192.64374,
@@ -56697,7 +56697,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Görsel İletişim Tasarımı (İngilizce) (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 295.66798,
@@ -56716,7 +56716,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Görsel İletişim Tasarımı (İngilizce) (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 182.64815,
@@ -56735,7 +56735,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Halkla İlişkiler ve Reklamcılık (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 245.27667,
@@ -56754,7 +56754,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Halkla İlişkiler ve Reklamcılık (İngilizce) (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 250.45314,
@@ -56773,7 +56773,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Halkla İlişkiler ve Reklamcılık (İngilizce) (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -56792,7 +56792,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Halkla İlişkiler ve Reklamcılık (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 182.40926,
@@ -56811,7 +56811,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Radyo, Televizyon ve Sinema (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 260.53338,
@@ -56830,7 +56830,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Radyo, Televizyon ve Sinema (İngilizce) (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 247.2144,
@@ -56849,7 +56849,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Radyo, Televizyon ve Sinema (İngilizce) (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -56868,7 +56868,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Radyo, Televizyon ve Sinema (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 175.21353,
@@ -56887,7 +56887,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Yeni Medya ve İletişim (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 275.244,
@@ -56906,7 +56906,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Yeni Medya ve İletişim (İngilizce) (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 290.34215,
@@ -56925,7 +56925,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Yeni Medya ve İletişim (İngilizce) (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 216.69115,
@@ -56944,7 +56944,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Yeni Medya ve İletişim (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 212.21283,
@@ -56963,7 +56963,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bankacılık ve Sigortacılık (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -56982,7 +56982,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bankacılık ve Sigortacılık (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 253.56974,
@@ -57001,7 +57001,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bankacılık ve Sigortacılık (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 226.79166,
@@ -57020,7 +57020,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Finans ve Bankacılık (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -57039,7 +57039,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Finans ve Bankacılık (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 249.60741,
@@ -57058,7 +57058,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Finans ve Bankacılık (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -57077,7 +57077,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İktisat (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 238.64828,
@@ -57096,7 +57096,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İktisat (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 278.84911,
@@ -57115,7 +57115,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İktisat (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 208.94306,
@@ -57134,7 +57134,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İnsan Kaynakları Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -57153,7 +57153,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İnsan Kaynakları Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 248.52373,
@@ -57172,7 +57172,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İnsan Kaynakları Yönetimi (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 234.33087,
@@ -57191,7 +57191,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İşletme (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 185.95611,
@@ -57210,7 +57210,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İşletme (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 277.24861,
@@ -57229,7 +57229,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İşletme (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 208.53113,
@@ -57248,7 +57248,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İşletme (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 309.38279,
@@ -57267,7 +57267,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İşletme (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 179.40517,
@@ -57286,7 +57286,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İşletme (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 197.08467,
@@ -57305,7 +57305,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Kamu Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 223.42593,
@@ -57324,7 +57324,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Kamu Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 233.72532,
@@ -57343,7 +57343,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Kamu Yönetimi (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 214.80358,
@@ -57362,7 +57362,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Muhasebe ve Finans Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 207.96955,
@@ -57381,7 +57381,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Muhasebe ve Finans Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 266.254,
@@ -57400,7 +57400,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Muhasebe ve Finans Yönetimi (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 243.96621,
@@ -57419,7 +57419,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Pazarlama (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -57438,7 +57438,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Pazarlama (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 251.39396,
@@ -57457,7 +57457,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Pazarlama (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -57476,7 +57476,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Siyaset Bilimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 179.22992,
@@ -57495,7 +57495,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Siyaset Bilimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 268.27149,
@@ -57514,7 +57514,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Siyaset Bilimi (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 185.34847,
@@ -57533,7 +57533,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Uluslararası Finans ve Bankacılık (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 197.14528,
@@ -57552,7 +57552,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Uluslararası Finans ve Bankacılık (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 268.00989,
@@ -57571,7 +57571,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Uluslararası Finans ve Bankacılık (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 202.14272,
@@ -57590,7 +57590,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Uluslararası İlişkiler (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 183.44926,
@@ -57609,7 +57609,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Uluslararası İlişkiler (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 297.8191,
@@ -57628,7 +57628,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Uluslararası İlişkiler (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 197.26208,
@@ -57647,7 +57647,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Uluslararası Ticaret ve İşletmecilik (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 178.49459,
@@ -57666,7 +57666,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Uluslararası Ticaret ve İşletmecilik (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 280.37564,
@@ -57685,7 +57685,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Uluslararası Ticaret ve İşletmecilik (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 219.8728,
@@ -57704,7 +57704,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Uluslararası Ticaret ve İşletmecilik (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 304.75247,
@@ -57723,7 +57723,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Uluslararası Ticaret ve İşletmecilik (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 220.3232,
@@ -57742,7 +57742,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Uluslararası Ticaret ve İşletmecilik (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 170.53749,
@@ -57761,7 +57761,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Yönetim Bilişim Sistemleri (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 178.44847,
@@ -57780,7 +57780,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Yönetim Bilişim Sistemleri (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 349.84425,
@@ -57799,7 +57799,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Yönetim Bilişim Sistemleri (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 294.33,
@@ -57818,7 +57818,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İç Mimarlık (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 227.62012,
@@ -57837,7 +57837,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İç Mimarlık (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 294.57745,
@@ -57856,7 +57856,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İç Mimarlık (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 215.8579,
@@ -57875,7 +57875,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İç Mimarlık (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 304.80419,
@@ -57894,7 +57894,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İç Mimarlık (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 241.10759,
@@ -57913,7 +57913,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İç Mimarlık (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 233.67303,
@@ -57932,7 +57932,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Mimarlık (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -57951,7 +57951,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Mimarlık (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 319.84944,
@@ -57970,7 +57970,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Mimarlık (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -57989,7 +57989,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilgisayar Mühendisliği (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 344.00073,
@@ -58008,7 +58008,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilgisayar Mühendisliği (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 362.59385,
@@ -58027,7 +58027,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 303.88321,
@@ -58046,7 +58046,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 399.31971,
@@ -58065,7 +58065,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 302.48604,
@@ -58084,7 +58084,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilgisayar Mühendisliği (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 314.92826,
@@ -58103,7 +58103,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilişim Sistemleri Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -58122,7 +58122,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilişim Sistemleri Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 332.7555,
@@ -58141,7 +58141,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilişim Sistemleri Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -58160,7 +58160,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Biyomedikal Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -58179,7 +58179,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Biyomedikal Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 325.68809,
@@ -58198,7 +58198,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Biyomedikal Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -58217,7 +58217,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 305.55992,
@@ -58236,7 +58236,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 373.32547,
@@ -58255,7 +58255,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 310.4394,
@@ -58274,7 +58274,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Elektronik ve Haberleşme Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -58293,7 +58293,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Elektronik ve Haberleşme Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 333.66335,
@@ -58312,7 +58312,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Elektronik ve Haberleşme Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -58331,7 +58331,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Endüstri Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 306.06009,
@@ -58350,7 +58350,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Endüstri Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 368.0995,
@@ -58369,7 +58369,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Endüstri Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 302.49904,
@@ -58388,7 +58388,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Enerji Sistemleri Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -58407,7 +58407,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Enerji Sistemleri Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 303.59865,
@@ -58426,7 +58426,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Enerji Sistemleri Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -58445,7 +58445,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İnşaat Mühendisliği (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -58464,7 +58464,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İnşaat Mühendisliği (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 304.76207,
@@ -58483,7 +58483,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İnşaat Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -58502,7 +58502,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İnşaat Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 325.87598,
@@ -58521,7 +58521,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İnşaat Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 305.25824,
@@ -58540,7 +58540,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İnşaat Mühendisliği (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -58559,7 +58559,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İşletme Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 307.97714,
@@ -58578,7 +58578,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İşletme Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 403.40036,
@@ -58597,7 +58597,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İşletme Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 335.63388,
@@ -58616,7 +58616,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Makine Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 333.42598,
@@ -58635,7 +58635,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Makine Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 340.54029,
@@ -58654,7 +58654,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Makine Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 304.56939,
@@ -58673,7 +58673,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Mekatronik Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -58692,7 +58692,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Mekatronik Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 336.19702,
@@ -58711,7 +58711,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Mekatronik Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 325.36479,
@@ -58730,7 +58730,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Yapay Zeka Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -58749,7 +58749,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Yapay Zeka Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 369.07672,
@@ -58768,7 +58768,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Yapay Zeka Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 309.1164,
@@ -58787,7 +58787,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Yazılım Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 369.40546,
@@ -58806,7 +58806,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Yazılım Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 380.3225,
@@ -58825,7 +58825,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Yazılım Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 306.66462,
@@ -58844,7 +58844,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Beslenme ve Diyetetik (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 186.89621,
@@ -58863,7 +58863,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Beslenme ve Diyetetik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 296.99147,
@@ -58882,7 +58882,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Beslenme ve Diyetetik (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 225.81652,
@@ -58901,7 +58901,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Beslenme ve Diyetetik (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 303.93607,
@@ -58920,7 +58920,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Beslenme ve Diyetetik (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 219.10246,
@@ -58939,7 +58939,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Beslenme ve Diyetetik (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 184.62194,
@@ -58958,7 +58958,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Egzersiz ve Spor Bilimleri (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 203.91779,
@@ -58977,7 +58977,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Egzersiz ve Spor Bilimleri (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 266.43066,
@@ -58996,7 +58996,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Egzersiz ve Spor Bilimleri (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 208.95018,
@@ -59015,7 +59015,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Fizyoterapi ve Rehabilitasyon (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 219.57022,
@@ -59034,7 +59034,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Fizyoterapi ve Rehabilitasyon (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 295.15778,
@@ -59053,7 +59053,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Fizyoterapi ve Rehabilitasyon (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 195.41761,
@@ -59072,7 +59072,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Fizyoterapi ve Rehabilitasyon (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 298.31982,
@@ -59091,7 +59091,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Fizyoterapi ve Rehabilitasyon (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 185.56139,
@@ -59110,7 +59110,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Fizyoterapi ve Rehabilitasyon (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 235.7916,
@@ -59129,7 +59129,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Hemşirelik (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 276.20261,
@@ -59148,7 +59148,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Hemşirelik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 339.63706,
@@ -59167,7 +59167,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Hemşirelik (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 257.92726,
@@ -59186,7 +59186,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Hemşirelik (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 330.70868,
@@ -59205,7 +59205,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Hemşirelik (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 262.7109,
@@ -59224,7 +59224,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Hemşirelik (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 296.77473,
@@ -59243,7 +59243,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Sağlık Yönetimi (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -59262,7 +59262,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Sağlık Yönetimi (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 248.87837,
@@ -59281,7 +59281,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Sağlık Yönetimi (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 206.83395,
@@ -59300,7 +59300,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Tıp (İngilizce) (Uolp-Marmara Üniversitesi) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 473.891,
@@ -59319,7 +59319,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Tıp (İngilizce) (Uolp-Marmara Üniversitesi) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 485.95228,
@@ -59338,7 +59338,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Tıp (İngilizce) (Uolp-Marmara Üniversitesi) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 452.37885,
@@ -59357,7 +59357,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Gastronomi ve Mutfak Sanatları (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 157.59399,
@@ -59376,7 +59376,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Gastronomi ve Mutfak Sanatları (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 331.84883,
@@ -59395,7 +59395,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Gastronomi ve Mutfak Sanatları (İngilizce) (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 185.8013,
@@ -59414,7 +59414,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Gastronomi ve Mutfak Sanatları (İngilizce) (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 348.44674,
@@ -59433,7 +59433,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Gastronomi ve Mutfak Sanatları (İngilizce) (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 183.67682,
@@ -59452,7 +59452,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Gastronomi ve Mutfak Sanatları (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 176.35923,
@@ -59471,7 +59471,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Turizm İşletmeciliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 223.02607,
@@ -59490,7 +59490,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Turizm İşletmeciliği (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 274.66482,
@@ -59509,7 +59509,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Turizm İşletmeciliği (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 230.74399,
@@ -60782,7 +60782,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Almanca Öğretmenliği",
         "puanTuru": "DİL",
         "tabanPuan": 254.71219,
@@ -60801,7 +60801,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar ve Öğretim Teknolojileri Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 311.77977,
@@ -60820,7 +60820,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Biyoloji Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 303.09163,
@@ -60839,7 +60839,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Biyoloji Öğretmenliği (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -60858,7 +60858,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Coğrafya Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 354.59813,
@@ -60877,7 +60877,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Coğrafya Öğretmenliği (KKTC Uyruklu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 354.82673,
@@ -60896,7 +60896,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Fen Bilgisi Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 308.96245,
@@ -60915,7 +60915,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Fizik Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 314.68161,
@@ -60934,7 +60934,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Fransızca Öğretmenliği",
         "puanTuru": "DİL",
         "tabanPuan": 390.43343,
@@ -60953,7 +60953,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İlköğretim Matematik Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 345.2642,
@@ -60972,7 +60972,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İngilizce Öğretmenliği (İngilizce)",
         "puanTuru": "DİL",
         "tabanPuan": 446.84226,
@@ -60991,7 +60991,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Kimya Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 308.76454,
@@ -61010,7 +61010,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Matematik Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 390.19316,
@@ -61029,7 +61029,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Okul Öncesi Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 391.40043,
@@ -61048,7 +61048,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Özel Eğitim Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 414.83175,
@@ -61067,7 +61067,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Özel Eğitim Öğretmenliği (KKTC Uyruklu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 351.11152,
@@ -61086,7 +61086,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık",
         "puanTuru": "EA",
         "tabanPuan": 374.85627,
@@ -61105,7 +61105,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Sınıf Öğretmenliği",
         "puanTuru": "EA",
         "tabanPuan": 378.01838,
@@ -61124,7 +61124,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Sosyal Bilgiler Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 345.79433,
@@ -61143,7 +61143,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tarih Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 359.26104,
@@ -61162,7 +61162,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Türk Dili ve Edebiyatı Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 360.22878,
@@ -61181,7 +61181,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Türkçe Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 373.63894,
@@ -61200,7 +61200,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Deniz Ulaştırma İşletme Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 430.22964,
@@ -61219,7 +61219,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Denizcilik İşletmeleri Yönetimi (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 358.51341,
@@ -61238,7 +61238,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Gemi Makineleri İşletme Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 432.75927,
@@ -61257,7 +61257,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Gemi Makineleri İşletme Mühendisliği (İngilizce) (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": 412.79644,
@@ -61276,7 +61276,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Lojistik Yönetimi (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 357.4627,
@@ -61295,7 +61295,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Diş Hekimliği",
         "puanTuru": "SAY",
         "tabanPuan": 475.33312,
@@ -61314,7 +61314,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Amerikan Kültürü ve Edebiyatı (İngilizce)",
         "puanTuru": "DİL",
         "tabanPuan": 423.97246,
@@ -61333,7 +61333,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Arkeoloji",
         "puanTuru": "EA",
         "tabanPuan": 286.58633,
@@ -61352,7 +61352,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Dilbilimi",
         "puanTuru": "DİL",
         "tabanPuan": 406.06143,
@@ -61371,7 +61371,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Felsefe",
         "puanTuru": "EA",
         "tabanPuan": 291.99547,
@@ -61390,7 +61390,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İngilizce Mütercim ve Tercümanlık",
         "puanTuru": "DİL",
         "tabanPuan": 448.09433,
@@ -61409,7 +61409,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Karşılaştırmalı Edebiyat",
         "puanTuru": "DİL",
         "tabanPuan": 390.55746,
@@ -61428,7 +61428,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Müzecilik",
         "puanTuru": "EA",
         "tabanPuan": 268.2742,
@@ -61447,7 +61447,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Müzecilik (KKTC Uyruklu)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -61466,7 +61466,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Psikoloji",
         "puanTuru": "EA",
         "tabanPuan": 400.98142,
@@ -61485,7 +61485,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Rus Dili ve Edebiyatı (Rusça)",
         "puanTuru": "DİL",
         "tabanPuan": 398.71517,
@@ -61504,7 +61504,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Sosyoloji",
         "puanTuru": "EA",
         "tabanPuan": 317.3189,
@@ -61523,7 +61523,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tarih",
         "puanTuru": "SÖZ",
         "tabanPuan": 366.88704,
@@ -61542,7 +61542,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Türk Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 346.16177,
@@ -61561,7 +61561,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Bilimleri",
         "puanTuru": "SAY",
         "tabanPuan": 381.66234,
@@ -61580,7 +61580,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Biyoloji",
         "puanTuru": "SAY",
         "tabanPuan": 318.78912,
@@ -61599,7 +61599,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Biyoloji (UOLP-Gence Devlet Üniversitesi) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 268.38028,
@@ -61618,7 +61618,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Fizik",
         "puanTuru": "SAY",
         "tabanPuan": 311.34175,
@@ -61637,7 +61637,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İstatistik",
         "puanTuru": "SAY",
         "tabanPuan": 368.79427,
@@ -61656,7 +61656,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Kimya",
         "puanTuru": "SAY",
         "tabanPuan": 352.58678,
@@ -61675,7 +61675,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Kimya (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": 287.90176,
@@ -61694,7 +61694,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Matematik (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 365.00229,
@@ -61713,7 +61713,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Fizyoterapi ve Rehabilitasyon",
         "puanTuru": "SAY",
         "tabanPuan": 351.02725,
@@ -61732,7 +61732,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Film Tasarımı ve Yazarlığı",
         "puanTuru": "SÖZ",
         "tabanPuan": 337.58488,
@@ -61751,7 +61751,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Film Tasarımı ve Yazarlığı (KKTC Uyruklu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 229.85584,
@@ -61770,7 +61770,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Film Tasarımı ve Yönetmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 350.16916,
@@ -61789,7 +61789,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Fotoğraf",
         "puanTuru": "SÖZ",
         "tabanPuan": 324.64181,
@@ -61808,7 +61808,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Kurgu, Ses ve Görüntü Yönetimi",
         "puanTuru": "SÖZ",
         "tabanPuan": 334.59137,
@@ -61827,7 +61827,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Kurgu, Ses ve Görüntü Yönetimi (KKTC Uyruklu)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -61846,7 +61846,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Hemşirelik",
         "puanTuru": "SAY",
         "tabanPuan": 390.75355,
@@ -61865,7 +61865,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Hukuk",
         "puanTuru": "EA",
         "tabanPuan": 430.22295,
@@ -61884,7 +61884,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Çalışma Ekonomisi ve Endüstri İlişkileri",
         "puanTuru": "EA",
         "tabanPuan": 323.96424,
@@ -61903,7 +61903,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Ekonometri",
         "puanTuru": "EA",
         "tabanPuan": 321.50435,
@@ -61922,7 +61922,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Ekonometri (KKTC Uyruklu)",
         "puanTuru": "EA",
         "tabanPuan": 278.41783,
@@ -61941,7 +61941,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İktisat",
         "puanTuru": "EA",
         "tabanPuan": 346.71488,
@@ -61960,7 +61960,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İşletme",
         "puanTuru": "EA",
         "tabanPuan": 352.75702,
@@ -61979,7 +61979,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Kamu Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 324.09879,
@@ -61998,7 +61998,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Maliye",
         "puanTuru": "EA",
         "tabanPuan": 331.76565,
@@ -62017,7 +62017,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Yönetim Bilişim Sistemleri",
         "puanTuru": "EA",
         "tabanPuan": 397.26679,
@@ -62036,7 +62036,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İlahiyat",
         "puanTuru": "SÖZ",
         "tabanPuan": 295.58515,
@@ -62055,7 +62055,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İlahiyat (M.T.O.K.)",
         "puanTuru": "SÖZ",
         "tabanPuan": 277.36829,
@@ -62074,7 +62074,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İktisat (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 383.47722,
@@ -62093,7 +62093,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İktisat (İngilizce) (UOLP-New York Eyalet Üniversitesi (Suny Albany)) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 312.71201,
@@ -62112,7 +62112,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İşletme (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 389.88723,
@@ -62131,7 +62131,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İşletme (İngilizce) (UOLP-New York Eyalet Üniversitesi (Suny Albany)) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 331.52328,
@@ -62150,7 +62150,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Siyaset Bilimi ve Uluslararası İlişkiler (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 366.39402,
@@ -62169,7 +62169,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Siyaset Bilimi ve Uluslararası İlişkiler (İngilizce) ((UOLP-New York Eyalet Üniversitesi (Suny Albany)) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 302.86194,
@@ -62188,7 +62188,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Uluslararası Ticaret ve İşletmecilik (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 367.35165,
@@ -62207,7 +62207,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Mimarlık",
         "puanTuru": "SAY",
         "tabanPuan": 398.26326,
@@ -62226,7 +62226,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Şehir ve Bölge Planlama",
         "puanTuru": "SAY",
         "tabanPuan": 311.15988,
@@ -62245,7 +62245,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 461.13405,
@@ -62264,7 +62264,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": 327.52136,
@@ -62283,7 +62283,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Çevre Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 331.13893,
@@ -62302,7 +62302,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 457.87584,
@@ -62321,7 +62321,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Endüstri Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 441.49382,
@@ -62340,7 +62340,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İnşaat Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 383.36444,
@@ -62359,7 +62359,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Jeofizik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 311.49431,
@@ -62378,7 +62378,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Jeoloji Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 315.01722,
@@ -62397,7 +62397,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Maden Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 327.81247,
@@ -62416,7 +62416,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Makine Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 438.29936,
@@ -62435,7 +62435,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Metalurji ve Malzeme Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 389.45051,
@@ -62454,7 +62454,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Metalurji ve Malzeme Mühendisliği (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -62473,7 +62473,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tekstil Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 333.75174,
@@ -62492,7 +62492,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Spor Yöneticiliği",
         "puanTuru": "EA",
         "tabanPuan": 281.0959,
@@ -62511,7 +62511,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tıp",
         "puanTuru": "SAY",
         "tabanPuan": 508.96859,
@@ -62530,7 +62530,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Gastronomi ve Mutfak Sanatları",
         "puanTuru": "SÖZ",
         "tabanPuan": 388.22753,
@@ -62549,7 +62549,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Turizm İşletmeciliği",
         "puanTuru": "EA",
         "tabanPuan": 314.92353,
@@ -62568,7 +62568,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Turizm ve Gastronomi Yönetimi Programları (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 322.17001,
@@ -62587,7 +62587,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Veteriner",
         "puanTuru": "SAY",
         "tabanPuan": 393.01597,
@@ -63727,7 +63727,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 469.88576,
@@ -63746,7 +63746,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": 330.53082,
@@ -63765,7 +63765,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İlahiyat",
         "puanTuru": "SÖZ",
         "tabanPuan": 317.29914,
@@ -63784,7 +63784,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İlahiyat (M.T.O.K.)",
         "puanTuru": "SÖZ",
         "tabanPuan": 296.09535,
@@ -63803,7 +63803,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Turizm İşletmeciliği",
         "puanTuru": "EA",
         "tabanPuan": 299.82387,
@@ -63822,7 +63822,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Turizm Rehberliği",
         "puanTuru": "DİL",
         "tabanPuan": 393.09447,
@@ -63841,7 +63841,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Diş Hekimliği",
         "puanTuru": "SAY",
         "tabanPuan": 478.76947,
@@ -63860,7 +63860,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Eczacılık",
         "puanTuru": "SAY",
         "tabanPuan": 459.52658,
@@ -63879,7 +63879,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Alman Dili ve Edebiyatı (Almanca)",
         "puanTuru": "DİL",
         "tabanPuan": 412.38866,
@@ -63898,7 +63898,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Almanca Mütercim ve Tercümanlık",
         "puanTuru": "DİL",
         "tabanPuan": 427.01137,
@@ -63917,7 +63917,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Amerikan Kültürü ve Edebiyatı (İngilizce)",
         "puanTuru": "DİL",
         "tabanPuan": 435.09344,
@@ -63936,7 +63936,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Coğrafya",
         "puanTuru": "SÖZ",
         "tabanPuan": 342.63928,
@@ -63955,7 +63955,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Felsefe",
         "puanTuru": "EA",
         "tabanPuan": 306.79942,
@@ -63974,7 +63974,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Felsefe (KKTC Uyruklu)",
         "puanTuru": "EA",
         "tabanPuan": 272.40911,
@@ -63993,7 +63993,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İngiliz Dili ve Edebiyatı (İngilizce)",
         "puanTuru": "DİL",
         "tabanPuan": 444.24932,
@@ -64012,7 +64012,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İngilizce Mütercim ve Tercümanlık",
         "puanTuru": "DİL",
         "tabanPuan": 457.63201,
@@ -64031,7 +64031,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Klasik Arkeoloji",
         "puanTuru": "EA",
         "tabanPuan": 291.92253,
@@ -64050,7 +64050,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Protohistorya ve Ön Asya Arkeolojisi",
         "puanTuru": "EA",
         "tabanPuan": 278.78562,
@@ -64069,7 +64069,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Psikoloji",
         "puanTuru": "EA",
         "tabanPuan": 412.11091,
@@ -64088,7 +64088,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Sanat Tarihi",
         "puanTuru": "SÖZ",
         "tabanPuan": 342.28276,
@@ -64107,7 +64107,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Sosyoloji",
         "puanTuru": "EA",
         "tabanPuan": 329.40575,
@@ -64126,7 +64126,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tarih",
         "puanTuru": "SÖZ",
         "tabanPuan": 384.99107,
@@ -64145,7 +64145,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tarih (KKTC Uyruklu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 341.39324,
@@ -64164,7 +64164,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Türk Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 361.16573,
@@ -64183,7 +64183,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar ve Öğretim Teknolojileri Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 321.30201,
@@ -64202,7 +64202,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Fen Bilgisi Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 303.75754,
@@ -64221,7 +64221,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Okul Öncesi Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 397.85115,
@@ -64240,7 +64240,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Özel Eğitim Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 420.18111,
@@ -64259,7 +64259,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık",
         "puanTuru": "EA",
         "tabanPuan": 381.43887,
@@ -64278,7 +64278,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Sınıf Öğretmenliği",
         "puanTuru": "EA",
         "tabanPuan": 384.06732,
@@ -64297,7 +64297,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Sosyal Bilgiler Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 352.40769,
@@ -64316,7 +64316,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Türkçe Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 384.17006,
@@ -64335,7 +64335,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Astronomi ve Uzay Bilimleri",
         "puanTuru": "SAY",
         "tabanPuan": 311.38416,
@@ -64354,7 +64354,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Biyokimya",
         "puanTuru": "SAY",
         "tabanPuan": 356.82004,
@@ -64373,7 +64373,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Biyokimya (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": 312.14704,
@@ -64392,7 +64392,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Biyoloji",
         "puanTuru": "SAY",
         "tabanPuan": 323.53929,
@@ -64411,7 +64411,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Fizik",
         "puanTuru": "SAY",
         "tabanPuan": 329.81284,
@@ -64430,7 +64430,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İstatistik",
         "puanTuru": "SAY",
         "tabanPuan": 380.84818,
@@ -64449,7 +64449,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İstatistik (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": 244.57986,
@@ -64468,7 +64468,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Kimya",
         "puanTuru": "SAY",
         "tabanPuan": 371.67054,
@@ -64487,7 +64487,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Matematik",
         "puanTuru": "SAY",
         "tabanPuan": 372.65749,
@@ -64506,7 +64506,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Görsel İletişim Tasarımı",
         "puanTuru": "SÖZ",
         "tabanPuan": 377.55081,
@@ -64525,7 +64525,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Hemşirelik",
         "puanTuru": "SAY",
         "tabanPuan": 400.41912,
@@ -64544,7 +64544,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İktisat (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 371.58565,
@@ -64563,7 +64563,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İşletme",
         "puanTuru": "EA",
         "tabanPuan": 368.2078,
@@ -64582,7 +64582,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Uluslararası İlişkiler",
         "puanTuru": "EA",
         "tabanPuan": 362.61416,
@@ -64601,7 +64601,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Gazetecilik",
         "puanTuru": "SÖZ",
         "tabanPuan": 353.24659,
@@ -64620,7 +64620,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Halkla İlişkiler ve Tanıtım",
         "puanTuru": "SÖZ",
         "tabanPuan": 365.93436,
@@ -64639,7 +64639,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Radyo, Televizyon ve Sinema",
         "puanTuru": "SÖZ",
         "tabanPuan": 375.40778,
@@ -64658,7 +64658,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Reklamcılık",
         "puanTuru": "SÖZ",
         "tabanPuan": 355.64859,
@@ -64677,7 +64677,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Endüstriyel Tasarım",
         "puanTuru": "SAY",
         "tabanPuan": 368.55975,
@@ -64696,7 +64696,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Moda Tasarımı",
         "puanTuru": "EA",
         "tabanPuan": 314.03465,
@@ -64715,7 +64715,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Biyomühendislik (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 426.57332,
@@ -64734,7 +64734,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Deri Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 306.84768,
@@ -64753,7 +64753,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 466.65787,
@@ -64772,7 +64772,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Gıda Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 384.9767,
@@ -64791,7 +64791,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Gıda Mühendisliği (UOLP-Azerbaycan Devlet İktisat Üniversitesi) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -64810,7 +64810,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İnşaat Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 404.02362,
@@ -64829,7 +64829,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İnşaat Mühendisliği (İngilizce) (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -64848,7 +64848,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Kimya Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 443.94836,
@@ -64867,7 +64867,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Makine Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 453.61217,
@@ -64886,7 +64886,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tekstil Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 348.89286,
@@ -64905,7 +64905,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "EA",
         "tabanPuan": 326.01135,
@@ -64924,7 +64924,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Beslenme ve Diyetetik",
         "puanTuru": "SAY",
         "tabanPuan": 382.39732,
@@ -64943,7 +64943,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Ebelik",
         "puanTuru": "SAY",
         "tabanPuan": 357.29615,
@@ -64962,7 +64962,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Fizyoterapi ve Rehabilitasyon",
         "puanTuru": "SAY",
         "tabanPuan": 362.82112,
@@ -64981,7 +64981,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Odyoloji",
         "puanTuru": "SAY",
         "tabanPuan": 332.84849,
@@ -65000,7 +65000,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Spor Yöneticiliği",
         "puanTuru": "EA",
         "tabanPuan": 299.65938,
@@ -65019,7 +65019,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Su Ürünleri Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 277.32149,
@@ -65038,7 +65038,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Su Ürünleri Mühendisliği (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": 242.6785,
@@ -65057,7 +65057,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tıp",
         "puanTuru": "SAY",
         "tabanPuan": 516.36259,
@@ -65076,7 +65076,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bahçe Bitkileri",
         "puanTuru": "SAY",
         "tabanPuan": 313.18182,
@@ -65095,7 +65095,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bahçe Bitkileri (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -65114,7 +65114,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bitki Koruma",
         "puanTuru": "SAY",
         "tabanPuan": 340.0586,
@@ -65133,7 +65133,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Peyzaj Mimarlığı",
         "puanTuru": "SAY",
         "tabanPuan": 321.9645,
@@ -65152,7 +65152,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Süt Teknolojisi",
         "puanTuru": "SAY",
         "tabanPuan": 263.71571,
@@ -65171,7 +65171,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tarım Ekonomisi",
         "puanTuru": "EA",
         "tabanPuan": 305.07684,
@@ -65190,7 +65190,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tarım Makineleri ve Teknolojileri Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 302.27102,
@@ -65209,7 +65209,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tarımsal Yapılar ve Sulama",
         "puanTuru": "SAY",
         "tabanPuan": 275.81841,
@@ -65228,7 +65228,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tarla Bitkileri",
         "puanTuru": "SAY",
         "tabanPuan": 294.43089,
@@ -65247,7 +65247,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Toprak Bilimi ve Bitki Besleme",
         "puanTuru": "SAY",
         "tabanPuan": 286.86058,
@@ -65266,7 +65266,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Zootekni",
         "puanTuru": "SAY",
         "tabanPuan": 273.11241,
@@ -65285,7 +65285,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Zootekni (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -65304,7 +65304,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Diş Hekimliği",
         "puanTuru": "SAY",
         "tabanPuan": 470.72417,
@@ -65323,7 +65323,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Eczacılık",
         "puanTuru": "SAY",
         "tabanPuan": 451.70325,
@@ -65342,7 +65342,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Çerkez Dili ve Kültürü",
         "puanTuru": "SÖZ",
         "tabanPuan": 245.60196,
@@ -65361,7 +65361,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Çin Dili ve Edebiyatı",
         "puanTuru": "DİL",
         "tabanPuan": 399.84833,
@@ -65380,7 +65380,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Ermeni Dili ve Kültürü",
         "puanTuru": "DİL",
         "tabanPuan": 161.5591,
@@ -65399,7 +65399,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Felsefe",
         "puanTuru": "EA",
         "tabanPuan": 253.81208,
@@ -65418,7 +65418,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İbrani Dili ve Kültürü",
         "puanTuru": "DİL",
         "tabanPuan": 183.67638,
@@ -65437,7 +65437,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İngiliz Dili ve Edebiyatı",
         "puanTuru": "DİL",
         "tabanPuan": 399.79381,
@@ -65456,7 +65456,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Japon Dili ve Edebiyatı",
         "puanTuru": "DİL",
         "tabanPuan": 398.49587,
@@ -65475,7 +65475,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Kore Dili ve Edebiyatı",
         "puanTuru": "DİL",
         "tabanPuan": 384.93515,
@@ -65494,7 +65494,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Rus Dili ve Edebiyatı",
         "puanTuru": "DİL",
         "tabanPuan": 359.05569,
@@ -65513,7 +65513,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Sanat Tarihi",
         "puanTuru": "SÖZ",
         "tabanPuan": 275.79065,
@@ -65532,7 +65532,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Sosyoloji",
         "puanTuru": "EA",
         "tabanPuan": 282.25385,
@@ -65551,7 +65551,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Tarih",
         "puanTuru": "SÖZ",
         "tabanPuan": 325.12128,
@@ -65570,7 +65570,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Türk Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 320.13353,
@@ -65589,7 +65589,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Türk Halkbilimi",
         "puanTuru": "SÖZ",
         "tabanPuan": 252.99863,
@@ -65608,7 +65608,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Fen Bilgisi Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 302.74173,
@@ -65627,7 +65627,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İlköğretim Matematik Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 326.60837,
@@ -65646,7 +65646,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İngilizce Öğretmenliği",
         "puanTuru": "DİL",
         "tabanPuan": 424.54662,
@@ -65665,7 +65665,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Okul Öncesi Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 385.4706,
@@ -65684,7 +65684,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık",
         "puanTuru": "EA",
         "tabanPuan": 353.58811,
@@ -65703,7 +65703,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Sınıf Öğretmenliği",
         "puanTuru": "EA",
         "tabanPuan": 370.57674,
@@ -65722,7 +65722,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Sosyal Bilgiler Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 334.52364,
@@ -65741,7 +65741,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Türkçe Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 362.53891,
@@ -65760,7 +65760,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Astronomi ve Uzay Bilimleri",
         "puanTuru": "SAY",
         "tabanPuan": 280.77048,
@@ -65779,7 +65779,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Biyoloji",
         "puanTuru": "SAY",
         "tabanPuan": 280.32821,
@@ -65798,7 +65798,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Fizik",
         "puanTuru": "SAY",
         "tabanPuan": 282.34637,
@@ -65817,7 +65817,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Kimya",
         "puanTuru": "SAY",
         "tabanPuan": 291.62197,
@@ -65836,7 +65836,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Matematik",
         "puanTuru": "SAY",
         "tabanPuan": 298.47565,
@@ -65855,7 +65855,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Havacılık Elektrik ve Elektroniği",
         "puanTuru": "SAY",
         "tabanPuan": 416.69116,
@@ -65874,7 +65874,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Havacılık Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 338.37751,
@@ -65893,7 +65893,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Uçak Gövde ve Motor Bakımı",
         "puanTuru": "SAY",
         "tabanPuan": 425.10274,
@@ -65912,7 +65912,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Uçak Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 456.9012,
@@ -65931,7 +65931,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Uçak Mühendisliği (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -65950,7 +65950,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Uzay Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 380.84053,
@@ -65969,7 +65969,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Uzay Mühendisliği (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -65988,7 +65988,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Hukuk",
         "puanTuru": "EA",
         "tabanPuan": 414.40472,
@@ -66007,7 +66007,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İktisat",
         "puanTuru": "EA",
         "tabanPuan": 292.5572,
@@ -66026,7 +66026,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İşletme",
         "puanTuru": "EA",
         "tabanPuan": 305.21381,
@@ -66045,7 +66045,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Maliye",
         "puanTuru": "EA",
         "tabanPuan": 297.34895,
@@ -66064,7 +66064,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 304.88053,
@@ -66083,7 +66083,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Uluslararası İlişkiler (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 321.84926,
@@ -66102,7 +66102,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İlahiyat",
         "puanTuru": "SÖZ",
         "tabanPuan": 297.53287,
@@ -66121,7 +66121,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İlahiyat (KKTC Uyruklu)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -66140,7 +66140,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İlahiyat (M.T.O.K.)",
         "puanTuru": "SÖZ",
         "tabanPuan": 282.69414,
@@ -66159,7 +66159,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Gazetecilik",
         "puanTuru": "SÖZ",
         "tabanPuan": 281.68685,
@@ -66178,7 +66178,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Halkla İlişkiler ve Tanıtım",
         "puanTuru": "SÖZ",
         "tabanPuan": 299.73339,
@@ -66197,7 +66197,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Radyo, Televizyon ve Sinema",
         "puanTuru": "SÖZ",
         "tabanPuan": 298.31843,
@@ -66216,7 +66216,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Mimarlık",
         "puanTuru": "SAY",
         "tabanPuan": 337.44559,
@@ -66235,7 +66235,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Şehir ve Bölge Planlama",
         "puanTuru": "SAY",
         "tabanPuan": 269.91303,
@@ -66254,7 +66254,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Bilgisayar Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 412.66932,
@@ -66273,7 +66273,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Biyomedikal Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 310.91214,
@@ -66292,7 +66292,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Çevre Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 302.77439,
@@ -66311,7 +66311,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Elektrik-Elektronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 400.69061,
@@ -66330,7 +66330,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Endüstri Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 371.37668,
@@ -66349,7 +66349,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Endüstriyel Tasarım Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 315.53785,
@@ -66368,7 +66368,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Enerji Sistemleri Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 333.34763,
@@ -66387,7 +66387,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Gıda Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 306.04566,
@@ -66406,7 +66406,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Harita Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 304.28496,
@@ -66425,7 +66425,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İnşaat Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 323.4257,
@@ -66444,7 +66444,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Makine Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 360.70768,
@@ -66463,7 +66463,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Makine Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 390.4459,
@@ -66482,7 +66482,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Mekatronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 347.60544,
@@ -66501,7 +66501,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Metalurji ve Malzeme Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 330.84819,
@@ -66520,7 +66520,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Tekstil Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 310.95062,
@@ -66539,7 +66539,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Yazılım Mühendisliği (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 419.21129,
@@ -66558,7 +66558,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Yazılım Mühendisliği (İngilizce) (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -66577,7 +66577,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Beslenme ve Diyetetik",
         "puanTuru": "SAY",
         "tabanPuan": 330.27473,
@@ -66596,7 +66596,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Hemşirelik",
         "puanTuru": "SAY",
         "tabanPuan": 389.07974,
@@ -66615,7 +66615,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Spor Yöneticiliği",
         "puanTuru": "EA",
         "tabanPuan": 260.89329,
@@ -66634,7 +66634,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Tıp",
         "puanTuru": "SAY",
         "tabanPuan": 495.9438,
@@ -66653,7 +66653,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Gastronomi ve Mutfak Sanatları",
         "puanTuru": "SÖZ",
         "tabanPuan": 351.68824,
@@ -66672,7 +66672,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Turizm İşletmeciliği",
         "puanTuru": "EA",
         "tabanPuan": 271.43758,
@@ -66691,7 +66691,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Turizm Rehberliği",
         "puanTuru": "DİL",
         "tabanPuan": 336.99542,
@@ -66710,7 +66710,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Veteriner",
         "puanTuru": "SAY",
         "tabanPuan": 395.19534,
@@ -66729,7 +66729,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Bahçe Bitkileri",
         "puanTuru": "SAY",
         "tabanPuan": 265.01995,
@@ -66748,7 +66748,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Bitki Koruma",
         "puanTuru": "SAY",
         "tabanPuan": 293.78093,
@@ -66767,7 +66767,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Biyosistem Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 276.58233,
@@ -66786,7 +66786,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Tarımsal Biyoteknoloji",
         "puanTuru": "SAY",
         "tabanPuan": 255.07785,
@@ -66805,7 +66805,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Tarla Bitkileri",
         "puanTuru": "SAY",
         "tabanPuan": 266.7831,
@@ -66824,7 +66824,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Toprak Bilimi ve Bitki Besleme",
         "puanTuru": "SAY",
         "tabanPuan": 257.95223,
@@ -66843,7 +66843,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Zootekni",
         "puanTuru": "SAY",
         "tabanPuan": 254.82142,
@@ -71840,7 +71840,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Diş Hekimliği",
         "puanTuru": "SAY",
         "tabanPuan": 464.39763,
@@ -71859,7 +71859,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Eczacılık",
         "puanTuru": "SAY",
         "tabanPuan": 446.01333,
@@ -71878,7 +71878,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Fen Bilgisi Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 308.4199,
@@ -71897,7 +71897,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İlköğretim Matematik Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 310.45793,
@@ -71916,7 +71916,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İngilizce Öğretmenliği (İngilizce)",
         "puanTuru": "DİL",
         "tabanPuan": 402.59949,
@@ -71935,7 +71935,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Okul Öncesi Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 379.37635,
@@ -71954,7 +71954,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık",
         "puanTuru": "EA",
         "tabanPuan": 337.50818,
@@ -71973,7 +71973,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Sınıf Öğretmenliği",
         "puanTuru": "EA",
         "tabanPuan": 362.00873,
@@ -71992,7 +71992,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Sosyal Bilgiler Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 322.60845,
@@ -72011,7 +72011,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Türkçe Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 352.63853,
@@ -72030,7 +72030,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Biyoloji",
         "puanTuru": "SAY",
         "tabanPuan": 257.89559,
@@ -72049,7 +72049,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Fizik",
         "puanTuru": "SAY",
         "tabanPuan": 260.01266,
@@ -72068,7 +72068,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İstatistik",
         "puanTuru": "SAY",
         "tabanPuan": 279.17313,
@@ -72087,7 +72087,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Kimya",
         "puanTuru": "SAY",
         "tabanPuan": 264.65849,
@@ -72106,7 +72106,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Matematik",
         "puanTuru": "SAY",
         "tabanPuan": 292.41246,
@@ -72125,7 +72125,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Moleküler Biyoloji ve Genetik",
         "puanTuru": "SAY",
         "tabanPuan": 277.18376,
@@ -72144,7 +72144,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Çalışma Ekonomisi ve Endüstri İlişkileri",
         "puanTuru": "EA",
         "tabanPuan": 234.46658,
@@ -72163,7 +72163,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İktisat",
         "puanTuru": "EA",
         "tabanPuan": 248.90763,
@@ -72182,7 +72182,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İşletme",
         "puanTuru": "EA",
         "tabanPuan": 262.81352,
@@ -72201,7 +72201,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Maliye",
         "puanTuru": "EA",
         "tabanPuan": 256.337,
@@ -72220,7 +72220,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 267.95608,
@@ -72239,7 +72239,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Sosyal Hizmet",
         "puanTuru": "EA",
         "tabanPuan": 290.10702,
@@ -72258,7 +72258,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Yönetim Bilişim Sistemleri",
         "puanTuru": "EA",
         "tabanPuan": 336.87362,
@@ -72277,7 +72277,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İlahiyat",
         "puanTuru": "SÖZ",
         "tabanPuan": 257.88296,
@@ -72296,7 +72296,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İlahiyat (M.T.O.K.)",
         "puanTuru": "SÖZ",
         "tabanPuan": 248.39428,
@@ -72315,7 +72315,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Gazetecilik",
         "puanTuru": "SÖZ",
         "tabanPuan": 237.9526,
@@ -72334,7 +72334,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Görsel İletişim Tasarımı",
         "puanTuru": "SÖZ",
         "tabanPuan": 236.72837,
@@ -72353,7 +72353,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Halkla İlişkiler ve Tanıtım",
         "puanTuru": "SÖZ",
         "tabanPuan": 249.73778,
@@ -72372,7 +72372,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Radyo, Televizyon ve Sinema",
         "puanTuru": "SÖZ",
         "tabanPuan": 245.77107,
@@ -72391,7 +72391,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Alman Dili ve Edebiyatı (Almanca)",
         "puanTuru": "DİL",
         "tabanPuan": 284.62397,
@@ -72410,7 +72410,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Coğrafya",
         "puanTuru": "SÖZ",
         "tabanPuan": 280.86044,
@@ -72429,7 +72429,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Çağdaş Türk Lehçeleri ve Edebiyatları",
         "puanTuru": "SÖZ",
         "tabanPuan": 221.08822,
@@ -72448,7 +72448,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İngiliz Dili ve Edebiyatı",
         "puanTuru": "DİL",
         "tabanPuan": 361.30754,
@@ -72467,7 +72467,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Sanat Tarihi",
         "puanTuru": "SÖZ",
         "tabanPuan": 238.26919,
@@ -72486,7 +72486,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Sosyoloji",
         "puanTuru": "EA",
         "tabanPuan": 253.38349,
@@ -72505,7 +72505,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Tarih",
         "puanTuru": "SÖZ",
         "tabanPuan": 277.45569,
@@ -72524,7 +72524,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Türk Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 294.16306,
@@ -72543,7 +72543,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Mimarlık",
         "puanTuru": "SAY",
         "tabanPuan": 318.11832,
@@ -72562,7 +72562,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Bilgisayar Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 369.33306,
@@ -72581,7 +72581,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Çevre Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -72600,7 +72600,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Elektrik-Elektronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 338.62408,
@@ -72619,7 +72619,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İnşaat Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 311.37518,
@@ -72638,7 +72638,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Jeoloji Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -72657,7 +72657,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Kimya Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 305.25845,
@@ -72676,7 +72676,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Makine Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 323.96922,
@@ -72695,7 +72695,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Mekatronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 314.3331,
@@ -72714,7 +72714,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Metalurji ve Malzeme Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 302.66447,
@@ -72733,7 +72733,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Yapay Zeka ve Veri Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 410.64814,
@@ -72752,7 +72752,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Yazılım Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 387.50199,
@@ -72771,7 +72771,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Beslenme ve Diyetetik",
         "puanTuru": "SAY",
         "tabanPuan": 297.62895,
@@ -72790,7 +72790,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Ebelik",
         "puanTuru": "SAY",
         "tabanPuan": 337.30806,
@@ -72809,7 +72809,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Fizyoterapi ve Rehabilitasyon",
         "puanTuru": "SAY",
         "tabanPuan": 300.45272,
@@ -72828,7 +72828,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Hemşirelik",
         "puanTuru": "SAY",
         "tabanPuan": 382.2061,
@@ -72847,7 +72847,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Havacılık Elektrik ve Elektroniği",
         "puanTuru": "SAY",
         "tabanPuan": 317.09734,
@@ -72866,7 +72866,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Uçak Bakım ve Onarım",
         "puanTuru": "SAY",
         "tabanPuan": 328.86767,
@@ -72885,7 +72885,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Spor Yöneticiliği",
         "puanTuru": "EA",
         "tabanPuan": 247.63723,
@@ -72904,7 +72904,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Su Ürünleri Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 238.16566,
@@ -72923,7 +72923,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Adli Bilişim Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 329.82598,
@@ -72942,7 +72942,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Adli Bilişim Mühendisliği (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -72961,7 +72961,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Adli Bilişim Mühendisliği (M.T.O.K.)",
         "puanTuru": "SAY",
         "tabanPuan": 318.81137,
@@ -72980,7 +72980,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Elektrik-Elektronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 324.49472,
@@ -72999,7 +72999,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Enerji Sistemleri Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 303.01206,
@@ -73018,7 +73018,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İnşaat Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 306.27737,
@@ -73037,7 +73037,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Makine Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 309.9275,
@@ -73056,7 +73056,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Makine Mühendisliği (M.T.O.K.)",
         "puanTuru": "SAY",
         "tabanPuan": 303.35189,
@@ -73075,7 +73075,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Mekatronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 304.72698,
@@ -73094,7 +73094,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Metalurji ve Malzeme Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 304.63375,
@@ -73113,7 +73113,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Metalurji ve Malzeme Mühendisliği (M.T.O.K.)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -73132,7 +73132,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Otomotiv Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 311.17649,
@@ -73151,7 +73151,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Otomotiv Mühendisliği (M.T.O.K.)",
         "puanTuru": "SAY",
         "tabanPuan": 311.72501,
@@ -73170,7 +73170,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Yazılım Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 367.00898,
@@ -73189,7 +73189,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Yazılım Mühendisliği (İngilizce) (UOLP-Sam Houston State) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 403.24762,
@@ -73208,7 +73208,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Yazılım Mühendisliği (M.T.O.K.)",
         "puanTuru": "SAY",
         "tabanPuan": 305.94548,
@@ -73227,7 +73227,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Tıp",
         "puanTuru": "SAY",
         "tabanPuan": 482.78559,
@@ -73246,7 +73246,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Veteriner",
         "puanTuru": "SAY",
         "tabanPuan": 371.27099,
@@ -77787,7 +77787,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Amerikan Kültürü ve Edebiyatı (İngilizce) (%50 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 176.17235,
@@ -77806,7 +77806,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Amerikan Kültürü ve Edebiyatı (İngilizce) (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 324.0932,
@@ -77825,7 +77825,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İngiliz Dili ve Edebiyatı (İngilizce) (%50 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 178.35789,
@@ -77844,7 +77844,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İngiliz Dili ve Edebiyatı (İngilizce) (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 349.6046,
@@ -77863,7 +77863,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İngiliz Dili ve Edebiyatı (İngilizce) (Ücretli)",
         "puanTuru": "DİL",
         "tabanPuan": "",
@@ -77882,7 +77882,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İngilizce Mütercim ve Tercümanlık (%50 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 220.8258,
@@ -77901,7 +77901,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İngilizce Mütercim ve Tercümanlık (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 364.13567,
@@ -77920,7 +77920,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İngilizce Mütercim ve Tercümanlık (Ücretli)",
         "puanTuru": "DİL",
         "tabanPuan": 218.22294,
@@ -77939,7 +77939,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Psikoloji (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 215.08423,
@@ -77958,7 +77958,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Psikoloji (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 307.27069,
@@ -77977,7 +77977,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Psikoloji (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 195.48027,
@@ -77996,7 +77996,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Psikoloji (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 302.58224,
@@ -78015,7 +78015,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Psikoloji (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 169.34892,
@@ -78034,7 +78034,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Psikoloji (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 186.122,
@@ -78053,7 +78053,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Deniz Ulaştırma İşletme Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 304.48372,
@@ -78072,7 +78072,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Deniz Ulaştırma İşletme Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 351.91925,
@@ -78091,7 +78091,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Deniz Ulaştırma İşletme Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -78110,7 +78110,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Lojistik Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 210.1103,
@@ -78129,7 +78129,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Lojistik Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 236.69027,
@@ -78148,7 +78148,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Eczacılık (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 399.31471,
@@ -78167,7 +78167,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Eczacılık (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 439.20356,
@@ -78186,7 +78186,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Eczacılık (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -78205,7 +78205,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İngilizce Öğretmenliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 199.36319,
@@ -78224,7 +78224,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İngilizce Öğretmenliği (İngilizce) (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 364.60124,
@@ -78243,7 +78243,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İngilizce Öğretmenliği (İngilizce) (Ücretli)",
         "puanTuru": "DİL",
         "tabanPuan": 173.57177,
@@ -78262,7 +78262,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Okul Öncesi Öğretmenliği (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 315.4704,
@@ -78281,7 +78281,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Okul Öncesi Öğretmenliği (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 304.96212,
@@ -78300,7 +78300,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -78319,7 +78319,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 319.40918,
@@ -78338,7 +78338,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Sınıf Öğretmenliği (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 310.44844,
@@ -78357,7 +78357,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Sınıf Öğretmenliği (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 334.36009,
@@ -78376,7 +78376,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Türkçe Öğretmenliği (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -78395,7 +78395,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Türkçe Öğretmenliği (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 313.54885,
@@ -78414,7 +78414,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Havacılık Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 210.92408,
@@ -78433,7 +78433,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Havacılık Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 304.80529,
@@ -78452,7 +78452,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Havacılık Yönetimi (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 188.51546,
@@ -78471,7 +78471,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Pilotaj (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 505.80547,
@@ -78490,7 +78490,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Pilotaj (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 269.62914,
@@ -78509,7 +78509,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Ebelik (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 260.46771,
@@ -78528,7 +78528,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Ebelik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 315.57632,
@@ -78547,7 +78547,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Ebelik (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 242.19925,
@@ -78566,7 +78566,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hemşirelik (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 268.7974,
@@ -78585,7 +78585,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hemşirelik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 324.4425,
@@ -78604,7 +78604,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hemşirelik (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 250.57299,
@@ -78623,7 +78623,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hukuk (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 354.54768,
@@ -78642,7 +78642,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hukuk (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 383.8602,
@@ -78661,7 +78661,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hukuk (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 352.58096,
@@ -78680,7 +78680,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Basın ve Yayın (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -78699,7 +78699,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Basın ve Yayın (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 185.69925,
@@ -78718,7 +78718,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Halkla İlişkiler ve Tanıtım (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 177.18452,
@@ -78737,7 +78737,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Halkla İlişkiler ve Tanıtım (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 201.51051,
@@ -78756,7 +78756,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Radyo, Televizyon ve Sinema (İngilizce) (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -78775,7 +78775,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Radyo, Televizyon ve Sinema (İngilizce) (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 209.67064,
@@ -78794,7 +78794,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Yeni Medya ve İletişim (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -78813,7 +78813,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Yeni Medya ve İletişim (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 215.36911,
@@ -78832,7 +78832,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Ekonomi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -78851,7 +78851,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Ekonomi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 238.17221,
@@ -78870,7 +78870,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İnsan Kaynakları Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -78889,7 +78889,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İnsan Kaynakları Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 193.94203,
@@ -78908,7 +78908,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İşletme (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 188.11016,
@@ -78927,7 +78927,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İşletme (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 263.30541,
@@ -78946,7 +78946,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Sigortacılık (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -78965,7 +78965,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Sigortacılık (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 154.78643,
@@ -78984,7 +78984,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Uluslararası İşletme Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 211.85535,
@@ -79003,7 +79003,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Uluslararası İşletme Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 238.15853,
@@ -79022,7 +79022,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İç Mimarlık (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 212.40231,
@@ -79041,7 +79041,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İç Mimarlık (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 271.15309,
@@ -79060,7 +79060,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İç Mimarlık (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 188.87907,
@@ -79079,7 +79079,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İç Mimarlık (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 274.06777,
@@ -79098,7 +79098,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İç Mimarlık (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 172.69492,
@@ -79117,7 +79117,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İç Mimarlık (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 184.26201,
@@ -79136,7 +79136,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Mimarlık (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -79155,7 +79155,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Mimarlık (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 336.91776,
@@ -79174,7 +79174,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Mimarlık (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -79193,7 +79193,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 311.32152,
@@ -79212,7 +79212,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 308.01862,
@@ -79231,7 +79231,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -79250,7 +79250,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 302.85478,
@@ -79269,7 +79269,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Endüstri Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -79288,7 +79288,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Endüstri Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 302.87881,
@@ -79307,7 +79307,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Enerji Sistemleri Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -79326,7 +79326,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Enerji Sistemleri Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -79345,7 +79345,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İnşaat Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -79364,7 +79364,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İnşaat Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 321.97612,
@@ -79383,7 +79383,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Acil Yardım ve Afet Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 200.67173,
@@ -79402,7 +79402,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Acil Yardım ve Afet Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 217.97999,
@@ -79421,7 +79421,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Ergoterapi (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 224.75119,
@@ -79440,7 +79440,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Ergoterapi (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 248.7478,
@@ -79459,7 +79459,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Fizyoterapi ve Rehabilitasyon (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 215.29795,
@@ -79478,7 +79478,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Fizyoterapi ve Rehabilitasyon (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 272.45839,
@@ -79497,7 +79497,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Fizyoterapi ve Rehabilitasyon (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 181.75522,
@@ -79516,7 +79516,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Sağlık Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -79535,7 +79535,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Sağlık Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 200.06047,
@@ -79554,7 +79554,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -79573,7 +79573,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 182.10135,
@@ -79592,7 +79592,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Uluslararası İlişkiler (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -79611,7 +79611,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Uluslararası İlişkiler (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 239.68973,
@@ -79630,7 +79630,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Finans ve Bankacılık (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -79649,7 +79649,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Finans ve Bankacılık (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 168.89212,
@@ -79668,7 +79668,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Gastronomi ve Mutfak Sanatları (İngilizce) (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 233.59655,
@@ -79687,7 +79687,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Gastronomi ve Mutfak Sanatları (İngilizce) (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 316.02659,
@@ -79706,7 +79706,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Gastronomi ve Mutfak Sanatları (İngilizce) (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 207.57764,
@@ -79725,7 +79725,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Muhasebe ve Finans Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -79744,7 +79744,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Muhasebe ve Finans Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 200.55723,
@@ -79763,7 +79763,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Pazarlama (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -79782,7 +79782,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Pazarlama (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 168.84291,
@@ -79801,7 +79801,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Turizm İşletmeciliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -79820,7 +79820,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Turizm İşletmeciliği (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 230.12118,
@@ -79839,7 +79839,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Yönetim Bilişim Sistemleri (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 196.41788,
@@ -79858,7 +79858,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Yönetim Bilişim Sistemleri (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 305.3675,
@@ -79877,7 +79877,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Yönetim Bilişim Sistemleri (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 252.75961,
@@ -79896,7 +79896,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Balıkçılık Teknolojisi Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 225.86787,
@@ -79915,7 +79915,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Denizcilik İşletmeleri Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 228.64248,
@@ -79934,7 +79934,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Denizcilik İşletmeleri Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 271.63652,
@@ -79953,7 +79953,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Deniz Ulaştırma İşletme Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 322.14657,
@@ -79972,7 +79972,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Deniz Ulaştırma İşletme Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 364.18727,
@@ -79991,7 +79991,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Gemi Makineleri İşletme Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 328.56622,
@@ -80010,7 +80010,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Gemi Makineleri İşletme Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 368.60369,
@@ -80029,7 +80029,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Diş Hekimliği (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 416.63386,
@@ -80048,7 +80048,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Diş Hekimliği (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 456.04649,
@@ -80067,7 +80067,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İngilizce Öğretmenliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 196.2159,
@@ -80086,7 +80086,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İngilizce Öğretmenliği (İngilizce) (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 360.44397,
@@ -80105,7 +80105,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Özel Eğitim Öğretmenliği (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 347.13062,
@@ -80124,7 +80124,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Özel Eğitim Öğretmenliği (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 390.53806,
@@ -80143,7 +80143,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -80162,7 +80162,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -80181,7 +80181,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Türkçe Öğretmenliği (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -80200,7 +80200,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Türkçe Öğretmenliği (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 299.41514,
@@ -80219,7 +80219,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Psikoloji (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 191.02338,
@@ -80238,7 +80238,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Psikoloji (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 319.98212,
@@ -80257,7 +80257,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Havacılık Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 223.48455,
@@ -80276,7 +80276,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Havacılık Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 306.43203,
@@ -80295,7 +80295,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Pilotaj (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 508.06309,
@@ -80314,7 +80314,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Pilotaj (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 265.08197,
@@ -80333,7 +80333,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Uçak Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 303.15237,
@@ -80352,7 +80352,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Uçak Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 437.88893,
@@ -80371,7 +80371,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hukuk (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 354.93882,
@@ -80390,7 +80390,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hukuk (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 387.66589,
@@ -80409,7 +80409,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Finans ve Bankacılık (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 178.36147,
@@ -80428,7 +80428,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Finans ve Bankacılık (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 194.17936,
@@ -80447,7 +80447,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Lojistik Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 184.67539,
@@ -80466,7 +80466,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Lojistik Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 229.54132,
@@ -80485,7 +80485,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Uluslararası İlişkiler (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -80504,7 +80504,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Uluslararası İlişkiler (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 240.04177,
@@ -80523,7 +80523,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Uluslararası İşletme Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -80542,7 +80542,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Uluslararası İşletme Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 232.5508,
@@ -80561,7 +80561,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Mimarlık (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -80580,7 +80580,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Mimarlık (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -80599,7 +80599,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -80618,7 +80618,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 318.7729,
@@ -80637,7 +80637,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -80656,7 +80656,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 306.49669,
@@ -80675,7 +80675,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İnşaat Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -80694,7 +80694,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İnşaat Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 307.99221,
@@ -80713,7 +80713,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Makine Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -80732,7 +80732,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Makine Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 302.43446,
@@ -80751,7 +80751,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Yazılım Mühendisliği (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -80770,7 +80770,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Yazılım Mühendisliği (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 303.5205,
@@ -80789,7 +80789,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Yazılım Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -80808,7 +80808,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Yazılım Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 309.00193,
@@ -80827,7 +80827,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Beslenme ve Diyetetik (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 178.78626,
@@ -80846,7 +80846,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Beslenme ve Diyetetik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 274.31844,
@@ -80865,7 +80865,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Fizyoterapi ve Rehabilitasyon (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 200.48471,
@@ -80884,7 +80884,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Fizyoterapi ve Rehabilitasyon (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 271.72776,
@@ -80903,7 +80903,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hemşirelik (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 275.71419,
@@ -80922,7 +80922,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hemşirelik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 327.89932,
@@ -80941,7 +80941,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Tıp (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 448.06403,
@@ -80960,7 +80960,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Tıp (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 474.90407,
@@ -80979,7 +80979,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Gastronomi ve Mutfak Sanatları (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 182.53352,
@@ -80998,7 +80998,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Gastronomi ve Mutfak Sanatları (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 292.30702,
@@ -81017,7 +81017,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Turizm İşletmeciliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 180.19154,
@@ -81036,7 +81036,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Turizm İşletmeciliği (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 213.44523,
@@ -86052,7 +86052,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Diş Hekimliği",
         "puanTuru": "SAY",
         "tabanPuan": 461.173,
@@ -86071,7 +86071,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Eczacılık",
         "puanTuru": "SAY",
         "tabanPuan": 445.14097,
@@ -86090,7 +86090,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Fen Bilgisi Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 304.3787,
@@ -86109,7 +86109,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "İlköğretim Matematik Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 310.30155,
@@ -86128,7 +86128,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "İngilizce Öğretmenliği (İngilizce)",
         "puanTuru": "DİL",
         "tabanPuan": 400.0389,
@@ -86147,7 +86147,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Okul Öncesi Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 381.77494,
@@ -86166,7 +86166,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Sınıf Öğretmenliği",
         "puanTuru": "EA",
         "tabanPuan": 365.30075,
@@ -86185,7 +86185,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Arap Dili ve Edebiyatı (Arapça)",
         "puanTuru": "DİL",
         "tabanPuan": 232.65091,
@@ -86204,7 +86204,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Arkeoloji",
         "puanTuru": "EA",
         "tabanPuan": 235.39988,
@@ -86223,7 +86223,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Biyoloji",
         "puanTuru": "SAY",
         "tabanPuan": 259.23273,
@@ -86242,7 +86242,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Coğrafya",
         "puanTuru": "SÖZ",
         "tabanPuan": 283.77487,
@@ -86261,7 +86261,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Fizik",
         "puanTuru": "SAY",
         "tabanPuan": 252.14089,
@@ -86280,7 +86280,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Kimya",
         "puanTuru": "SAY",
         "tabanPuan": 261.8416,
@@ -86299,7 +86299,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Matematik",
         "puanTuru": "SAY",
         "tabanPuan": 283.62927,
@@ -86318,7 +86318,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Moleküler Biyoloji ve Genetik",
         "puanTuru": "SAY",
         "tabanPuan": 271.79213,
@@ -86337,7 +86337,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Sosyoloji",
         "puanTuru": "EA",
         "tabanPuan": 249.96329,
@@ -86356,7 +86356,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Tarih",
         "puanTuru": "SÖZ",
         "tabanPuan": 285.3858,
@@ -86375,7 +86375,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Türk Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 307.55826,
@@ -86394,7 +86394,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Veri Bilimi ve Analitiği",
         "puanTuru": "SAY",
         "tabanPuan": 279.24205,
@@ -86413,7 +86413,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Mimarlık",
         "puanTuru": "SAY",
         "tabanPuan": 320.58353,
@@ -86432,7 +86432,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Radyo, Televizyon ve Sinema",
         "puanTuru": "SÖZ",
         "tabanPuan": 266.25183,
@@ -86451,7 +86451,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Ekonometri",
         "puanTuru": "EA",
         "tabanPuan": 232.22839,
@@ -86470,7 +86470,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "İktisat",
         "puanTuru": "EA",
         "tabanPuan": 255.81574,
@@ -86489,7 +86489,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "İşletme",
         "puanTuru": "EA",
         "tabanPuan": 278.19083,
@@ -86508,7 +86508,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Kamu Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 257.1181,
@@ -86527,7 +86527,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Maliye",
         "puanTuru": "EA",
         "tabanPuan": 264.61244,
@@ -86546,7 +86546,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "İlahiyat",
         "puanTuru": "SÖZ",
         "tabanPuan": 278.25481,
@@ -86565,7 +86565,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "İlahiyat (M.T.O.K.)",
         "puanTuru": "SÖZ",
         "tabanPuan": 263.89323,
@@ -86584,7 +86584,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Bilgisayar Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 314.75305,
@@ -86603,7 +86603,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Çevre Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -86622,7 +86622,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Elektrik-Elektronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 310.15128,
@@ -86641,7 +86641,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Endüstri Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 306.99756,
@@ -86660,7 +86660,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Harita Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 303.41321,
@@ -86679,7 +86679,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "İnşaat Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 315.70616,
@@ -86698,7 +86698,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Makine Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 307.58919,
@@ -86717,7 +86717,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Yazılım Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 334.61847,
@@ -86736,7 +86736,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Fizyoterapi ve Rehabilitasyon",
         "puanTuru": "SAY",
         "tabanPuan": 300.22305,
@@ -86755,7 +86755,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Hemşirelik",
         "puanTuru": "SAY",
         "tabanPuan": 379.13001,
@@ -86774,7 +86774,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Perfüzyon",
         "puanTuru": "SAY",
         "tabanPuan": 303.54677,
@@ -86793,7 +86793,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Uluslararası Ticaret ve Lojistik",
         "puanTuru": "EA",
         "tabanPuan": 228.32806,
@@ -86812,7 +86812,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Tıp",
         "puanTuru": "SAY",
         "tabanPuan": 477.84276,
@@ -86831,7 +86831,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Gastronomi ve Mutfak Sanatları",
         "puanTuru": "SÖZ",
         "tabanPuan": 325.58667,
@@ -86850,7 +86850,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Rekreasyon Yönetimi",
         "puanTuru": "SÖZ",
         "tabanPuan": 241.64712,
@@ -86869,7 +86869,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Turizm İşletmeciliği",
         "puanTuru": "EA",
         "tabanPuan": 230.73272,
@@ -86888,7 +86888,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Turizm Rehberliği",
         "puanTuru": "DİL",
         "tabanPuan": 269.17545,
@@ -86907,7 +86907,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Veteriner",
         "puanTuru": "SAY",
         "tabanPuan": 346.82775,
@@ -86926,7 +86926,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Hemşirelik",
         "puanTuru": "SAY",
         "tabanPuan": 344.2127,
@@ -86945,7 +86945,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Bahçe Bitkileri",
         "puanTuru": "SAY",
         "tabanPuan": 254.53981,
@@ -86964,7 +86964,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Bitki Koruma",
         "puanTuru": "SAY",
         "tabanPuan": 282.72349,
@@ -86983,7 +86983,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Tarım Ekonomisi",
         "puanTuru": "EA",
         "tabanPuan": 270.73343,
@@ -87002,7 +87002,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Tarımsal Yapılar ve Sulama",
         "puanTuru": "SAY",
         "tabanPuan": 237.90545,
@@ -87021,7 +87021,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Tarımsal Yapılar ve Sulama (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -87040,7 +87040,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Tarla Bitkileri",
         "puanTuru": "SAY",
         "tabanPuan": 260.4608,
@@ -87059,7 +87059,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Toprak Bilimi ve Bitki Besleme",
         "puanTuru": "SAY",
         "tabanPuan": 244.49549,
@@ -87078,7 +87078,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Toprak Bilimi ve Bitki Besleme (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -87097,7 +87097,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Zootekni",
         "puanTuru": "SAY",
         "tabanPuan": 237.08814,
@@ -87116,7 +87116,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İngilizce Öğretmenliği (İngilizce) (%25 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 246.50442,
@@ -87135,7 +87135,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İngilizce Öğretmenliği (İngilizce) (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 406.61274,
@@ -87154,7 +87154,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İngilizce Öğretmenliği (İngilizce) (Ücretli)",
         "puanTuru": "DİL",
         "tabanPuan": 190.53547,
@@ -87173,7 +87173,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Okul Öncesi Öğretmenliği (%25 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 291.90716,
@@ -87192,7 +87192,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Okul Öncesi Öğretmenliği (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 385.1582,
@@ -87211,7 +87211,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Okul Öncesi Öğretmenliği (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 299.94023,
@@ -87230,7 +87230,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Özel Eğitim Öğretmenliği (%25 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 347.18081,
@@ -87249,7 +87249,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Özel Eğitim Öğretmenliği (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 403.2934,
@@ -87268,7 +87268,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Özel Eğitim Öğretmenliği (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 292.7644,
@@ -87287,7 +87287,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 317.52074,
@@ -87306,7 +87306,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 357.68345,
@@ -87325,7 +87325,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 311.43072,
@@ -87344,7 +87344,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Sınıf Öğretmenliği (%25 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 309.70337,
@@ -87363,7 +87363,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Sınıf Öğretmenliği (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 362.99994,
@@ -87382,7 +87382,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Sınıf Öğretmenliği (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -87401,7 +87401,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 297.03474,
@@ -87420,7 +87420,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 339.56066,
@@ -87439,7 +87439,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 250.77029,
@@ -87458,7 +87458,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Mimarlık (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 321.28419,
@@ -87477,7 +87477,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Mimarlık (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 420.87919,
@@ -87496,7 +87496,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Mimarlık (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -87515,7 +87515,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Havacılık ve Uzay Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 304.21788,
@@ -87534,7 +87534,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Havacılık ve Uzay Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 410.6587,
@@ -87553,7 +87553,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Havacılık ve Uzay Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -87572,7 +87572,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Havacılık Yönetimi (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 290.22978,
@@ -87591,7 +87591,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Havacılık Yönetimi (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 339.16163,
@@ -87610,7 +87610,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Havacılık Yönetimi (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 184.09702,
@@ -87629,7 +87629,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Hukuk (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 353.79695,
@@ -87648,7 +87648,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Hukuk (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 395.07212,
@@ -87667,7 +87667,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Hukuk (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 350.36958,
@@ -87686,7 +87686,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Bankacılık ve Sigortacılık (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 227.93448,
@@ -87705,7 +87705,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Bankacılık ve Sigortacılık (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 319.09543,
@@ -87724,7 +87724,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Bankacılık ve Sigortacılık (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 174.90376,
@@ -87743,7 +87743,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İktisat (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 256.7544,
@@ -87762,7 +87762,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İktisat (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 321.93232,
@@ -87781,7 +87781,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İktisat (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 200.79729,
@@ -87800,7 +87800,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İşletme (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 274.23004,
@@ -87819,7 +87819,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İşletme (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 341.24452,
@@ -87838,7 +87838,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İşletme (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 221.99657,
@@ -87857,7 +87857,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Psikoloji (%25 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 285.96003,
@@ -87876,7 +87876,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Psikoloji (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 361.65982,
@@ -87895,7 +87895,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Psikoloji (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 181.65223,
@@ -87914,7 +87914,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Siyaset Bilimi ve Uluslararası İlişkiler (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 229.24614,
@@ -87933,7 +87933,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Siyaset Bilimi ve Uluslararası İlişkiler (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 330.99997,
@@ -87952,7 +87952,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Siyaset Bilimi ve Uluslararası İlişkiler (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 199.06241,
@@ -87971,7 +87971,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Uluslararası Ticaret ve Lojistik (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 268.55098,
@@ -87990,7 +87990,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Uluslararası Ticaret ve Lojistik (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 331.75162,
@@ -88009,7 +88009,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Uluslararası Ticaret ve Lojistik (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 220.02018,
@@ -88028,7 +88028,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Dijital Oyun Tasarımı (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 245.37283,
@@ -88047,7 +88047,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Dijital Oyun Tasarımı (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 320.02446,
@@ -88066,7 +88066,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Dijital Oyun Tasarımı (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 195.8675,
@@ -88085,7 +88085,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Görsel İletişim Tasarımı (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 207.78017,
@@ -88104,7 +88104,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Görsel İletişim Tasarımı (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 322.26141,
@@ -88123,7 +88123,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Görsel İletişim Tasarımı (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 169.87679,
@@ -88142,7 +88142,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Radyo, Televizyon ve Sinema (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 165.12582,
@@ -88161,7 +88161,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Radyo, Televizyon ve Sinema (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 326.09273,
@@ -88180,7 +88180,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Radyo, Televizyon ve Sinema (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 192.38889,
@@ -88199,7 +88199,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 322.0561,
@@ -88218,7 +88218,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 419.77073,
@@ -88237,7 +88237,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 308.00285,
@@ -88256,7 +88256,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 321.82944,
@@ -88275,7 +88275,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 374.69507,
@@ -88294,7 +88294,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Endüstri Mühendisliği (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 324.70341,
@@ -88313,7 +88313,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Endüstri Mühendisliği (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 358.32457,
@@ -88332,7 +88332,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İnşaat Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 310.05119,
@@ -88351,7 +88351,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İnşaat Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 325.9487,
@@ -88370,7 +88370,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Makine Mühendisliği (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 310.75346,
@@ -88389,7 +88389,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Makine Mühendisliği (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 331.4292,
@@ -88408,7 +88408,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Yazılım Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 318.49264,
@@ -88427,7 +88427,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Yazılım Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 414.35545,
@@ -88446,7 +88446,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Yazılım Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 305.9083,
@@ -88465,7 +88465,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Beslenme ve Diyetetik (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 252.64548,
@@ -88484,7 +88484,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Beslenme ve Diyetetik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 329.44782,
@@ -88503,7 +88503,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Beslenme ve Diyetetik (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 208.41882,
@@ -88522,7 +88522,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Fizyoterapi ve Rehabilitasyon (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 244.9816,
@@ -88541,7 +88541,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Fizyoterapi ve Rehabilitasyon (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 310.05596,
@@ -88560,7 +88560,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Fizyoterapi ve Rehabilitasyon (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 170.66472,
@@ -88579,7 +88579,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Hemşirelik (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 326.36001,
@@ -88598,7 +88598,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Hemşirelik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 368.9161,
@@ -88617,7 +88617,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Hemşirelik (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 239.53201,
@@ -88636,7 +88636,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Gastronomi ve Mutfak Sanatları (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 238.397,
@@ -88655,7 +88655,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Gastronomi ve Mutfak Sanatları (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 355.47897,
@@ -88674,7 +88674,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Gastronomi ve Mutfak Sanatları (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 177.70109,
@@ -88693,7 +88693,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Turizm İşletmeciliği (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 185.06051,
@@ -88712,7 +88712,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Turizm İşletmeciliği (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 277.80286,
@@ -88731,7 +88731,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Turizm İşletmeciliği (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 185.1043,
@@ -90194,7 +90194,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN)",
-        "sehir": "Kazaki̇stan",
+        "sehir": "Kazakistan",
         "bolum": "Diş Hekimliği Fakültesi",
         "puanTuru": "SAY",
         "tabanPuan": 439.15567,
@@ -90213,7 +90213,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN)",
-        "sehir": "Kazaki̇stan",
+        "sehir": "Kazakistan",
         "bolum": "Çağdaş Türk Lehçeleri ve Edebiyatları",
         "puanTuru": "SÖZ",
         "tabanPuan": 207.48249,
@@ -90232,7 +90232,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN)",
-        "sehir": "Kazaki̇stan",
+        "sehir": "Kazakistan",
         "bolum": "İngiliz Dili ve Edebiyatı",
         "puanTuru": "DİL",
         "tabanPuan": 265.67934,
@@ -90251,7 +90251,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN)",
-        "sehir": "Kazaki̇stan",
+        "sehir": "Kazakistan",
         "bolum": "Türk Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 212.24263,
@@ -90270,7 +90270,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN)",
-        "sehir": "Kazaki̇stan",
+        "sehir": "Kazakistan",
         "bolum": "Kamu Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 229.91183,
@@ -90289,7 +90289,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN)",
-        "sehir": "Kazaki̇stan",
+        "sehir": "Kazakistan",
         "bolum": "Turizm İşletmeciliği",
         "puanTuru": "EA",
         "tabanPuan": 211.71678,
@@ -90308,7 +90308,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN)",
-        "sehir": "Kazaki̇stan",
+        "sehir": "Kazakistan",
         "bolum": "Uluslararası İlişkiler",
         "puanTuru": "EA",
         "tabanPuan": 232.98967,
@@ -90327,7 +90327,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN)",
-        "sehir": "Kazaki̇stan",
+        "sehir": "Kazakistan",
         "bolum": "İlahiyat",
         "puanTuru": "SÖZ",
         "tabanPuan": 198.27497,
@@ -90346,7 +90346,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN)",
-        "sehir": "Kazaki̇stan",
+        "sehir": "Kazakistan",
         "bolum": "Gazetecilik",
         "puanTuru": "SÖZ",
         "tabanPuan": 221.72427,
@@ -90365,7 +90365,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN)",
-        "sehir": "Kazaki̇stan",
+        "sehir": "Kazakistan",
         "bolum": "Rus Dili ve Edebiyatı Öğretmenliği",
         "puanTuru": "DİL",
         "tabanPuan": 289.91155,
@@ -90384,7 +90384,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN)",
-        "sehir": "Kazaki̇stan",
+        "sehir": "Kazakistan",
         "bolum": "Tarih Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 315.25769,
@@ -90403,7 +90403,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN)",
-        "sehir": "Kazaki̇stan",
+        "sehir": "Kazakistan",
         "bolum": "Bilgisayar Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -90422,7 +90422,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN)",
-        "sehir": "Kazaki̇stan",
+        "sehir": "Kazakistan",
         "bolum": "Elektrik-Elektronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -90441,7 +90441,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN)",
-        "sehir": "Kazaki̇stan",
+        "sehir": "Kazakistan",
         "bolum": "Yönetim Bilişim Sistemleri (Uzaktan Öğretim) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 237.24999,
@@ -148258,7 +148258,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Bilgi Güvenliği Teknolojisi (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 209.3854,
@@ -148277,7 +148277,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Bilgi Güvenliği Teknolojisi (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 299.59409,
@@ -148296,7 +148296,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Bilişim Sistemleri ve Teknolojileri (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 214.258,
@@ -148315,7 +148315,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Bilişim Sistemleri ve Teknolojileri (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 299.67152,
@@ -148334,7 +148334,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Veri Bilimi ve Analitiği (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 213.33298,
@@ -148353,7 +148353,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Veri Bilimi ve Analitiği (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 294.03583,
@@ -148372,7 +148372,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Yapay Zeka ve Makine Öğrenmesi (%25 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 199.60866,
@@ -148391,7 +148391,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Yapay Zeka ve Makine Öğrenmesi (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 324.21044,
@@ -148410,7 +148410,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Yazılım Geliştirme (%25 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 173.65615,
@@ -148429,7 +148429,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Yazılım Geliştirme (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 314.07179,
@@ -148448,7 +148448,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Yönetim Bilişim Sistemleri (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 189.23106,
@@ -148467,7 +148467,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Yönetim Bilişim Sistemleri (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 331.88334,
@@ -148486,7 +148486,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Diş Hekimliği (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 460.41648,
@@ -148505,7 +148505,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Diş Hekimliği (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 416.51308,
@@ -148524,7 +148524,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "İngiliz Dili ve Edebiyatı (İngilizce) (%50 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 152.44531,
@@ -148543,7 +148543,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "İngiliz Dili ve Edebiyatı (İngilizce) (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 386.08372,
@@ -148562,7 +148562,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "İngilizce Mütercim ve Tercümanlık (%50 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 159.06675,
@@ -148581,7 +148581,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "İngilizce Mütercim ve Tercümanlık (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 387.2654,
@@ -148600,7 +148600,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Psikoloji (%25 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 256.43415,
@@ -148619,7 +148619,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Psikoloji (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 345.0599,
@@ -148638,7 +148638,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Psikoloji (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 146.78032,
@@ -148657,7 +148657,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 167.92991,
@@ -148676,7 +148676,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 290.27707,
@@ -148695,7 +148695,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Siyaset Bilimi ve Uluslararası İlişkiler (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 239.97536,
@@ -148714,7 +148714,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Siyaset Bilimi ve Uluslararası İlişkiler (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 287.8907,
@@ -148733,7 +148733,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Türk Dili ve Edebiyatı (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 211.85536,
@@ -148752,7 +148752,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Türk Dili ve Edebiyatı (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 309.72159,
@@ -148771,7 +148771,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Grafik Tasarımı (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 141.4973,
@@ -148790,7 +148790,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Grafik Tasarımı (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 299.16894,
@@ -148809,7 +148809,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 238.09893,
@@ -148828,7 +148828,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 333.00145,
@@ -148847,7 +148847,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Şehir ve Bölge Planlama (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 187.85286,
@@ -148866,7 +148866,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Şehir ve Bölge Planlama (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 266.08261,
@@ -148885,7 +148885,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Beslenme ve Diyetetik (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 218.56367,
@@ -148904,7 +148904,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Beslenme ve Diyetetik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 308.53262,
@@ -148923,7 +148923,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Çocuk Gelişimi (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 173.80841,
@@ -148942,7 +148942,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Çocuk Gelişimi (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 312.17378,
@@ -148961,7 +148961,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Dil ve Konuşma Terapisi (%25 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 270.80028,
@@ -148980,7 +148980,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Dil ve Konuşma Terapisi (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 394.87224,
@@ -148999,7 +148999,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Dil ve Konuşma Terapisi (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 263.69793,
@@ -149018,7 +149018,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Ebelik (%25 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 245.72245,
@@ -149037,7 +149037,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Ebelik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 333.74315,
@@ -149056,7 +149056,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Fizyoterapi ve Rehabilitasyon (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 184.62355,
@@ -149075,7 +149075,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Fizyoterapi ve Rehabilitasyon (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 313.32386,
@@ -149094,7 +149094,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Hemşirelik (%25 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 267.68625,
@@ -149113,7 +149113,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Hemşirelik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 357.05402,
@@ -149132,7 +149132,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Odyoloji (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 173.92218,
@@ -149151,7 +149151,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Odyoloji (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 284.14957,
@@ -149170,7 +149170,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Gastronomi ve Mutfak Sanatları (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 155.00929,
@@ -149189,7 +149189,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Gastronomi ve Mutfak Sanatları (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 349.12001,
@@ -149208,7 +149208,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Havacılık Elektrik ve Elektroniği (%25 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 272.64789,
@@ -149227,7 +149227,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Havacılık Elektrik ve Elektroniği (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 398.95419,
@@ -149246,7 +149246,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Havacılık Yönetimi (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 178.91973,
@@ -149265,7 +149265,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Havacılık Yönetimi (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 332.06416,
@@ -149284,7 +149284,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Turizm Rehberliği (%50 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 135.05526,
@@ -149303,7 +149303,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Turizm Rehberliği (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 350.31138,
@@ -149322,7 +149322,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Uçak Gövde ve Motor Bakımı (%25 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 290.79089,
@@ -149341,7 +149341,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Uçak Gövde ve Motor Bakımı (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 415.83055,
@@ -154110,7 +154110,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 203.63527,
@@ -154129,7 +154129,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 291.04408,
@@ -154148,7 +154148,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hukuk (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 350.16837,
@@ -154167,7 +154167,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hukuk (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 381.25846,
@@ -154186,7 +154186,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Psikoloji (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 176.15401,
@@ -154205,7 +154205,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Psikoloji (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 308.0902,
@@ -154224,7 +154224,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 306.75421,
@@ -154243,7 +154243,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -154262,7 +154262,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Mekatronik Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -154281,7 +154281,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Fizyoterapi ve Rehabilitasyon (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 165.40667,
@@ -154300,7 +154300,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Fizyoterapi ve Rehabilitasyon (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 263.40073,
@@ -154319,7 +154319,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hemşirelik (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 267.90747,
@@ -154338,7 +154338,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hemşirelik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 326.17124,
@@ -154357,7 +154357,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Gastronomi ve Mutfak Sanatları (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 162.51454,
@@ -154376,7 +154376,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Gastronomi ve Mutfak Sanatları (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 279.13037,
@@ -154395,7 +154395,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS BATI ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Havacılık Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 206.57658,
@@ -154414,7 +154414,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS BATI ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Havacılık Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 285.72141,
@@ -154433,7 +154433,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS BATI ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Havacılık Yönetimi (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 201.94632,
@@ -154452,7 +154452,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS BATI ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İşletme (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -154471,7 +154471,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS BATI ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İşletme (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 237.51491,
@@ -154490,7 +154490,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS BATI ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İşletme (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -154509,7 +154509,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS BATI ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Psikoloji (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 166.1532,
@@ -154528,7 +154528,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS BATI ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Psikoloji (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 293.28691,
@@ -154547,7 +154547,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS BATI ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Psikoloji (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -154566,7 +154566,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS BATI ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -154585,7 +154585,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS BATI ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -154604,7 +154604,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS BATI ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -154851,7 +154851,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Eğitim Bilimleri (Rehberlik ve Psikolojik Danışmanlık)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -154870,7 +154870,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Filoloji (İngiliz Dili ve Edebiyatı)",
         "puanTuru": "DİL",
         "tabanPuan": 312.21492,
@@ -154889,7 +154889,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Filoloji (Kırgız Dili ve Edebiyatı)",
         "puanTuru": "DİL",
         "tabanPuan": 296.57253,
@@ -154908,7 +154908,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Mütercim-Tercümanlık (Türkçe-Rusça)",
         "puanTuru": "DİL",
         "tabanPuan": 312.60311,
@@ -154927,7 +154927,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Sosyoloji",
         "puanTuru": "EA",
         "tabanPuan": 195.35838,
@@ -154946,7 +154946,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Tarih",
         "puanTuru": "SÖZ",
         "tabanPuan": 256.72846,
@@ -154965,7 +154965,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Türkoloji",
         "puanTuru": "SÖZ",
         "tabanPuan": 229.62676,
@@ -154984,7 +154984,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Matematik",
         "puanTuru": "SAY",
         "tabanPuan": 239.61319,
@@ -155003,7 +155003,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Finans ve Bankacılık",
         "puanTuru": "EA",
         "tabanPuan": 206.31176,
@@ -155022,7 +155022,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "İktisat",
         "puanTuru": "EA",
         "tabanPuan": 210.95082,
@@ -155041,7 +155041,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "İşletme",
         "puanTuru": "EA",
         "tabanPuan": 222.3475,
@@ -155060,7 +155060,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Uluslararası İlişkiler",
         "puanTuru": "EA",
         "tabanPuan": 238.31995,
@@ -155079,7 +155079,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "İlahiyat",
         "puanTuru": "SÖZ",
         "tabanPuan": 255.60591,
@@ -155098,7 +155098,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Gazetecilik",
         "puanTuru": "SÖZ",
         "tabanPuan": 178.52093,
@@ -155117,7 +155117,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Halkla İlişkiler ve Reklamcılık",
         "puanTuru": "SÖZ",
         "tabanPuan": 199.70515,
@@ -155136,7 +155136,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Radyo, Televizyon ve Sinema",
         "puanTuru": "SÖZ",
         "tabanPuan": 202.12641,
@@ -155155,7 +155155,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Bilgisayar Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 322.2744,
@@ -155174,7 +155174,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Çevre Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -155193,7 +155193,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Elektrik-Elektronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 341.87557,
@@ -155212,7 +155212,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Gıda Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -155231,7 +155231,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Kimya Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -155250,7 +155250,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Tıp (UOLP-Sağlık Bilimleri Üniversitesi) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 455.2105,
@@ -155269,7 +155269,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Gastronomi ve Mutfak Sanatları",
         "puanTuru": "SÖZ",
         "tabanPuan": 330.86467,
@@ -155288,7 +155288,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "EA",
         "tabanPuan": 223.08735,
@@ -155307,7 +155307,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Veteriner",
         "puanTuru": "SAY",
         "tabanPuan": 316.80086,
@@ -155326,7 +155326,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)",
-        "sehir": "Kirgizi̇stan",
+        "sehir": "Kırgızistan",
         "bolum": "Bitki Koruma",
         "puanTuru": "SAY",
         "tabanPuan": 240.67358,
@@ -178335,7 +178335,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Coğrafya",
         "puanTuru": "SÖZ",
         "tabanPuan": 236.59734,
@@ -178354,7 +178354,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Felsefe",
         "puanTuru": "EA",
         "tabanPuan": 209.83431,
@@ -178373,7 +178373,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "İngiliz Dili ve Edebiyatı (İngilizce)",
         "puanTuru": "DİL",
         "tabanPuan": 332.62354,
@@ -178392,7 +178392,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Sosyoloji",
         "puanTuru": "EA",
         "tabanPuan": 215.03852,
@@ -178411,7 +178411,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Tarih",
         "puanTuru": "SÖZ",
         "tabanPuan": 231.72128,
@@ -178430,7 +178430,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Türk Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 238.51027,
@@ -178449,7 +178449,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Zaza Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 214.41894,
@@ -178468,7 +178468,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Gastronomi ve Mutfak Sanatları",
         "puanTuru": "SÖZ",
         "tabanPuan": 304.27356,
@@ -178487,7 +178487,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Finans ve Bankacılık",
         "puanTuru": "EA",
         "tabanPuan": 223.56151,
@@ -178506,7 +178506,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Sağlık Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 253.67409,
@@ -178525,7 +178525,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 220.79212,
@@ -178544,7 +178544,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Uluslararası Ticaret ve İşletmecilik",
         "puanTuru": "EA",
         "tabanPuan": 214.6269,
@@ -178563,7 +178563,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Halkla İlişkiler ve Tanıtım",
         "puanTuru": "SÖZ",
         "tabanPuan": 227.39851,
@@ -178582,7 +178582,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Radyo, Televizyon ve Sinema",
         "puanTuru": "SÖZ",
         "tabanPuan": 224.08522,
@@ -178601,7 +178601,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Bilgisayar Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 302.46502,
@@ -178620,7 +178620,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Elektrik-Elektronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 304.59881,
@@ -178639,7 +178639,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "İnşaat Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 302.711,
@@ -178658,7 +178658,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Makine Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 304.30169,
@@ -178677,7 +178677,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Acil Yardım ve Afet Yönetimi",
         "puanTuru": "SAY",
         "tabanPuan": 245.42678,
@@ -178696,7 +178696,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Beslenme ve Diyetetik",
         "puanTuru": "SAY",
         "tabanPuan": 279.1678,
@@ -178715,7 +178715,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "EA",
         "tabanPuan": 291.71998,
@@ -178734,7 +178734,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Ebelik",
         "puanTuru": "SAY",
         "tabanPuan": 330.87515,
@@ -178753,7 +178753,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Hemşirelik",
         "puanTuru": "SAY",
         "tabanPuan": 360.82003,
@@ -178772,7 +178772,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Sosyal Hizmet",
         "puanTuru": "EA",
         "tabanPuan": 258.44942,
@@ -178791,7 +178791,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Spor Yöneticiliği",
         "puanTuru": "EA",
         "tabanPuan": 223.83801,
@@ -178810,7 +178810,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Su Ürünleri Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 230.82662,
@@ -183389,7 +183389,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Diş Hekimliği (%25 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 434.78086,
@@ -183408,7 +183408,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Diş Hekimliği (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 465.42002,
@@ -183427,7 +183427,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Diş Hekimliği (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 425.04143,
@@ -183446,7 +183446,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Psikoloji (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 295.33562,
@@ -183465,7 +183465,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Psikoloji (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 355.28311,
@@ -183484,7 +183484,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Psikoloji (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 189.08573,
@@ -183503,7 +183503,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 275.26208,
@@ -183522,7 +183522,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 338.52649,
@@ -183541,7 +183541,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 202.94457,
@@ -183560,7 +183560,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Hukuk (%25 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 365.37262,
@@ -183579,7 +183579,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Hukuk (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 404.72192,
@@ -183598,7 +183598,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Hukuk (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 351.32505,
@@ -183617,7 +183617,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İşletme (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 242.98164,
@@ -183636,7 +183636,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İşletme (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 310.61549,
@@ -183655,7 +183655,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İşletme (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 225.23533,
@@ -183674,7 +183674,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 200.7726,
@@ -183693,7 +183693,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 300.53017,
@@ -183712,7 +183712,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 215.09109,
@@ -183731,7 +183731,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Beslenme ve Diyetetik (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 254.34145,
@@ -183750,7 +183750,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Beslenme ve Diyetetik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 313.33872,
@@ -183769,7 +183769,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Beslenme ve Diyetetik (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 228.03372,
@@ -183788,7 +183788,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Fizyoterapi ve Rehabilitasyon (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 239.67824,
@@ -183807,7 +183807,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Fizyoterapi ve Rehabilitasyon (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 318.97903,
@@ -183826,7 +183826,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Fizyoterapi ve Rehabilitasyon (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 223.7836,
@@ -183845,7 +183845,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Hemşirelik (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 341.40744,
@@ -183864,7 +183864,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Hemşirelik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 382.73759,
@@ -183883,7 +183883,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Hemşirelik (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 283.29012,
@@ -190970,7 +190970,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Diş Hekimliği",
         "puanTuru": "SAY",
         "tabanPuan": 468.30405,
@@ -190989,7 +190989,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Fen Bilgisi Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 308.79573,
@@ -191008,7 +191008,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "İlköğretim Matematik Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 326.37478,
@@ -191027,7 +191027,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "İngilizce Öğretmenliği",
         "puanTuru": "DİL",
         "tabanPuan": 425.31601,
@@ -191046,7 +191046,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Okul Öncesi Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 385.13067,
@@ -191065,7 +191065,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Özel Eğitim Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 407.34623,
@@ -191084,7 +191084,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık",
         "puanTuru": "EA",
         "tabanPuan": 360.47761,
@@ -191103,7 +191103,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Sınıf Öğretmenliği",
         "puanTuru": "EA",
         "tabanPuan": 368.9997,
@@ -191122,7 +191122,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Sosyal Bilgiler Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 325.58541,
@@ -191141,7 +191141,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Türkçe Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 362.42179,
@@ -191160,7 +191160,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Biyoloji",
         "puanTuru": "SAY",
         "tabanPuan": 292.29632,
@@ -191179,7 +191179,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Biyoloji (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": 249.70687,
@@ -191198,7 +191198,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Fizik",
         "puanTuru": "SAY",
         "tabanPuan": 284.27579,
@@ -191217,7 +191217,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Kimya",
         "puanTuru": "SAY",
         "tabanPuan": 310.86624,
@@ -191236,7 +191236,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Matematik",
         "puanTuru": "SAY",
         "tabanPuan": 306.27368,
@@ -191255,7 +191255,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Fizyoterapi ve Rehabilitasyon",
         "puanTuru": "SAY",
         "tabanPuan": 321.25612,
@@ -191274,7 +191274,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Hukuk",
         "puanTuru": "EA",
         "tabanPuan": 411.30774,
@@ -191293,7 +191293,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Çalışma Ekonomisi ve Endüstri İlişkileri",
         "puanTuru": "EA",
         "tabanPuan": 289.56518,
@@ -191312,7 +191312,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Ekonometri",
         "puanTuru": "EA",
         "tabanPuan": 282.32578,
@@ -191331,7 +191331,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Ekonomi",
         "puanTuru": "EA",
         "tabanPuan": 292.05341,
@@ -191350,7 +191350,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Ekonomi (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 304.22008,
@@ -191369,7 +191369,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Ekonomi (İngilizce) (UOLP-Suny Cortland) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 275.83941,
@@ -191388,7 +191388,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Ekonomi (KKTC Uyruklu)",
         "puanTuru": "EA",
         "tabanPuan": 210.18267,
@@ -191407,7 +191407,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "İşletme",
         "puanTuru": "EA",
         "tabanPuan": 319.49523,
@@ -191426,7 +191426,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "İşletme (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 340.59023,
@@ -191445,7 +191445,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Maliye",
         "puanTuru": "EA",
         "tabanPuan": 306.5623,
@@ -191464,7 +191464,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 303.1009,
@@ -191483,7 +191483,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi (İngilizce) (UOLP-Suny Cortland) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 249.0582,
@@ -191502,7 +191502,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Uluslararası Ticaret ve Finansman",
         "puanTuru": "EA",
         "tabanPuan": 308.26819,
@@ -191521,7 +191521,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Yönetim Bilişim Sistemleri",
         "puanTuru": "EA",
         "tabanPuan": 377.96248,
@@ -191540,7 +191540,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "İlahiyat",
         "puanTuru": "SÖZ",
         "tabanPuan": 281.18676,
@@ -191559,7 +191559,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "İlahiyat (M.T.O.K.)",
         "puanTuru": "SÖZ",
         "tabanPuan": 279.23099,
@@ -191578,7 +191578,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Halkla İlişkiler ve Tanıtım",
         "puanTuru": "SÖZ",
         "tabanPuan": 311.8977,
@@ -191597,7 +191597,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Yeni Medya ve İletişim",
         "puanTuru": "SÖZ",
         "tabanPuan": 330.45225,
@@ -191616,7 +191616,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Arkeoloji",
         "puanTuru": "EA",
         "tabanPuan": 262.99039,
@@ -191635,7 +191635,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Coğrafya",
         "puanTuru": "SÖZ",
         "tabanPuan": 303.15027,
@@ -191654,7 +191654,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Coğrafya (KKTC Uyruklu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 267.93081,
@@ -191673,7 +191673,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Çağdaş Türk Lehçeleri ve Edebiyatları",
         "puanTuru": "SÖZ",
         "tabanPuan": 257.63693,
@@ -191692,7 +191692,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Felsefe",
         "puanTuru": "EA",
         "tabanPuan": 259.95227,
@@ -191711,7 +191711,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Fransız Dili ve Edebiyatı",
         "puanTuru": "DİL",
         "tabanPuan": 356.3344,
@@ -191730,7 +191730,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "İngiliz Dili ve Edebiyatı",
         "puanTuru": "DİL",
         "tabanPuan": 400.13172,
@@ -191749,7 +191749,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "İngiliz Dili ve Edebiyatı (İngilizce) (UOLP-Suny At Cortland) (Ücretli)",
         "puanTuru": "DİL",
         "tabanPuan": 354.20779,
@@ -191768,7 +191768,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Kültür Varlıklarını Koruma ve Onarım",
         "puanTuru": "EA",
         "tabanPuan": 252.18029,
@@ -191787,7 +191787,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Psikoloji",
         "puanTuru": "EA",
         "tabanPuan": 372.2695,
@@ -191806,7 +191806,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Sanat Tarihi",
         "puanTuru": "SÖZ",
         "tabanPuan": 286.92746,
@@ -191825,7 +191825,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Sosyoloji",
         "puanTuru": "EA",
         "tabanPuan": 280.51532,
@@ -191844,7 +191844,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Tarih",
         "puanTuru": "SÖZ",
         "tabanPuan": 306.99908,
@@ -191863,7 +191863,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Türk Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 316.14563,
@@ -191882,7 +191882,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Mimarlık",
         "puanTuru": "SAY",
         "tabanPuan": 351.47659,
@@ -191901,7 +191901,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Peyzaj Mimarlığı",
         "puanTuru": "SAY",
         "tabanPuan": 288.03221,
@@ -191920,7 +191920,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Şehir ve Bölge Planlama",
         "puanTuru": "SAY",
         "tabanPuan": 280.47418,
@@ -191939,7 +191939,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Tekstil ve Moda Tasarımı",
         "puanTuru": "EA",
         "tabanPuan": 283.24554,
@@ -191958,7 +191958,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Bilgisayar Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 412.77046,
@@ -191977,7 +191977,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Çevre Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 305.59267,
@@ -191996,7 +191996,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Elektrik-Elektronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 395.19208,
@@ -192015,7 +192015,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Endüstri Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 401.35432,
@@ -192034,7 +192034,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Gıda Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 317.32105,
@@ -192053,7 +192053,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "İnşaat Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 328.54368,
@@ -192072,7 +192072,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Kimya Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 364.87156,
@@ -192091,7 +192091,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Makine Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 376.72937,
@@ -192110,7 +192110,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Tekstil Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 319.15533,
@@ -192129,7 +192129,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Hemşirelik",
         "puanTuru": "SAY",
         "tabanPuan": 381.32825,
@@ -192148,7 +192148,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Spor Yöneticiliği",
         "puanTuru": "EA",
         "tabanPuan": 268.35383,
@@ -192167,7 +192167,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Biyomedikal Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 323.23202,
@@ -192186,7 +192186,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Makine Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 361.03292,
@@ -192205,7 +192205,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Mekatronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 363.20521,
@@ -192224,7 +192224,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Mekatronik Mühendisliği (M.T.O.K.)",
         "puanTuru": "SAY",
         "tabanPuan": 320.51491,
@@ -192243,7 +192243,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Metalurji ve Malzeme Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 344.14968,
@@ -192262,7 +192262,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Otomotiv Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 345.71135,
@@ -192281,7 +192281,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Tıp",
         "puanTuru": "SAY",
         "tabanPuan": 495.19622,
@@ -192300,7 +192300,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Tıp (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -192319,7 +192319,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Gastronomi ve Mutfak Sanatları",
         "puanTuru": "SÖZ",
         "tabanPuan": 358.66531,
@@ -192338,7 +192338,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Rekreasyon Yönetimi",
         "puanTuru": "SÖZ",
         "tabanPuan": 286.51172,
@@ -192357,7 +192357,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Turizm İşletmeciliği",
         "puanTuru": "EA",
         "tabanPuan": 280.41376,
@@ -192376,7 +192376,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Turizm İşletmeciliği (KKTC Uyruklu)",
         "puanTuru": "EA",
         "tabanPuan": 206.52765,
@@ -192395,7 +192395,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Turizm Rehberliği",
         "puanTuru": "DİL",
         "tabanPuan": 369.61763,
@@ -192414,7 +192414,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Organik Tarım İşletmeciliği",
         "puanTuru": "EA",
         "tabanPuan": 227.85905,
@@ -192433,7 +192433,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Sermaye Piyasası",
         "puanTuru": "EA",
         "tabanPuan": 243.64695,
@@ -192452,7 +192452,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Uluslararası Ticaret ve Lojistik",
         "puanTuru": "EA",
         "tabanPuan": 292.00901,
@@ -192471,7 +192471,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Bahçe Bitkileri",
         "puanTuru": "SAY",
         "tabanPuan": 259.50331,
@@ -192490,7 +192490,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Tarla Bitkileri",
         "puanTuru": "SAY",
         "tabanPuan": 254.44368,
@@ -193478,7 +193478,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Gastronomi ve Mutfak Sanatları",
         "puanTuru": "SÖZ",
         "tabanPuan": 323.74877,
@@ -193497,7 +193497,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Turizm İşletmeciliği",
         "puanTuru": "EA",
         "tabanPuan": 235.66703,
@@ -193516,7 +193516,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Diş Hekimliği",
         "puanTuru": "SAY",
         "tabanPuan": 462.30082,
@@ -193535,7 +193535,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Fen Bilgisi Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -193554,7 +193554,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "İlköğretim Matematik Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 302.89746,
@@ -193573,7 +193573,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık",
         "puanTuru": "EA",
         "tabanPuan": 332.95231,
@@ -193592,7 +193592,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Sınıf Öğretmenliği",
         "puanTuru": "EA",
         "tabanPuan": 350.95304,
@@ -193611,7 +193611,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Sosyal Bilgiler Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 297.57749,
@@ -193630,7 +193630,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Türkçe Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 330.55262,
@@ -193649,7 +193649,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Biyoloji",
         "puanTuru": "SAY",
         "tabanPuan": 256.96287,
@@ -193668,7 +193668,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Fizik",
         "puanTuru": "SAY",
         "tabanPuan": 251.73351,
@@ -193687,7 +193687,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Gürcü Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 222.19561,
@@ -193706,7 +193706,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "İngiliz Dili ve Edebiyatı (İngilizce)",
         "puanTuru": "DİL",
         "tabanPuan": 361.96679,
@@ -193725,7 +193725,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Kimya",
         "puanTuru": "SAY",
         "tabanPuan": 271.97684,
@@ -193744,7 +193744,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Matematik",
         "puanTuru": "SAY",
         "tabanPuan": 278.37251,
@@ -193763,7 +193763,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Matematik (İngilizce)",
         "puanTuru": "SAY",
         "tabanPuan": 269.42779,
@@ -193782,7 +193782,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Tarih",
         "puanTuru": "SÖZ",
         "tabanPuan": 275.23759,
@@ -193801,7 +193801,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Türk Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 282.41806,
@@ -193820,7 +193820,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Finans ve Bankacılık",
         "puanTuru": "EA",
         "tabanPuan": 233.18487,
@@ -193839,7 +193839,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Uluslararası Ticaret ve Lojistik",
         "puanTuru": "EA",
         "tabanPuan": 242.03641,
@@ -193858,7 +193858,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Fizyoterapi ve Rehabilitasyon",
         "puanTuru": "SAY",
         "tabanPuan": 295.18031,
@@ -193877,7 +193877,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Hukuk",
         "puanTuru": "EA",
         "tabanPuan": 395.42136,
@@ -193896,7 +193896,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "İktisat",
         "puanTuru": "EA",
         "tabanPuan": 250.41484,
@@ -193915,7 +193915,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "İşletme",
         "puanTuru": "EA",
         "tabanPuan": 260.09488,
@@ -193934,7 +193934,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Maliye",
         "puanTuru": "EA",
         "tabanPuan": 260.35847,
@@ -193953,7 +193953,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 264.01478,
@@ -193972,7 +193972,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Uluslararası İlişkiler",
         "puanTuru": "EA",
         "tabanPuan": 260.68553,
@@ -193991,7 +193991,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Uluslararası İlişkiler (İngilizce)",
         "puanTuru": "EA",
         "tabanPuan": 278.28961,
@@ -194010,7 +194010,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "İlahiyat",
         "puanTuru": "SÖZ",
         "tabanPuan": 260.33384,
@@ -194029,7 +194029,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "İlahiyat (KKTC Uyruklu)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -194048,7 +194048,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "İlahiyat (M.T.O.K.)",
         "puanTuru": "SÖZ",
         "tabanPuan": 269.46516,
@@ -194067,7 +194067,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Bilgisayar Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 341.81929,
@@ -194086,7 +194086,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Elektrik-Elektronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 315.11499,
@@ -194105,7 +194105,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Enerji Sistemleri Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 302.53594,
@@ -194124,7 +194124,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "İnşaat Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 309.07709,
@@ -194143,7 +194143,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Makine Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 312.25325,
@@ -194162,7 +194162,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Mimarlık",
         "puanTuru": "SAY",
         "tabanPuan": 321.98803,
@@ -194181,7 +194181,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Peyzaj Mimarlığı",
         "puanTuru": "SAY",
         "tabanPuan": 259.68351,
@@ -194200,7 +194200,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Beslenme ve Diyetetik",
         "puanTuru": "SAY",
         "tabanPuan": 293.46103,
@@ -194219,7 +194219,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Hemşirelik",
         "puanTuru": "SAY",
         "tabanPuan": 355.94579,
@@ -194238,7 +194238,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Sosyal Hizmet",
         "puanTuru": "EA",
         "tabanPuan": 284.36126,
@@ -194257,7 +194257,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Spor Yöneticiliği",
         "puanTuru": "EA",
         "tabanPuan": 240.48043,
@@ -194276,7 +194276,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Su Ürünleri Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 241.92635,
@@ -194295,7 +194295,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Tıp",
         "puanTuru": "SAY",
         "tabanPuan": 477.74748,
@@ -194314,7 +194314,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Deniz Ulaştırma İşletme Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 354.98454,
@@ -194333,7 +194333,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Bahçe Bitkileri",
         "puanTuru": "SAY",
         "tabanPuan": 249.9843,
@@ -194352,7 +194352,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Tarla Bitkileri",
         "puanTuru": "SAY",
         "tabanPuan": 244.78356,
@@ -197791,7 +197791,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Beslenme ve Diyetetik (%25 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 195.51555,
@@ -197810,7 +197810,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Beslenme ve Diyetetik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 305.95505,
@@ -197829,7 +197829,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Beslenme ve Diyetetik (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 183.89541,
@@ -197848,7 +197848,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Fizyoterapi ve Rehabilitasyon (%25 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 198.35244,
@@ -197867,7 +197867,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Fizyoterapi ve Rehabilitasyon (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 310.02227,
@@ -197886,7 +197886,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Fizyoterapi ve Rehabilitasyon (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 199.20834,
@@ -197905,7 +197905,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Hemşirelik (%25 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 286.0282,
@@ -197924,7 +197924,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Hemşirelik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 378.57961,
@@ -197943,7 +197943,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Hemşirelik (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 234.84616,
@@ -197962,7 +197962,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Tıp (%25 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 460.56807,
@@ -197981,7 +197981,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Tıp (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 487.82174,
@@ -198000,7 +198000,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Tıp (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 445.98195,
@@ -204536,7 +204536,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Havacılık ve Uzay Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 371.04131,
@@ -204555,7 +204555,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Havacılık Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 322.92127,
@@ -204574,7 +204574,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 272.78284,
@@ -204593,7 +204593,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Yönetim Bilişim Sistemleri",
         "puanTuru": "EA",
         "tabanPuan": 331.50521,
@@ -204612,7 +204612,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Bilgisayar Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 363.76075,
@@ -204631,7 +204631,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Elektrik-Elektronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 335.89336,
@@ -204650,7 +204650,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Endüstri Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 334.04889,
@@ -204669,7 +204669,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Makine Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 330.25087,
@@ -204688,7 +204688,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "EA",
         "tabanPuan": 313.9973,
@@ -204707,7 +204707,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Dil ve Konuşma Terapisi",
         "puanTuru": "SAY",
         "tabanPuan": 401.5019,
@@ -204726,7 +204726,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Ebelik",
         "puanTuru": "SAY",
         "tabanPuan": 339.44656,
@@ -204745,7 +204745,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Fizyoterapi ve Rehabilitasyon",
         "puanTuru": "SAY",
         "tabanPuan": 315.1787,
@@ -204764,7 +204764,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Hemşirelik",
         "puanTuru": "SAY",
         "tabanPuan": 379.06996,
@@ -204783,7 +204783,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Finans ve Bankacılık",
         "puanTuru": "EA",
         "tabanPuan": 271.73802,
@@ -204802,7 +204802,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Finans ve Bankacılık (KKTC Uyruklu)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -204821,7 +204821,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Gümrük İşletme",
         "puanTuru": "EA",
         "tabanPuan": 294.07537,
@@ -204840,7 +204840,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Sağlık Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 286.56087,
@@ -204859,7 +204859,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Sosyal Hizmet",
         "puanTuru": "EA",
         "tabanPuan": 290.82795,
@@ -204878,7 +204878,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Uluslararası Ticaret ve Lojistik",
         "puanTuru": "EA",
         "tabanPuan": 284.3965,
@@ -209134,7 +209134,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Gastronomi ve Mutfak Sanatları (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 224.77831,
@@ -209153,7 +209153,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Gastronomi ve Mutfak Sanatları (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 352.0594,
@@ -209172,7 +209172,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İç Mimarlık (%25 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 244.44583,
@@ -209191,7 +209191,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İç Mimarlık (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 312.19812,
@@ -209210,7 +209210,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Mimarlık (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -209229,7 +209229,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Mimarlık (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 334.44165,
@@ -209248,7 +209248,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İngilizce Mütercim ve Tercümanlık (%25 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 169.17122,
@@ -209267,7 +209267,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İngilizce Mütercim ve Tercümanlık (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 388.81796,
@@ -209286,7 +209286,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İşletme (%25 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 189.10103,
@@ -209305,7 +209305,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İşletme (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 301.77142,
@@ -209324,7 +209324,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Psikoloji (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 351.18818,
@@ -209343,7 +209343,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Psikoloji (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 347.16624,
@@ -209362,7 +209362,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Psikoloji (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 162.48872,
@@ -209381,7 +209381,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Psikoloji (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 218.84059,
@@ -209400,7 +209400,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Uluslararası Ticaret ve Lojistik (%25 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 206.39246,
@@ -209419,7 +209419,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Uluslararası Ticaret ve Lojistik (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 317.2041,
@@ -209438,7 +209438,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Elektrik-Elektronik Mühendisliği (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 334.5989,
@@ -209457,7 +209457,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Endüstri Mühendisliği (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 335.80712,
@@ -209476,7 +209476,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İnşaat Mühendisliği (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 312.48058,
@@ -209495,7 +209495,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Yazılım Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 303.31822,
@@ -209514,7 +209514,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Yazılım Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 378.63022,
@@ -209533,7 +209533,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Beslenme ve Diyetetik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 323.2451,
@@ -209552,7 +209552,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Beslenme ve Diyetetik (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 194.32296,
@@ -209571,7 +209571,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Fizyoterapi ve Rehabilitasyon (%25 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 223.05689,
@@ -209590,7 +209590,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Fizyoterapi ve Rehabilitasyon (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 317.15931,
@@ -209609,7 +209609,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Hemşirelik (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 372.83009,
@@ -209628,7 +209628,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Hemşirelik (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 266.08159,
@@ -210236,7 +210236,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Diş Hekimliği",
         "puanTuru": "SAY",
         "tabanPuan": 467.17801,
@@ -210255,7 +210255,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Eczacılık",
         "puanTuru": "SAY",
         "tabanPuan": 449.8973,
@@ -210274,7 +210274,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Almanca Mütercim ve Tercümanlık",
         "puanTuru": "DİL",
         "tabanPuan": 365.51881,
@@ -210293,7 +210293,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Arkeoloji",
         "puanTuru": "EA",
         "tabanPuan": 247.52131,
@@ -210312,7 +210312,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Arnavut Dili ve Edebiyatı",
         "puanTuru": "DİL",
         "tabanPuan": 223.66513,
@@ -210331,7 +210331,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Boşnak Dili ve Edebiyatı",
         "puanTuru": "DİL",
         "tabanPuan": 214.54362,
@@ -210350,7 +210350,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Bulgarca Mütercim ve Tercümanlık",
         "puanTuru": "DİL",
         "tabanPuan": 262.19942,
@@ -210369,7 +210369,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Çağdaş Yunan Dili ve Edebiyatı",
         "puanTuru": "DİL",
         "tabanPuan": 285.45799,
@@ -210388,7 +210388,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "İngilizce Mütercim ve Tercümanlık",
         "puanTuru": "DİL",
         "tabanPuan": 404.51158,
@@ -210407,7 +210407,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Sanat Tarihi",
         "puanTuru": "SÖZ",
         "tabanPuan": 283.83251,
@@ -210426,7 +210426,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Tarih",
         "puanTuru": "SÖZ",
         "tabanPuan": 302.88781,
@@ -210445,7 +210445,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Türk Dili ve Edebiyatı",
         "puanTuru": "SÖZ",
         "tabanPuan": 305.99823,
@@ -210464,7 +210464,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Almanca Öğretmenliği (Almanca)",
         "puanTuru": "DİL",
         "tabanPuan": 359.00237,
@@ -210483,7 +210483,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Fen Bilgisi Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 303.15565,
@@ -210502,7 +210502,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "İlköğretim Matematik Öğretmenliği",
         "puanTuru": "SAY",
         "tabanPuan": 307.22227,
@@ -210521,7 +210521,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "İngilizce Öğretmenliği (İngilizce)",
         "puanTuru": "DİL",
         "tabanPuan": 415.80424,
@@ -210540,7 +210540,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Okul Öncesi Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 376.25876,
@@ -210559,7 +210559,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Özel Eğitim Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 396.11153,
@@ -210578,7 +210578,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık",
         "puanTuru": "EA",
         "tabanPuan": 343.47927,
@@ -210597,7 +210597,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Sınıf Öğretmenliği",
         "puanTuru": "EA",
         "tabanPuan": 356.25772,
@@ -210616,7 +210616,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Sosyal Bilgiler Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 320.62114,
@@ -210635,7 +210635,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Türkçe Öğretmenliği",
         "puanTuru": "SÖZ",
         "tabanPuan": 339.31399,
@@ -210654,7 +210654,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Bilgi Güvenliği Teknolojisi",
         "puanTuru": "SAY",
         "tabanPuan": 311.92493,
@@ -210673,7 +210673,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Biyoloji",
         "puanTuru": "SAY",
         "tabanPuan": 285.36442,
@@ -210692,7 +210692,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Fizik",
         "puanTuru": "SAY",
         "tabanPuan": 277.30105,
@@ -210711,7 +210711,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Kimya",
         "puanTuru": "SAY",
         "tabanPuan": 306.82756,
@@ -210730,7 +210730,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Matematik",
         "puanTuru": "SAY",
         "tabanPuan": 297.63075,
@@ -210749,7 +210749,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Yazılım Geliştirme",
         "puanTuru": "SAY",
         "tabanPuan": 324.32415,
@@ -210768,7 +210768,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "İletişim ve Tasarımı",
         "puanTuru": "SÖZ",
         "tabanPuan": 299.86061,
@@ -210787,7 +210787,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Çalışma Ekonomisi ve Endüstri İlişkileri",
         "puanTuru": "EA",
         "tabanPuan": 280.87229,
@@ -210806,7 +210806,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Ekonometri",
         "puanTuru": "EA",
         "tabanPuan": 266.48209,
@@ -210825,7 +210825,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "İktisat",
         "puanTuru": "EA",
         "tabanPuan": 290.524,
@@ -210844,7 +210844,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "İşletme",
         "puanTuru": "EA",
         "tabanPuan": 296.33147,
@@ -210863,7 +210863,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Maliye",
         "puanTuru": "EA",
         "tabanPuan": 287.35799,
@@ -210882,7 +210882,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Siyaset Bilimi ve Kamu Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 282.27194,
@@ -210901,7 +210901,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Uluslararası İlişkiler",
         "puanTuru": "EA",
         "tabanPuan": 298.73192,
@@ -210920,7 +210920,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "İlahiyat",
         "puanTuru": "SÖZ",
         "tabanPuan": 252.27492,
@@ -210939,7 +210939,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "İlahiyat (M.T.O.K.)",
         "puanTuru": "SÖZ",
         "tabanPuan": 249.75435,
@@ -210958,7 +210958,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Hemşirelik",
         "puanTuru": "SAY",
         "tabanPuan": 341.67736,
@@ -210977,7 +210977,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "EA",
         "tabanPuan": 258.16421,
@@ -210996,7 +210996,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Bankacılık ve Sigortacılık (KKTC Uyruklu)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -211015,7 +211015,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Bilişim Sistemleri ve Teknolojileri",
         "puanTuru": "SAY",
         "tabanPuan": 295.6783,
@@ -211034,7 +211034,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Gümrük İşletme",
         "puanTuru": "EA",
         "tabanPuan": 264.96431,
@@ -211053,7 +211053,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Halkla İlişkiler ve Reklamcılık",
         "puanTuru": "SÖZ",
         "tabanPuan": 280.61857,
@@ -211072,7 +211072,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Uluslararası Ticaret ve Finansman",
         "puanTuru": "EA",
         "tabanPuan": 262.36988,
@@ -211091,7 +211091,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Spor Yöneticiliği",
         "puanTuru": "EA",
         "tabanPuan": 254.0751,
@@ -211110,7 +211110,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "İç Mimarlık",
         "puanTuru": "SAY",
         "tabanPuan": 312.05284,
@@ -211129,7 +211129,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Mimarlık",
         "puanTuru": "SAY",
         "tabanPuan": 333.77316,
@@ -211148,7 +211148,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Peyzaj Mimarlığı",
         "puanTuru": "SAY",
         "tabanPuan": 275.80928,
@@ -211167,7 +211167,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Bilgisayar Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 388.88103,
@@ -211186,7 +211186,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Bilgisayar Mühendisliği (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -211205,7 +211205,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Elektrik-Elektronik Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 381.11025,
@@ -211224,7 +211224,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Genetik ve Biyomühendislik",
         "puanTuru": "SAY",
         "tabanPuan": 307.94399,
@@ -211243,7 +211243,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Genetik ve Biyomühendislik (KKTC Uyruklu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -211262,7 +211262,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Gıda Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 311.89825,
@@ -211281,7 +211281,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Makine Mühendisliği",
         "puanTuru": "SAY",
         "tabanPuan": 361.62583,
@@ -211300,7 +211300,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Beslenme ve Diyetetik",
         "puanTuru": "SAY",
         "tabanPuan": 318.98211,
@@ -211319,7 +211319,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Ergoterapi",
         "puanTuru": "SAY",
         "tabanPuan": 315.96336,
@@ -211338,7 +211338,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Fizyoterapi ve Rehabilitasyon",
         "puanTuru": "SAY",
         "tabanPuan": 313.68964,
@@ -211357,7 +211357,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Hemşirelik",
         "puanTuru": "SAY",
         "tabanPuan": 358.32894,
@@ -211376,7 +211376,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Odyoloji",
         "puanTuru": "SAY",
         "tabanPuan": 297.73142,
@@ -211395,7 +211395,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Sağlık Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 292.55214,
@@ -211414,7 +211414,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Tıp",
         "puanTuru": "SAY",
         "tabanPuan": 489.02605,
@@ -211433,7 +211433,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Finans ve Bankacılık",
         "puanTuru": "EA",
         "tabanPuan": 273.42978,
@@ -211452,7 +211452,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Turizm İşletmeciliği",
         "puanTuru": "EA",
         "tabanPuan": 266.88573,
@@ -211471,7 +211471,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Yönetim Bilişim Sistemleri",
         "puanTuru": "EA",
         "tabanPuan": 351.03709,
@@ -211490,7 +211490,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "EA",
         "tabanPuan": 248.15508,
@@ -211509,7 +211509,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Muhasebe ve Finans Yönetimi",
         "puanTuru": "EA",
         "tabanPuan": 250.70258,
@@ -214587,7 +214587,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Diş Hekimliği (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 420.50473,
@@ -214606,7 +214606,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Diş Hekimliği (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 454.35209,
@@ -214625,7 +214625,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Diş Hekimliği (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -214644,7 +214644,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İngilizce Öğretmenliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 172.81257,
@@ -214663,7 +214663,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İngilizce Öğretmenliği (İngilizce) (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 353.18607,
@@ -214682,7 +214682,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İngilizce Öğretmenliği (İngilizce) (Ücretli)",
         "puanTuru": "DİL",
         "tabanPuan": "",
@@ -214701,7 +214701,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Okul Öncesi Öğretmenliği (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 313.70751,
@@ -214720,7 +214720,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Okul Öncesi Öğretmenliği (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 317.76314,
@@ -214739,7 +214739,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Okul Öncesi Öğretmenliği (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -214758,7 +214758,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Özel Eğitim Öğretmenliği (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 341.48855,
@@ -214777,7 +214777,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Özel Eğitim Öğretmenliği (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 388.83064,
@@ -214796,7 +214796,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Özel Eğitim Öğretmenliği (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 339.77838,
@@ -214815,7 +214815,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -214834,7 +214834,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Rehberlik ve Psikolojik Danışmanlık (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -214853,7 +214853,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Türkçe Öğretmenliği (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -214872,7 +214872,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Türkçe Öğretmenliği (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 292.27892,
@@ -214891,7 +214891,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Psikoloji (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 181.74091,
@@ -214910,7 +214910,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Psikoloji (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 296.83475,
@@ -214929,7 +214929,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Psikoloji (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 202.78267,
@@ -214948,7 +214948,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Psikoloji (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 304.82542,
@@ -214967,7 +214967,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Psikoloji (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -214986,7 +214986,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Psikoloji (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 206.95402,
@@ -215005,7 +215005,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hukuk (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 350.19459,
@@ -215024,7 +215024,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hukuk (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 381.82122,
@@ -215043,7 +215043,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Hukuk (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -215062,7 +215062,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İşletme (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 192.73803,
@@ -215081,7 +215081,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İşletme (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 261.0053,
@@ -215100,7 +215100,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Siyaset Bilimi ve Uluslararası İlişkiler (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": "",
@@ -215119,7 +215119,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Siyaset Bilimi ve Uluslararası İlişkiler (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 208.34613,
@@ -215138,7 +215138,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Uluslararası Finans ve Bankacılık (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 213.60878,
@@ -215157,7 +215157,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Uluslararası Finans ve Bankacılık (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 224.35498,
@@ -215176,7 +215176,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Mimarlık (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -215195,7 +215195,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -215214,7 +215214,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 304.16604,
@@ -215233,7 +215233,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -215252,7 +215252,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İnşaat Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -215271,7 +215271,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Yazılım Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -215290,7 +215290,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Yazılım Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 302.62751,
@@ -215309,7 +215309,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Beslenme ve Diyetetik (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 184.13762,
@@ -215328,7 +215328,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Beslenme ve Diyetetik (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 263.09392,
@@ -215347,7 +215347,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Beslenme ve Diyetetik (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": "",
@@ -215366,7 +215366,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Fizyoterapi ve Rehabilitasyon (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 169.75817,
@@ -215385,7 +215385,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Fizyoterapi ve Rehabilitasyon (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 269.33489,
@@ -215404,7 +215404,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Fizyoterapi ve Rehabilitasyon (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 193.93556,
@@ -215423,7 +215423,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Gastronomi ve Mutfak Sanatları (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 190.94111,
@@ -215442,7 +215442,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Gastronomi ve Mutfak Sanatları (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 294.03761,
@@ -215461,7 +215461,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Gastronomi ve Mutfak Sanatları (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": "",
@@ -215480,7 +215480,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Turizm İşletmeciliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 199.03213,
@@ -215499,7 +215499,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Turizm İşletmeciliği (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 220.64912,
@@ -225018,7 +225018,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Hukuk (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 369.35411,
@@ -225037,7 +225037,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Hukuk (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 419.47065,
@@ -225056,7 +225056,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Hukuk (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 350.17786,
@@ -225075,7 +225075,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Görsel İletişim Tasarımı (İngilizce) (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 177.35896,
@@ -225094,7 +225094,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Görsel İletişim Tasarımı (İngilizce) (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 392.78124,
@@ -225113,7 +225113,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Görsel İletişim Tasarımı (İngilizce) (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 191.03956,
@@ -225132,7 +225132,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Halkla İlişkiler ve Reklamcılık (İngilizce) (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 197.28617,
@@ -225151,7 +225151,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Halkla İlişkiler ve Reklamcılık (İngilizce) (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 378.33383,
@@ -225170,7 +225170,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Halkla İlişkiler ve Reklamcılık (İngilizce) (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 187.17991,
@@ -225189,7 +225189,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Radyo, Televizyon ve Sinema (İngilizce) (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 196.88259,
@@ -225208,7 +225208,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Radyo, Televizyon ve Sinema (İngilizce) (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 390.11906,
@@ -225227,7 +225227,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Radyo, Televizyon ve Sinema (İngilizce) (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 211.18457,
@@ -225246,7 +225246,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Yeni Medya ve İletişim (İngilizce) (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 254.37608,
@@ -225265,7 +225265,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Yeni Medya ve İletişim (İngilizce) (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 398.07978,
@@ -225284,7 +225284,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Yeni Medya ve İletişim (İngilizce) (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 182.35494,
@@ -225303,7 +225303,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İngiliz Dili ve Edebiyatı (İngilizce) (%50 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 344.05754,
@@ -225322,7 +225322,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İngiliz Dili ve Edebiyatı (İngilizce) (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 439.70529,
@@ -225341,7 +225341,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İngiliz Dili ve Edebiyatı (İngilizce) (Ücretli)",
         "puanTuru": "DİL",
         "tabanPuan": 200.084,
@@ -225360,7 +225360,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İngilizce Mütercim ve Tercümanlık (%25 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 252.21091,
@@ -225379,7 +225379,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İngilizce Mütercim ve Tercümanlık (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 448.58794,
@@ -225398,7 +225398,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İngilizce Mütercim ve Tercümanlık (Ücretli)",
         "puanTuru": "DİL",
         "tabanPuan": 177.41535,
@@ -225417,7 +225417,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Psikoloji (İngilizce) (%25 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 309.33886,
@@ -225436,7 +225436,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Psikoloji (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 395.67254,
@@ -225455,7 +225455,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Psikoloji (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 210.84597,
@@ -225474,7 +225474,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Uluslararası İlişkiler (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 268.4912,
@@ -225493,7 +225493,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Uluslararası İlişkiler (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 376.75066,
@@ -225512,7 +225512,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Uluslararası İlişkiler (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 201.57375,
@@ -225531,7 +225531,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Ekonomi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 273.98913,
@@ -225550,7 +225550,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Ekonomi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 391.18486,
@@ -225569,7 +225569,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Ekonomi (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 216.23518,
@@ -225588,7 +225588,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İşletme (İngilizce) (%25 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 254.1685,
@@ -225607,7 +225607,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İşletme (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 389.45451,
@@ -225626,7 +225626,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İşletme (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 222.57569,
@@ -225645,7 +225645,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Lojistik Yönetimi (İngilizce) (%25 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 220.68032,
@@ -225664,7 +225664,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Lojistik Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 375.76335,
@@ -225683,7 +225683,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Lojistik Yönetimi (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 204.0607,
@@ -225702,7 +225702,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Uluslararası Ticaret ve Finansman (İngilizce) (%25 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 243.94996,
@@ -225721,7 +225721,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Uluslararası Ticaret ve Finansman (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 384.44474,
@@ -225740,7 +225740,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Uluslararası Ticaret ve Finansman (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 231.86785,
@@ -225759,7 +225759,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (İngilizce) (%25 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 278.38887,
@@ -225778,7 +225778,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 371.17507,
@@ -225797,7 +225797,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İç Mimarlık ve Çevre Tasarımı (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 241.88292,
@@ -225816,7 +225816,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Mimarlık (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 318.18117,
@@ -225835,7 +225835,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Mimarlık (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 400.24087,
@@ -225854,7 +225854,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 353.86952,
@@ -225873,7 +225873,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 447.105,
@@ -225892,7 +225892,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 304.4305,
@@ -225911,7 +225911,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 323.78657,
@@ -225930,7 +225930,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 448.32817,
@@ -225949,7 +225949,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Elektrik-Elektronik Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 305.23441,
@@ -225968,7 +225968,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Endüstri Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 348.79009,
@@ -225987,7 +225987,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Endüstri Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 445.89675,
@@ -226006,7 +226006,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Endüstri Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 314.95052,
@@ -226025,7 +226025,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Enerji Sistemleri Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 302.77122,
@@ -226044,7 +226044,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Enerji Sistemleri Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 429.60102,
@@ -226063,7 +226063,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İnşaat Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 303.1429,
@@ -226082,7 +226082,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İnşaat Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 394.90138,
@@ -226101,7 +226101,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Makine Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 311.21198,
@@ -226120,7 +226120,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Makine Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 433.26806,
@@ -226139,7 +226139,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Makine Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 306.38737,
@@ -226158,7 +226158,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Yazılım Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 327.8094,
@@ -226177,7 +226177,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Yazılım Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 438.94544,
@@ -226196,7 +226196,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Yazılım Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 307.67183,
@@ -226215,7 +226215,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Çizgi Film ve Animasyon (%50 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 180.26447,
@@ -226234,7 +226234,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Çizgi Film ve Animasyon (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 392.25432,
@@ -226253,7 +226253,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Çizgi Film ve Animasyon (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 201.35813,
@@ -226272,7 +226272,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Endüstriyel Tasarım (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 281.69923,
@@ -226291,7 +226291,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Endüstriyel Tasarım (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 389.76451,
@@ -226310,7 +226310,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Endüstriyel Tasarım (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 202.37089,
@@ -226329,7 +226329,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tarım Ekonomisi (İngilizce) (%50 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 192.15706,
@@ -226348,7 +226348,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tarım Ekonomisi (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 318.19683,
@@ -226367,7 +226367,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tarım Ekonomisi (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 180.65794,
@@ -226386,7 +226386,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tarım Makineleri ve Teknolojileri Mühendisliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "SAY",
         "tabanPuan": 238.93409,
@@ -226405,7 +226405,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tarım Makineleri ve Teknolojileri Mühendisliği (İngilizce) (Burslu)",
         "puanTuru": "SAY",
         "tabanPuan": 323.94559,
@@ -226424,7 +226424,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tarım Makineleri ve Teknolojileri Mühendisliği (İngilizce) (Ücretli)",
         "puanTuru": "SAY",
         "tabanPuan": 214.96991,
@@ -226443,7 +226443,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Gastronomi ve Mutfak Sanatları (%25 İndirimli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 186.55741,
@@ -226462,7 +226462,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Gastronomi ve Mutfak Sanatları (Burslu)",
         "puanTuru": "SÖZ",
         "tabanPuan": 410.49405,
@@ -226481,7 +226481,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Gastronomi ve Mutfak Sanatları (Ücretli)",
         "puanTuru": "SÖZ",
         "tabanPuan": 185.74275,
@@ -226500,7 +226500,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Turizm Rehberliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "DİL",
         "tabanPuan": 256.05253,
@@ -226519,7 +226519,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Turizm Rehberliği (İngilizce) (Burslu)",
         "puanTuru": "DİL",
         "tabanPuan": 416.8269,
@@ -226538,7 +226538,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Turizm Rehberliği (İngilizce) (Ücretli)",
         "puanTuru": "DİL",
         "tabanPuan": 213.06146,
@@ -226557,7 +226557,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Yönetim Bilişim Sistemleri (İngilizce) (%25 İndirimli)",
         "puanTuru": "EA",
         "tabanPuan": 271.30692,
@@ -226576,7 +226576,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Yönetim Bilişim Sistemleri (İngilizce) (Burslu)",
         "puanTuru": "EA",
         "tabanPuan": 408.44964,
@@ -226595,7 +226595,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Yönetim Bilişim Sistemleri (İngilizce) (Ücretli)",
         "puanTuru": "EA",
         "tabanPuan": 197.31696,
@@ -234860,7 +234860,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Alternatif Enerji Kaynakları Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 270.67714,
@@ -234879,7 +234879,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Aşçılık",
         "puanTuru": "TYT",
         "tabanPuan": 302.1781,
@@ -234898,7 +234898,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Biyomedikal Cihaz Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 300.12242,
@@ -234917,7 +234917,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Büro Yönetimi ve Yönetici Asistanlığı",
         "puanTuru": "TYT",
         "tabanPuan": 292.8198,
@@ -234936,7 +234936,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 311.39207,
@@ -234955,7 +234955,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Elektrik",
         "puanTuru": "TYT",
         "tabanPuan": 302.25656,
@@ -234974,7 +234974,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Elektronik Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 294.55005,
@@ -234993,7 +234993,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Et ve Ürünleri Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 245.18345,
@@ -235012,7 +235012,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 285.40136,
@@ -235031,7 +235031,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Hibrid ve Elektrikli Taşıtlar Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 307.63371,
@@ -235050,7 +235050,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İç Mekan Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 287.92975,
@@ -235069,7 +235069,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İnşaat Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 278.77421,
@@ -235088,7 +235088,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 280.384,
@@ -235107,7 +235107,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Mermer Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 251.38205,
@@ -235126,7 +235126,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Mimari Restorasyon",
         "puanTuru": "TYT",
         "tabanPuan": 269.40025,
@@ -235145,7 +235145,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 289.85683,
@@ -235164,7 +235164,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Pazarlama",
         "puanTuru": "TYT",
         "tabanPuan": 267.6411,
@@ -235183,7 +235183,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Raylı Sistemler Yol Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 299.7631,
@@ -235202,7 +235202,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 276.89482,
@@ -235221,7 +235221,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Yerel Yönetimler",
         "puanTuru": "TYT",
         "tabanPuan": 260.12487,
@@ -235240,7 +235240,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 259.05863,
@@ -235259,7 +235259,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Dış Ticaret",
         "puanTuru": "TYT",
         "tabanPuan": 244.37792,
@@ -235278,7 +235278,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İnsan Kaynakları Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 257.12806,
@@ -235297,7 +235297,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Laborant ve Veteriner Sağlık",
         "puanTuru": "TYT",
         "tabanPuan": 282.74449,
@@ -235316,7 +235316,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Büyük Veri Analistliği",
         "puanTuru": "TYT",
         "tabanPuan": 302.55873,
@@ -235335,7 +235335,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Oyun Geliştirme ve Programlama",
         "puanTuru": "TYT",
         "tabanPuan": 295.26438,
@@ -235354,7 +235354,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 273.12267,
@@ -235373,7 +235373,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 277.3595,
@@ -235392,7 +235392,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Büro Yönetimi ve Yönetici Asistanlığı",
         "puanTuru": "TYT",
         "tabanPuan": 273.65128,
@@ -235411,7 +235411,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Çağrı Merkezi Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 263.51657,
@@ -235430,7 +235430,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Dış Ticaret",
         "puanTuru": "TYT",
         "tabanPuan": 256.06887,
@@ -235449,7 +235449,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Doğalgaz ve Tesisatı Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 247.16743,
@@ -235468,7 +235468,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Elektrik",
         "puanTuru": "TYT",
         "tabanPuan": 271.20972,
@@ -235487,7 +235487,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 259.71434,
@@ -235506,7 +235506,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İnşaat Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 251.52153,
@@ -235525,7 +235525,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Kaynak Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 240.24935,
@@ -235544,7 +235544,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 262.3767,
@@ -235563,7 +235563,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Otonom Sistemler Teknikerliği",
         "puanTuru": "TYT",
         "tabanPuan": 280.57266,
@@ -235582,7 +235582,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Yenilenebilir Enerji Teknikerliği",
         "puanTuru": "TYT",
         "tabanPuan": 260.74378,
@@ -235601,7 +235601,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 289.11337,
@@ -235620,7 +235620,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Elektrik",
         "puanTuru": "TYT",
         "tabanPuan": 264.41847,
@@ -235639,7 +235639,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Kimya Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 268.21072,
@@ -235658,7 +235658,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 251.42019,
@@ -235677,7 +235677,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Otomotiv Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 265.66637,
@@ -235696,7 +235696,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Elektrik",
         "puanTuru": "TYT",
         "tabanPuan": 260.61922,
@@ -235715,7 +235715,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İnşaat Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 241.94876,
@@ -235734,7 +235734,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 272.48506,
@@ -235753,7 +235753,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Ceza İnfaz ve Güvenlik Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 306.83388,
@@ -235772,7 +235772,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Moda Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 250.41567,
@@ -235791,7 +235791,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 251.93844,
@@ -235810,7 +235810,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Aşçılık",
         "puanTuru": "TYT",
         "tabanPuan": 286.41383,
@@ -235829,7 +235829,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 260.21862,
@@ -235848,7 +235848,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 268.97618,
@@ -235867,7 +235867,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Dış Ticaret",
         "puanTuru": "TYT",
         "tabanPuan": 243.87756,
@@ -235886,7 +235886,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Harita ve Kadastro",
         "puanTuru": "TYT",
         "tabanPuan": 266.96001,
@@ -235905,7 +235905,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Laborant ve Veteriner Sağlık",
         "puanTuru": "TYT",
         "tabanPuan": 285.61474,
@@ -235924,7 +235924,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Yapı Denetimi",
         "puanTuru": "TYT",
         "tabanPuan": 245.5247,
@@ -235943,7 +235943,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İş Makineleri Operatörlüğü",
         "puanTuru": "TYT",
         "tabanPuan": 275.45368,
@@ -235962,7 +235962,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Kuyumculuk ve Takı Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 238.88178,
@@ -235981,7 +235981,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Makine Resim ve Konstrüksiyonu",
         "puanTuru": "TYT",
         "tabanPuan": 255.24867,
@@ -236000,7 +236000,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Mermer Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 236.0698,
@@ -236019,7 +236019,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Akıllı Sera Teknolojileri",
         "puanTuru": "TYT",
         "tabanPuan": 246.29483,
@@ -236038,7 +236038,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 268.24272,
@@ -236057,7 +236057,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Halkla İlişkiler ve Tanıtım",
         "puanTuru": "TYT",
         "tabanPuan": 247.71562,
@@ -236076,7 +236076,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Harita ve Kadastro",
         "puanTuru": "TYT",
         "tabanPuan": 262.94716,
@@ -236095,7 +236095,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 252.82298,
@@ -236114,7 +236114,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Sağlık Turizmi İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 260.92533,
@@ -236133,7 +236133,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Tarım Makineleri ve Teknolojileri",
         "puanTuru": "TYT",
         "tabanPuan": 233.72767,
@@ -236152,7 +236152,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 265.91728,
@@ -236171,7 +236171,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "İnternet ve Ağ Teknolojileri",
         "puanTuru": "TYT",
         "tabanPuan": 246.95087,
@@ -236190,7 +236190,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 248.95006,
@@ -236209,7 +236209,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 247.5704,
@@ -236228,7 +236228,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Otobüs Kaptanlığı",
         "puanTuru": "TYT",
         "tabanPuan": 237.6961,
@@ -236247,7 +236247,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 253.80203,
@@ -236266,7 +236266,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Laborant ve Veteriner Sağlık",
         "puanTuru": "TYT",
         "tabanPuan": 290.28985,
@@ -236285,7 +236285,7 @@ const universiteVerileri = [
     },
     {
         "universite": "AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)",
-        "sehir": "Afyonkarahi̇sar",
+        "sehir": "Afyonkarahisar",
         "bolum": "Reklamcılık",
         "puanTuru": "TYT",
         "tabanPuan": 247.51153,
@@ -242688,7 +242688,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Acil Durum ve Afet Yönetimi (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 299.32704,
@@ -242707,7 +242707,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Aşçılık (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 279.63457,
@@ -242726,7 +242726,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Bankacılık ve Sigortacılık (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 305.37708,
@@ -242745,7 +242745,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Bilgisayar Programcılığı (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 293.84456,
@@ -242764,7 +242764,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Büro Yönetimi ve Yönetici Asistanlığı (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 321.28281,
@@ -242783,7 +242783,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Coğrafi Bilgi Sistemleri (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 256.62887,
@@ -242802,7 +242802,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Dış Ticaret (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 301.0655,
@@ -242821,7 +242821,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Emlak Yönetimi (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 271.93111,
@@ -242840,7 +242840,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Engelli Bakımı ve Rehabilitasyon (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 270.35925,
@@ -242859,7 +242859,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Fotoğrafçılık ve Kameramanlık (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 260.73756,
@@ -242878,7 +242878,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Halkla İlişkiler ve Tanıtım (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 264.64135,
@@ -242897,7 +242897,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "İlahiyat (Önlisans) (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 240.24318,
@@ -242916,7 +242916,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "İnsan Kaynakları Yönetimi (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 306.04213,
@@ -242935,7 +242935,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "İş Sağlığı ve Güvenliği (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 323.07868,
@@ -242954,7 +242954,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "İşletme Yönetimi (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 300.06945,
@@ -242973,7 +242973,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Kültürel Miras ve Turizm (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 275.82513,
@@ -242992,7 +242992,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Lojistik (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 285.82802,
@@ -243011,7 +243011,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Marka İletişimi (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 249.39893,
@@ -243030,7 +243030,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Medya ve İletişim (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 290.04416,
@@ -243049,7 +243049,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Muhasebe ve Vergi Uygulamaları (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 306.19306,
@@ -243068,7 +243068,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Sağlık Kurumları İşletmeciliği (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 313.96928,
@@ -243087,7 +243087,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Sosyal Hizmetler (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 300.50198,
@@ -243106,7 +243106,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Sosyal Medya Yöneticiliği (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 261.24112,
@@ -243125,7 +243125,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Tarım Teknolojisi (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 283.54572,
@@ -243144,7 +243144,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Tıbbi Dokümantasyon ve Sekreterlik (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 348.87749,
@@ -243163,7 +243163,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Turizm ve Otel İşletmeciliği (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 297.28807,
@@ -243182,7 +243182,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Web Tasarımı ve Kodlama (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 261.53002,
@@ -243201,7 +243201,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Yaşlı Bakımı (Açıköğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 328.89337,
@@ -243220,7 +243220,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Arka-Yüz Yazılım Geliştirme",
         "puanTuru": "TYT",
         "tabanPuan": 337.33392,
@@ -243239,7 +243239,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Arka-Yüz Yazılım Geliştirme (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -243258,7 +243258,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Büyük Veri Analistliği",
         "puanTuru": "TYT",
         "tabanPuan": 342.94062,
@@ -243277,7 +243277,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Büyük Veri Analistliği (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -243296,7 +243296,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Oyun Geliştirme ve Programlama",
         "puanTuru": "TYT",
         "tabanPuan": 342.03864,
@@ -243315,7 +243315,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Ön-Yüz Yazılım Geliştirme",
         "puanTuru": "TYT",
         "tabanPuan": 328.70895,
@@ -243334,7 +243334,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Ön-Yüz Yazılım Geliştirme (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -243353,7 +243353,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Bilgisayar Operatörlüğü",
         "puanTuru": "TYT",
         "tabanPuan": 249.36292,
@@ -243372,7 +243372,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Yapı Ressamlığı",
         "puanTuru": "TYT",
         "tabanPuan": 224.058,
@@ -243391,7 +243391,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Aşçılık",
         "puanTuru": "TYT",
         "tabanPuan": 335.85124,
@@ -243410,7 +243410,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Büro Yönetimi ve Yönetici Asistanlığı",
         "puanTuru": "TYT",
         "tabanPuan": 323.6907,
@@ -243429,7 +243429,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Dış Ticaret",
         "puanTuru": "TYT",
         "tabanPuan": 328.56581,
@@ -243448,7 +243448,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Emlak Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 301.51188,
@@ -243467,7 +243467,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Pazarlama",
         "puanTuru": "TYT",
         "tabanPuan": 320.3583,
@@ -243486,7 +243486,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 324.714,
@@ -243505,7 +243505,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 330.59924,
@@ -243524,7 +243524,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Eczane Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 339.80734,
@@ -243543,7 +243543,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Saç Bakımı ve Güzellik Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 317.61251,
@@ -243562,7 +243562,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Tıbbi Laboratuvar Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 350.9962,
@@ -243581,7 +243581,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)",
-        "sehir": "Eski̇şehi̇r",
+        "sehir": "Eskişehir",
         "bolum": "Yaşlı Bakımı",
         "puanTuru": "TYT",
         "tabanPuan": 309.06996,
@@ -257451,7 +257451,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 324.48993,
@@ -257470,7 +257470,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Ceza İnfaz ve Güvenlik Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 312.4898,
@@ -257489,7 +257489,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Dış Ticaret",
         "puanTuru": "TYT",
         "tabanPuan": 296.85823,
@@ -257508,7 +257508,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Dış Ticaret (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -257527,7 +257527,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Et ve Ürünleri Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 251.90404,
@@ -257546,7 +257546,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 300.05104,
@@ -257565,7 +257565,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 286.75879,
@@ -257584,7 +257584,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Medya ve İletişim",
         "puanTuru": "TYT",
         "tabanPuan": 285.53927,
@@ -257603,7 +257603,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 291.19201,
@@ -257622,7 +257622,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Deniz ve Liman İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 318.12569,
@@ -257641,7 +257641,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Gemi İnşaatı",
         "puanTuru": "TYT",
         "tabanPuan": 306.18248,
@@ -257660,7 +257660,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Su Altı Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 287.72337,
@@ -257679,7 +257679,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Sağlık Turizmi İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 275.0614,
@@ -257698,7 +257698,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 283.37076,
@@ -257717,7 +257717,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Yerel Yönetimler",
         "puanTuru": "TYT",
         "tabanPuan": 257.68375,
@@ -257736,7 +257736,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Bilgisayar Destekli Tasarım ve Animasyon",
         "puanTuru": "TYT",
         "tabanPuan": 284.87681,
@@ -257755,7 +257755,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 309.01406,
@@ -257774,7 +257774,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Bilgisayar Programcılığı (Uzaktan Öğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 265.1453,
@@ -257793,7 +257793,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Bilişim Güvenliği Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 303.1133,
@@ -257812,7 +257812,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Doğalgaz ve Tesisatı Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 243.81539,
@@ -257831,7 +257831,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Grafik Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 299.51796,
@@ -257850,7 +257850,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 262.33225,
@@ -257869,7 +257869,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 266.52389,
@@ -257888,7 +257888,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 270.91595,
@@ -257907,7 +257907,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Web Tasarımı ve Kodlama",
         "puanTuru": "TYT",
         "tabanPuan": 298.579,
@@ -257926,7 +257926,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 282.70186,
@@ -257945,7 +257945,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "İş Sağlığı ve Güvenliği",
         "puanTuru": "TYT",
         "tabanPuan": 293.1845,
@@ -257964,7 +257964,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Özel Güvenlik ve Koruma",
         "puanTuru": "TYT",
         "tabanPuan": 263.04082,
@@ -257983,7 +257983,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Sağlık Kurumları İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 283.41632,
@@ -258002,7 +258002,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Sosyal Güvenlik",
         "puanTuru": "TYT",
         "tabanPuan": 259.47311,
@@ -258021,7 +258021,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Fizyoterapi",
         "puanTuru": "TYT",
         "tabanPuan": 334.08866,
@@ -258040,7 +258040,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Optisyenlik",
         "puanTuru": "TYT",
         "tabanPuan": 326.47399,
@@ -258059,7 +258059,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Sosyal Hizmetler",
         "puanTuru": "TYT",
         "tabanPuan": 303.84847,
@@ -258078,7 +258078,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Tıbbi Görüntüleme Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 354.32906,
@@ -258097,7 +258097,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Gıda Kalite Kontrolü ve Analizi",
         "puanTuru": "TYT",
         "tabanPuan": 260.3023,
@@ -258116,7 +258116,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Laborant ve Veteriner Sağlık",
         "puanTuru": "TYT",
         "tabanPuan": 295.32432,
@@ -258135,7 +258135,7 @@ const universiteVerileri = [
     },
     {
         "universite": "BANDIRMA ONYEDİ EYLÜL ÜNİVERSİTESİ (BALIKESİR)",
-        "sehir": "Balikesi̇r",
+        "sehir": "Balıkesir",
         "bolum": "Laboratuvar Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 299.46862,
@@ -272556,7 +272556,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Bankacılık ve Sigortacılık (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 206.50219,
@@ -272575,7 +272575,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Bankacılık ve Sigortacılık (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 301.20271,
@@ -272594,7 +272594,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Çocuk Gelişimi (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 186.9291,
@@ -272613,7 +272613,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Çocuk Gelişimi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 305.31911,
@@ -272632,7 +272632,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Dış Ticaret (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 190.33765,
@@ -272651,7 +272651,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Dış Ticaret (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 299.60118,
@@ -272670,7 +272670,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İş Sağlığı ve Güvenliği (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 198.19958,
@@ -272689,7 +272689,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İş Sağlığı ve Güvenliği (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 303.18529,
@@ -272708,7 +272708,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Mahkeme Büro Hizmetleri (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 186.37578,
@@ -272727,7 +272727,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Mahkeme Büro Hizmetleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 323.32325,
@@ -272746,7 +272746,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Sağlık Kurumları İşletmeciliği (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 180.08494,
@@ -272765,7 +272765,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Sağlık Kurumları İşletmeciliği (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 301.56541,
@@ -272784,7 +272784,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Sosyal Hizmetler (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 174.37204,
@@ -272803,7 +272803,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Sosyal Hizmetler (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 297.77645,
@@ -272822,7 +272822,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Tıbbi Dokümantasyon ve Sekreterlik (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 229.92004,
@@ -272841,7 +272841,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ÇAĞ ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Tıbbi Dokümantasyon ve Sekreterlik (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 326.90884,
@@ -277173,7 +277173,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Ağız ve Diş Sağlığı",
         "puanTuru": "TYT",
         "tabanPuan": 364.52854,
@@ -277192,7 +277192,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Anestezi",
         "puanTuru": "TYT",
         "tabanPuan": 377.77063,
@@ -277211,7 +277211,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Diş Protez Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 342.28139,
@@ -277230,7 +277230,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Diyaliz",
         "puanTuru": "TYT",
         "tabanPuan": 333.52869,
@@ -277249,7 +277249,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Fizyoterapi",
         "puanTuru": "TYT",
         "tabanPuan": 336.07782,
@@ -277268,7 +277268,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Ortopedik Protez ve Ortez",
         "puanTuru": "TYT",
         "tabanPuan": 324.53366,
@@ -277287,7 +277287,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Tıbbi Dokümantasyon ve Sekreterlik",
         "puanTuru": "TYT",
         "tabanPuan": 354.24361,
@@ -277306,7 +277306,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Tıbbi Görüntüleme Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 375.12492,
@@ -277325,7 +277325,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Tıbbi Laboratuvar Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 355.12704,
@@ -277344,7 +277344,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 269.43795,
@@ -277363,7 +277363,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Organik Tarım",
         "puanTuru": "TYT",
         "tabanPuan": 244.41615,
@@ -277382,7 +277382,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Tarım Makineleri",
         "puanTuru": "TYT",
         "tabanPuan": 240.46777,
@@ -277401,7 +277401,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 278.98938,
@@ -277420,7 +277420,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Büro Yönetimi ve Yönetici Asistanlığı",
         "puanTuru": "TYT",
         "tabanPuan": 277.12794,
@@ -277439,7 +277439,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 248.64182,
@@ -277458,7 +277458,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Aşçılık",
         "puanTuru": "TYT",
         "tabanPuan": 307.34504,
@@ -277477,7 +277477,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 316.67736,
@@ -277496,7 +277496,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 291.72081,
@@ -277515,7 +277515,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 302.59648,
@@ -277534,7 +277534,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Turizm Animasyonu",
         "puanTuru": "TYT",
         "tabanPuan": 256.50183,
@@ -277553,7 +277553,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 291.25962,
@@ -277572,7 +277572,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Bahçe Tarımı",
         "puanTuru": "TYT",
         "tabanPuan": 265.36254,
@@ -277591,7 +277591,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 274.92309,
@@ -277610,7 +277610,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Organik Tarım",
         "puanTuru": "TYT",
         "tabanPuan": 259.35797,
@@ -277629,7 +277629,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Süt ve Besi Hayvancılığı",
         "puanTuru": "TYT",
         "tabanPuan": 247.66071,
@@ -277648,7 +277648,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Süt ve Ürünleri Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 242.15401,
@@ -277667,7 +277667,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Tohumculuk Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 245.45809,
@@ -277686,7 +277686,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Basım ve Yayım Teknolojileri",
         "puanTuru": "TYT",
         "tabanPuan": 257.76407,
@@ -277705,7 +277705,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 319.6804,
@@ -277724,7 +277724,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Doğal Yapı Taşları Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 241.78961,
@@ -277743,7 +277743,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Elektrik",
         "puanTuru": "TYT",
         "tabanPuan": 310.61102,
@@ -277762,7 +277762,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Elektrikli Cihaz Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 274.55467,
@@ -277781,7 +277781,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Elektronik Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 289.48526,
@@ -277800,7 +277800,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Harita ve Kadastro",
         "puanTuru": "TYT",
         "tabanPuan": 305.98717,
@@ -277819,7 +277819,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "İç Mekan Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 293.1662,
@@ -277838,7 +277838,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "İnşaat Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 306.01203,
@@ -277857,7 +277857,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Kimya Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 288.69478,
@@ -277876,7 +277876,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Makine",
         "puanTuru": "TYT",
         "tabanPuan": 289.07792,
@@ -277895,7 +277895,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Makine Resim ve Konstrüksiyonu",
         "puanTuru": "TYT",
         "tabanPuan": 252.87931,
@@ -277914,7 +277914,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Mobilya ve Dekorasyon",
         "puanTuru": "TYT",
         "tabanPuan": 254.78533,
@@ -277933,7 +277933,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Otomotiv Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 287.04871,
@@ -277952,7 +277952,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Peyzaj ve Süs Bitkileri Yetiştiriciliği",
         "puanTuru": "TYT",
         "tabanPuan": 254.14046,
@@ -277971,7 +277971,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Radyo ve Televizyon Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 270.0118,
@@ -277990,7 +277990,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Saç Bakımı ve Güzellik Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 296.15733,
@@ -278009,7 +278009,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Tekstil Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 250.76284,
@@ -278028,7 +278028,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 268.34057,
@@ -278047,7 +278047,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 288.04689,
@@ -278066,7 +278066,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 255.90533,
@@ -278085,7 +278085,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 264.75317,
@@ -278104,7 +278104,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 261.44375,
@@ -278123,7 +278123,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 285.8684,
@@ -278142,7 +278142,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DİCLE ÜNİVERSİTESİ (DİYARBAKIR)",
-        "sehir": "Di̇yarbakir",
+        "sehir": "Diyarbakır",
         "bolum": "Elektrik",
         "puanTuru": "TYT",
         "tabanPuan": 267.11795,
@@ -278161,7 +278161,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilgisayar Programcılığı (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 217.59875,
@@ -278180,7 +278180,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilgisayar Programcılığı (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 313.14756,
@@ -278199,7 +278199,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Bilgisayar Programcılığı (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 235.30911,
@@ -278218,7 +278218,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İnşaat Teknolojisi (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 212.82569,
@@ -278237,7 +278237,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İnşaat Teknolojisi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 306.3161,
@@ -278256,7 +278256,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İnşaat Teknolojisi (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 198.06174,
@@ -278275,7 +278275,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Ağız ve Diş Sağlığı (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 235.75044,
@@ -278294,7 +278294,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Ağız ve Diş Sağlığı (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 314.26652,
@@ -278313,7 +278313,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Ağız ve Diş Sağlığı (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 210.71419,
@@ -278332,7 +278332,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Ameliyathane Hizmetleri (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 228.96338,
@@ -278351,7 +278351,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Ameliyathane Hizmetleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 310.69327,
@@ -278370,7 +278370,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Ameliyathane Hizmetleri (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 205.61569,
@@ -278389,7 +278389,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Anestezi (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 243.7741,
@@ -278408,7 +278408,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Anestezi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 329.63272,
@@ -278427,7 +278427,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Anestezi (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 250.19809,
@@ -278446,7 +278446,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Diyaliz (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 174.45951,
@@ -278465,7 +278465,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Diyaliz (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 302.86325,
@@ -278484,7 +278484,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Diyaliz (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 205.15945,
@@ -278503,7 +278503,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Fizyoterapi (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 207.41051,
@@ -278522,7 +278522,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Fizyoterapi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 312.11846,
@@ -278541,7 +278541,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Fizyoterapi (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 177.15552,
@@ -278560,7 +278560,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İlk ve Acil Yardım (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 241.36674,
@@ -278579,7 +278579,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İlk ve Acil Yardım (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 323.01622,
@@ -278598,7 +278598,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "İlk ve Acil Yardım (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 244.21483,
@@ -278617,7 +278617,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Ortopedik Protez ve Ortez (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 186.03124,
@@ -278636,7 +278636,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Ortopedik Protez ve Ortez (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 293.35124,
@@ -278655,7 +278655,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Ortopedik Protez ve Ortez (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 187.1773,
@@ -278674,7 +278674,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Radyoterapi (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 191.58439,
@@ -278693,7 +278693,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Radyoterapi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 304.78027,
@@ -278712,7 +278712,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Radyoterapi (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 179.3098,
@@ -278731,7 +278731,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Tıbbi Görüntüleme Teknikleri (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 233.31583,
@@ -278750,7 +278750,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Tıbbi Görüntüleme Teknikleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 319.35218,
@@ -278769,7 +278769,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Tıbbi Görüntüleme Teknikleri (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 233.96676,
@@ -278788,7 +278788,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Aşçılık (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 239.05694,
@@ -278807,7 +278807,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Aşçılık (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 297.61838,
@@ -278826,7 +278826,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Aşçılık (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 187.59453,
@@ -278845,7 +278845,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Pastacılık ve Ekmekçilik (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 288.42393,
@@ -278864,7 +278864,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Pastacılık ve Ekmekçilik (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 199.09471,
@@ -278883,7 +278883,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (İngilizce) (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 258.3635,
@@ -278902,7 +278902,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (İngilizce) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 328.15416,
@@ -278921,7 +278921,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (İngilizce) (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 255.05898,
@@ -278940,7 +278940,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Turizm ve Otel İşletmeciliği (İngilizce) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 295.91577,
@@ -278959,7 +278959,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)",
-        "sehir": "Gazi̇mağusa",
+        "sehir": "Gazimağusa",
         "bolum": "Turizm ve Otel İşletmeciliği (İngilizce) (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 195.35989,
@@ -280688,7 +280688,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Alternatif Enerji Kaynakları Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 299.73867,
@@ -280707,7 +280707,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 313.99733,
@@ -280726,7 +280726,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İş Makineleri Operatörlüğü",
         "puanTuru": "TYT",
         "tabanPuan": 291.93029,
@@ -280745,7 +280745,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İş Sağlığı ve Güvenliği",
         "puanTuru": "TYT",
         "tabanPuan": 313.98766,
@@ -280764,7 +280764,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 305.04213,
@@ -280783,7 +280783,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Kültürel Miras ve Turizm",
         "puanTuru": "TYT",
         "tabanPuan": 279.64502,
@@ -280802,7 +280802,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Sivil Hava Ulaştırma İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 345.09215,
@@ -280821,7 +280821,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Sivil Hava Ulaştırma İşletmeciliği (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": 310.01379,
@@ -280840,7 +280840,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Sivil Havacılık Kabin Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 351.42923,
@@ -280859,7 +280859,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 306.30415,
@@ -280878,7 +280878,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 366.41982,
@@ -280897,7 +280897,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Programcılığı (Uzaktan Öğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 329.14781,
@@ -280916,7 +280916,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Büro Yönetimi ve Yönetici Asistanlığı",
         "puanTuru": "TYT",
         "tabanPuan": 318.95349,
@@ -280935,7 +280935,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Döküm",
         "puanTuru": "TYT",
         "tabanPuan": 277.31196,
@@ -280954,7 +280954,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Elektrik",
         "puanTuru": "TYT",
         "tabanPuan": 341.90135,
@@ -280973,7 +280973,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Elektrik (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": 221.86325,
@@ -280992,7 +280992,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Elektronik Haberleşme Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 312.60458,
@@ -281011,7 +281011,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Elektronik Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 326.74414,
@@ -281030,7 +281030,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Harita ve Kadastro",
         "puanTuru": "TYT",
         "tabanPuan": 326.31914,
@@ -281049,7 +281049,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İklimlendirme ve Soğutma Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 302.90142,
@@ -281068,7 +281068,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İnşaat Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 335.03578,
@@ -281087,7 +281087,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Kimya Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 337.75357,
@@ -281106,7 +281106,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Kuyumculuk ve Takı Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 301.56529,
@@ -281125,7 +281125,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Makine",
         "puanTuru": "TYT",
         "tabanPuan": 338.68835,
@@ -281144,7 +281144,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Makine Resim ve Konstrüksiyonu",
         "puanTuru": "TYT",
         "tabanPuan": 307.11212,
@@ -281163,7 +281163,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Mekatronik",
         "puanTuru": "TYT",
         "tabanPuan": 353.75286,
@@ -281182,7 +281182,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 326.80172,
@@ -281201,7 +281201,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Pazarlama",
         "puanTuru": "TYT",
         "tabanPuan": 322.13081,
@@ -281220,7 +281220,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Sağlık Kurumları İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 318.96945,
@@ -281239,7 +281239,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tarımsal İşletmecilik",
         "puanTuru": "TYT",
         "tabanPuan": 291.74426,
@@ -281258,7 +281258,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tekstil Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 294.5676,
@@ -281277,7 +281277,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 331.93667,
@@ -281296,7 +281296,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Yapı Tesisat Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 288.06202,
@@ -281315,7 +281315,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Yapı Tesisat Teknolojisi (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -281334,7 +281334,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Yerel Yönetimler",
         "puanTuru": "TYT",
         "tabanPuan": 303.73009,
@@ -281353,7 +281353,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Laborant ve Veteriner Sağlık",
         "puanTuru": "TYT",
         "tabanPuan": 309.1094,
@@ -281372,7 +281372,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Süt ve Ürünleri Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 240.11164,
@@ -281391,7 +281391,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Ağız ve Diş Sağlığı",
         "puanTuru": "TYT",
         "tabanPuan": 360.64461,
@@ -281410,7 +281410,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Ağız ve Diş Sağlığı (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -281429,7 +281429,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Anestezi",
         "puanTuru": "TYT",
         "tabanPuan": 379.40267,
@@ -281448,7 +281448,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Biyomedikal Cihaz Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 325.29067,
@@ -281467,7 +281467,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Biyomedikal Cihaz Teknolojisi (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -281486,7 +281486,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İlk ve Acil Yardım",
         "puanTuru": "TYT",
         "tabanPuan": 376.15081,
@@ -281505,7 +281505,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Nükleer Tıp Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 332.07391,
@@ -281524,7 +281524,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Nükleer Tıp Teknikleri (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -281543,7 +281543,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Odyometri",
         "puanTuru": "TYT",
         "tabanPuan": 339.3021,
@@ -281562,7 +281562,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Radyoterapi",
         "puanTuru": "TYT",
         "tabanPuan": 339.2023,
@@ -281581,7 +281581,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tıbbi Dokümantasyon ve Sekreterlik",
         "puanTuru": "TYT",
         "tabanPuan": 352.32835,
@@ -281600,7 +281600,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tıbbi Görüntüleme Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 370.46809,
@@ -281619,7 +281619,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tıbbi Görüntüleme Teknikleri (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": 284.42361,
@@ -281638,7 +281638,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tıbbi Laboratuvar Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 357.4355,
@@ -281657,7 +281657,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Doğal Yapı Taşları Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 261.79833,
@@ -281676,7 +281676,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Endüstriyel Cam ve Seramik",
         "puanTuru": "TYT",
         "tabanPuan": 267.47234,
@@ -281695,7 +281695,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Geoteknik",
         "puanTuru": "TYT",
         "tabanPuan": 279.64717,
@@ -281714,7 +281714,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Kaynak Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 282.5575,
@@ -281733,7 +281733,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Madencilik Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 279.87234,
@@ -281752,7 +281752,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Sivil Savunma ve İtfaiyecilik",
         "puanTuru": "TYT",
         "tabanPuan": 325.4869,
@@ -281771,7 +281771,7 @@ const universiteVerileri = [
     },
     {
         "universite": "DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Sondaj Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 280.62974,
@@ -282854,7 +282854,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Elektrik",
         "puanTuru": "TYT",
         "tabanPuan": 317.01463,
@@ -282873,7 +282873,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Makine",
         "puanTuru": "TYT",
         "tabanPuan": 319.64415,
@@ -282892,7 +282892,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Metalurji",
         "puanTuru": "TYT",
         "tabanPuan": 289.72859,
@@ -282911,7 +282911,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Rafineri ve Petro-Kimya Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 326.97892,
@@ -282930,7 +282930,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Ameliyathane Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 349.68837,
@@ -282949,7 +282949,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Ameliyathane Hizmetleri (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -282968,7 +282968,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Anestezi",
         "puanTuru": "TYT",
         "tabanPuan": 387.51008,
@@ -282987,7 +282987,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 347.32827,
@@ -283006,7 +283006,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Diyaliz",
         "puanTuru": "TYT",
         "tabanPuan": 341.46722,
@@ -283025,7 +283025,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Diyaliz (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -283044,7 +283044,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Eczane Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 341.5359,
@@ -283063,7 +283063,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Engelli Bakımı ve Rehabilitasyon",
         "puanTuru": "TYT",
         "tabanPuan": 305.92737,
@@ -283082,7 +283082,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Engelli Bakımı ve Rehabilitasyon (Uzaktan Öğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 269.5671,
@@ -283101,7 +283101,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İlk ve Acil Yardım",
         "puanTuru": "TYT",
         "tabanPuan": 386.47848,
@@ -283120,7 +283120,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Optisyenlik",
         "puanTuru": "TYT",
         "tabanPuan": 362.14205,
@@ -283139,7 +283139,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tıbbi Dokümantasyon ve Sekreterlik",
         "puanTuru": "TYT",
         "tabanPuan": 362.16204,
@@ -283158,7 +283158,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tıbbi Görüntüleme Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 380.91639,
@@ -283177,7 +283177,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tıbbi Laboratuvar Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 368.15591,
@@ -283196,7 +283196,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Çim Alan Tesisi ve Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 247.84673,
@@ -283215,7 +283215,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Moda Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 299.18039,
@@ -283234,7 +283234,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Peyzaj ve Süs Bitkileri Yetiştiriciliği",
         "puanTuru": "TYT",
         "tabanPuan": 271.8284,
@@ -283253,7 +283253,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Seracılık",
         "puanTuru": "TYT",
         "tabanPuan": 248.57485,
@@ -283272,7 +283272,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 333.11476,
@@ -283291,7 +283291,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bitki Koruma",
         "puanTuru": "TYT",
         "tabanPuan": 294.93729,
@@ -283310,7 +283310,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Eser Koruma",
         "puanTuru": "TYT",
         "tabanPuan": 264.24334,
@@ -283329,7 +283329,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Kontrol ve Otomasyon Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 318.05638,
@@ -283348,7 +283348,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Mantarcılık",
         "puanTuru": "TYT",
         "tabanPuan": 258.41451,
@@ -283367,7 +283367,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 295.01858,
@@ -283386,7 +283386,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Muhasebe ve Vergi Uygulamaları (Uzaktan Öğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 277.99936,
@@ -283405,7 +283405,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Seracılık",
         "puanTuru": "TYT",
         "tabanPuan": 248.0842,
@@ -283424,7 +283424,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Turizm Animasyonu",
         "puanTuru": "TYT",
         "tabanPuan": 273.31644,
@@ -283443,7 +283443,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 316.82773,
@@ -283462,7 +283462,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Basım ve Yayım Teknolojileri",
         "puanTuru": "TYT",
         "tabanPuan": 308.58512,
@@ -283481,7 +283481,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 379.17976,
@@ -283500,7 +283500,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Biyomedikal Cihaz Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 334.09809,
@@ -283519,7 +283519,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Elektrik",
         "puanTuru": "TYT",
         "tabanPuan": 353.23184,
@@ -283538,7 +283538,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Elektronik Haberleşme Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 319.813,
@@ -283557,7 +283557,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Elektronik Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 334.97506,
@@ -283576,7 +283576,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 330.5733,
@@ -283595,7 +283595,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Grafik Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 345.0793,
@@ -283614,7 +283614,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İç Mekan Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 338.14182,
@@ -283633,7 +283633,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 335.07344,
@@ -283652,7 +283652,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Makine",
         "puanTuru": "TYT",
         "tabanPuan": 348.99897,
@@ -283671,7 +283671,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Makine Resim ve Konstrüksiyonu",
         "puanTuru": "TYT",
         "tabanPuan": 317.24271,
@@ -283690,7 +283690,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Mekatronik (Erkek)",
         "puanTuru": "TYT",
         "tabanPuan": 376.12136,
@@ -283709,7 +283709,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Mekatronik (Kız)",
         "puanTuru": "TYT",
         "tabanPuan": 330.77136,
@@ -283728,7 +283728,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Meyve ve Sebze İşleme Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 284.06334,
@@ -283747,7 +283747,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 331.25464,
@@ -283766,7 +283766,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Otomotiv Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 344.40789,
@@ -283785,7 +283785,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Otonom Sistemler Teknikerliği",
         "puanTuru": "TYT",
         "tabanPuan": 355.29238,
@@ -283804,7 +283804,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Oyun Geliştirme ve Programlama",
         "puanTuru": "TYT",
         "tabanPuan": 357.73766,
@@ -283823,7 +283823,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Ön-Yüz Yazılım Geliştirme",
         "puanTuru": "TYT",
         "tabanPuan": 357.75537,
@@ -283842,7 +283842,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Ön-Yüz Yazılım Geliştirme (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -283861,7 +283861,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Polimer Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 303.76023,
@@ -283880,7 +283880,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Seramik ve Cam Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 306.94092,
@@ -283899,7 +283899,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tarım Makineleri",
         "puanTuru": "TYT",
         "tabanPuan": 293.78315,
@@ -283918,7 +283918,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Giyim Üretim Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 296.95619,
@@ -283937,7 +283937,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Moda Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 334.10793,
@@ -283956,7 +283956,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tekstil Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 299.50373,
@@ -283975,7 +283975,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Sivil Hava Ulaştırma İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 361.69408,
@@ -283994,7 +283994,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Uçak Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 395.48777,
@@ -284013,7 +284013,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bahçe Tarımı",
         "puanTuru": "TYT",
         "tabanPuan": 259.53257,
@@ -284032,7 +284032,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Laborant ve Veteriner Sağlık",
         "puanTuru": "TYT",
         "tabanPuan": 326.15536,
@@ -284051,7 +284051,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Organik Tarım",
         "puanTuru": "TYT",
         "tabanPuan": 253.19711,
@@ -284070,7 +284070,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Süt ve Besi Hayvancılığı",
         "puanTuru": "TYT",
         "tabanPuan": 249.52151,
@@ -284089,7 +284089,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Süt ve Ürünleri Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 249.32137,
@@ -284108,7 +284108,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tıbbi ve Aromatik Bitkiler",
         "puanTuru": "TYT",
         "tabanPuan": 265.34846,
@@ -284127,7 +284127,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Tohumculuk Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 246.29742,
@@ -284146,7 +284146,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Siber Güvenlik Analistliği ve Operatörlüğü",
         "puanTuru": "TYT",
         "tabanPuan": 402.96691,
@@ -284165,7 +284165,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 328.42184,
@@ -284184,7 +284184,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 296.90033,
@@ -284203,7 +284203,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 293.83552,
@@ -284222,7 +284222,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Deniz Ulaştırma ve İşletme",
         "puanTuru": "TYT",
         "tabanPuan": 375.30133,
@@ -284241,7 +284241,7 @@ const universiteVerileri = [
     },
     {
         "universite": "EGE ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Su Altı Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 311.22953,
@@ -284260,7 +284260,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Ağız ve Diş Sağlığı",
         "puanTuru": "TYT",
         "tabanPuan": 357.83188,
@@ -284279,7 +284279,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Ameliyathane Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 341.96042,
@@ -284298,7 +284298,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Anestezi",
         "puanTuru": "TYT",
         "tabanPuan": 369.84683,
@@ -284317,7 +284317,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Elektronörofizyoloji",
         "puanTuru": "TYT",
         "tabanPuan": 334.12757,
@@ -284336,7 +284336,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İlk ve Acil Yardım",
         "puanTuru": "TYT",
         "tabanPuan": 371.21469,
@@ -284355,7 +284355,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Odyometri",
         "puanTuru": "TYT",
         "tabanPuan": 334.76686,
@@ -284374,7 +284374,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Radyoterapi",
         "puanTuru": "TYT",
         "tabanPuan": 332.22694,
@@ -284393,7 +284393,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Tıbbi Dokümantasyon ve Sekreterlik",
         "puanTuru": "TYT",
         "tabanPuan": 355.34799,
@@ -284412,7 +284412,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Tıbbi Görüntüleme Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 365.59783,
@@ -284431,7 +284431,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ERCİYES ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Tıbbi Laboratuvar Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 351.76315,
@@ -287623,7 +287623,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Alternatif Enerji Kaynakları Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 253.74192,
@@ -287642,7 +287642,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Bahçe Tarımı",
         "puanTuru": "TYT",
         "tabanPuan": 233.37338,
@@ -287661,7 +287661,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Organik Tarım",
         "puanTuru": "TYT",
         "tabanPuan": 233.75818,
@@ -287680,7 +287680,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Raylı Sistemler Makinistliği",
         "puanTuru": "TYT",
         "tabanPuan": 305.08344,
@@ -287699,7 +287699,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 284.92159,
@@ -287718,7 +287718,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Doğalgaz ve Tesisatı Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 245.98309,
@@ -287737,7 +287737,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Elektronik Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 272.08658,
@@ -287756,7 +287756,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Endüstri Ürünleri Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 237.203,
@@ -287775,7 +287775,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Giyim Üretim Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 237.77453,
@@ -287794,7 +287794,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İnşaat Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 255.09435,
@@ -287813,7 +287813,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Kaynak Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 245.44967,
@@ -287832,7 +287832,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Kimya Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 261.41253,
@@ -287851,7 +287851,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Yapı Denetimi",
         "puanTuru": "TYT",
         "tabanPuan": 255.01562,
@@ -287870,7 +287870,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 257.40669,
@@ -287889,7 +287889,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 288.51965,
@@ -287908,7 +287908,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 238.06395,
@@ -287927,7 +287927,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Tapu ve Kadastro",
         "puanTuru": "TYT",
         "tabanPuan": 280.37201,
@@ -287946,7 +287946,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Yapı Denetimi",
         "puanTuru": "TYT",
         "tabanPuan": 239.5299,
@@ -287965,7 +287965,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Çevre Koruma ve Kontrol",
         "puanTuru": "TYT",
         "tabanPuan": 246.48014,
@@ -287984,7 +287984,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Elektrik Enerjisi Üretim, İletim ve Dağıtımı",
         "puanTuru": "TYT",
         "tabanPuan": 266.56062,
@@ -288003,7 +288003,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Geoteknik",
         "puanTuru": "TYT",
         "tabanPuan": 236.89062,
@@ -288022,7 +288022,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 238.55657,
@@ -288041,7 +288041,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İş Sağlığı ve Güvenliği",
         "puanTuru": "TYT",
         "tabanPuan": 267.97874,
@@ -288060,7 +288060,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Peyzaj ve Süs Bitkileri Yetiştiriciliği",
         "puanTuru": "TYT",
         "tabanPuan": 233.67033,
@@ -288079,7 +288079,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 261.39086,
@@ -288098,7 +288098,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Eczane Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 319.43394,
@@ -288117,7 +288117,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Evde Hasta Bakımı",
         "puanTuru": "TYT",
         "tabanPuan": 314.63666,
@@ -288136,7 +288136,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İlk ve Acil Yardım",
         "puanTuru": "TYT",
         "tabanPuan": 356.72771,
@@ -288155,7 +288155,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 246.78837,
@@ -288174,7 +288174,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Optisyenlik",
         "puanTuru": "TYT",
         "tabanPuan": 303.73258,
@@ -288193,7 +288193,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Sağlık Kurumları İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 281.03643,
@@ -288212,7 +288212,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Anestezi",
         "puanTuru": "TYT",
         "tabanPuan": 365.0185,
@@ -288231,7 +288231,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Fizyoterapi",
         "puanTuru": "TYT",
         "tabanPuan": 336.65511,
@@ -288250,7 +288250,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Odyometri",
         "puanTuru": "TYT",
         "tabanPuan": 330.47488,
@@ -288269,7 +288269,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Otopsi Yardımcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 324.18232,
@@ -288288,7 +288288,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Otopsi Yardımcılığı (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -288307,7 +288307,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Tıbbi Dokümantasyon ve Sekreterlik",
         "puanTuru": "TYT",
         "tabanPuan": 347.46246,
@@ -288326,7 +288326,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Tıbbi Görüntüleme Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 361.94621,
@@ -288345,7 +288345,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Tıbbi Laboratuvar Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 345.61602,
@@ -288364,7 +288364,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Atçılık ve Antrenörlüğü",
         "puanTuru": "TYT",
         "tabanPuan": 241.00381,
@@ -288383,7 +288383,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Harita ve Kadastro",
         "puanTuru": "TYT",
         "tabanPuan": 281.29988,
@@ -288402,7 +288402,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Laborant ve Veteriner Sağlık",
         "puanTuru": "TYT",
         "tabanPuan": 310.71589,
@@ -288421,7 +288421,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 249.4824,
@@ -288440,7 +288440,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Aşçılık",
         "puanTuru": "TYT",
         "tabanPuan": 299.24921,
@@ -288459,7 +288459,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 292.63215,
@@ -288478,7 +288478,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Büro Yönetimi ve Yönetici Asistanlığı",
         "puanTuru": "TYT",
         "tabanPuan": 308.22588,
@@ -288497,7 +288497,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Dış Ticaret",
         "puanTuru": "TYT",
         "tabanPuan": 261.99143,
@@ -288516,7 +288516,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Halkla İlişkiler ve Tanıtım",
         "puanTuru": "TYT",
         "tabanPuan": 264.83235,
@@ -288535,7 +288535,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 268.75481,
@@ -288554,7 +288554,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 289.3779,
@@ -288573,7 +288573,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Pazarlama",
         "puanTuru": "TYT",
         "tabanPuan": 257.20245,
@@ -288592,7 +288592,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 268.51321,
@@ -288611,7 +288611,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Yerel Yönetimler",
         "puanTuru": "TYT",
         "tabanPuan": 255.87105,
@@ -288630,7 +288630,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 310.03606,
@@ -288649,7 +288649,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Bilgisayar Programcılığı (Uzaktan Öğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 266.9599,
@@ -288668,7 +288668,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Biyomedikal Cihaz Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 295.82237,
@@ -288687,7 +288687,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Elektrik",
         "puanTuru": "TYT",
         "tabanPuan": 300.7452,
@@ -288706,7 +288706,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Elektronik Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 284.35105,
@@ -288725,7 +288725,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Grafik Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 276.06956,
@@ -288744,7 +288744,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Hibrid ve Elektrikli Taşıtlar Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 299.4698,
@@ -288763,7 +288763,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İç Mekan Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 272.26159,
@@ -288782,7 +288782,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İnşaat Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 283.59305,
@@ -288801,7 +288801,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "İş Sağlığı ve Güvenliği",
         "puanTuru": "TYT",
         "tabanPuan": 293.87012,
@@ -288820,7 +288820,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Makine",
         "puanTuru": "TYT",
         "tabanPuan": 275.48741,
@@ -288839,7 +288839,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Mekatronik",
         "puanTuru": "TYT",
         "tabanPuan": 288.04783,
@@ -288858,7 +288858,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Mimari Restorasyon",
         "puanTuru": "TYT",
         "tabanPuan": 266.14043,
@@ -288877,7 +288877,7 @@ const universiteVerileri = [
     },
     {
         "universite": "FIRAT ÜNİVERSİTESİ (ELAZIĞ)",
-        "sehir": "Elaziğ",
+        "sehir": "Elazığ",
         "bolum": "Otomotiv Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 278.9979,
@@ -292487,7 +292487,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Aşçılık (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 175.63411,
@@ -292506,7 +292506,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Aşçılık (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 285.03877,
@@ -292525,7 +292525,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Aşçılık (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 185.26007,
@@ -292544,7 +292544,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Bankacılık ve Sigortacılık (İngilizce) (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 183.16227,
@@ -292563,7 +292563,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Bankacılık ve Sigortacılık (İngilizce) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 230.2523,
@@ -292582,7 +292582,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Bilgisayar Programcılığı (İngilizce) (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 188.71557,
@@ -292601,7 +292601,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Bilgisayar Programcılığı (İngilizce) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 306.58728,
@@ -292620,7 +292620,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Bilgisayar Programcılığı (İngilizce) (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -292639,7 +292639,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Deniz Brokerliği (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 233.74654,
@@ -292658,7 +292658,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Deniz Brokerliği (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 257.1954,
@@ -292677,7 +292677,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Deniz Brokerliği (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -292696,7 +292696,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Deniz Ulaştırma ve İşletme (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 265.1934,
@@ -292715,7 +292715,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Deniz Ulaştırma ve İşletme (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 325.09917,
@@ -292734,7 +292734,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Deniz Ulaştırma ve İşletme (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 223.2207,
@@ -292753,7 +292753,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İç Mekan Tasarımı (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 194.07752,
@@ -292772,7 +292772,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İç Mekan Tasarımı (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 258.05897,
@@ -292791,7 +292791,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İç Mekan Tasarımı (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 209.98848,
@@ -292810,7 +292810,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İşletme Yönetimi (İngilizce) (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 228.35653,
@@ -292829,7 +292829,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İşletme Yönetimi (İngilizce) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 219.08087,
@@ -292848,7 +292848,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Mekatronik (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 207.17924,
@@ -292867,7 +292867,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Mekatronik (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 271.82495,
@@ -292886,7 +292886,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (İngilizce) (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 250.09279,
@@ -292905,7 +292905,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (İngilizce) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 314.6039,
@@ -292924,7 +292924,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (İngilizce) (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 196.54251,
@@ -292943,7 +292943,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Turizm ve Otel İşletmeciliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 188.26805,
@@ -292962,7 +292962,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Turizm ve Otel İşletmeciliği (İngilizce) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 249.45047,
@@ -292981,7 +292981,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Ağız ve Diş Sağlığı (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 182.37941,
@@ -293000,7 +293000,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Ağız ve Diş Sağlığı (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 292.10803,
@@ -293019,7 +293019,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Ağız ve Diş Sağlığı (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 184.72924,
@@ -293038,7 +293038,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Ameliyathane Hizmetleri (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 195.13514,
@@ -293057,7 +293057,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Ameliyathane Hizmetleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 291.57006,
@@ -293076,7 +293076,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Ameliyathane Hizmetleri (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 183.85357,
@@ -293095,7 +293095,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Anestezi (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 240.07263,
@@ -293114,7 +293114,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Anestezi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 305.78279,
@@ -293133,7 +293133,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Anestezi (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 195.36853,
@@ -293152,7 +293152,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İlk ve Acil Yardım (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 235.84034,
@@ -293171,7 +293171,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İlk ve Acil Yardım (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 303.70156,
@@ -293190,7 +293190,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İlk ve Acil Yardım (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 197.2532,
@@ -293209,7 +293209,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Radyoterapi (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 181.00212,
@@ -293228,7 +293228,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Radyoterapi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 279.52761,
@@ -293247,7 +293247,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Radyoterapi (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -293266,7 +293266,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Tıbbi Görüntüleme Teknikleri (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 208.67912,
@@ -293285,7 +293285,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Tıbbi Görüntüleme Teknikleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 302.86773,
@@ -293304,7 +293304,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Tıbbi Görüntüleme Teknikleri (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 222.36618,
@@ -293323,7 +293323,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Tıbbi Tanıtım ve Pazarlama (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -293342,7 +293342,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Tıbbi Tanıtım ve Pazarlama (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 235.16701,
@@ -293361,7 +293361,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Tıbbi Tanıtım ve Pazarlama (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -293380,7 +293380,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Deniz Ulaştırma ve İşletme (İngilizce) (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 238.67803,
@@ -293399,7 +293399,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Deniz Ulaştırma ve İşletme (İngilizce) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 341.68851,
@@ -293418,7 +293418,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Deniz ve Liman İşletmeciliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 236.38532,
@@ -293437,7 +293437,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Deniz ve Liman İşletmeciliği (İngilizce) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 282.38446,
@@ -293456,7 +293456,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Gemi Makineleri İşletmeciliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 196.50603,
@@ -293475,7 +293475,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Gemi Makineleri İşletmeciliği (İngilizce) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 317.33269,
@@ -293494,7 +293494,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İnsansız Hava Aracı Teknolojisi ve Operatörlüğü (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 202.57373,
@@ -293513,7 +293513,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İnsansız Hava Aracı Teknolojisi ve Operatörlüğü (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 335.8283,
@@ -293532,7 +293532,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Sivil Hava Ulaştırma İşletmeciliği (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 189.04256,
@@ -293551,7 +293551,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Sivil Hava Ulaştırma İşletmeciliği (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 308.57176,
@@ -293570,7 +293570,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 236.86268,
@@ -293589,7 +293589,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 317.58365,
@@ -293608,7 +293608,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Ağız ve Diş Sağlığı (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 195.94848,
@@ -293627,7 +293627,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Ağız ve Diş Sağlığı (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 292.16205,
@@ -293646,7 +293646,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Anestezi (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 238.49363,
@@ -293665,7 +293665,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Anestezi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 308.85864,
@@ -293684,7 +293684,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Fizyoterapi (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 191.53602,
@@ -293703,7 +293703,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Fizyoterapi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 303.59928,
@@ -293722,7 +293722,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İlk ve Acil Yardım (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 225.67097,
@@ -293741,7 +293741,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İlk ve Acil Yardım (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 309.70445,
@@ -293760,7 +293760,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Tıbbi Görüntüleme Teknikleri (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 201.39384,
@@ -293779,7 +293779,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Tıbbi Görüntüleme Teknikleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 307.26911,
@@ -293798,7 +293798,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Bilgisayar Programcılığı (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 209.17393,
@@ -293817,7 +293817,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Bilgisayar Programcılığı (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 290.26539,
@@ -293836,7 +293836,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Çevre Koruma ve Kontrol (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 192.63016,
@@ -293855,7 +293855,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Çevre Koruma ve Kontrol (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 261.73839,
@@ -293874,7 +293874,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Aşçılık (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 200.64126,
@@ -293893,7 +293893,7 @@ const universiteVerileri = [
     },
     {
         "universite": "GİRNE ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Aşçılık (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 269.07023,
@@ -298206,7 +298206,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 249.43373,
@@ -298225,7 +298225,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Organik Tarım",
         "puanTuru": "TYT",
         "tabanPuan": 239.36779,
@@ -298244,7 +298244,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 257.39573,
@@ -298263,7 +298263,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Çağrı Merkezi Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 262.10198,
@@ -298282,7 +298282,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Halkla İlişkiler ve Tanıtım",
         "puanTuru": "TYT",
         "tabanPuan": 244.37818,
@@ -298301,7 +298301,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Laborant ve Veteriner Sağlık",
         "puanTuru": "TYT",
         "tabanPuan": 283.01643,
@@ -298320,7 +298320,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 248.01925,
@@ -298339,7 +298339,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Çevre Koruma ve Kontrol",
         "puanTuru": "TYT",
         "tabanPuan": 242.09862,
@@ -298358,7 +298358,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 243.06741,
@@ -298377,7 +298377,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Tarımsal İşletmecilik",
         "puanTuru": "TYT",
         "tabanPuan": 238.61038,
@@ -298396,7 +298396,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Tohumculuk Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 235.6363,
@@ -298415,7 +298415,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Aşçılık",
         "puanTuru": "TYT",
         "tabanPuan": 272.13041,
@@ -298434,7 +298434,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Turist Rehberliği",
         "puanTuru": "TYT",
         "tabanPuan": 254.06921,
@@ -298453,7 +298453,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 258.79545,
@@ -298472,7 +298472,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Büro Yönetimi ve Yönetici Asistanlığı",
         "puanTuru": "TYT",
         "tabanPuan": 260.65368,
@@ -298491,7 +298491,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "İş Sağlığı ve Güvenliği",
         "puanTuru": "TYT",
         "tabanPuan": 280.55193,
@@ -298510,7 +298510,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Yapı Yalıtım Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 232.48336,
@@ -298529,7 +298529,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Ayakkabı Tasarım ve Üretimi",
         "puanTuru": "TYT",
         "tabanPuan": 234.86639,
@@ -298548,7 +298548,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Elektrik",
         "puanTuru": "TYT",
         "tabanPuan": 263.83056,
@@ -298567,7 +298567,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Elektronik Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 252.84963,
@@ -298586,7 +298586,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 245.54435,
@@ -298605,7 +298605,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Giyim Üretim Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 239.42994,
@@ -298624,7 +298624,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "İklimlendirme ve Soğutma Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 245.83165,
@@ -298643,7 +298643,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Kimya Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 255.46081,
@@ -298662,7 +298662,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Tekstil Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 235.38211,
@@ -298681,7 +298681,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 260.99161,
@@ -298700,7 +298700,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 289.0823,
@@ -298719,7 +298719,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 248.80139,
@@ -298738,7 +298738,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 255.61819,
@@ -298757,7 +298757,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Tıbbi Dokümantasyon ve Sekreterlik",
         "puanTuru": "TYT",
         "tabanPuan": 320.02153,
@@ -298776,7 +298776,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Atçılık ve Antrenörlüğü",
         "puanTuru": "TYT",
         "tabanPuan": 241.09629,
@@ -298795,7 +298795,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 258.23902,
@@ -298814,7 +298814,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Ağız ve Diş Sağlığı",
         "puanTuru": "TYT",
         "tabanPuan": 354.60091,
@@ -298833,7 +298833,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Ameliyathane Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 336.42139,
@@ -298852,7 +298852,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Anestezi",
         "puanTuru": "TYT",
         "tabanPuan": 359.38952,
@@ -298871,7 +298871,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Biyomedikal Cihaz Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 302.84078,
@@ -298890,7 +298890,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Diş Protez Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 333.46339,
@@ -298909,7 +298909,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Diyaliz",
         "puanTuru": "TYT",
         "tabanPuan": 329.74539,
@@ -298928,7 +298928,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Eczane Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 326.25643,
@@ -298947,7 +298947,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Fizyoterapi",
         "puanTuru": "TYT",
         "tabanPuan": 328.17043,
@@ -298966,7 +298966,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "İlk ve Acil Yardım",
         "puanTuru": "TYT",
         "tabanPuan": 357.86688,
@@ -298985,7 +298985,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Odyometri",
         "puanTuru": "TYT",
         "tabanPuan": 318.88721,
@@ -299004,7 +299004,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Optisyenlik",
         "puanTuru": "TYT",
         "tabanPuan": 319.65143,
@@ -299023,7 +299023,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Ortopedik Protez ve Ortez",
         "puanTuru": "TYT",
         "tabanPuan": 316.19782,
@@ -299042,7 +299042,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Podoloji",
         "puanTuru": "TYT",
         "tabanPuan": 318.08126,
@@ -299061,7 +299061,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Sağlık Turizmi İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 277.33891,
@@ -299080,7 +299080,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Tıbbi Dokümantasyon ve Sekreterlik",
         "puanTuru": "TYT",
         "tabanPuan": 340.36048,
@@ -299099,7 +299099,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Tıbbi Görüntüleme Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 352.39874,
@@ -299118,7 +299118,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Tıbbi Laboratuvar Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 340.09656,
@@ -299137,7 +299137,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Tıbbi Tanıtım ve Pazarlama",
         "puanTuru": "TYT",
         "tabanPuan": 285.35634,
@@ -299156,7 +299156,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Yaşlı Bakımı",
         "puanTuru": "TYT",
         "tabanPuan": 308.8642,
@@ -299175,7 +299175,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Aşçılık",
         "puanTuru": "TYT",
         "tabanPuan": 280.811,
@@ -299194,7 +299194,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Büro Yönetimi ve Yönetici Asistanlığı",
         "puanTuru": "TYT",
         "tabanPuan": 291.19881,
@@ -299213,7 +299213,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 310.69824,
@@ -299232,7 +299232,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Dış Ticaret",
         "puanTuru": "TYT",
         "tabanPuan": 252.17003,
@@ -299251,7 +299251,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Halkla İlişkiler ve Tanıtım",
         "puanTuru": "TYT",
         "tabanPuan": 260.99943,
@@ -299270,7 +299270,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 261.68813,
@@ -299289,7 +299289,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 284.38986,
@@ -299308,7 +299308,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Pazarlama",
         "puanTuru": "TYT",
         "tabanPuan": 250.23761,
@@ -299327,7 +299327,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 258.88249,
@@ -299346,7 +299346,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 292.30556,
@@ -299365,7 +299365,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Elektrik",
         "puanTuru": "TYT",
         "tabanPuan": 277.80111,
@@ -299384,7 +299384,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Harita ve Kadastro",
         "puanTuru": "TYT",
         "tabanPuan": 282.27726,
@@ -299403,7 +299403,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "İmalat Yürütme Sistemleri Operatörlüğü",
         "puanTuru": "TYT",
         "tabanPuan": 237.21902,
@@ -299422,7 +299422,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "İnşaat Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 276.41452,
@@ -299441,7 +299441,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Kurumsal Bilişim Uzmanlığı",
         "puanTuru": "TYT",
         "tabanPuan": 265.5255,
@@ -299460,7 +299460,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Makine",
         "puanTuru": "TYT",
         "tabanPuan": 258.05967,
@@ -299479,7 +299479,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Mimari Restorasyon",
         "puanTuru": "TYT",
         "tabanPuan": 266.37752,
@@ -299498,7 +299498,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Otomotiv Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 264.25121,
@@ -299517,7 +299517,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Otonom Sistemler Teknikerliği",
         "puanTuru": "TYT",
         "tabanPuan": 288.47892,
@@ -299536,7 +299536,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Robotik ve Yapay Zeka",
         "puanTuru": "TYT",
         "tabanPuan": 316.70562,
@@ -299555,7 +299555,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Sivil Savunma ve İtfaiyecilik",
         "puanTuru": "TYT",
         "tabanPuan": 307.47321,
@@ -299574,7 +299574,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Ulaştırma ve Trafik Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 256.05139,
@@ -299593,7 +299593,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Web Tasarımı ve Kodlama",
         "puanTuru": "TYT",
         "tabanPuan": 274.17947,
@@ -299612,7 +299612,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 253.63339,
@@ -299631,7 +299631,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 284.12523,
@@ -299650,7 +299650,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HARRAN ÜNİVERSİTESİ (ŞANLIURFA)",
-        "sehir": "Şanliurfa",
+        "sehir": "Şanlıurfa",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 252.43446,
@@ -299669,7 +299669,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Anestezi (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 304.74806,
@@ -299688,7 +299688,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Anestezi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 361.28946,
@@ -299707,7 +299707,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Anestezi (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 249.44722,
@@ -299726,7 +299726,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Bankacılık ve Sigortacılık (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 263.38137,
@@ -299745,7 +299745,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Bankacılık ve Sigortacılık (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 314.23564,
@@ -299764,7 +299764,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Diyaliz (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 259.08272,
@@ -299783,7 +299783,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Diyaliz (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 335.46243,
@@ -299802,7 +299802,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Diyaliz (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 194.92569,
@@ -299821,7 +299821,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İlk ve Acil Yardım (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 300.13996,
@@ -299840,7 +299840,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İlk ve Acil Yardım (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 357.84727,
@@ -299859,7 +299859,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İlk ve Acil Yardım (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 247.85193,
@@ -299878,7 +299878,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İnsansız Hava Aracı Teknolojisi ve Operatörlüğü (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 194.62993,
@@ -299897,7 +299897,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İnsansız Hava Aracı Teknolojisi ve Operatörlüğü (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 354.84936,
@@ -299916,7 +299916,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İnsansız Hava Aracı Teknolojisi ve Operatörlüğü (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 176.75185,
@@ -299935,7 +299935,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Mahkeme Büro Hizmetleri (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 247.01117,
@@ -299954,7 +299954,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Mahkeme Büro Hizmetleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 330.86482,
@@ -299973,7 +299973,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Mahkeme Büro Hizmetleri (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 214.10688,
@@ -299992,7 +299992,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Siber Güvenlik (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 227.15365,
@@ -300011,7 +300011,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Siber Güvenlik (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 359.86695,
@@ -300030,7 +300030,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Siber Güvenlik (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 190.88638,
@@ -300049,7 +300049,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Sivil Hava Ulaştırma İşletmeciliği (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 286.6153,
@@ -300068,7 +300068,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Sivil Hava Ulaştırma İşletmeciliği (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 342.72879,
@@ -300087,7 +300087,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Sivil Hava Ulaştırma İşletmeciliği (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 188.9771,
@@ -300106,7 +300106,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 248.20065,
@@ -300125,7 +300125,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 349.82897,
@@ -300144,7 +300144,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 209.65006,
@@ -300163,7 +300163,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Yapay Zeka Operatörlüğü (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 234.94621,
@@ -300182,7 +300182,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Yapay Zeka Operatörlüğü (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 336.41458,
@@ -300201,7 +300201,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Yapay Zeka Operatörlüğü (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 188.66114,
@@ -302747,7 +302747,7 @@ const universiteVerileri = [
     },
     {
         "universite": "HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN)",
-        "sehir": "Kazaki̇stan",
+        "sehir": "Kazakistan",
         "bolum": "Bilgisayar Programcılığı (Uzaktan Öğretim) (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 217.07938,
@@ -344585,7 +344585,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Ağız ve Diş Sağlığı (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 223.80485,
@@ -344604,7 +344604,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Ağız ve Diş Sağlığı (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 342.96681,
@@ -344623,7 +344623,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Ameliyathane Hizmetleri (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 180.56855,
@@ -344642,7 +344642,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Ameliyathane Hizmetleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 331.87672,
@@ -344661,7 +344661,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Anestezi (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 282.74035,
@@ -344680,7 +344680,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Anestezi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 356.73612,
@@ -344699,7 +344699,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Anestezi (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 236.61793,
@@ -344718,7 +344718,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Bilgisayar Programcılığı (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 147.66955,
@@ -344737,7 +344737,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Bilgisayar Programcılığı (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 314.22179,
@@ -344756,7 +344756,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Bilgisayar Programcılığı (Uzaktan Öğretim) (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 193.07395,
@@ -344775,7 +344775,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Bilgisayar Programcılığı (Uzaktan Öğretim) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 279.82711,
@@ -344794,7 +344794,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Bilişim Güvenliği Teknolojisi (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 169.26101,
@@ -344813,7 +344813,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Bilişim Güvenliği Teknolojisi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 311.09838,
@@ -344832,7 +344832,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Bulut Bilişim Operatörlüğü (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 215.01096,
@@ -344851,7 +344851,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Bulut Bilişim Operatörlüğü (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 272.6897,
@@ -344870,7 +344870,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Ceza İnfaz ve Güvenlik Hizmetleri (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 201.78128,
@@ -344889,7 +344889,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Ceza İnfaz ve Güvenlik Hizmetleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 311.26503,
@@ -344908,7 +344908,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Dijital Dönüşüm Elektroniği (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 181.49203,
@@ -344927,7 +344927,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Dijital Dönüşüm Elektroniği (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 276.47069,
@@ -344946,7 +344946,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Diş Protez Teknolojisi (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 256.7497,
@@ -344965,7 +344965,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Diş Protez Teknolojisi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 347.92868,
@@ -344984,7 +344984,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Diyaliz (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 193.27452,
@@ -345003,7 +345003,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Diyaliz (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 326.55137,
@@ -345022,7 +345022,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Fizyoterapi (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 161.13438,
@@ -345041,7 +345041,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Fizyoterapi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 324.20186,
@@ -345060,7 +345060,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "İlk ve Acil Yardım (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 286.37959,
@@ -345079,7 +345079,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "İlk ve Acil Yardım (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 351.04167,
@@ -345098,7 +345098,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "İlk ve Acil Yardım (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 245.25917,
@@ -345117,7 +345117,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "İnsansız Hava Aracı Teknolojisi ve Operatörlüğü (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 164.67473,
@@ -345136,7 +345136,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "İnsansız Hava Aracı Teknolojisi ve Operatörlüğü (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 347.00157,
@@ -345155,7 +345155,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Kurumsal Bilişim Uzmanlığı (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 210.48949,
@@ -345174,7 +345174,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Kurumsal Bilişim Uzmanlığı (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 263.81979,
@@ -345193,7 +345193,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Odyometri (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 174.13014,
@@ -345212,7 +345212,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Odyometri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 319.14876,
@@ -345231,7 +345231,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Optisyenlik (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 214.3616,
@@ -345250,7 +345250,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Optisyenlik (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 328.53842,
@@ -345269,7 +345269,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Otonom Sistemler Teknikerliği (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 216.20999,
@@ -345288,7 +345288,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Otonom Sistemler Teknikerliği (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 286.94703,
@@ -345307,7 +345307,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Patoloji Laboratuvar Teknikleri (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 171.84694,
@@ -345326,7 +345326,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Patoloji Laboratuvar Teknikleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 317.87223,
@@ -345345,7 +345345,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Radyoterapi (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 177.26653,
@@ -345364,7 +345364,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Radyoterapi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 321.39501,
@@ -345383,7 +345383,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Sivil Hava Ulaştırma İşletmeciliği (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 231.72669,
@@ -345402,7 +345402,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Sivil Hava Ulaştırma İşletmeciliği (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 341.89423,
@@ -345421,7 +345421,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Sivil Hava Ulaştırma İşletmeciliği (İstanbul) (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 273.09407,
@@ -345440,7 +345440,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Sivil Hava Ulaştırma İşletmeciliği (İstanbul) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 349.50199,
@@ -345459,7 +345459,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 261.06859,
@@ -345478,7 +345478,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 347.70888,
@@ -345497,7 +345497,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (İstanbul) (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 271.92306,
@@ -345516,7 +345516,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (İstanbul) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 353.0363,
@@ -345535,7 +345535,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Tıbbi Görüntüleme Teknikleri (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 252.00014,
@@ -345554,7 +345554,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Tıbbi Görüntüleme Teknikleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 346.11784,
@@ -345573,7 +345573,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Tıbbi Görüntüleme Teknikleri (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 226.87268,
@@ -345592,7 +345592,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Tıbbi Laboratuvar Teknikleri (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 234.1953,
@@ -345611,7 +345611,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Tıbbi Laboratuvar Teknikleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 341.23729,
@@ -345630,7 +345630,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Turist Rehberliği (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 220.22989,
@@ -345649,7 +345649,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Turist Rehberliği (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 330.8928,
@@ -345668,7 +345668,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Turist Rehberliği (Uzaktan Öğretim) (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 218.36947,
@@ -345687,7 +345687,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Turist Rehberliği (Uzaktan Öğretim) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 376.49074,
@@ -345706,7 +345706,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Uçak Teknolojisi (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 309.51133,
@@ -345725,7 +345725,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Uçak Teknolojisi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 388.69122,
@@ -345744,7 +345744,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Uçak Teknolojisi (İstanbul) (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 350.94773,
@@ -345763,7 +345763,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Uçak Teknolojisi (İstanbul) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 413.29369,
@@ -345782,7 +345782,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Uçak Teknolojisi (İstanbul) (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 316.46152,
@@ -345801,7 +345801,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Uçak Teknolojisi (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 282.37244,
@@ -345820,7 +345820,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Uçuş Harekat Yöneticiliği (İstanbul) (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 269.32699,
@@ -345839,7 +345839,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KAPADOKYA ÜNİVERSİTESİ (NEVŞEHİR)",
-        "sehir": "Nevşehi̇r",
+        "sehir": "Nevşehir",
         "bolum": "Uçuş Harekat Yöneticiliği (İstanbul) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 366.49413,
@@ -351387,7 +351387,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 211.96354,
@@ -351406,7 +351406,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Sivil Havacılık Kabin Hizmetleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 306.12711,
@@ -351425,7 +351425,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Fizyoterapi (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 196.0725,
@@ -351444,7 +351444,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Fizyoterapi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 288.14417,
@@ -351463,7 +351463,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İlk ve Acil Yardım (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 214.47502,
@@ -351482,7 +351482,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "İlk ve Acil Yardım (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 306.2178,
@@ -351501,7 +351501,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Optisyenlik (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 196.09784,
@@ -351520,7 +351520,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Optisyenlik (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 297.44742,
@@ -351539,7 +351539,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Turist Rehberliği (İngilizce) (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 265.12983,
@@ -351558,7 +351558,7 @@ const universiteVerileri = [
     },
     {
         "universite": "KIBRIS AYDIN ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Turist Rehberliği (İngilizce) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 200.73017,
@@ -371375,7 +371375,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 245.71477,
@@ -371394,7 +371394,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 270.57422,
@@ -371413,7 +371413,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "İnşaat Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 236.92193,
@@ -371432,7 +371432,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Özel Güvenlik ve Koruma",
         "puanTuru": "TYT",
         "tabanPuan": 253.12446,
@@ -371451,7 +371451,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Sağlık Bilgi Sistemleri Teknikerliği",
         "puanTuru": "TYT",
         "tabanPuan": 264.18387,
@@ -371470,7 +371470,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 242.99122,
@@ -371489,7 +371489,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Harita ve Kadastro",
         "puanTuru": "TYT",
         "tabanPuan": 243.57075,
@@ -371508,7 +371508,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Laborant ve Veteriner Sağlık",
         "puanTuru": "TYT",
         "tabanPuan": 266.18878,
@@ -371527,7 +371527,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Optisyenlik",
         "puanTuru": "TYT",
         "tabanPuan": 281.44902,
@@ -371546,7 +371546,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Su Altı Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 236.41185,
@@ -371565,7 +371565,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Tıbbi Dokümantasyon ve Sekreterlik",
         "puanTuru": "TYT",
         "tabanPuan": 311.70607,
@@ -371584,7 +371584,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 244.67319,
@@ -371603,7 +371603,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Aşçılık",
         "puanTuru": "TYT",
         "tabanPuan": 268.24688,
@@ -371622,7 +371622,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 268.45635,
@@ -371641,7 +371641,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Büro Yönetimi ve Yönetici Asistanlığı (Hozat)",
         "puanTuru": "TYT",
         "tabanPuan": 254.45366,
@@ -371660,7 +371660,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 286.71635,
@@ -371679,7 +371679,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Çocuk Gelişimi (Ovacık)",
         "puanTuru": "TYT",
         "tabanPuan": 266.30948,
@@ -371698,7 +371698,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Evde Hasta Bakımı",
         "puanTuru": "TYT",
         "tabanPuan": 310.13493,
@@ -371717,7 +371717,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 240.75711,
@@ -371736,7 +371736,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Harita ve Kadastro",
         "puanTuru": "TYT",
         "tabanPuan": 263.64503,
@@ -371755,7 +371755,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "İlk ve Acil Yardım",
         "puanTuru": "TYT",
         "tabanPuan": 345.21508,
@@ -371774,7 +371774,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "İnşaat Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 250.40782,
@@ -371793,7 +371793,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 245.67297,
@@ -371812,7 +371812,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Laboratuvar Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 290.01737,
@@ -371831,7 +371831,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Makine",
         "puanTuru": "TYT",
         "tabanPuan": 250.30753,
@@ -371850,7 +371850,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Maliye (Ovacık)",
         "puanTuru": "TYT",
         "tabanPuan": 238.59407,
@@ -371869,7 +371869,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Moda Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 242.61492,
@@ -371888,7 +371888,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 255.99251,
@@ -371907,7 +371907,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Organik Tarım",
         "puanTuru": "TYT",
         "tabanPuan": 235.10364,
@@ -371926,7 +371926,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Saç Bakımı ve Güzellik Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 278.96869,
@@ -371945,7 +371945,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Sosyal Hizmetler (Hozat)",
         "puanTuru": "TYT",
         "tabanPuan": 252.89322,
@@ -371964,7 +371964,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Tıbbi Dokümantasyon ve Sekreterlik",
         "puanTuru": "TYT",
         "tabanPuan": 324.58348,
@@ -371983,7 +371983,7 @@ const universiteVerileri = [
     },
     {
         "universite": "MUNZUR ÜNİVERSİTESİ (TUNCELİ)",
-        "sehir": "Tunceli̇",
+        "sehir": "Tunceli",
         "bolum": "Yenilenebilir Enerji Teknikerliği",
         "puanTuru": "TYT",
         "tabanPuan": 266.76869,
@@ -375422,7 +375422,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Ağız ve Diş Sağlığı (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 268.32204,
@@ -375441,7 +375441,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Ağız ve Diş Sağlığı (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 349.18612,
@@ -375460,7 +375460,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Ağız ve Diş Sağlığı (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 234.16067,
@@ -375479,7 +375479,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Anestezi (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 290.15069,
@@ -375498,7 +375498,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Anestezi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 361.35513,
@@ -375517,7 +375517,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Anestezi (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 273.46383,
@@ -375536,7 +375536,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Bilgisayar Programcılığı (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 219.09324,
@@ -375555,7 +375555,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Bilgisayar Programcılığı (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 337.97367,
@@ -375574,7 +375574,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Bilgisayar Programcılığı (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 206.87636,
@@ -375593,7 +375593,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Elektrik (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 190.55184,
@@ -375612,7 +375612,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Elektrik (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 310.67665,
@@ -375631,7 +375631,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Fizyoterapi (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 243.90711,
@@ -375650,7 +375650,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Fizyoterapi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 348.32464,
@@ -375669,7 +375669,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Fizyoterapi (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 217.17703,
@@ -375688,7 +375688,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İlk ve Acil Yardım (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 304.59313,
@@ -375707,7 +375707,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İlk ve Acil Yardım (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 362.95226,
@@ -375726,7 +375726,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "İlk ve Acil Yardım (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 267.51407,
@@ -375745,7 +375745,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Tıbbi Görüntüleme Teknikleri (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 290.82192,
@@ -375764,7 +375764,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Tıbbi Görüntüleme Teknikleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 359.86156,
@@ -375783,7 +375783,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Tıbbi Görüntüleme Teknikleri (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 252.16741,
@@ -375802,7 +375802,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Yapı Yalıtım Teknolojisi (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 185.22073,
@@ -375821,7 +375821,7 @@ const universiteVerileri = [
     },
     {
         "universite": "NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)",
-        "sehir": "Kayseri̇",
+        "sehir": "Kayseri",
         "bolum": "Yapı Yalıtım Teknolojisi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 262.76606,
@@ -379469,7 +379469,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Ayakkabı Tasarım ve Üretimi",
         "puanTuru": "TYT",
         "tabanPuan": 239.48121,
@@ -379488,7 +379488,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Büro Yönetimi ve Yönetici Asistanlığı",
         "puanTuru": "TYT",
         "tabanPuan": 270.87517,
@@ -379507,7 +379507,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Çağrı Merkezi Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 259.72369,
@@ -379526,7 +379526,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 294.43344,
@@ -379545,7 +379545,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Laborant ve Veteriner Sağlık",
         "puanTuru": "TYT",
         "tabanPuan": 301.06713,
@@ -379564,7 +379564,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Maliye",
         "puanTuru": "TYT",
         "tabanPuan": 263.28013,
@@ -379583,7 +379583,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Maliye (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -379602,7 +379602,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Özel Güvenlik ve Koruma",
         "puanTuru": "TYT",
         "tabanPuan": 273.17978,
@@ -379621,7 +379621,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Süt ve Ürünleri Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 237.97969,
@@ -379640,7 +379640,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 260.44714,
@@ -379659,7 +379659,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Dış Ticaret",
         "puanTuru": "TYT",
         "tabanPuan": 241.99964,
@@ -379678,7 +379678,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Halkla İlişkiler ve Tanıtım",
         "puanTuru": "TYT",
         "tabanPuan": 246.18745,
@@ -379697,7 +379697,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Sivil Hava Ulaştırma İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 323.64509,
@@ -379716,7 +379716,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Ulaştırma ve Trafik Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 250.25841,
@@ -379735,7 +379735,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 268.28594,
@@ -379754,7 +379754,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Büro Yönetimi ve Yönetici Asistanlığı",
         "puanTuru": "TYT",
         "tabanPuan": 263.75192,
@@ -379773,7 +379773,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Dış Ticaret",
         "puanTuru": "TYT",
         "tabanPuan": 254.60265,
@@ -379792,7 +379792,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Mimari Restorasyon",
         "puanTuru": "TYT",
         "tabanPuan": 263.44688,
@@ -379811,7 +379811,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Moda Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 262.82306,
@@ -379830,7 +379830,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Moda Tasarımı (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -379849,7 +379849,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 261.73048,
@@ -379868,7 +379868,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Dijital Tarım Teknolojileri",
         "puanTuru": "TYT",
         "tabanPuan": 232.09866,
@@ -379887,7 +379887,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 263.39567,
@@ -379906,7 +379906,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 251.77135,
@@ -379925,7 +379925,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Tapu ve Kadastro",
         "puanTuru": "TYT",
         "tabanPuan": 285.86981,
@@ -379944,7 +379944,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Kontrol ve Otomasyon Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 281.2028,
@@ -379963,7 +379963,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Mekatronik",
         "puanTuru": "TYT",
         "tabanPuan": 287.30477,
@@ -379982,7 +379982,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 265.10584,
@@ -380001,7 +380001,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 299.79836,
@@ -380020,7 +380020,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Büro Yönetimi ve Yönetici Asistanlığı",
         "puanTuru": "TYT",
         "tabanPuan": 261.59039,
@@ -380039,7 +380039,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Dış Ticaret",
         "puanTuru": "TYT",
         "tabanPuan": 247.94927,
@@ -380058,7 +380058,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Emlak Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 248.46477,
@@ -380077,7 +380077,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Maliye",
         "puanTuru": "TYT",
         "tabanPuan": 256.01024,
@@ -380096,7 +380096,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Sağlık Kurumları İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 283.67392,
@@ -380115,7 +380115,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Anestezi",
         "puanTuru": "TYT",
         "tabanPuan": 363.76076,
@@ -380134,7 +380134,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 321.5256,
@@ -380153,7 +380153,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Diyaliz",
         "puanTuru": "TYT",
         "tabanPuan": 334.1218,
@@ -380172,7 +380172,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Fizyoterapi",
         "puanTuru": "TYT",
         "tabanPuan": 343.59929,
@@ -380191,7 +380191,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "İlk ve Acil Yardım",
         "puanTuru": "TYT",
         "tabanPuan": 365.60253,
@@ -380210,7 +380210,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Tıbbi Dokümantasyon ve Sekreterlik",
         "puanTuru": "TYT",
         "tabanPuan": 348.82677,
@@ -380229,7 +380229,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Tıbbi Görüntüleme Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 362.42588,
@@ -380248,7 +380248,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Tıbbi Laboratuvar Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 346.36885,
@@ -380267,7 +380267,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Yaşlı Bakımı",
         "puanTuru": "TYT",
         "tabanPuan": 314.86022,
@@ -380286,7 +380286,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Dış Ticaret",
         "puanTuru": "TYT",
         "tabanPuan": 308.90704,
@@ -380305,7 +380305,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Turist Rehberliği",
         "puanTuru": "TYT",
         "tabanPuan": 322.2387,
@@ -380324,7 +380324,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 305.18383,
@@ -380343,7 +380343,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Turizm ve Seyahat Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 294.37158,
@@ -380362,7 +380362,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 332.35763,
@@ -380381,7 +380381,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Biyomedikal Cihaz Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 318.85673,
@@ -380400,7 +380400,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Elektrik",
         "puanTuru": "TYT",
         "tabanPuan": 314.42186,
@@ -380419,7 +380419,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Elektronik Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 308.40916,
@@ -380438,7 +380438,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Geleneksel El Sanatları",
         "puanTuru": "TYT",
         "tabanPuan": 264.1735,
@@ -380457,7 +380457,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Giyim Üretim Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 275.06982,
@@ -380476,7 +380476,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Grafik Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 314.12463,
@@ -380495,7 +380495,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "İç Mekan Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 309.11572,
@@ -380514,7 +380514,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Kimya Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 310.1683,
@@ -380533,7 +380533,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Makine",
         "puanTuru": "TYT",
         "tabanPuan": 303.20915,
@@ -380552,7 +380552,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Moda Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 295.59928,
@@ -380571,7 +380571,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Otomotiv Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 309.72376,
@@ -380590,7 +380590,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Otomotiv Teknolojisi (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -380609,7 +380609,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Tekstil Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 280.17663,
@@ -380628,7 +380628,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 280.71448,
@@ -380647,7 +380647,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Büro Yönetimi ve Yönetici Asistanlığı",
         "puanTuru": "TYT",
         "tabanPuan": 280.63767,
@@ -380666,7 +380666,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Ceza İnfaz ve Güvenlik Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 311.39749,
@@ -380685,7 +380685,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Dış Ticaret",
         "puanTuru": "TYT",
         "tabanPuan": 269.50733,
@@ -380704,7 +380704,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "E-Ticaret ve Pazarlama",
         "puanTuru": "TYT",
         "tabanPuan": 277.73507,
@@ -380723,7 +380723,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Halkla İlişkiler ve Tanıtım",
         "puanTuru": "TYT",
         "tabanPuan": 257.5356,
@@ -380742,7 +380742,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "İş Sağlığı ve Güvenliği",
         "puanTuru": "TYT",
         "tabanPuan": 288.56468,
@@ -380761,7 +380761,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 266.12762,
@@ -380780,7 +380780,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Lojistik",
         "puanTuru": "TYT",
         "tabanPuan": 270.36067,
@@ -380799,7 +380799,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 275.79953,
@@ -380818,7 +380818,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 289.48387,
@@ -380837,7 +380837,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 250.92365,
@@ -380856,7 +380856,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Madencilik Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 239.328,
@@ -380875,7 +380875,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 258.10913,
@@ -380894,7 +380894,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Turizm ve Seyahat Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 263.81218,
@@ -380913,7 +380913,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Alternatif Enerji Kaynakları Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 268.24085,
@@ -380932,7 +380932,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Alternatif Enerji Kaynakları Teknolojisi (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -380951,7 +380951,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Fizyoterapi",
         "puanTuru": "TYT",
         "tabanPuan": 324.73112,
@@ -380970,7 +380970,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Acil Durum ve Afet Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 307.4919,
@@ -380989,7 +380989,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Bıçakçılık ve El Aletleri Üretim Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 230.7566,
@@ -381008,7 +381008,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Sosyal Güvenlik",
         "puanTuru": "TYT",
         "tabanPuan": 266.46985,
@@ -381027,7 +381027,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Aşçılık",
         "puanTuru": "TYT",
         "tabanPuan": 295.41587,
@@ -381046,7 +381046,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 293.46211,
@@ -381065,7 +381065,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "İş Sağlığı ve Güvenliği",
         "puanTuru": "TYT",
         "tabanPuan": 284.82061,
@@ -381084,7 +381084,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Organik Tarım",
         "puanTuru": "TYT",
         "tabanPuan": 242.13829,
@@ -381103,7 +381103,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Tıbbi ve Aromatik Bitkiler",
         "puanTuru": "TYT",
         "tabanPuan": 246.65885,
@@ -381122,7 +381122,7 @@ const universiteVerileri = [
     },
     {
         "universite": "PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)",
-        "sehir": "Deni̇zli̇",
+        "sehir": "Denizli",
         "bolum": "Eczane Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 325.45019,
@@ -381825,7 +381825,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 278.7439,
@@ -381844,7 +381844,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 292.79302,
@@ -381863,7 +381863,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 269.3882,
@@ -381882,7 +381882,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Turizm ve Seyahat Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 254.41272,
@@ -381901,7 +381901,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Çay Tarımı ve İşleme Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 312.65932,
@@ -381920,7 +381920,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Organik Tarım",
         "puanTuru": "TYT",
         "tabanPuan": 282.91993,
@@ -381939,7 +381939,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Tıbbi ve Aromatik Bitkiler",
         "puanTuru": "TYT",
         "tabanPuan": 263.05638,
@@ -381958,7 +381958,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Anestezi",
         "puanTuru": "TYT",
         "tabanPuan": 350.21234,
@@ -381977,7 +381977,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Anestezi (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -381996,7 +381996,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Fizyoterapi",
         "puanTuru": "TYT",
         "tabanPuan": 323.51299,
@@ -382015,7 +382015,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "İlk ve Acil Yardım",
         "puanTuru": "TYT",
         "tabanPuan": 348.79133,
@@ -382034,7 +382034,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Tıbbi Laboratuvar Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 335.28415,
@@ -382053,7 +382053,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Yaşlı Bakımı",
         "puanTuru": "TYT",
         "tabanPuan": 299.17486,
@@ -382072,7 +382072,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Büro Yönetimi ve Yönetici Asistanlığı",
         "puanTuru": "TYT",
         "tabanPuan": 287.88864,
@@ -382091,7 +382091,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Ceza İnfaz ve Güvenlik Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 302.73361,
@@ -382110,7 +382110,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Dış Ticaret",
         "puanTuru": "TYT",
         "tabanPuan": 256.35222,
@@ -382129,7 +382129,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Halkla İlişkiler ve Tanıtım",
         "puanTuru": "TYT",
         "tabanPuan": 260.69968,
@@ -382148,7 +382148,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 259.89233,
@@ -382167,7 +382167,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Lojistik",
         "puanTuru": "TYT",
         "tabanPuan": 267.92466,
@@ -382186,7 +382186,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Mahkeme Büro Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 303.52069,
@@ -382205,7 +382205,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 266.66718,
@@ -382224,7 +382224,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Sivil Hava Ulaştırma İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 309.10052,
@@ -382243,7 +382243,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Çevre Koruma ve Kontrol",
         "puanTuru": "TYT",
         "tabanPuan": 254.3923,
@@ -382262,7 +382262,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Doğalgaz ve Tesisatı Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 248.56033,
@@ -382281,7 +382281,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Elektrik",
         "puanTuru": "TYT",
         "tabanPuan": 282.7336,
@@ -382300,7 +382300,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Elektronik Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 270.36919,
@@ -382319,7 +382319,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Geleneksel El Sanatları",
         "puanTuru": "TYT",
         "tabanPuan": 244.94258,
@@ -382338,7 +382338,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "İklimlendirme ve Soğutma Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 247.08505,
@@ -382357,7 +382357,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "İnşaat Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 271.51816,
@@ -382376,7 +382376,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Kimya Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 274.77491,
@@ -382395,7 +382395,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Makine",
         "puanTuru": "TYT",
         "tabanPuan": 275.087,
@@ -382414,7 +382414,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Makine Resim ve Konstrüksiyonu",
         "puanTuru": "TYT",
         "tabanPuan": 242.89722,
@@ -382433,7 +382433,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Mekatronik",
         "puanTuru": "TYT",
         "tabanPuan": 282.94282,
@@ -382452,7 +382452,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Mobilya ve Dekorasyon",
         "puanTuru": "TYT",
         "tabanPuan": 244.20452,
@@ -382471,7 +382471,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Otomotiv Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 284.7869,
@@ -382490,7 +382490,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Su Altı Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 264.59,
@@ -382509,7 +382509,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Tekstil Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 241.75682,
@@ -382528,7 +382528,7 @@ const universiteVerileri = [
     },
     {
         "universite": "RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)",
-        "sehir": "Ri̇ze",
+        "sehir": "Rize",
         "bolum": "Yapı Denetimi",
         "puanTuru": "TYT",
         "tabanPuan": 253.86812,
@@ -385682,7 +385682,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Ameliyathane Hizmetleri (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 236.32885,
@@ -385701,7 +385701,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Ameliyathane Hizmetleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 334.50766,
@@ -385720,7 +385720,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Ameliyathane Hizmetleri (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 177.80476,
@@ -385739,7 +385739,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Anestezi (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 297.28626,
@@ -385758,7 +385758,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Anestezi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 372.73494,
@@ -385777,7 +385777,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Anestezi (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 247.69956,
@@ -385796,7 +385796,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İlk ve Acil Yardım (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 283.52593,
@@ -385815,7 +385815,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İlk ve Acil Yardım (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 358.85964,
@@ -385834,7 +385834,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "İlk ve Acil Yardım (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 237.03844,
@@ -385853,7 +385853,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Tıbbi Görüntüleme Teknikleri (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 277.50715,
@@ -385872,7 +385872,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Tıbbi Görüntüleme Teknikleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 366.72098,
@@ -385891,7 +385891,7 @@ const universiteVerileri = [
     },
     {
         "universite": "SANKO ÜNİVERSİTESİ (GAZİANTEP)",
-        "sehir": "Gazi̇antep",
+        "sehir": "Gaziantep",
         "bolum": "Tıbbi Görüntüleme Teknikleri (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 194.22563,
@@ -392427,7 +392427,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Elektronik Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 282.90935,
@@ -392446,7 +392446,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 274.78345,
@@ -392465,7 +392465,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İklimlendirme ve Soğutma Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 262.21666,
@@ -392484,7 +392484,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Kimya Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 284.73433,
@@ -392503,7 +392503,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Makine",
         "puanTuru": "TYT",
         "tabanPuan": 288.74656,
@@ -392522,7 +392522,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Mekatronik",
         "puanTuru": "TYT",
         "tabanPuan": 298.00195,
@@ -392541,7 +392541,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 294.26516,
@@ -392560,7 +392560,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 309.97235,
@@ -392579,7 +392579,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Büro Yönetimi ve Yönetici Asistanlığı",
         "puanTuru": "TYT",
         "tabanPuan": 293.07395,
@@ -392598,7 +392598,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Dış Ticaret",
         "puanTuru": "TYT",
         "tabanPuan": 286.62711,
@@ -392617,7 +392617,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Grafik Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 287.8127,
@@ -392636,7 +392636,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İnsan Kaynakları Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 278.5864,
@@ -392655,7 +392655,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Lojistik",
         "puanTuru": "TYT",
         "tabanPuan": 290.44114,
@@ -392674,7 +392674,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Moda Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 271.7145,
@@ -392693,7 +392693,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 287.67701,
@@ -392712,7 +392712,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Pazarlama",
         "puanTuru": "TYT",
         "tabanPuan": 273.1853,
@@ -392731,7 +392731,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Sivil Hava Ulaştırma İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 322.65721,
@@ -392750,7 +392750,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 312.88023,
@@ -392769,7 +392769,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Eczane Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 328.20934,
@@ -392788,7 +392788,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İlk ve Acil Yardım",
         "puanTuru": "TYT",
         "tabanPuan": 357.92963,
@@ -392807,7 +392807,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Sağlık Kurumları İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 298.85366,
@@ -392826,7 +392826,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TARSUS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Tıbbi Dokümantasyon ve Sekreterlik",
         "puanTuru": "TYT",
         "tabanPuan": 341.86365,
@@ -396113,7 +396113,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Aşçılık (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 165.23754,
@@ -396132,7 +396132,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Aşçılık (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 338.86931,
@@ -396151,7 +396151,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Bilgisayar Programcılığı (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 318.66131,
@@ -396170,7 +396170,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Bilgisayar Programcılığı (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 171.47328,
@@ -396189,7 +396189,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Grafik Tasarımı (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 191.01462,
@@ -396208,7 +396208,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Grafik Tasarımı (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 313.14222,
@@ -396227,7 +396227,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İnşaat Teknolojisi (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 203.88624,
@@ -396246,7 +396246,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İnşaat Teknolojisi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 305.07465,
@@ -396265,7 +396265,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Mahkeme Büro Hizmetleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 311.34351,
@@ -396284,7 +396284,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Mahkeme Büro Hizmetleri (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 176.25987,
@@ -396303,7 +396303,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Mekatronik (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 184.07369,
@@ -396322,7 +396322,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Mekatronik (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 316.99292,
@@ -396341,7 +396341,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Ağız ve Diş Sağlığı (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 345.45753,
@@ -396360,7 +396360,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Ağız ve Diş Sağlığı (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 235.40182,
@@ -396379,7 +396379,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Ameliyathane Hizmetleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 331.91307,
@@ -396398,7 +396398,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Ameliyathane Hizmetleri (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 228.71187,
@@ -396417,7 +396417,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Anestezi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 352.08608,
@@ -396436,7 +396436,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Anestezi (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 274.52702,
@@ -396455,7 +396455,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Çocuk Gelişimi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 308.85806,
@@ -396474,7 +396474,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Çocuk Gelişimi (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 187.42263,
@@ -396493,7 +396493,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Diyaliz (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 328.74098,
@@ -396512,7 +396512,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Diyaliz (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 183.58291,
@@ -396531,7 +396531,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Fizyoterapi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 337.07905,
@@ -396550,7 +396550,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Fizyoterapi (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 209.04767,
@@ -396569,7 +396569,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İlk ve Acil Yardım (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 351.9403,
@@ -396588,7 +396588,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "İlk ve Acil Yardım (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 273.26678,
@@ -396607,7 +396607,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Optisyenlik (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 326.71261,
@@ -396626,7 +396626,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Optisyenlik (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 217.21766,
@@ -396645,7 +396645,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Tıbbi Görüntüleme Teknikleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 349.50275,
@@ -396664,7 +396664,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Tıbbi Görüntüleme Teknikleri (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 254.74824,
@@ -396683,7 +396683,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Tıbbi Laboratuvar Teknikleri (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 336.74129,
@@ -396702,7 +396702,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TOROS ÜNİVERSİTESİ (MERSİN)",
-        "sehir": "Mersi̇n",
+        "sehir": "Mersin",
         "bolum": "Tıbbi Laboratuvar Teknikleri (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 223.80837,
@@ -397215,7 +397215,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Aşçılık",
         "puanTuru": "TYT",
         "tabanPuan": 295.39187,
@@ -397234,7 +397234,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Eczane Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 319.73929,
@@ -397253,7 +397253,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Gıda Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 290.34798,
@@ -397272,7 +397272,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Kimya Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 306.24336,
@@ -397291,7 +397291,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Laboratuvar Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 305.17195,
@@ -397310,7 +397310,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Yağ Endüstrisi",
         "puanTuru": "TYT",
         "tabanPuan": 246.7447,
@@ -397329,7 +397329,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 295.61828,
@@ -397348,7 +397348,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Dış Ticaret",
         "puanTuru": "TYT",
         "tabanPuan": 286.22177,
@@ -397367,7 +397367,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Halkla İlişkiler ve Tanıtım",
         "puanTuru": "TYT",
         "tabanPuan": 275.09919,
@@ -397386,7 +397386,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Lojistik",
         "puanTuru": "TYT",
         "tabanPuan": 285.26102,
@@ -397405,7 +397405,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 288.20111,
@@ -397424,7 +397424,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Ofis Teknolojileri ve Veri Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 269.37013,
@@ -397443,7 +397443,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Pazarlama",
         "puanTuru": "TYT",
         "tabanPuan": 274.71477,
@@ -397462,7 +397462,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Sosyal Hizmetler",
         "puanTuru": "TYT",
         "tabanPuan": 290.97825,
@@ -397481,7 +397481,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 285.99727,
@@ -397500,7 +397500,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Basım ve Yayım Teknolojileri",
         "puanTuru": "TYT",
         "tabanPuan": 254.05245,
@@ -397519,7 +397519,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Bilgisayar Programcılığı",
         "puanTuru": "TYT",
         "tabanPuan": 321.38955,
@@ -397538,7 +397538,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Biyomedikal Cihaz Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 294.93391,
@@ -397557,7 +397557,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Dijital Tarım Teknolojileri",
         "puanTuru": "TYT",
         "tabanPuan": 267.16694,
@@ -397576,7 +397576,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Elektrik",
         "puanTuru": "TYT",
         "tabanPuan": 296.67738,
@@ -397595,7 +397595,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Elektronik Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 276.49123,
@@ -397614,7 +397614,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Giyim Üretim Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 253.63673,
@@ -397633,7 +397633,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Harita ve Kadastro",
         "puanTuru": "TYT",
         "tabanPuan": 286.68557,
@@ -397652,7 +397652,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Hibrid ve Elektrikli Taşıtlar Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 304.58032,
@@ -397671,7 +397671,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Hibrid ve Elektrikli Taşıtlar Teknolojisi (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -397690,7 +397690,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "İnsansız Araç Teknikerliği",
         "puanTuru": "TYT",
         "tabanPuan": 317.48266,
@@ -397709,7 +397709,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "İş Sağlığı ve Güvenliği",
         "puanTuru": "TYT",
         "tabanPuan": 302.0937,
@@ -397728,7 +397728,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Makine",
         "puanTuru": "TYT",
         "tabanPuan": 288.91259,
@@ -397747,7 +397747,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Mobil Teknolojileri",
         "puanTuru": "TYT",
         "tabanPuan": 283.20054,
@@ -397766,7 +397766,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Radyo ve Televizyon Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 272.34969,
@@ -397785,7 +397785,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Robotik ve Yapay Zeka",
         "puanTuru": "TYT",
         "tabanPuan": 330.22148,
@@ -397804,7 +397804,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Robotik ve Yapay Zeka (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -397823,7 +397823,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Uçak Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 360.88995,
@@ -397842,7 +397842,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Bankacılık ve Sigortacılık",
         "puanTuru": "TYT",
         "tabanPuan": 275.32021,
@@ -397861,7 +397861,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 248.49654,
@@ -397880,7 +397880,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Lojistik",
         "puanTuru": "TYT",
         "tabanPuan": 251.73595,
@@ -397899,7 +397899,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Maliye",
         "puanTuru": "TYT",
         "tabanPuan": 242.11657,
@@ -397918,7 +397918,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Muhasebe ve Vergi Uygulamaları",
         "puanTuru": "TYT",
         "tabanPuan": 256.41674,
@@ -397937,7 +397937,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Dış Ticaret",
         "puanTuru": "TYT",
         "tabanPuan": 249.13995,
@@ -397956,7 +397956,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Elektronik Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 260.18004,
@@ -397975,7 +397975,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Laboratuvar Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 291.55279,
@@ -397994,7 +397994,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Lojistik",
         "puanTuru": "TYT",
         "tabanPuan": 244.82977,
@@ -398013,7 +398013,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Mahkeme Büro Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 290.18688,
@@ -398032,7 +398032,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Mekatronik",
         "puanTuru": "TYT",
         "tabanPuan": 274.39296,
@@ -398051,7 +398051,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Çocuk Gelişimi",
         "puanTuru": "TYT",
         "tabanPuan": 293.84632,
@@ -398070,7 +398070,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Elektrik",
         "puanTuru": "TYT",
         "tabanPuan": 268.82114,
@@ -398089,7 +398089,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Laborant ve Veteriner Sağlık",
         "puanTuru": "TYT",
         "tabanPuan": 297.76038,
@@ -398108,7 +398108,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Otomotiv Teknolojisi",
         "puanTuru": "TYT",
         "tabanPuan": 275.32612,
@@ -398127,7 +398127,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Turizm ve Otel İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 268.24582,
@@ -398146,7 +398146,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Yenilenebilir Enerji Teknikerliği",
         "puanTuru": "TYT",
         "tabanPuan": 264.33319,
@@ -398165,7 +398165,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Ağız ve Diş Sağlığı",
         "puanTuru": "TYT",
         "tabanPuan": 337.71452,
@@ -398184,7 +398184,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Ameliyathane Hizmetleri",
         "puanTuru": "TYT",
         "tabanPuan": 326.83428,
@@ -398203,7 +398203,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Anestezi",
         "puanTuru": "TYT",
         "tabanPuan": 353.29159,
@@ -398222,7 +398222,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Dijital Sağlık Sistemleri Teknikerliği",
         "puanTuru": "TYT",
         "tabanPuan": 320.86094,
@@ -398241,7 +398241,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Elektronörofizyoloji",
         "puanTuru": "TYT",
         "tabanPuan": 322.74359,
@@ -398260,7 +398260,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Fizyoterapi",
         "puanTuru": "TYT",
         "tabanPuan": 326.91525,
@@ -398279,7 +398279,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "İlk ve Acil Yardım",
         "puanTuru": "TYT",
         "tabanPuan": 346.53036,
@@ -398298,7 +398298,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Odyometri",
         "puanTuru": "TYT",
         "tabanPuan": 317.54849,
@@ -398317,7 +398317,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Ortopedik Protez ve Ortez",
         "puanTuru": "TYT",
         "tabanPuan": 309.2529,
@@ -398336,7 +398336,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Patoloji Laboratuvar Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 319.73553,
@@ -398355,7 +398355,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Radyoterapi",
         "puanTuru": "TYT",
         "tabanPuan": 323.02852,
@@ -398374,7 +398374,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Radyoterapi (KKTC Uyruklu)",
         "puanTuru": "TYT",
         "tabanPuan": "",
@@ -398393,7 +398393,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Tıbbi Dokümantasyon ve Sekreterlik",
         "puanTuru": "TYT",
         "tabanPuan": 330.08276,
@@ -398412,7 +398412,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Tıbbi Görüntüleme Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 347.93492,
@@ -398431,7 +398431,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Tıbbi Laboratuvar Teknikleri",
         "puanTuru": "TYT",
         "tabanPuan": 334.38371,
@@ -398450,7 +398450,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Geleneksel El Sanatları",
         "puanTuru": "TYT",
         "tabanPuan": 240.22649,
@@ -398469,7 +398469,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Grafik Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 297.44465,
@@ -398488,7 +398488,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Kuyumculuk ve Takı Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 248.95649,
@@ -398507,7 +398507,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Mimari Dekoratif Sanatlar",
         "puanTuru": "TYT",
         "tabanPuan": 244.56117,
@@ -398526,7 +398526,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Mimari Restorasyon",
         "puanTuru": "TYT",
         "tabanPuan": 275.99089,
@@ -398545,7 +398545,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Seramik ve Cam Tasarımı",
         "puanTuru": "TYT",
         "tabanPuan": 242.29226,
@@ -398564,7 +398564,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Bilgisayar Programcılığı (Uzaktan Öğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 251.17526,
@@ -398583,7 +398583,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Web Tasarımı ve Kodlama (Uzaktan Öğretim)",
         "puanTuru": "TYT",
         "tabanPuan": 242.69352,
@@ -398602,7 +398602,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Emlak Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 237.40401,
@@ -398621,7 +398621,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "İşletme Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 259.37049,
@@ -398640,7 +398640,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Maliye",
         "puanTuru": "TYT",
         "tabanPuan": 247.39301,
@@ -398659,7 +398659,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Ofis Teknolojileri ve Veri Yönetimi",
         "puanTuru": "TYT",
         "tabanPuan": 237.07968,
@@ -398678,7 +398678,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Sağlık Kurumları İşletmeciliği",
         "puanTuru": "TYT",
         "tabanPuan": 276.52865,
@@ -398697,7 +398697,7 @@ const universiteVerileri = [
     },
     {
         "universite": "TRAKYA ÜNİVERSİTESİ (EDİRNE)",
-        "sehir": "Edi̇rne",
+        "sehir": "Edirne",
         "bolum": "Yerel Yönetimler",
         "puanTuru": "TYT",
         "tabanPuan": 245.92403,
@@ -400027,7 +400027,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Aşçılık (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 178.78145,
@@ -400046,7 +400046,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Aşçılık (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 291.00423,
@@ -400065,7 +400065,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Bilgisayar Programcılığı (İngilizce) (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 189.35843,
@@ -400084,7 +400084,7 @@ const universiteVerileri = [
     },
     {
         "universite": "ULUSLARARASI FİNAL ÜNİVERSİTESİ (KKTC-GİRNE)",
-        "sehir": "Gi̇rne",
+        "sehir": "Girne",
         "bolum": "Bilgisayar Programcılığı (İngilizce) (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 273.65652,
@@ -406012,7 +406012,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bankacılık ve Sigortacılık (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 267.86241,
@@ -406031,7 +406031,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bankacılık ve Sigortacılık (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 343.96213,
@@ -406050,7 +406050,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bankacılık ve Sigortacılık (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 244.09103,
@@ -406069,7 +406069,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Destekli Tasarım ve Animasyon (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 240.3776,
@@ -406088,7 +406088,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Destekli Tasarım ve Animasyon (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 349.70999,
@@ -406107,7 +406107,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Destekli Tasarım ve Animasyon (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 233.15839,
@@ -406126,7 +406126,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Programcılığı (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 286.26926,
@@ -406145,7 +406145,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Programcılığı (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 371.55647,
@@ -406164,7 +406164,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Bilgisayar Programcılığı (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 260.72571,
@@ -406183,7 +406183,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Deniz ve Liman İşletmeciliği (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 278.87191,
@@ -406202,7 +406202,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Deniz ve Liman İşletmeciliği (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 346.52159,
@@ -406221,7 +406221,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Deniz ve Liman İşletmeciliği (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 247.18787,
@@ -406240,7 +406240,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Dış Ticaret (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 270.60938,
@@ -406259,7 +406259,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Dış Ticaret (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 352.3148,
@@ -406278,7 +406278,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Dış Ticaret (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 260.10352,
@@ -406297,7 +406297,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Gıda Teknolojisi (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 262.98271,
@@ -406316,7 +406316,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Gıda Teknolojisi (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 327.61674,
@@ -406335,7 +406335,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Gıda Teknolojisi (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 248.42594,
@@ -406354,7 +406354,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Grafik Tasarımı (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 281.27557,
@@ -406373,7 +406373,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Grafik Tasarımı (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 345.12322,
@@ -406392,7 +406392,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Grafik Tasarımı (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 246.10806,
@@ -406411,7 +406411,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Halkla İlişkiler ve Tanıtım (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 260.31994,
@@ -406430,7 +406430,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Halkla İlişkiler ve Tanıtım (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 331.9833,
@@ -406449,7 +406449,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Halkla İlişkiler ve Tanıtım (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 251.87667,
@@ -406468,7 +406468,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İş Sağlığı ve Güvenliği (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 260.40816,
@@ -406487,7 +406487,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İş Sağlığı ve Güvenliği (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 335.92757,
@@ -406506,7 +406506,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "İş Sağlığı ve Güvenliği (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 218.55127,
@@ -406525,7 +406525,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Lojistik (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 288.7154,
@@ -406544,7 +406544,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Lojistik (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 345.86631,
@@ -406563,7 +406563,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Lojistik (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 253.75314,
@@ -406582,7 +406582,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Marina ve Yat İşletmeciliği (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 265.4778,
@@ -406601,7 +406601,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Marina ve Yat İşletmeciliği (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 337.45235,
@@ -406620,7 +406620,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Marina ve Yat İşletmeciliği (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 238.86016,
@@ -406639,7 +406639,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Mimari Restorasyon (%25 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 229.68235,
@@ -406658,7 +406658,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Mimari Restorasyon (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 336.47374,
@@ -406677,7 +406677,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Mimari Restorasyon (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 220.42872,
@@ -406696,7 +406696,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Turizm ve Otel İşletmeciliği (%50 İndirimli)",
         "puanTuru": "TYT",
         "tabanPuan": 280.624,
@@ -406715,7 +406715,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Turizm ve Otel İşletmeciliği (Burslu)",
         "puanTuru": "TYT",
         "tabanPuan": 344.0903,
@@ -406734,7 +406734,7 @@ const universiteVerileri = [
     },
     {
         "universite": "YAŞAR ÜNİVERSİTESİ (İZMİR)",
-        "sehir": "İzmi̇r",
+        "sehir": "İzmir",
         "bolum": "Turizm ve Otel İşletmeciliği (Ücretli)",
         "puanTuru": "TYT",
         "tabanPuan": 256.58899,
