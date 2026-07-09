@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gizlilik Politikası | EduLock: Tercih ve Puan Rehberi</title>
+    <title>Gizlilik Politikası | Burak AĞCAKAYA Mobil Uygulamaları</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -37,6 +37,17 @@
             box-shadow: 0 20px 40px rgba(0,0,0,0.03);
             border: 1px solid rgba(0,0,0,0.05);
         }
+
+        .app-section {
+            border-left: 4px solid var(--primary);
+            padding-left: 20px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .app-section.edulock {
+            border-left-color: var(--secondary);
+        }
     </style>
 </head>
 <body>
@@ -62,32 +73,102 @@
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="policy-card">
-                    <h1 class="fw-bold mb-4 text-center">Gizlilik Politikası</h1>
-                    <p class="text-muted text-center mb-5">Son Güncelleme: 25 Mayıs 2026</p>
+                    <h1 class="fw-bold mb-3 text-center">Gizlilik Politikası</h1>
+                    <p class="text-muted text-center mb-5">Son Güncelleme: 9 Temmuz 2026</p>
                     
-                    <p>EduLock ekibi olarak gizliliğinize büyük önem veriyoruz. Bu gizlilik politikası, mobil uygulamamız ve web sitemiz aracılığıyla sağlanan hizmetlerin kullanımı sırasında gizliliğinizin nasıl korunduğunu açıklamaktadır.</p>
-                    
-                    <h4 class="fw-bold mt-4 mb-3 text-primary">1. Toplanan Veriler</h4>
-                    <p>EduLock uygulaması ve web sitesi, kullanıcılarından <strong>herhangi bir kişisel veri (isim, e-posta adresi, telefon numarası, konum vb.) toplamamaktadır.</strong> Uygulama, kayıt olmadan veya oturum açmadan tamamen anonim olarak kullanılacak şekilde tasarlanmıştır.</p>
-                    
-                    <h4 class="fw-bold mt-4 mb-3 text-primary">2. Yerel Depolama (Cihaz İçi Veriler)</h4>
-                    <p>Uygulamamız içerisindeki ders ve konu bazlı test başarı istatistikleriniz (çözülen sorular, doğru ve yanlış sayıları vb.) tamamen **cihazınızın yerel depolama alanında (AsyncStorage)** saklanır. Bu veriler hiçbir harici sunucuya gönderilmez ve tamamen sizin kontrolünüzdedir. Uygulamayı cihazınızdan sildiğinizde, bu yerel istatistikler de cihazınızdan otomatik olarak silinir.</p>
+                    <div class="alert alert-primary rounded-4 p-4 mb-5 border-0" style="background-color: rgba(99, 102, 241, 0.08); color: var(--primary);">
+                        <h5 class="fw-bold mb-2"><i class="fa-solid fa-shield-halved me-2"></i> Kapsam ve Geliştirici Bilgisi</h5>
+                        <p class="mb-0 small" style="line-height: 1.6;">
+                            Bu Gizlilik Politikası metni, bireysel geliştirici <strong>Burak AĞCAKAYA</strong> tarafından geliştirilen 
+                            <strong>EduLock: Çöz ve Kazan</strong> ve <strong>EduTakip</strong> mobil uygulamaları (bundan sonra ayrı ayrı veya birlikte "Uygulama" olarak anılacaktır) 
+                            ile ilgili veri toplama, işleme ve kullanıcı gizliliği kurallarını açıklamaktadır.
+                        </p>
+                    </div>
 
-                    <h4 class="fw-bold mt-4 mb-3 text-primary">3. Üçüncü Taraf Bağlantıları ve Yönlendirmeler</h4>
-                    <p>EduLock, çözdüğünüz testler sonucunda kazandığınız erişim hakları doğrultusunda sosyal medya uygulamalarına (Instagram, Facebook, X, TikTok, YouTube vb.) deep-linking (uygulama içi geçiş) veya standart web tarayıcı bağlantıları ile yönlendirme yapabilir. Bu üçüncü taraf web sitelerinin veya uygulamaların kendi gizlilik politikaları geçerlidir ve bu platformların veri politikalarından EduLock sorumlu tutulamaz.</p>
+                    <!-- EDUTAKİP GİZLİLİK POLİTİKASI -->
+                    <div class="app-section">
+                        <h3 class="fw-bold text-primary mb-3"><i class="fa-solid fa-graduation-cap me-2"></i> EduTakip Uygulaması Gizlilik Politikası</h3>
+                        
+                        <h5 class="fw-bold mt-4 text-dark">1.1. Toplanan Kişisel Veriler</h5>
+                        <p>
+                            <strong>EduTakip</strong> uygulaması, öğrencilerin ders başarılarını, ödevlerini ve akademik durumlarını takip etmek amacıyla tasarlanmış bir araçtır. 
+                            Uygulama, temel kullanım işlevlerini yerine getirebilmek için kullanıcı adı, e-posta adresi ve şifre gibi hesap tanımlama bilgilerini toplayabilir. 
+                            Bunun dışında girilen tüm öğrenci gelişim verileri, başarı grafikleriniz ve notlarınız sadece sizin tarafınızdan yönetilir.
+                        </p>
 
-                    <h4 class="fw-bold mt-4 mb-3 text-primary">4. Çocukların Gizliliği</h4>
-                    <p>Hizmetlerimiz hiçbir kişisel veri toplamadığı için, 13 yaş altındaki çocukların gizliliğini ihlal edecek herhangi bir veri işleme faaliyeti gerçekleştirilmemektedir.</p>
+                        <h5 class="fw-bold mt-4 text-dark">1.2. Veri Güvenliği ve İşleme</h5>
+                        <p>
+                            EduTakip uygulamasına girdiğiniz veya oluşturduğunuz hiçbir veri üçüncü şahıslarla, reklam ağlarıyla veya veri analitiği şirketleriyle paylaşılmaz. 
+                            Toplanan temel veriler tamamen uygulamanın senkronizasyon özelliklerini ve kullanıcı deneyimini iyileştirmek amacıyla güvenli sunucularda saklanır.
+                        </p>
 
-                    <h4 class="fw-bold mt-4 mb-3 text-primary">5. İletişim</h4>
-                    <p>Bu gizlilik politikası hakkında sorularınız veya önerileriniz varsa, bizimle <a href="mailto:info@edulock.com.tr">info@edulock.com.tr</a> adresi üzerinden iletişime geçebilirsiniz.</p>
+                        <h5 class="fw-bold mt-4 text-dark">1.3. Hesap ve Veri Silme Politikası (Account Deletion Policy)</h5>
+                        <p>
+                            Google Play politikaları doğrultusunda, kullanıcılarımızın kendi verileri ve hesapları üzerinde tam kontrol hakkı bulunmaktadır. 
+                            Uygulama içerisindeki hesabınızı ve buna bağlı tüm kişisel verilerinizi kalıcı olarak silmek isterseniz:
+                        </p>
+                        <ul>
+                            <li>Uygulama içerisindeki "Profil" veya "Ayarlar" sekmesinden "Hesabımı Sil" seçeneğini kullanabilirsiniz.</li>
+                            <li>Alternatif olarak, doğrudan <a href="mailto:info@edulock.com.tr">info@edulock.com.tr</a> adresine kayıtlı e-posta adresinizden <strong>"EduTakip Hesap Silme Talebi"</strong> konulu bir e-posta gönderebilirsiniz. Talebiniz doğrultusunda hesabınız ve tüm verileriniz 7 iş günü içerisinde sunucularımızdan kalıcı olarak silinecektir.</li>
+                        </ul>
+                    </div>
+
+                    <hr class="my-5">
+
+                    <!-- EDULOCK: ÇÖZ VE KAZAN GİZLİLİK POLİTİKASI -->
+                    <div class="app-section edulock">
+                        <h3 class="fw-bold text-secondary mb-3"><i class="fa-solid fa-trophy me-2"></i> EduLock: Çöz ve Kazan Uygulaması Gizlilik Politikası</h3>
+                        
+                        <h5 class="fw-bold mt-4 text-dark">2.1. Toplanan Kişisel Veriler</h5>
+                        <p>
+                            <strong>EduLock: Çöz ve Kazan</strong> uygulaması, kullanıcılarından <strong>herhangi bir kişisel veri (isim, e-posta adresi, telefon numarası vb.) toplamamaktadır.</strong> 
+                            Uygulamamız üyelik sistemi barındırmaz ve kayıt olmadan veya oturum açmadan tamamen anonim olarak kullanılacak şekilde tasarlanmıştır.
+                        </p>
+
+                        <h5 class="fw-bold mt-4 text-dark">2.2. Yerel Depolama (Cihaz İçi Veriler)</h5>
+                        <p>
+                            Uygulama içerisindeki ders ve konu bazlı test başarı istatistikleriniz (çözülen sorular, doğru ve yanlış sayıları) tamamen **cihazınızın yerel depolama alanında (AsyncStorage)** saklanır. 
+                            Bu veriler hiçbir harici sunucuya gönderilmez ve tamamen sizin kontrolünüzdedir. 
+                            Uygulamayı cihazınızdan sildiğinizde, bu yerel istatistikler de cihazınızdan otomatik olarak silinir.
+                        </p>
+
+                        <h5 class="fw-bold mt-4 text-dark">2.3. Hesap ve Veri Silme Politikası (Account Deletion Policy)</h5>
+                        <p>
+                            EduLock: Çöz ve Kazan uygulaması üyelik gerektirmediği ve herhangi bir kullanıcı hesabı barındırmadığı için silinebilecek harici bir üyelik kaydı bulunmamaktadır. 
+                            Cihazınızdaki tüm test geçmişinizi ve verilerinizi silmek için uygulamayı cihazınızdan kaldırmanız veya uygulama ayarlarından yerel verileri sıfırlamanız yeterlidir.
+                        </p>
+                    </div>
+
+                    <hr class="my-5">
+
+                    <!-- GENEL HÜKÜMLER -->
+                    <div>
+                        <h4 class="fw-bold mt-4 mb-3 text-dark">3. Üçüncü Taraf Bağlantıları</h4>
+                        <p>
+                            Uygulamalarımız, kullanıcı yönlendirmeleri doğrultusunda harici web sitelerine veya resmi kurumlara bağlantılar içerebilir. 
+                            Bu üçüncü taraf web sitelerinin veya uygulamaların kendi gizlilik politikaları geçerlidir ve bu platformların veri politikalarından geliştirici Burak AĞCAKAYA sorumlu tutulamaz.
+                        </p>
+
+                        <h4 class="fw-bold mt-4 mb-3 text-dark">4. Çocukların Gizliliği</h4>
+                        <p>
+                            Uygulamalarımızda çocukların gizliliğini ihlal edecek herhangi bir veri toplama faaliyeti gerçekleştirilmemektedir. 
+                            Ebeveyn kontrolü ve güvenli kullanımı her zaman ön planda tutulmaktadır.
+                        </p>
+
+                        <h4 class="fw-bold mt-4 mb-3 text-dark">5. İletişim</h4>
+                        <p>
+                            Bu gizlilik politikası, veri işleme süreçleri veya hesap silme talepleriniz hakkında sorularınız ve önerileriniz varsa, 
+                            geliştirici <strong>Burak AĞCAKAYA</strong> ile <a href="mailto:info@edulock.com.tr">info@edulock.com.tr</a> adresi üzerinden dilediğiniz zaman iletişime geçebilirsiniz.
+                        </p>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 
     <footer class="py-5 text-center text-muted">
-        <p>© 2026 <strong>EduLock: Tercih ve Puan Rehberi</strong> - Tüm hakları saklıdır.</p>
+        <p>© 2026 <strong>Burak AĞCAKAYA - EduLock & EduTakip</strong> - Tüm hakları saklıdır.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
