@@ -1,4 +1,5 @@
 const https = require('https');
+const zlib = require('zlib');
 
 module.exports = async (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -11,29 +12,66 @@ module.exports = async (req, res) => {
     }
 
     try {
-        // Scrape ÖSYM and fetch YÖK concurrently
+        // Fetch concurrently with timeout protection for YÖK
         const [osymNews, yokNews] = await Promise.all([
-            getOsymNews(),
-            getYokNews()
+            getOsymNews().catch(err => { console.error("OSYM Error:", err); return []; }),
+            withTimeout(getYokNews(), 4500)
         ]);
 
-        // Combine and sort by date descending
+        // Combine and sort by date descending (newest first)
         const combined = [...osymNews, ...yokNews];
         combined.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-        res.status(200).json(combined.slice(0, 15));
+        res.status(200).json(combined.slice(0, 20));
     } catch (error) {
         console.error("News API error:", error);
         res.status(500).json({ error: "Failed to fetch news." });
     }
 };
 
+function withTimeout(promise, ms) {
+    return new Promise((resolve) => {
+        const timer = setTimeout(() => {
+            console.warn(`Fetch timed out after ${ms}ms. Falling back.`);
+            resolve([]);
+        }, ms);
+        promise.then(
+            (res) => { clearTimeout(timer); resolve(res); },
+            (err) => { clearTimeout(timer); resolve([]); }
+        );
+    });
+}
+
 function fetchUrl(url) {
     return new Promise((resolve, reject) => {
-        https.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' } }, (response) => {
-            let data = '';
-            response.on('data', (chunk) => { data += chunk; });
-            response.on('end', () => { resolve(data); });
+        const headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Encoding': 'gzip, deflate',
+            'Connection': 'close'
+        };
+        
+        https.get(url, { headers }, (response) => {
+            const chunks = [];
+            response.on('data', (chunk) => chunks.push(chunk));
+            response.on('end', () => {
+                const buffer = Buffer.concat(chunks);
+                const encoding = response.headers['content-encoding'];
+                
+                if (encoding === 'gzip') {
+                    zlib.gunzip(buffer, (err, decoded) => {
+                        if (err) reject(err);
+                        else resolve(decoded.toString('utf-8'));
+                    });
+                } else if (encoding === 'deflate') {
+                    zlib.inflate(buffer, (err, decoded) => {
+                        if (err) reject(err);
+                        else resolve(decoded.toString('utf-8'));
+                    });
+                } else {
+                    resolve(buffer.toString('utf-8'));
+                }
+            });
         }).on('error', (err) => { reject(err); });
     });
 }
@@ -47,7 +85,7 @@ async function getOsymNews() {
         
         while ((match = pattern.exec(html)) !== null) {
             const href = match[1];
-            let text = match[2].replace(/<[^>]+>/g, ''); // strip inline tags
+            let text = match[2].replace(/<[^>]+>/g, ''); // strip tags
             text = text.replace(/\s+/g, ' ').trim();
             
             // Filter: only announcements containing date in parentheses at the end
@@ -72,78 +110,65 @@ async function getOsymNews() {
 
 async function getYokNews() {
     try {
-        const query = 'site:yok.gov.tr';
-        const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=tr&gl=TR&ceid=TR:tr`;
-        const xmlText = await fetchUrl(url);
+        const html = await fetchUrl("https://www.yok.gov.tr");
+        const yokItems = [];
+        const seenLinks = new Set();
         
-        const announcements = [];
-        const itemRegex = /<item>([\s\S]*?)<\/item>/gi;
-        const titleRegex = /<title>([\s\S]*?)<\/title>/i;
-        const linkRegex = /<link>([\s\S]*?)<\/link>/i;
-        const pubDateRegex = /<pubDate>([\s\S]*?)<\/pubDate>/i;
-        const sourceRegex = /<source[^>]*>([\s\S]*?)<\/source>/i;
-
-        const excludeSubdomains = ['akademik.yok.gov.tr', 'tez.yok.gov.tr', 'yoksis.yok.gov.tr', 'denklik.yok.gov.tr', 'dbs.yok.gov.tr'];
-        const excludeTitles = ['yök akademik', 'ulusal tez merkezi', 'yükseköğretim bilgi sistemi', 'doçentlik bilgi sistemi', 'rektörlük başvuru sistemi'];
-
+        // Match all news and announcements links
+        const aPattern = /<a[^>]+href=["']((?:https:\/\/www\.yok\.gov\.tr)?\/tr\/(?:news|announcements)\/([^"'>]+))["'][^>]*>([\s\S]*?)<\/a>/gi;
         let match;
-        while ((match = itemRegex.exec(xmlText)) !== null) {
-            const itemContent = match[1];
-            const titleMatch = titleRegex.exec(itemContent);
-            const linkMatch = linkRegex.exec(itemContent);
-            const pubDateMatch = pubDateRegex.exec(itemContent);
-            const sourceMatch = sourceRegex.exec(itemContent);
+        
+        while ((match = aPattern.exec(html)) !== null) {
+            const href = match[1];
+            let text = match[3].replace(/<[^>]+>/g, ''); // strip inline tags
+            text = text.replace(/\s+/g, ' ').trim();
             
-            if (titleMatch && linkMatch) {
-                let title = titleMatch[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/gi, '$1').trim();
-                let link = linkMatch[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/gi, '$1').trim();
-                let pubDate = pubDateMatch ? pubDateMatch[1].trim() : '';
-                let source = sourceMatch ? sourceMatch[1].replace(/<!\[CDATA\[([\s\S]*?)\]\]>/gi, '$1').trim() : 'YÖK';
-                
-                title = decodeHtmlEntities(title);
-                source = decodeHtmlEntities(source);
-
-                const titleClean = title.split(' - ')[0].trim();
-                
-                if (excludeSubdomains.some(sub => link.toLowerCase().includes(sub))) continue;
-                if (excludeTitles.some(t => titleClean.toLowerCase().includes(t))) continue;
-                if (['haberler', 'ana sayfa | yükseköğretim kurulu', 'başkan'].includes(titleClean.toLowerCase())) continue;
-
-                const dt = new Date(pubDate);
-                announcements.push({
-                    title: titleClean,
-                    link: link,
-                    source: "YÖK",
-                    date: dt.toISOString()
-                });
+            const fullLink = href.startsWith('http') ? href : "https://www.yok.gov.tr" + href;
+            
+            if (text.length < 10 || ['devamını oku', 'tüm haberler', 'tüm duyurular', 'haberler', 'duyurular'].includes(text.toLowerCase())) {
+                continue;
             }
+            
+            if (seenLinks.has(fullLink)) continue;
+            seenLinks.add(fullLink);
+            
+            // Try to find a date in surrounding HTML context (300 chars before, 900 chars after)
+            const pos = html.indexOf(href);
+            let dateVal = new Date(); // default to current time
+            
+            if (pos !== -1) {
+                const context = html.substring(pos - 300, pos + 900);
+                const dateMatch = /(\d{1,2})\s+(Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık)\s+(\d{4})/i.exec(context);
+                if (dateMatch) {
+                    const [_, d, m, y] = dateMatch;
+                    const monthIdx = parseTurkishMonth(m);
+                    dateVal = new Date(parseInt(y), monthIdx, parseInt(d));
+                } else {
+                    // If no date found, simulate date based on seen order to preserve ordering
+                    dateVal = new Date(Date.now() - (yokItems.length * 3600000));
+                }
+            } else {
+                dateVal = new Date(Date.now() - (yokItems.length * 3600000));
+            }
+            
+            yokItems.push({
+                title: text,
+                link: fullLink,
+                source: "YÖK",
+                date: dateVal.toISOString()
+            });
         }
-        return announcements;
+        return yokItems;
     } catch (e) {
-        console.error("YOK RSS Error:", e);
+        console.error("YOK Scrape Error:", e);
         return [];
     }
 }
 
-function decodeHtmlEntities(str) {
-    return str
-        .replace(/&amp;/g, "&")
-        .replace(/&lt;/g, "<")
-        .replace(/&gt;/g, ">")
-        .replace(/&quot;/g, '"')
-        .replace(/&#39;/g, "'")
-        .replace(/&apos;/g, "'")
-        .replace(/&nbsp;/g, " ")
-        .replace(/&Ouml;/g, "Ö")
-        .replace(/&ouml;/g, "ö")
-        .replace(/&Uuml;/g, "Ü")
-        .replace(/&uuml;/g, "ü")
-        .replace(/&Ccedil;/g, "Ç")
-        .replace(/&ccedil;/g, "ç")
-        .replace(/&Iuml;/g, "İ")
-        .replace(/&iuml;/g, "i")
-        .replace(/&Scedil;/g, "Ş")
-        .replace(/&scedil;/g, "ş")
-        .replace(/&Gbreve;/g, "Ğ")
-        .replace(/&gbreve;/g, "ğ");
+function parseTurkishMonth(m) {
+    const months = {
+        'ocak': 0, 'şubat': 1, 'mart': 2, 'nisan': 3, 'mayıs': 4, 'haziran': 5,
+        'temmuz': 6, 'ağustos': 7, 'eylül': 8, 'ekim': 9, 'kasım': 10, 'aralık': 11
+    };
+    return months[m.toLowerCase()] || 0;
 }
