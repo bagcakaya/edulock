@@ -216,6 +216,89 @@
             color: #059669;
         }
 
+        /* Haber Bandı (Çok İnce, İkincil Planda, Şık Tasarım) */
+        .haber-bandi {
+            height: 36px;
+            background: #0f172a;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1050;
+            font-size: 0.82rem;
+            color: #cbd5e1;
+        }
+
+        .navbar {
+            top: 0;
+            transition: top 0.3s ease;
+        }
+
+        .blinking-badge {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            padding: 3px 10px;
+            background: rgba(239, 68, 68, 0.15) !important;
+            color: #ef4444 !important;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .blinking-dot {
+            width: 6px;
+            height: 6px;
+            background-color: #ef4444;
+            border-radius: 50%;
+            display: inline-block;
+            animation: blink 1.5s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
+
+        .haber-metni {
+            transition: opacity 0.4s ease-in-out;
+            opacity: 1;
+            width: 100%;
+        }
+
+        .haber-metni.fade-out {
+            opacity: 0;
+        }
+
+        .haber-link {
+            color: #e2e8f0;
+            text-decoration: none;
+            font-weight: 400;
+            transition: color 0.2s;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: inline-block;
+            max-width: 100%;
+        }
+
+        .haber-link:hover {
+            color: var(--primary);
+        }
+
+        .haber-source {
+            font-size: 0.72rem;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.08);
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-right: 8px;
+            color: #94a3b8;
+        }
+
         .univ-title {
             font-weight: 700;
             color: var(--text-main);
@@ -446,6 +529,20 @@
 </head>
 
 <body>
+
+    <!-- Son Dakika Haber Bandı -->
+    <div id="haberBandi" class="haber-bandi d-none">
+        <div class="container h-100 d-flex align-items-center">
+            <span class="blinking-badge me-3">
+                <span class="blinking-dot"></span><i class="fa-solid fa-bullhorn me-1"></i>ÖSYM / YÖK
+            </span>
+            <div class="flex-grow-1 overflow-hidden h-100 position-relative">
+                <div id="haberMetni" class="haber-metni h-100 d-flex align-items-center">
+                    <!-- Dinamik haber içeriği buraya yüklenecek -->
+                </div>
+            </div>
+        </div>
+    </div>
 
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
@@ -898,6 +995,60 @@
             const myModal = new bootstrap.Modal(document.getElementById('detayModal'));
             myModal.show();
         }
+
+        // Son Dakika Haber Bandı Mekanizması
+        async function haberleriYukle() {
+            try {
+                const response = await fetch('/api/news');
+                if (!response.ok) throw new Error('Haberler alınamadı.');
+                const news = await response.json();
+                
+                if (news && news.length > 0) {
+                    const haberBandi = document.getElementById('haberBandi');
+                    const haberMetni = document.getElementById('haberMetni');
+                    
+                    // Haber bandını görünür yap ve hero/navbar paddinglerini ayarla
+                    haberBandi.classList.remove('d-none');
+                    document.querySelector('.navbar').style.top = '36px';
+                    document.querySelector('.hero').style.paddingTop = '160px';
+                    
+                    let activeIndex = 0;
+                    
+                    function haberGoster(index) {
+                        const item = news[index];
+                        const dateObj = new Date(item.pubDate);
+                        const formatTime = dateObj.toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' });
+                        const formatDate = dateObj.toLocaleDateString('tr-TR', { day: 'numeric', month: 'short' });
+                        const timeString = `${formatDate} ${formatTime}`;
+
+                        haberMetni.innerHTML = `
+                            <span class="haber-source">${item.source}</span>
+                            <a href="${item.link}" target="_blank" class="haber-link" title="${item.title} (${timeString})">
+                                ${item.title} <span class="text-muted ms-2" style="font-size: 0.75rem;">(${timeString})</span>
+                            </a>
+                        `;
+                    }
+                    
+                    haberGoster(activeIndex);
+                    
+                    // Her 6 saniyede bir sonraki habere geç (yumuşak geçişli)
+                    setInterval(() => {
+                        haberMetni.classList.add('fade-out');
+                        setTimeout(() => {
+                            activeIndex = (activeIndex + 1) % news.length;
+                            haberGoster(activeIndex);
+                            haberMetni.classList.remove('fade-out');
+                        }, 400);
+                    }, 6000);
+                }
+            } catch (error) {
+                console.error("Haber bandı yükleme hatası:", error);
+            }
+        }
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            haberleriYukle();
+        });
     </script>
 </body>
 
