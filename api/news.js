@@ -103,11 +103,9 @@ async function getOsymNews() {
         console.error("OSYM Scrape Error:", e);
         return [];
     }
-}
-
 async function getYokNews() {
     try {
-        const html = await fetchUrl("https://www.yok.gov.tr");
+        const html = await fetchUrl("https://www.yok.gov.tr/tr");
         const yokItemsRaw = [];
         const seenLinks = new Set();
         
