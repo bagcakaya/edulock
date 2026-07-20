@@ -216,17 +216,17 @@
             color: #059669;
         }
 
-        /* Haber Bandı (Çok İnce, İkincil Planda, Şık Tasarım) */
+        /* Haber Bandı (Şık, Görünür ve Okunaklı Tasarım) */
         .haber-bandi {
-            height: 36px;
+            height: 42px;
             background: #0f172a;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
             z-index: 1050;
-            font-size: 0.82rem;
+            font-size: 0.88rem;
             color: #cbd5e1;
         }
 
@@ -236,27 +236,39 @@
         }
 
         .blinking-badge {
-            font-size: 0.7rem;
+            font-size: 0.72rem;
             font-weight: 700;
             letter-spacing: 0.5px;
-            padding: 3px 10px;
-            background: rgba(239, 68, 68, 0.15) !important;
-            color: #ef4444 !important;
-            border: 1px solid rgba(239, 68, 68, 0.3);
+            padding: 4px 10px;
             border-radius: 6px;
-            display: flex;
+            display: inline-flex;
             align-items: center;
-            gap: 5px;
+            gap: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .badge-osym {
+            background: rgba(239, 68, 68, 0.15) !important;
+            color: #f87171 !important;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+
+        .badge-yok {
+            background: rgba(99, 102, 241, 0.15) !important;
+            color: #818cf8 !important;
+            border: 1px solid rgba(99, 102, 241, 0.3);
         }
 
         .blinking-dot {
             width: 6px;
             height: 6px;
-            background-color: #ef4444;
             border-radius: 50%;
             display: inline-block;
             animation: blink 1.5s infinite;
         }
+
+        .dot-osym { background-color: #ef4444; }
+        .dot-yok { background-color: #6366f1; }
 
         @keyframes blink {
             0%, 100% { opacity: 0.3; }
@@ -267,6 +279,9 @@
             transition: opacity 0.4s ease-in-out;
             opacity: 1;
             width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .haber-metni.fade-out {
@@ -274,15 +289,10 @@
         }
 
         .haber-link {
-            color: #e2e8f0;
+            color: #f1f5f9;
             text-decoration: none;
-            font-weight: 400;
+            font-weight: 500;
             transition: color 0.2s;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            display: inline-block;
-            max-width: 100%;
         }
 
         .haber-link:hover {
@@ -532,14 +542,19 @@
 
     <!-- Son Dakika Haber Bandı -->
     <div id="haberBandi" class="haber-bandi d-none">
-        <div class="container h-100 d-flex align-items-center">
-            <span class="blinking-badge me-3">
-                <span class="blinking-dot"></span><i class="fa-solid fa-bullhorn me-1"></i>ÖSYM / YÖK
-            </span>
-            <div class="flex-grow-1 overflow-hidden h-100 position-relative">
-                <div id="haberMetni" class="haber-metni h-100 d-flex align-items-center">
-                    <!-- Dinamik haber içeriği buraya yüklenecek -->
+        <div class="container h-100 d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center overflow-hidden flex-grow-1">
+                <span id="haberRozet" class="blinking-badge me-3">
+                    <span class="blinking-dot"></span><i class="fa-solid fa-bullhorn me-1"></i>DUYURU
+                </span>
+                <div class="flex-grow-1 overflow-hidden">
+                    <div id="haberMetni" class="haber-metni">
+                        <!-- Dinamik haber içeriği buraya yüklenecek -->
+                    </div>
                 </div>
+            </div>
+            <div id="haberTarih" class="text-muted small ms-3 d-none d-md-block" style="white-space: nowrap; font-size: 0.78rem; font-weight: 500;">
+                <!-- Dinamik tarih -->
             </div>
         </div>
     </div>
@@ -1005,28 +1020,42 @@
                 
                 if (news && news.length > 0) {
                     const haberBandi = document.getElementById('haberBandi');
+                    const haberRozet = document.getElementById('haberRozet');
                     const haberMetni = document.getElementById('haberMetni');
+                    const haberTarih = document.getElementById('haberTarih');
                     
                     // Haber bandını görünür yap ve hero/navbar paddinglerini ayarla
                     haberBandi.classList.remove('d-none');
-                    document.querySelector('.navbar').style.top = '36px';
-                    document.querySelector('.hero').style.paddingTop = '160px';
+                    document.querySelector('.navbar').style.top = '42px';
+                    document.querySelector('.hero').style.paddingTop = '165px';
                     
                     let activeIndex = 0;
                     
                     function haberGoster(index) {
                         const item = news[index];
-                        const dateObj = new Date(item.pubDate);
+                        const dateObj = new Date(item.date);
                         const formatTime = dateObj.toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' });
                         const formatDate = dateObj.toLocaleDateString('tr-TR', { day: 'numeric', month: 'short' });
                         const timeString = `${formatDate} ${formatTime}`;
 
+                        // Dinamik Rozet Ayrımı
+                        if (item.source === 'ÖSYM') {
+                            haberRozet.className = "blinking-badge me-3 badge-osym";
+                            haberRozet.innerHTML = `<span class="blinking-dot dot-osym"></span><i class="fa-solid fa-bullhorn me-1"></i>ÖSYM`;
+                        } else {
+                            haberRozet.className = "blinking-badge me-3 badge-yok";
+                            haberRozet.innerHTML = `<span class="blinking-dot dot-yok"></span><i class="fa-solid fa-graduation-cap me-1"></i>YÖK`;
+                        }
+
+                        // Haber linki ve başlık
                         haberMetni.innerHTML = `
-                            <span class="haber-source">${item.source}</span>
-                            <a href="${item.link}" target="_blank" class="haber-link" title="${item.title} (${timeString})">
-                                ${item.title} <span class="text-muted ms-2" style="font-size: 0.75rem;">(${timeString})</span>
+                            <a href="${item.link}" target="_blank" class="haber-link" title="${item.title}">
+                                ${item.title}
                             </a>
                         `;
+
+                        // Tarih alanı
+                        haberTarih.innerText = timeString;
                     }
                     
                     haberGoster(activeIndex);
@@ -1034,10 +1063,12 @@
                     // Her 6 saniyede bir sonraki habere geç (yumuşak geçişli)
                     setInterval(() => {
                         haberMetni.classList.add('fade-out');
+                        haberTarih.style.opacity = 0;
                         setTimeout(() => {
                             activeIndex = (activeIndex + 1) % news.length;
                             haberGoster(activeIndex);
                             haberMetni.classList.remove('fade-out');
+                            haberTarih.style.opacity = 1;
                         }, 400);
                     }, 6000);
                 }
