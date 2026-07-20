@@ -12,13 +12,11 @@ module.exports = async (req, res) => {
     }
 
     try {
-        // Fetch concurrently with timeout protection for YÖK
         const [osymNews, yokNews] = await Promise.all([
             getOsymNews().catch(err => { console.error("OSYM Error:", err); return []; }),
             withTimeout(getYokNews(), 4500)
         ]);
 
-        // Combine and sort by date descending (newest first)
         const combined = [...osymNews, ...yokNews];
         combined.sort((a, b) => new Date(b.date) - new Date(a.date));
 
@@ -88,7 +86,6 @@ async function getOsymNews() {
             let text = match[2].replace(/<[^>]+>/g, ''); // strip tags
             text = text.replace(/\s+/g, ' ').trim();
             
-            // Filter: only announcements containing date in parentheses at the end
             const dateMatch = /\((\d{2})\.(\d{2})\.(\d{4})\)$/.exec(text);
             if (dateMatch) {
                 const [_, d, m, y] = dateMatch;
@@ -111,12 +108,12 @@ async function getOsymNews() {
 async function getYokNews() {
     try {
         const html = await fetchUrl("https://www.yok.gov.tr");
-        const yokItems = [];
+        const yokItemsRaw = [];
         const seenLinks = new Set();
         
-        // Match all news and announcements links
         const aPattern = /<a[^>]+href=["']((?:https:\/\/www\.yok\.gov\.tr)?\/tr\/(?:news|announcements)\/([^"'>]+))["'][^>]*>([\s\S]*?)<\/a>/gi;
         let match;
+        let maxParsedDate = null;
         
         while ((match = aPattern.exec(html)) !== null) {
             const href = match[1];
@@ -132,33 +129,49 @@ async function getYokNews() {
             if (seenLinks.has(fullLink)) continue;
             seenLinks.add(fullLink);
             
-            // Try to find a date in surrounding HTML context (300 chars before, 900 chars after)
             const pos = html.indexOf(href);
-            let dateVal = new Date(); // default to current time
+            let parsedDate = null;
             
             if (pos !== -1) {
                 const context = html.substring(pos - 300, pos + 900);
-                const dateMatch = /(\d{1,2})\s+(Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık)\s+(\d{4})/i.exec(context);
+                const dateMatch = /(\d{1,2})\s+(Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık)/i.exec(context);
+                const yearMatch = /\b(20\d{2})\b/.exec(context);
                 if (dateMatch) {
-                    const [_, d, m, y] = dateMatch;
+                    const [_, d, m] = dateMatch;
+                    const y = yearMatch ? yearMatch[1] : new Date().getFullYear().toString();
                     const monthIdx = parseTurkishMonth(m);
-                    dateVal = new Date(parseInt(y), monthIdx, parseInt(d));
-                } else {
-                    // If no date found, simulate date based on seen order to preserve ordering
-                    dateVal = new Date(Date.now() - (yokItems.length * 3600000));
+                    parsedDate = new Date(parseInt(y), monthIdx, parseInt(d), 0, 0, 0);
+                    if (!maxParsedDate || parsedDate > maxParsedDate) {
+                        maxParsedDate = parsedDate;
+                    }
                 }
-            } else {
-                dateVal = new Date(Date.now() - (yokItems.length * 3600000));
             }
             
-            yokItems.push({
+            yokItemsRaw.push({
                 title: text,
                 link: fullLink,
                 source: "YÖK",
-                date: dateVal.toISOString()
+                parsedDate: parsedDate
             });
         }
-        return yokItems;
+        
+        if (!maxParsedDate) {
+            maxParsedDate = new Date();
+        }
+        
+        return yokItemsRaw.map((item, idx) => {
+            let finalDate = item.parsedDate;
+            if (!finalDate) {
+                // Subtract hours to keep relative ordering below maxParsedDate
+                finalDate = new Date(maxParsedDate.getTime() - (idx * 3600000));
+            }
+            return {
+                title: item.title,
+                link: item.link,
+                source: item.source,
+                date: finalDate.toISOString()
+            };
+        });
     } catch (e) {
         console.error("YOK Scrape Error:", e);
         return [];

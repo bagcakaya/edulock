@@ -1086,9 +1086,7 @@
             
             const item = newsData[index];
             const dateObj = new Date(item.date);
-            const formatTime = dateObj.toLocaleTimeString('tr-TR', { hour: '2-digit', minute: '2-digit' });
-            const formatDate = dateObj.toLocaleDateString('tr-TR', { day: 'numeric', month: 'short' });
-            const timeString = `${formatDate} ${formatTime}`;
+            const formatDate = dateObj.toLocaleDateString('tr-TR', { day: 'numeric', month: 'long' });
 
             // Dinamik Rozet Ayrımı
             if (item.source === 'ÖSYM') {
@@ -1107,7 +1105,7 @@
             `;
 
             // Tarih alanı
-            haberTarih.innerText = timeString;
+            haberTarih.innerText = formatDate;
         }
         
         function sonrakiHaber() {
