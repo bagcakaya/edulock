@@ -76,7 +76,8 @@ function fetchUrl(url) {
 
 async function getOsymNews() {
     try {
-        const html = await fetchUrl("https://www.osym.gov.tr/");
+        // Try fetching the actual portal homepage first
+        const html = await fetchUrl("https://www.osym.gov.tr/genel/anasayfa.aspx");
         const announcements = [];
         const pattern = /<a[^>]+href=["'](\/TR,\d+\/[^"'>]+)["'][^>]*>\s*([\s\S]*?)\s*<\/a>/gi;
         let match;
@@ -98,11 +99,41 @@ async function getOsymNews() {
                 });
             }
         }
-        return announcements;
+        
+        if (announcements.length > 0) {
+            return announcements;
+        }
     } catch (e) {
-        console.error("OSYM Scrape Error:", e);
-        return [];
+        console.error("OSYM Portal Scrape Error, trying splash fallback:", e);
     }
+    
+    // Fallback: Fetch index page to check for splash page
+    try {
+        const html = await fetchUrl("https://www.osym.gov.tr/");
+        
+        const titleMatch = /<title>([\s\S]*?)<\/title>/i.exec(html);
+        const bodyTitleMatch = /<div class="wpage-title">([\s\S]*?)<\/div>/i.exec(html);
+        
+        const splashTitle = bodyTitleMatch ? bodyTitleMatch[1] : (titleMatch ? titleMatch[1] : null);
+        
+        if (splashTitle && (html.includes("sonuc") || html.includes("Sonuç"))) {
+            let cleanTitle = splashTitle.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+            
+            const linkMatch = /href=["'](https:\/\/ykssonuc\.osym\.gov\.tr\/[^"']*)["']/i.exec(html) || /href=["'](https:\/\/sonuc\.osym\.gov\.tr\/[^"']*)["']/i.exec(html);
+            const resultLink = linkMatch ? linkMatch[1] : "https://ykssonuc.osym.gov.tr/";
+            
+            return [{
+                title: cleanTitle,
+                link: resultLink,
+                source: "ÖSYM",
+                date: new Date().toISOString()
+            }];
+        }
+    } catch (e) {
+        console.error("OSYM Splash Fallback Error:", e);
+    }
+    
+    return [];
 }
 
 async function getYokNews() {
