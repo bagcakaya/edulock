@@ -12,40 +12,49 @@
             --primary: #6366f1;
             --primary-dark: #4f46e5;
             --secondary: #ec4899;
-            --glass: rgba(255, 255, 255, 0.9);
-            --text-main: #1e293b;
+            --bg-color: #f8fafc;
+            --surface: #ffffff;
+            --text-main: #0f172a;
             --text-muted: #64748b;
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #0f172a;
+            --surface: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
         }
 
         body {
             font-family: 'Outfit', sans-serif;
-            background-color: #f8fafc;
+            background-color: var(--bg-color);
             color: var(--text-main);
             overflow-x: hidden;
             padding-top: 80px;
+            transition: background-color 0.3s, color 0.3s;
         }
 
-        /* Glassmorphism Background */
-        body::before {
-            content: "";
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: radial-gradient(circle at 0% 0%, rgba(99, 102, 241, 0.05) 0%, transparent 50%),
-                        radial-gradient(circle at 100% 100%, rgba(236, 72, 153, 0.05) 0%, transparent 50%);
-            z-index: -1;
+        [data-theme="dark"] body {
+            background-color: #0f172a !important;
+            color: #f8fafc !important;
         }
 
         .navbar {
-            background: rgba(255, 255, 255, 0.8) !important;
-            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.85) !important;
+            backdrop-filter: blur(12px);
             border-bottom: 1px solid rgba(0,0,0,0.05);
             padding: 15px 0;
+        }
+
+        [data-theme="dark"] .navbar {
+            background: rgba(30, 41, 59, 0.9) !important;
+            border-bottom: 1px solid #334155 !important;
         }
 
         .navbar-brand {
             font-weight: 800;
             color: var(--primary) !important;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
         }
 
         .nav-link {
@@ -54,18 +63,18 @@
             transition: all 0.3s;
         }
 
-        .nav-link:hover {
+        .nav-link:hover, .nav-link.active {
             color: var(--primary) !important;
         }
 
         .about-hero {
-            padding: 60px 0;
+            padding: 60px 0 40px;
             text-align: center;
         }
 
         .about-hero h1 {
             font-weight: 800;
-            font-size: 3.5rem;
+            font-size: 3.2rem;
             background: linear-gradient(135deg, var(--primary), var(--secondary));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -73,67 +82,77 @@
         }
 
         .about-card {
-            background: white;
-            border-radius: 30px;
+            background: var(--surface);
+            border-radius: 24px;
             border: 1px solid rgba(0,0,0,0.05);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.02);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
             padding: 40px;
-            margin-bottom: 40px;
-            transition: transform 0.3s;
+            margin-bottom: 30px;
+            transition: all 0.3s;
+        }
+
+        [data-theme="dark"] .about-card {
+            background-color: #1e293b !important;
+            border-color: #334155 !important;
         }
 
         .feature-icon {
-            width: 70px;
-            height: 70px;
-            background: rgba(99, 102, 241, 0.1);
+            width: 60px;
+            height: 60px;
+            background: rgba(99, 102, 241, 0.12);
             color: var(--primary);
-            border-radius: 20px;
+            border-radius: 16px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2rem;
-            margin-bottom: 25px;
-        }
-
-        .feature-item {
-            margin-bottom: 30px;
+            font-size: 1.6rem;
+            margin-bottom: 20px;
         }
 
         .feature-item h3 {
             font-weight: 700;
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             margin-bottom: 10px;
         }
 
         .feature-item p {
             color: var(--text-muted);
-            line-height: 1.7;
+            line-height: 1.6;
+            font-size: 0.95rem;
         }
 
         .stats-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
             gap: 20px;
             margin-top: 40px;
         }
 
         .stat-box {
-            background: #f8fafc;
-            padding: 30px;
-            border-radius: 20px;
+            background: rgba(99, 102, 241, 0.04);
+            border: 1px solid rgba(99, 102, 241, 0.1);
+            padding: 25px 20px;
+            border-radius: 18px;
             text-align: center;
+        }
+
+        [data-theme="dark"] .stat-box {
+            background: #0f172a;
+            border-color: #334155;
         }
 
         .stat-box h2 {
             font-weight: 800;
             color: var(--primary);
             margin-bottom: 5px;
+            font-size: 2rem;
         }
 
         .stat-box p {
-            font-weight: 500;
+            font-weight: 600;
             color: var(--text-muted);
             margin-bottom: 0;
+            font-size: 0.85rem;
         }
 
         .badge-diff {
@@ -146,6 +165,11 @@
             display: inline-block;
             margin-bottom: 15px;
         }
+
+        [data-theme="dark"] footer {
+            background-color: #1e293b !important;
+            border-color: #334155 !important;
+        }
     </style>
 </head>
 <body>
@@ -157,9 +181,19 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="anaMenu">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
                     <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-house me-1"></i> Ana Sayfa</a></li>
                     <li class="nav-item"><a class="nav-link" href="rehber.html"><i class="fa-solid fa-robot me-1"></i> Tercih Robotu</a></li>
+                    <li class="nav-item">
+                        <a href="index.html" class="btn btn-outline-danger btn-sm rounded-pill px-3 py-1 fw-bold shadow-sm d-inline-flex align-items-center gap-2 ms-lg-2 my-1 my-lg-0">
+                            <i class="fa-solid fa-heart text-danger"></i> Tercih Listem
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <button onclick="temaDegistir()" class="btn btn-outline-secondary btn-sm rounded-circle p-2 ms-lg-2 my-1 my-lg-0" id="btnTemaToggle" title="Gece/Gündüz Modu" style="width:34px; height:34px; display:inline-flex; align-items:center; justify-content:center;">
+                            <i class="fa-solid fa-moon" id="iconTema"></i>
+                        </button>
+                    </li>
                     <li class="nav-item"><a class="nav-link active" href="hakkimizda.html"><i class="fa-solid fa-circle-info me-1"></i> Hakkımızda</a></li>
                     <li class="nav-item"><a class="nav-link" href="iletisim.html"><i class="fa-solid fa-envelope me-1"></i> İletişim</a></li>
                 </ul>
@@ -169,83 +203,136 @@
 
     <div class="container">
         <div class="about-hero">
-            <span class="badge-diff">Farkımızı Keşfedin</span>
-            <h1>Bizi Neden Seçmelisiniz?</h1>
-            <p class="lead text-muted mx-auto" style="max-width: 700px;">
-                Üniversite tercihi sadece puanlara bakmak değildir. EduLock: Tercih ve Puan Rehberi olarak biz, veriyi anlamlı kararlara dönüştürüyoruz.
+            <span class="badge-diff">Yeni Nesil YKS Platformu</span>
+            <h1>Veriye Dayalı Akıllı Tercih Rehberi</h1>
+            <p class="lead text-muted mx-auto" style="max-width: 750px;">
+                EduLock, sadece taban puanları gösteren sıradan bir arama motoru değildir. YKS 2025 başarı sıralamaları, kampüs ulaşım ağları, canlı ÖSYM/YÖK duyuruları ve akıllı tercih robotuyla geleceğinizi şekillendirir.
             </p>
         </div>
 
-        <div class="row g-4">
-            <div class="col-lg-12">
-                <div class="about-card">
-                    <div class="row align-items-center">
-                        <div class="col-md-6">
-                            <div class="feature-item">
-                                <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
-                                <h3>Işık Hızında Performans</h3>
-                                <p>Geleneksel sitelerin aksine sunucu bekleme süresi olmadan 21.000+ veriyi anlık olarak filtreleriz. Statik mimarimiz sayesinde en kalabalık tercih dönemlerinde bile siteniz asla yavaşlamaz.</p>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon"><i class="fa-solid fa-brain"></i></div>
-                                <h3>Karakter Odaklı Tercih Robotu</h3>
-                                <p>Sadece "hangi puanla nereye girerim?" değil, "ben hangi mesleğe uygunum?" sorusuna yanıt veriyoruz. 40+ popüler bölüme özel hazırlanan karakter analiz testlerimizle size en uygun yolu çiziyoruz.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="feature-item">
-                                <div class="feature-icon"><i class="fa-solid fa-map-location-dot"></i></div>
-                                <h3>Sosyal Veri Entegrasyonu</h3>
-                                <p>Taban puanların ötesine geçiyoruz. ÜniAr araştırmalarıyla şehirlerin öğrenci dostu olup olmadığını, GSB entegrasyonuyla yurt imkanlarını tek tıkla önünüze getiriyoruz.</p>
-                            </div>
-                            <div class="feature-item">
-                                <div class="feature-icon"><i class="fa-solid fa-shield-check"></i></div>
-                                <h3>%100 Doğrulanmış Resmi Veri</h3>
-                                <p>Tüm verilerimiz doğrudan YÖK Atlas ve ÖSYM kılavuzlarından alınarak temizlenmiştir. Hatalı veya güncel olmayan bilgilerle vakit kaybetmezsiniz.</p>
-                            </div>
-                        </div>
+        <div class="about-card mb-5">
+            <h2 class="fw-bold mb-4 text-center">Neden EduLock'ı Tercih Etmelisiniz?</h2>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-item h-100">
+                        <div class="feature-icon"><i class="fa-solid fa-heart text-danger"></i></div>
+                        <h3>24 Tercih Robotu & PDF / WhatsApp</h3>
+                        <p>Favori bölümlerinizi listenize ekleyin, sırasını ⬆️/⬇️ düzenleyin. Tercih listenizi tek tıkla resmi PDF kılavuzu olarak indirin veya WhatsApp ile rehber öğretmeninize gönderin.</p>
                     </div>
+                </div>
 
-                    <div class="stats-container">
-                        <div class="stat-box">
-                            <h2>21.600+</h2>
-                            <p>Lisans & Önlisans Bölümü</p>
-                        </div>
-                        <div class="stat-box">
-                            <h2>200+</h2>
-                            <p>Üniversite Verisi</p>
-                        </div>
-                        <div class="stat-box">
-                            <h2>81</h2>
-                            <p>Şehir Analizi</p>
-                        </div>
-                        <div class="stat-box">
-                            <h2>%100</h2>
-                            <p>Ücretsiz & Hızlı</p>
-                        </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-item h-100">
+                        <div class="feature-icon"><i class="fa-solid fa-bullseye text-success"></i></div>
+                        <h3>Sıralamama Göre Bölüm Bul</h3>
+                        <p>Kendi YKS sıralamanızı girin; sistem şansınızı hesaplasın! Kartlarda 🌟 <strong>Hayal</strong>, 🎯 <strong>Hedef</strong> ve 🛡️ <strong>Garanti</strong> rozetleriyle kazanma ihtimalinizi anında görün.</p>
                     </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-item h-100">
+                        <div class="feature-icon"><i class="fa-solid fa-scale-balanced text-primary"></i></div>
+                        <h3>Side-by-Side Bölüm Karşılaştırma</h3>
+                        <p>Kararsız kaldığınız 2 veya 3 bölümü yan yana koyun. Sıralama, taban puan, üniversite türü, şehir yaşam skoru ve kampüs ulaşım imkanı açısından kıyaslayın.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-item h-100">
+                        <div class="feature-icon"><i class="fa-solid fa-fire text-warning"></i></div>
+                        <h3>Trend İndikatörü & Vakıf Bursları</h3>
+                        <p>Yüksek talep gören 🔥 <strong>Yükselişte</strong> bölümleri takip edin. Vakıf üniversitelerindeki 🎓 <strong>Burslu</strong>, 🏷️ <strong>%50 İndirimli</strong> ve 💳 <strong>Ücretli</strong> seçenekleri anında görün.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-item h-100">
+                        <div class="feature-icon"><i class="fa-solid fa-bus text-info"></i></div>
+                        <h3>Nokta Atışı Kampüs Ulaşım Ağları</h3>
+                        <p>İlçe yerleşkeleri seviyesinde güncellenmiş harita konumları, metro, metrobüs, tramvay ve ring hat bilgileri ile kampüs ulaşım kolaylığını önceden öğrenin.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-item h-100">
+                        <div class="feature-icon"><i class="fa-solid fa-bullhorn text-purple"></i></div>
+                        <h3>Canlı ÖSYM & YÖK Duyuru Bandı</h3>
+                        <p>ÖSYM ve YÖK ana sayfalarından canlı çekilen duyuruları anlık kronolojik sırasıyla takip edin; haber kaçırma riskini ortadan kaldırın.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-container pt-3">
+                <div class="stat-box">
+                    <h2>21.602</h2>
+                    <p>YKS 2025 Sıralamalı Program</p>
+                </div>
+                <div class="stat-box">
+                    <h2>21.444</h2>
+                    <p>İlçe Yerleşkesi Konumu</p>
+                </div>
+                <div class="stat-box">
+                    <h2>81</h2>
+                    <p>Şehir Öğrenci Dostu Analizi</p>
+                </div>
+                <div class="stat-box">
+                    <h2>%100</h2>
+                    <p>Ücretsiz & Mobil Uyumlu</p>
                 </div>
             </div>
         </div>
 
-        <div class="text-center py-5">
-            <h4 class="fw-bold">Geleceğinizi şansa bırakmayın.</h4>
-            <div class="mt-4">
-                <a href="rehber.html" class="btn btn-primary px-5 py-3 rounded-pill fw-bold shadow-sm me-3">
-                    <i class="fa-solid fa-robot me-2"></i> Robotu Dene
+        <div class="text-center py-4 mb-5">
+            <h4 class="fw-bold mb-3">Geleceğinizi Şansa Bırakmayın</h4>
+            <div>
+                <a href="index.html" class="btn btn-primary px-5 py-3 rounded-pill fw-bold shadow-sm me-3 mb-2">
+                    <i class="fa-solid fa-magnifying-glass me-2"></i> Bölüm Ara & Karşılaştır
                 </a>
-                <a href="index.html" class="btn btn-outline-dark px-5 py-3 rounded-pill fw-bold">
-                    <i class="fa-solid fa-search me-2"></i> Bölüm Ara
+                <a href="rehber.html" class="btn btn-outline-primary px-5 py-3 rounded-pill fw-bold mb-2">
+                    <i class="fa-solid fa-robot me-2"></i> Tercih Testini Çöz
                 </a>
             </div>
         </div>
     </div>
 
-    <footer class="py-5 text-center text-muted">
-        <p>© 2026 <strong>EduLock: Tercih ve Puan Rehberi</strong> - Tüm hakları saklıdır.</p>
+    <footer class="py-5 text-center text-muted border-top bg-white">
+        <p class="mb-1">© 2026 <strong>EduLock: Tercih ve Puan Rehberi</strong> - Tüm hakları saklıdır.</p>
         <p class="small">İletişim: <a href="iletisim.html" class="text-decoration-none text-primary">info@edulock.com.tr</a> | <a href="privacy.html" class="text-decoration-none text-primary">Gizlilik Politikası</a></p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function temaYukle() {
+            try {
+                const kayitliTema = localStorage.getItem("edulock_theme");
+                if (kayitliTema === "dark" || (!kayitliTema && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+                    document.documentElement.setAttribute("data-theme", "dark");
+                    const icon = document.getElementById("iconTema");
+                    if (icon) icon.className = "fa-solid fa-sun text-warning";
+                } else {
+                    document.documentElement.setAttribute("data-theme", "light");
+                    const icon = document.getElementById("iconTema");
+                    if (icon) icon.className = "fa-solid fa-moon";
+                }
+            } catch (e) {}
+        }
+
+        function temaDegistir() {
+            const mevcut = document.documentElement.getAttribute("data-theme");
+            const yeni = (mevcut === "dark") ? "light" : "dark";
+            document.documentElement.setAttribute("data-theme", yeni);
+            try {
+                localStorage.setItem("edulock_theme", yeni);
+            } catch (e) {}
+            
+            const icon = document.getElementById("iconTema");
+            if (icon) {
+                icon.className = (yeni === "dark") ? "fa-solid fa-sun text-warning" : "fa-solid fa-moon";
+            }
+        }
+
+        temaYukle();
+    </script>
 </body>
 </html>
