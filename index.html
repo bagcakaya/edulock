@@ -116,6 +116,112 @@
             margin: 0 auto;
         }
 
+        /* Tercih Listem Favori (Kalp) Butonu */
+        .btn-favori {
+            background: #ffffff;
+            border: 1px solid #fee2e2;
+            color: #ef4444;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 6px rgba(239, 68, 68, 0.15);
+        }
+
+        .btn-favori:hover {
+            background: #fef2f2;
+            transform: scale(1.1);
+            color: #dc2626;
+        }
+
+        .btn-favori.active {
+            background: #ef4444;
+            color: #ffffff;
+            border-color: #ef4444;
+        }
+
+        /* Floating Tercih Listem Butonu */
+        .floating-tercih-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 1040;
+            background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%);
+            color: white;
+            border: none;
+            padding: 14px 22px;
+            border-radius: 50px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+            box-shadow: 0 8px 25px rgba(239, 68, 68, 0.4);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .floating-tercih-btn:hover {
+            transform: translateY(-4px) scale(1.03);
+            box-shadow: 0 12px 30px rgba(239, 68, 68, 0.5);
+            color: white;
+        }
+
+        .floating-tercih-btn .badge {
+            font-size: 0.85rem;
+            padding: 4px 9px;
+        }
+
+        /* Tercih Listesi Kartları UI */
+        .tercih-item-card {
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            background: #ffffff;
+            padding: 16px;
+            margin-bottom: 12px;
+            transition: all 0.2s ease;
+        }
+
+        .tercih-item-card:hover {
+            border-color: #cbd5e1;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .tercih-sira-numarasi {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: #eff6ff;
+            color: #2563eb;
+            font-weight: 800;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+            #tercihListesiModal, #tercihListesiModal * {
+                visibility: visible;
+            }
+            #tercihListesiModal {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+            }
+            .modal-footer, .btn-close, .btn-light, .btn-outline-danger {
+                display: none !important;
+            }
+        }
+
         /* Search Container */
         .search-container {
             background: var(--surface);
@@ -595,9 +701,14 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="anaMenu">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
                     <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fa-solid fa-house me-1"></i> Ana Sayfa</a></li>
                     <li class="nav-item"><a class="nav-link" href="rehber.html"><i class="fa-solid fa-robot me-1"></i> Tercih Robotu</a></li>
+                    <li class="nav-item">
+                        <button onclick="tercihListesiModalAc()" class="btn btn-outline-danger btn-sm rounded-pill px-3 py-1 fw-bold shadow-sm d-inline-flex align-items-center gap-2 ms-lg-2 my-1 my-lg-0" id="btnNavbarTercih">
+                            <i class="fa-solid fa-heart text-danger"></i> Tercih Listem <span class="badge bg-danger text-white rounded-pill" id="badgeTercihSayisi">0/24</span>
+                        </button>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="hakkimizda.html"><i class="fa-solid fa-circle-info me-1"></i> Hakkımızda</a></li>
                     <li class="nav-item"><a class="nav-link" href="iletisim.html"><i class="fa-solid fa-envelope me-1"></i> İletişim</a></li>
                 </ul>
@@ -767,6 +878,69 @@
         </div>
     </div>
 
+    <!-- Tercih Listem Modal (YKS Tercih Robotu) -->
+    <div class="modal fade" id="tercihListesiModal" tabindex="-1" aria-labelledby="tercihListesiModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content rounded-4 border-0 shadow-lg">
+                <div class="modal-header bg-light border-0 py-3 px-4">
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-heart text-danger fs-4"></i>
+                        <h5 class="modal-title fw-bold" id="tercihListesiModalLabel">YKS Tercih Listem</h5>
+                        <span class="badge bg-danger rounded-pill px-3 py-2 ms-2" id="modalTercihKotu">0 / 24 Tercih</span>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <!-- Tercih Özet Şeridi -->
+                    <div class="row g-2 mb-4 text-center" id="tercihOzetSerit">
+                        <div class="col-6 col-md-3">
+                            <div class="p-3 bg-light rounded-3">
+                                <span class="text-muted small d-block mb-1">Toplam Tercih</span>
+                                <strong class="fs-5 text-primary" id="ozetToplam">0</strong>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="p-3 bg-light rounded-3">
+                                <span class="text-muted small d-block mb-1">Puan Dağılımı</span>
+                                <strong class="fs-6 text-dark" id="ozetDagilim">-</strong>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="p-3 bg-light rounded-3">
+                                <span class="text-muted small d-block mb-1">En İyi Sıralama</span>
+                                <strong class="fs-6 text-success" id="ozetEnIyi">-</strong>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <div class="p-3 bg-light rounded-3">
+                                <span class="text-muted small d-block mb-1">En Düşük Sıralama</span>
+                                <strong class="fs-6 text-warning text-dark" id="ozetEnDusuk">-</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tercih Listesi Konteynırı -->
+                    <div id="tercihListesiKonteynir">
+                        <!-- Dinamik kartlar buraya eklenecek -->
+                    </div>
+                </div>
+                <div class="modal-footer border-0 bg-light p-3 d-flex flex-wrap justify-content-between gap-2">
+                    <button class="btn btn-outline-secondary btn-sm rounded-3" onclick="tercihTumunuTemizle()"><i class="fa-solid fa-trash-can me-1"></i> Tümünü Temizle</button>
+                    <div class="d-flex gap-2">
+                        <button class="btn btn-success btn-sm rounded-3 px-3 fw-bold" onclick="tercihWhatsappPaylas()"><i class="fa-brands fa-whatsapp me-1 fs-6"></i> WhatsApp Paylaş</button>
+                        <button class="btn btn-primary btn-sm rounded-3 px-3 fw-bold" onclick="tercihPdfIndir()"><i class="fa-solid fa-file-pdf me-1"></i> PDF İndir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Tercih Listem Butonu -->
+    <button onclick="tercihListesiModalAc()" class="floating-tercih-btn shadow-lg" id="btnFloatingTercih" title="Tercih Listem">
+        <i class="fa-solid fa-heart fs-5"></i>
+        <span class="badge bg-white text-danger rounded-pill fw-bold" id="badgeFloatingSayisi">0</span>
+    </button>
+
     <footer class="py-5 text-center text-muted border-top mt-5 bg-white">
         <p class="mb-1">© 2026 <strong>EduLock: Tercih ve Puan Rehberi</strong> - Tüm hakları saklıdır.</p>
         <p class="small">İletişim: <a href="iletisim.html" class="text-decoration-none text-primary">info@edulock.com.tr</a> | <a href="privacy.html" class="text-decoration-none text-primary">Gizlilik Politikası</a></p>
@@ -896,17 +1070,23 @@
                         turuClass = "badge-yurtdisi";
                     }
 
+                    const favoriAktif = tercihMu(item.yokAtlasKodu);
                     const kart = `
                         <div class="col-md-6 col-lg-4">
-                            <div class="card" onclick="detayGoster(${itemString})">
+                            <div class="card position-relative" onclick="detayGoster(${itemString})">
                                 <div class="card-body d-flex flex-column">
                                     <div class="d-flex justify-content-between align-items-start mb-3">
                                         <div class="d-flex gap-2">
                                             <span class="badge-custom">${item.puanTuru}</span>
                                             <span class="badge-custom-type ${turuClass}">${turuGoster}</span>
                                         </div>
-                                        <div class="bg-light rounded-circle p-2 text-primary" style="width: 35px; height: 35px; display: flex; align-items: center; justify-content: center;">
-                                            <i class="fa-solid fa-chevron-right"></i>
+                                        <div class="d-flex align-items-center gap-2">
+                                            <button class="btn-favori ${favoriAktif ? 'active' : ''}" data-kod="${item.yokAtlasKodu}" onclick="event.stopPropagation(); tercihToggle('${item.yokAtlasKodu}')" title="Tercih Listeme Ekle/Çıkar">
+                                                <i class="${favoriAktif ? 'fa-solid' : 'fa-regular'} fa-heart"></i>
+                                            </button>
+                                            <div class="bg-light rounded-circle p-2 text-primary" style="width: 35px; height: 35px; display: flex; align-items: center; justify-content: center;">
+                                                <i class="fa-solid fa-chevron-right"></i>
+                                            </div>
                                         </div>
                                     </div>
                                     <h5 class="univ-title text-truncate" title="${item.bolum}">${item.bolum}</h5>
@@ -1000,7 +1180,16 @@
                 turuClass = "badge-yurtdisi";
             }
 
-            document.getElementById('modalBaslik').innerHTML = item.universite + ' <span class="badge-custom-type ' + turuClass + ' ms-2" style="font-size: 0.8rem; font-weight: 700; padding: 4px 10px; border-radius: 10px; display: inline-block; vertical-align: middle;">' + turuGoster + '</span>';
+            const favoriAktif = tercihMu(item.yokAtlasKodu);
+            document.getElementById('modalBaslik').innerHTML = `
+                <div class="d-flex align-items-center gap-2 flex-wrap">
+                    <button class="btn-favori me-1 ${favoriAktif ? 'active' : ''}" data-kod="${item.yokAtlasKodu}" onclick="tercihToggle('${item.yokAtlasKodu}')" title="Tercih Listeme Ekle/Çıkar">
+                        <i class="${favoriAktif ? 'fa-solid' : 'fa-regular'} fa-heart"></i>
+                    </button>
+                    <span>${item.universite}</span>
+                    <span class="badge-custom-type ${turuClass}" style="font-size: 0.8rem; font-weight: 700; padding: 4px 10px; border-radius: 10px; display: inline-block; vertical-align: middle;">${turuGoster}</span>
+                </div>
+            `;
             document.getElementById('mdlBolum').innerText = item.bolum;
             document.getElementById('mdlTaban').innerText = (item.tabanPuan) ? item.tabanPuan : "Dolmadı";
             document.getElementById('mdlSiralama').innerText = (item.basariSirasi) ? Number(item.basariSirasi).toLocaleString('tr-TR') : "Belirtilmemiş";
@@ -1177,7 +1366,237 @@
             }, 300);
         }
         
+        // --- Tercih Listem (LocalStorage) Motoru ---
+        let tercihListesi = [];
+
+        function tercihlerYukle() {
+            try {
+                const kayitli = localStorage.getItem("edulock_tercih_listesi");
+                if (kayitli) {
+                    tercihListesi = JSON.parse(kayitli);
+                }
+            } catch (e) {
+                console.error("Tercih listesi yükleme hatası:", e);
+                tercihListesi = [];
+            }
+            tercihUIKoduGuncelle();
+        }
+
+        function tercihlerKaydet() {
+            try {
+                localStorage.setItem("edulock_tercih_listesi", JSON.stringify(tercihListesi));
+            } catch (e) {
+                console.error("Tercih listesi kaydetme hatası:", e);
+            }
+            tercihUIKoduGuncelle();
+        }
+
+        function tercihMu(yokAtlasKodu) {
+            if (!yokAtlasKodu) return false;
+            return tercihListesi.some(item => String(item.yokAtlasKodu) === String(yokAtlasKodu));
+        }
+
+        function tercihToggle(yokAtlasKodu, itemData = null) {
+            if (!yokAtlasKodu) return;
+            
+            const varMi = tercihMu(yokAtlasKodu);
+            if (varMi) {
+                tercihListesi = tercihListesi.filter(item => String(item.yokAtlasKodu) !== String(yokAtlasKodu));
+            } else {
+                if (tercihListesi.length >= 24) {
+                    alert("⚠️ YKS resmi tercih sınırı olan 24 tercihe ulaştınız! Yeni tercih eklemek için listenizden bir bölüm çıkarınız.");
+                    return;
+                }
+                
+                let hedefData = itemData;
+                if (!hedefData && typeof tumVeriler !== 'undefined') {
+                    hedefData = tumVeriler.find(x => String(x.yokAtlasKodu) === String(yokAtlasKodu));
+                }
+                if (hedefData) {
+                    tercihListesi.push(hedefData);
+                }
+            }
+            
+            tercihlerKaydet();
+            
+            // Kart kalp durumlarını anlık güncelle
+            document.querySelectorAll(`.btn-favori[data-kod="${yokAtlasKodu}"]`).forEach(btn => {
+                const yeniDurum = tercihMu(yokAtlasKodu);
+                if (yeniDurum) {
+                    btn.classList.add('active');
+                    btn.querySelector('i').className = 'fa-solid fa-heart';
+                } else {
+                    btn.classList.remove('active');
+                    btn.querySelector('i').className = 'fa-regular fa-heart';
+                }
+            });
+
+            const modalEl = document.getElementById('tercihListesiModal');
+            if (modalEl && modalEl.classList.contains('show')) {
+                tercihListesiModalRender();
+            }
+        }
+
+        function tercihSiraDegistir(index, yon) {
+            const yeniIndex = index + yon;
+            if (yeniIndex < 0 || yeniIndex >= tercihListesi.length) return;
+            
+            const temp = tercihListesi[index];
+            tercihListesi[index] = tercihListesi[yeniIndex];
+            tercihListesi[yeniIndex] = temp;
+            
+            tercihlerKaydet();
+            tercihListesiModalRender();
+        }
+
+        function tercihSil(yokAtlasKodu) {
+            tercihToggle(yokAtlasKodu);
+            tercihListesiModalRender();
+        }
+
+        function tercihTumunuTemizle() {
+            if (tercihListesi.length === 0) return;
+            if (confirm("Tercih listenizdeki tüm bölümleri silmek istediğinize emin misiniz?")) {
+                tercihListesi = [];
+                tercihlerKaydet();
+                tercihListesiModalRender();
+                document.querySelectorAll('.btn-favori').forEach(btn => {
+                    btn.classList.remove('active');
+                    btn.querySelector('i').className = 'fa-regular fa-heart';
+                });
+            }
+        }
+
+        function tercihUIKoduGuncelle() {
+            const sayi = tercihListesi.length;
+            const badgeNav = document.getElementById("badgeTercihSayisi");
+            const badgeFloat = document.getElementById("badgeFloatingSayisi");
+            const modalKota = document.getElementById("modalTercihKotu");
+            
+            if (badgeNav) badgeNav.innerText = `${sayi}/24`;
+            if (badgeFloat) badgeFloat.innerText = sayi;
+            if (modalKota) modalKota.innerText = `${sayi} / 24 Tercih`;
+        }
+
+        function tercihListesiModalAc() {
+            tercihListesiModalRender();
+            const modalEl = document.getElementById('tercihListesiModal');
+            if (modalEl) {
+                const modal = new bootstrap.Modal(modalEl);
+                modal.show();
+            }
+        }
+
+        function tercihListesiModalRender() {
+            const konteynir = document.getElementById("tercihListesiKonteynir");
+            if (!konteynir) return;
+            
+            if (tercihListesi.length === 0) {
+                konteynir.innerHTML = `
+                    <div class="text-center py-5">
+                        <i class="fa-regular fa-heart text-muted display-4 mb-3 d-block"></i>
+                        <h5 class="fw-bold text-dark mb-2">Tercih Listeniz Henüz Boş</h5>
+                        <p class="text-muted small max-w-400 mx-auto">Arama sonuçlarındaki bölümlerin yanında bulunan kalp ikonuna basarak hedeflerinizi listenize ekleyebilirsiniz.</p>
+                    </div>
+                `;
+                document.getElementById("ozetToplam").innerText = "0";
+                document.getElementById("ozetDagilim").innerText = "-";
+                document.getElementById("ozetEnIyi").innerText = "-";
+                document.getElementById("ozetEnDusuk").innerText = "-";
+                return;
+            }
+            
+            // Özet bilgileri hesapla
+            const puanTuruSayilari = {};
+            let minSiralama = Infinity;
+            let maxSiralama = -1;
+            
+            tercihListesi.forEach(item => {
+                const pt = item.puanTuru || 'Diğer';
+                puanTuruSayilari[pt] = (puanTuruSayilari[pt] || 0) + 1;
+                
+                if (item.basariSirasi) {
+                    const val = parseInt(item.basariSirasi);
+                    if (val < minSiralama) minSiralama = val;
+                    if (val > maxSiralama) maxSiralama = val;
+                }
+            });
+            
+            const dagilimText = Object.entries(puanTuruSayilari).map(([k, v]) => `${v} ${k}`).join(', ');
+            document.getElementById("ozetToplam").innerText = `${tercihListesi.length} / 24`;
+            document.getElementById("ozetDagilim").innerText = dagilimText || "-";
+            document.getElementById("ozetEnIyi").innerText = minSiralama !== Infinity ? Number(minSiralama).toLocaleString('tr-TR') : "-";
+            document.getElementById("ozetEnDusuk").innerText = maxSiralama !== -1 ? Number(maxSiralama).toLocaleString('tr-TR') : "-";
+            
+            let html = '';
+            tercihListesi.forEach((item, index) => {
+                const siralamaGoster = (item.basariSirasi) ? Number(item.basariSirasi).toLocaleString('tr-TR') : "Belirtilmemiş";
+                const tabanGoster = (item.tabanPuan) ? item.tabanPuan : "Dolmadı";
+                const isFirst = index === 0;
+                const isLast = index === tercihListesi.length - 1;
+                
+                html += `
+                    <div class="tercih-item-card d-flex align-items-center justify-content-between gap-3">
+                        <div class="d-flex align-items-center gap-3 flex-grow-1 min-w-0">
+                            <div class="tercih-sira-numarasi">${index + 1}</div>
+                            <div class="min-w-0">
+                                <div class="d-flex align-items-center gap-2 mb-1">
+                                    <span class="badge bg-primary text-white" style="font-size:0.75rem">${item.puanTuru}</span>
+                                    <span class="text-muted small"><i class="fa-solid fa-location-dot me-1 text-danger"></i>${item.sehir}</span>
+                                </div>
+                                <h6 class="fw-bold text-dark mb-1 text-truncate" title="${item.bolum}">${item.bolum}</h6>
+                                <span class="text-secondary small d-block text-truncate" title="${item.universite}">${item.universite}</span>
+                                <div class="d-flex gap-3 mt-1 small">
+                                    <span class="text-muted">Sıralama: <strong class="text-success">${siralamaGoster}</strong></span>
+                                    <span class="text-muted">Taban: <strong class="text-primary">${tabanGoster}</strong></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-1">
+                            <button class="btn btn-light btn-sm rounded-circle" onclick="tercihSiraDegistir(${index}, -1)" ${isFirst ? 'disabled' : ''} title="Yukarı Taşı">
+                                <i class="fa-solid fa-chevron-up text-secondary"></i>
+                            </button>
+                            <button class="btn btn-light btn-sm rounded-circle" onclick="tercihSiraDegistir(${index}, 1)" ${isLast ? 'disabled' : ''} title="Aşağı Taşı">
+                                <i class="fa-solid fa-chevron-down text-secondary"></i>
+                            </button>
+                            <button class="btn btn-outline-danger btn-sm rounded-circle ms-2" onclick="tercihSil('${item.yokAtlasKodu}')" title="Tercihlerden Çıkar">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            konteynir.innerHTML = html;
+        }
+
+        function tercihWhatsappPaylas() {
+            if (tercihListesi.length === 0) {
+                alert("WhatsApp ile paylaşmak için tercih listenize en az bir bölüm ekleyiniz.");
+                return;
+            }
+            
+            let metin = `🎓 *EduLock YKS Tercih Listem (${tercihListesi.length} Tercih)*\n\n`;
+            tercihListesi.forEach((item, index) => {
+                const sir = item.basariSirasi ? Number(item.basariSirasi).toLocaleString('tr-TR') : '-';
+                metin += `*${index + 1}.* ${item.bolum} - ${item.universite} (${item.sehir}) | [${item.puanTuru}] - Sıralama: ${sir}\n`;
+            });
+            metin += `\n✨ https://www.edulock.com.tr adresi üzerinden oluşturuldu.`;
+            
+            const url = `https://wa.me/?text=${encodeURIComponent(metin)}`;
+            window.open(url, '_blank');
+        }
+
+        function tercihPdfIndir() {
+            if (tercihListesi.length === 0) {
+                alert("PDF indirmek için tercih listenize en az bir bölüm ekleyiniz.");
+                return;
+            }
+            window.print();
+        }
+
         document.addEventListener('DOMContentLoaded', () => {
+            tercihlerYukle();
             haberleriYukle();
         });
     </script>
