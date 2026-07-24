@@ -75,65 +75,121 @@ function fetchUrl(url) {
 }
 
 async function getOsymNews() {
+    const announcements = [];
+    const seenLinks = new Set();
+
+    // 1. Try fetching ÖSYM Duyurular page first (New ÖSYM design)
     try {
-        // Try fetching the actual portal homepage first
-        const html = await fetchUrl("https://www.osym.gov.tr/genel/anasayfa.aspx");
-        const announcements = [];
-        const pattern = /<a[^>]+href=["'](\/TR,\d+\/[^"'>]+)["'][^>]*>\s*([\s\S]*?)\s*<\/a>/gi;
+        const html = await fetchUrl("https://www.osym.gov.tr/Duyurular/Index");
+        const patternDuyuruList = /<a[^>]+class=["']duyuru-list-item["'][^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
         let match;
-        
-        while ((match = pattern.exec(html)) !== null) {
+
+        while ((match = patternDuyuruList.exec(html)) !== null) {
             const href = match[1];
-            let text = match[2].replace(/<[^>]+>/g, ''); // strip tags
-            text = text.replace(/\s+/g, ' ').trim();
-            
-            const dateMatch = /\((\d{2})\.(\d{2})\.(\d{4})\)$/.exec(text);
+            const innerHtml = match[2];
+
+            const titleMatch = /class=["']duyuru-list-title["'][^>]*>([\s\S]*?)<\/span>/i.exec(innerHtml) || /title=["']([^"']+)["']/i.exec(match[0]);
+            let title = titleMatch ? titleMatch[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() : '';
+
+            let dt = null;
+            let dateStr = '';
+            const dateMatch = /(\d{2})\.(\d{2})\.(\d{4})/.exec(match[0]);
             if (dateMatch) {
                 const [_, d, m, y] = dateMatch;
-                const dt = new Date(`${y}-${m}-${d}T00:00:00`);
+                dateStr = `${d}.${m}.${y}`;
+                dt = new Date(`${y}-${m}-${d}T00:00:00`);
+            } else {
+                const dayMatch = /class=["']duyuru-list-day["'][^>]*>\s*(\d{1,2})\s*<\/span>/i.exec(innerHtml);
+                const monthYearMatch = /class=["']duyuru-list-my["'][^>]*>\s*([^\s<]+)\s+(\d{4})\s*<\/span>/i.exec(innerHtml);
+                if (dayMatch && monthYearMatch) {
+                    const day = parseInt(dayMatch[1]);
+                    const monthIdx = parseTurkishMonth(monthYearMatch[1]);
+                    const year = parseInt(monthYearMatch[2]);
+                    dt = new Date(year, monthIdx, day);
+                    dateStr = `${String(day).padStart(2, '0')}.${String(monthIdx + 1).padStart(2, '0')}.${year}`;
+                }
+            }
+
+            if (!dt) dt = new Date();
+            const fullLink = href.startsWith('http') ? href : "https://www.osym.gov.tr" + (href.startsWith('/') ? href : '/' + href);
+
+            if (title && !seenLinks.has(fullLink)) {
+                seenLinks.add(fullLink);
+                if (dateStr && !title.includes(`(${dateStr})`)) {
+                    title = `${title} (${dateStr})`;
+                }
                 announcements.push({
-                    title: text,
-                    link: "https://www.osym.gov.tr" + href,
+                    title: title,
+                    link: fullLink,
                     source: "ÖSYM",
                     date: dt.toISOString()
                 });
             }
         }
-        
-        if (announcements.length > 0) {
-            return announcements;
-        }
     } catch (e) {
-        console.error("OSYM Portal Scrape Error, trying splash fallback:", e);
+        console.error("OSYM Duyurular/Index Scrape Error:", e);
     }
-    
-    // Fallback: Fetch index page to check for splash page
-    try {
-        const html = await fetchUrl("https://www.osym.gov.tr/");
-        
-        const titleMatch = /<title>([\s\S]*?)<\/title>/i.exec(html);
-        const bodyTitleMatch = /<div class="wpage-title">([\s\S]*?)<\/div>/i.exec(html);
-        
-        const splashTitle = bodyTitleMatch ? bodyTitleMatch[1] : (titleMatch ? titleMatch[1] : null);
-        
-        if (splashTitle && (html.includes("sonuc") || html.includes("Sonuç"))) {
-            let cleanTitle = splashTitle.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-            
-            const linkMatch = /href=["'](https:\/\/ykssonuc\.osym\.gov\.tr\/[^"']*)["']/i.exec(html) || /href=["'](https:\/\/sonuc\.osym\.gov\.tr\/[^"']*)["']/i.exec(html);
-            const resultLink = linkMatch ? linkMatch[1] : "https://ykssonuc.osym.gov.tr/";
-            
-            return [{
-                title: cleanTitle,
-                link: resultLink,
-                source: "ÖSYM",
-                date: new Date().toISOString()
-            }];
+
+    // 2. Fallback: Try homepage https://www.osym.gov.tr/
+    if (announcements.length === 0) {
+        try {
+            const html = await fetchUrl("https://www.osym.gov.tr/");
+            const patternHomepage = /<li[^>]*class=["']announcement-item["'][^>]*>[\s\S]*?<span[^>]*class=["']announcement-date["'][^>]*>\s*(\d{2}\.\d{2}\.\d{4})\s*<\/span>[\s\S]*?<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+            let match;
+
+            while ((match = patternHomepage.exec(html)) !== null) {
+                const dateStrRaw = match[1];
+                const href = match[2];
+                let title = match[3].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+
+                const [d, m, y] = dateStrRaw.split('.');
+                const dt = new Date(`${y}-${m}-${d}T00:00:00`);
+                const fullLink = href.startsWith('http') ? href : "https://www.osym.gov.tr" + (href.startsWith('/') ? href : '/' + href);
+
+                if (title && !seenLinks.has(fullLink)) {
+                    seenLinks.add(fullLink);
+                    if (!title.includes(`(${dateStrRaw})`)) {
+                        title = `${title} (${dateStrRaw})`;
+                    }
+                    announcements.push({
+                        title: title,
+                        link: fullLink,
+                        source: "ÖSYM",
+                        date: dt.toISOString()
+                    });
+                }
+            }
+        } catch (e) {
+            console.error("OSYM Homepage Scrape Error:", e);
         }
-    } catch (e) {
-        console.error("OSYM Splash Fallback Error:", e);
     }
-    
-    return [];
+
+    // 3. Fallback: Check for splash page (if OSYM ever turns on splash page again)
+    if (announcements.length === 0) {
+        try {
+            const html = await fetchUrl("https://www.osym.gov.tr/");
+            const titleMatch = /<title>([\s\S]*?)<\/title>/i.exec(html);
+            const bodyTitleMatch = /<div class="wpage-title">([\s\S]*?)<\/div>/i.exec(html);
+            const splashTitle = bodyTitleMatch ? bodyTitleMatch[1] : (titleMatch ? titleMatch[1] : null);
+
+            if (splashTitle && (html.includes("sonuc") || html.includes("Sonuç"))) {
+                let cleanTitle = splashTitle.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+                const linkMatch = /href=["'](https:\/\/ykssonuc\.osym\.gov\.tr\/[^"']*)["']/i.exec(html) || /href=["'](https:\/\/sonuc\.osym\.gov\.tr\/[^"']*)["']/i.exec(html);
+                const resultLink = linkMatch ? linkMatch[1] : "https://ykssonuc.osym.gov.tr/";
+
+                announcements.push({
+                    title: cleanTitle,
+                    link: resultLink,
+                    source: "ÖSYM",
+                    date: new Date().toISOString()
+                });
+            }
+        } catch (e) {
+            console.error("OSYM Splash Fallback Error:", e);
+        }
+    }
+
+    return announcements;
 }
 
 async function getYokNews() {
