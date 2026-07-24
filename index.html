@@ -263,20 +263,96 @@
         }
 
         @media print {
-            body * {
-                visibility: hidden;
-            }
-            #tercihListesiModal, #tercihListesiModal * {
-                visibility: visible;
-            }
-            #tercihListesiModal {
-                position: absolute;
-                left: 0;
-                top: 0;
-                width: 100%;
-            }
-            .modal-footer, .btn-close, .btn-light, .btn-outline-danger {
+            /* Sayfa dışındaki tüm elemanları yer kaplamayacak şekilde tamamen gizle */
+            body > *:not(#tercihListesiModal) {
                 display: none !important;
+            }
+
+            html, body {
+                background: #ffffff !important;
+                color: #000000 !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                height: auto !important;
+                min-height: 0 !important;
+                overflow: visible !important;
+            }
+
+            /* Tercih Listem modalını tam sayfa belge moduna çevir */
+            #tercihListesiModal {
+                position: static !important;
+                display: block !important;
+                opacity: 1 !important;
+                visibility: visible !important;
+                width: 100% !important;
+                height: auto !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                background: none !important;
+                box-shadow: none !important;
+                overflow: visible !important;
+            }
+
+            #tercihListesiModal .modal-dialog {
+                max-width: 100% !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                transform: none !important;
+                height: auto !important;
+            }
+
+            #tercihListesiModal .modal-content {
+                border: none !important;
+                box-shadow: none !important;
+                background: transparent !important;
+                height: auto !important;
+                border-radius: 0 !important;
+            }
+
+            #tercihListesiModal .modal-header {
+                border-bottom: 2px solid #6366f1 !important;
+                background: transparent !important;
+                padding: 5px 0 12px 0 !important;
+            }
+
+            #tercihListesiModal .modal-body {
+                padding: 15px 0 !important;
+                overflow: visible !important;
+                max-height: none !important;
+                height: auto !important;
+            }
+
+            /* Yazdırma esnasında butonları, yukarı/aşağı oklarını ve kapatma ikolarını tamamen gizle */
+            .modal-footer, 
+            .btn-close, 
+            .floating-tercih-btn, 
+            .karsilastir-bar,
+            .tercih-item-card button,
+            .navbar, 
+            .news-ticker-container, 
+            footer {
+                display: none !important;
+            }
+
+            /* Tercih kartlarının sayfa bölünmelerinde kırılmasını engelle */
+            .tercih-item-card {
+                page-break-inside: avoid;
+                break-inside: avoid;
+                border: 1px solid #cbd5e1 !important;
+                box-shadow: none !important;
+                margin-bottom: 8px !important;
+                padding: 10px 14px !important;
+                background: #ffffff !important;
+            }
+
+            #tercihOzetSerit {
+                margin-bottom: 15px !important;
+            }
+
+            #tercihOzetSerit .bg-light {
+                background-color: #f8fafc !important;
+                border: 1px solid #e2e8f0 !important;
+                padding: 8px !important;
             }
         }
 
