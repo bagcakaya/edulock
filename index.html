@@ -1872,7 +1872,125 @@
                 alert("PDF indirmek için tercih listenize en az bir bölüm ekleyiniz.");
                 return;
             }
+            
+            // İstatistikleri hesapla
+            const puanTuruSayilari = {};
+            let minSiralama = Infinity;
+            let maxSiralama = -1;
+            
+            tercihListesi.forEach(item => {
+                const pt = item.puanTuru || 'Diğer';
+                puanTuruSayilari[pt] = (puanTuruSayilari[pt] || 0) + 1;
+                
+                if (item.basariSirasi) {
+                    const val = parseInt(item.basariSirasi);
+                    if (val < minSiralama) minSiralama = val;
+                    if (val > maxSiralama) maxSiralama = val;
+                }
+            });
+            
+            const dagilimText = Object.entries(puanTuruSayilari).map(([k, v]) => `${v} ${k}`).join(', ');
+            const minSirText = minSiralama !== Infinity ? Number(minSiralama).toLocaleString('tr-TR') : '-';
+            const maxSirText = maxSiralama !== -1 ? Number(maxSiralama).toLocaleString('tr-TR') : '-';
+
+            let itemsHtml = '';
+            tercihListesi.forEach((item, index) => {
+                const siralamaGoster = item.basariSirasi ? Number(item.basariSirasi).toLocaleString('tr-TR') : "Belirtilmemiş";
+                const tabanGoster = item.tabanPuan ? item.tabanPuan : "Dolmadı";
+                
+                itemsHtml += `
+                    <div style="border: 1px solid #cbd5e1; border-radius: 8px; padding: 10px 14px; margin-bottom: 8px; page-break-inside: avoid; background: #ffffff;">
+                        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px;">
+                            <div style="display: flex; align-items: center; gap: 8px;">
+                                <span style="background: #2563eb; color: #ffffff; font-weight: 800; width: 24px; height: 24px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.8rem;">${index + 1}</span>
+                                <strong style="font-size: 1rem; color: #0f172a;">${item.bolum}</strong>
+                            </div>
+                            <span style="background: #e0e7ff; color: #4338ca; font-weight: 700; padding: 2px 8px; border-radius: 6px; font-size: 0.75rem;">${item.puanTuru}</span>
+                        </div>
+                        <div style="color: #334155; font-size: 0.9rem; margin-bottom: 4px; padding-left: 32px;">
+                            <strong>${item.universite}</strong> <span style="color: #64748b; font-size: 0.8rem;">(${item.sehir})</span>
+                        </div>
+                        <div style="display: flex; gap: 20px; font-size: 0.8rem; color: #64748b; padding-left: 32px;">
+                            <span>2025 Başarı Sırası: <strong style="color: #16a34a;">${siralamaGoster}</strong></span>
+                            <span>Taban Puan: <strong style="color: #2563eb;">${tabanGoster}</strong></span>
+                        </div>
+                    </div>
+                `;
+            });
+
+            const docContent = `<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>EduLock YKS Tercih Listesi</title>
+    <style>
+        @page { size: A4; margin: 10mm; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; color: #0f172a; margin: 0; padding: 0; background: #fff; }
+        .header { border-bottom: 2px solid #2563eb; padding-bottom: 8px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; }
+        .header h2 { margin: 0; color: #2563eb; font-size: 1.3rem; font-weight: 800; }
+        .header-sub { font-size: 0.8rem; color: #64748b; margin-top: 2px; }
+        .summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 8px; margin-bottom: 12px; text-align: center; }
+        .summary-box span { display: block; font-size: 0.7rem; color: #64748b; margin-bottom: 2px; text-transform: uppercase; }
+        .summary-box strong { font-size: 0.95rem; color: #0f172a; }
+        .footer { margin-top: 15px; border-top: 1px solid #e2e8f0; padding-top: 8px; text-align: center; font-size: 0.75rem; color: #94a3b8; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h2>🎓 EduLock YKS Tercih Listesi</h2>
+            <div class="header-sub">www.edulock.com.tr - Tercih ve Puan Rehberi</div>
+        </div>
+        <div style="text-align: right; font-size: 0.8rem; color: #64748b;">
+            <div>Tarih: <strong>${new Date().toLocaleDateString('tr-TR')}</strong></div>
+            <div>Kota: <strong>${tercihListesi.length} / 24 Tercih</strong></div>
+        </div>
+    </div>
+
+    <div class="summary-grid">
+        <div class="summary-box">
+            <span>Toplam Tercih</span>
+            <strong style="color: #2563eb;">${tercihListesi.length} / 24</strong>
+        </div>
+        <div class="summary-box">
+            <span>Puan Dağılımı</span>
+            <strong>${dagilimText || '-'}</strong>
+        </div>
+        <div class="summary-box">
+            <span>En İyi Sıralama</span>
+            <strong style="color: #16a34a;">${minSirText}</strong>
+        </div>
+        <div class="summary-box">
+            <span>En Düşük Sıralama</span>
+            <strong style="color: #d97706;">${maxSirText}</strong>
+        </div>
+    </div>
+
+    <div class="list-container">
+        ${itemsHtml}
+    </div>
+
+    <div class="footer">
+        Bu tercih listesi <strong>EduLock (www.edulock.com.tr)</strong> üzerinden oluşturulmuştur. Resmi ÖSYM Tercih Kılavuzu kontrol edilmelidir.
+    </div>
+
+    <script>
+        window.onload = function() {
             window.print();
+            setTimeout(function() { window.close(); }, 500);
+        };
+    </script>
+</body>
+</html>`;
+
+            const printWin = window.open('', '_blank');
+            if (printWin) {
+                printWin.document.open();
+                printWin.document.write(docContent);
+                printWin.document.close();
+            } else {
+                window.print();
+            }
         }
 
         // --- Karşılaştırma Modu Motoru ---
