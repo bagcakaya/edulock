@@ -27,86 +27,6 @@
             /* Slate 500 */
         }
 
-        [data-theme="dark"] {
-            --bg-color: #0f172a;
-            --surface: #1e293b;
-            --text-main: #f8fafc;
-            --text-muted: #94a3b8;
-        }
-
-        [data-theme="dark"] body {
-            background-color: #0f172a !important;
-            color: #f8fafc !important;
-        }
-
-        [data-theme="dark"] .navbar {
-            background: rgba(30, 41, 59, 0.9) !important;
-            border-bottom: 1px solid #334155 !important;
-        }
-
-        [data-theme="dark"] .news-ticker-container,
-        [data-theme="dark"] footer {
-            background-color: #1e293b !important;
-            border-color: #334155 !important;
-        }
-
-        [data-theme="dark"] .haber-link {
-            color: #f1f5f9 !important;
-        }
-
-        [data-theme="dark"] .card {
-            background-color: #1e293b !important;
-            border-color: #334155 !important;
-        }
-
-        [data-theme="dark"] .univ-title {
-            color: #f8fafc !important;
-        }
-
-        [data-theme="dark"] .univ-subtitle {
-            color: #cbd5e1 !important;
-        }
-
-        [data-theme="dark"] .search-container {
-            background: #1e293b !important;
-            border-color: #334155 !important;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) !important;
-        }
-
-        [data-theme="dark"] .form-control,
-        [data-theme="dark"] .form-select {
-            background-color: #0f172a !important;
-            border-color: #334155 !important;
-            color: #f8fafc !important;
-        }
-
-        [data-theme="dark"] .modal-content {
-            background-color: #1e293b !important;
-            color: #f8fafc !important;
-        }
-
-        [data-theme="dark"] .modal-header,
-        [data-theme="dark"] .modal-footer {
-            background-color: #0f172a !important;
-            border-color: #334155 !important;
-        }
-
-        [data-theme="dark"] .modal-body {
-            background-color: #1e293b !important;
-        }
-
-        [data-theme="dark"] .info-box {
-            background-color: #0f172a !important;
-            border-color: #334155 !important;
-            color: #f8fafc !important;
-        }
-
-        [data-theme="dark"] .tercih-item-card {
-            background-color: #0f172a !important;
-            border-color: #334155 !important;
-            color: #f8fafc !important;
-        }
-
         body {
             font-family: 'Outfit', sans-serif;
             background-color: var(--bg-color);
@@ -895,11 +815,6 @@
                     <li class="nav-item">
                         <button onclick="tercihListesiModalAc()" class="btn btn-outline-danger btn-sm rounded-pill px-3 py-1 fw-bold shadow-sm d-inline-flex align-items-center gap-2 ms-lg-2 my-1 my-lg-0" id="btnNavbarTercih">
                             <i class="fa-solid fa-heart text-danger"></i> Tercih Listem <span class="badge bg-danger text-white rounded-pill" id="badgeTercihSayisi">0/24</span>
-                        </button>
-                    </li>
-                    <li class="nav-item">
-                        <button onclick="temaDegistir()" class="btn btn-outline-secondary btn-sm rounded-circle p-2 ms-lg-2 my-1 my-lg-0" id="btnTemaToggle" title="Gece/Gündüz Modu" style="width:34px; height:34px; display:inline-flex; align-items:center; justify-content:center;">
-                            <i class="fa-solid fa-moon" id="iconTema"></i>
                         </button>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="hakkimizda.html"><i class="fa-solid fa-circle-info me-1"></i> Hakkımızda</a></li>
@@ -2047,42 +1962,8 @@
             body.innerHTML = html;
         }
 
-        // --- Gece Modu (Dark Mode) Motoru ---
-        function temaYukle() {
-            try {
-                const kayitliTema = localStorage.getItem("edulock_theme");
-                if (kayitliTema === "dark" || (!kayitliTema && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-                    document.documentElement.setAttribute("data-theme", "dark");
-                    const icon = document.getElementById("iconTema");
-                    if (icon) icon.className = "fa-solid fa-sun text-warning";
-                } else {
-                    document.documentElement.setAttribute("data-theme", "light");
-                    const icon = document.getElementById("iconTema");
-                    if (icon) icon.className = "fa-solid fa-moon";
-                }
-            } catch (e) {
-                console.error("Tema yükleme hatası:", e);
-            }
-        }
-
-        function temaDegistir() {
-            const mevcut = document.documentElement.getAttribute("data-theme");
-            const yeni = (mevcut === "dark") ? "light" : "dark";
-            document.documentElement.setAttribute("data-theme", yeni);
-            try {
-                localStorage.setItem("edulock_theme", yeni);
-            } catch (e) {}
-            
-            const icon = document.getElementById("iconTema");
-            if (icon) {
-                icon.className = (yeni === "dark") ? "fa-solid fa-sun text-warning" : "fa-solid fa-moon";
-            }
-        }
-
-        // Sayfa henüz yüklenirken temayı uygula (beyaz parlamayı önlemek için)
-        temaYukle();
-
         document.addEventListener('DOMContentLoaded', () => {
+            try { localStorage.removeItem("edulock_theme"); } catch(e){}
             tercihlerYukle();
             haberleriYukle();
         });
