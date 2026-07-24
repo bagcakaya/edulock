@@ -471,6 +471,28 @@
             padding: 25px 30px;
         }
 
+        /* Kazanma Şansı Rozetleri (Hayal, Hedef, Garanti) */
+        .badge-hayal {
+            background-color: #fff7ed;
+            color: #ea580c;
+            border: 1px solid #ffedd5;
+            font-weight: 700;
+        }
+
+        .badge-hedef {
+            background-color: #f0fdf4;
+            color: #16a34a;
+            border: 1px solid #dcfce7;
+            font-weight: 700;
+        }
+
+        .badge-garanti {
+            background-color: #eff6ff;
+            color: #2563eb;
+            border: 1px solid #dbeafe;
+            font-weight: 700;
+        }
+
         .modal-title {
             font-weight: 800;
             color: var(--text-main);
@@ -747,6 +769,9 @@
                     <input type="text" id="bolumInput" class="form-control" placeholder="Hangi Bölüm? (Örn: Hukuk)">
                 </div>
                 <div class="col-md-2">
+                    <input type="number" id="siralamaInput" class="form-control" placeholder="Sıralamanız (Örn: 50000)">
+                </div>
+                <div class="col-md-2">
                     <select id="puanTuruSelect" class="form-select" onchange="yeniArama()">
                         <option value="Tümü" selected>Tüm Puan Türleri</option>
                         <option value="SAY">Sayısal (SAY)</option>
@@ -764,9 +789,8 @@
                         <option value="YURTDISI">Yurtdışı</option>
                     </select>
                 </div>
-                <div class="col-md-2 d-grid">
-                    <button onclick="yeniArama()" class="btn btn-primary"><i
-                            class="fa-solid fa-magnifying-glass me-2"></i>Ara</button>
+                <div class="col-12 d-grid mt-3">
+                    <button onclick="yeniArama()" class="btn btn-primary shadow-sm"><i class="fa-solid fa-magnifying-glass me-2"></i>Arama Yap & Sıralamama Göre Bölüm Bul</button>
                 </div>
             </div>
         </div>
@@ -979,6 +1003,9 @@
         document.getElementById("bolumInput").addEventListener("keyup", function(e) {
             if (e.key === "Enter") yeniArama();
         });
+        document.getElementById("siralamaInput").addEventListener("keyup", function(e) {
+            if (e.key === "Enter") yeniArama();
+        });
 
         // Sayfa açıldığında verileri yükle
         yeniArama();
@@ -1006,6 +1033,9 @@
                 const bolum = turkceNormalize(document.getElementById("bolumInput").value);
                 const puanTuru = document.getElementById("puanTuruSelect").value;
                 const uniTuru = document.getElementById("uniTuruSelect").value;
+                
+                const ogrSiralama = parseInt(document.getElementById("siralamaInput").value);
+                const siralamaFiltreAktif = !isNaN(ogrSiralama) && ogrSiralama > 0;
 
                 filtrelenmisVeriler = tumVeriler.filter(item => {
                     const sehirUygun = sehir ? turkceNormalize(item.sehir).includes(sehir) : true;
@@ -1026,13 +1056,27 @@
                         }
                     }
 
-                    return sehirUygun && bolumUygun && puanTuruUygun && uniTuruUygun;
+                    let siralamaAralikUygun = true;
+                    if (siralamaFiltreAktif) {
+                        const itemSir = item.basariSirasi ? parseInt(item.basariSirasi) : null;
+                        if (itemSir) {
+                            // Öğrenci sıralamasının %70-%135 aralığındaki bölümleri getir
+                            siralamaAralikUygun = (itemSir >= ogrSiralama * 0.70 && itemSir <= ogrSiralama * 1.35);
+                        } else {
+                            siralamaAralikUygun = false;
+                        }
+                    }
+
+                    return sehirUygun && bolumUygun && puanTuruUygun && uniTuruUygun && siralamaAralikUygun;
                 });
 
-                // Başarı sırasına göre en iyi dereceden en düşüğe doğru sırala
+                // Sıralama girilmişse öğrencinin hedef sıralamasına en yakın olanları önceliğe al
                 filtrelenmisVeriler.sort((a, b) => {
                     const siralamaA = a.basariSirasi ? parseInt(a.basariSirasi) : Infinity;
                     const siralamaB = b.basariSirasi ? parseInt(b.basariSirasi) : Infinity;
+                    if (siralamaFiltreAktif) {
+                        return Math.abs(siralamaA - ogrSiralama) - Math.abs(siralamaB - ogrSiralama);
+                    }
                     return siralamaA - siralamaB;
                 });
             }
@@ -1071,14 +1115,29 @@
                     }
 
                     const favoriAktif = tercihMu(item.yokAtlasKodu);
+                    
+                    const ogrSiralama = parseInt(document.getElementById("siralamaInput").value);
+                    let sansRozetiHtml = '';
+                    if (!isNaN(ogrSiralama) && ogrSiralama > 0 && item.basariSirasi) {
+                        const itemSir = parseInt(item.basariSirasi);
+                        if (itemSir < ogrSiralama * 0.90) {
+                            sansRozetiHtml = `<span class="badge-custom-type badge-hayal" title="Kazanma Şansı: Hayal / Üst Tercih">🌟 Hayal</span>`;
+                        } else if (itemSir <= ogrSiralama * 1.15) {
+                            sansRozetiHtml = `<span class="badge-custom-type badge-hedef" title="Kazanma Şansı: Hedef / İdeal Tercih">🎯 Hedef</span>`;
+                        } else {
+                            sansRozetiHtml = `<span class="badge-custom-type badge-garanti" title="Kazanma Şansı: Garanti / Güvenli Tercih">🛡️ Garanti</span>`;
+                        }
+                    }
+
                     const kart = `
                         <div class="col-md-6 col-lg-4">
                             <div class="card position-relative" onclick="detayGoster(${itemString})">
                                 <div class="card-body d-flex flex-column">
                                     <div class="d-flex justify-content-between align-items-start mb-3">
-                                        <div class="d-flex gap-2">
+                                        <div class="d-flex gap-2 flex-wrap align-items-center">
                                             <span class="badge-custom">${item.puanTuru}</span>
                                             <span class="badge-custom-type ${turuClass}">${turuGoster}</span>
+                                            ${sansRozetiHtml}
                                         </div>
                                         <div class="d-flex align-items-center gap-2">
                                             <button class="btn-favori ${favoriAktif ? 'active' : ''}" data-kod="${item.yokAtlasKodu}" onclick="event.stopPropagation(); tercihToggle('${item.yokAtlasKodu}')" title="Tercih Listeme Ekle/Çıkar">
