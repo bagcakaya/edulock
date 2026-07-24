@@ -204,6 +204,64 @@
             flex-shrink: 0;
         }
 
+        /* Karşılaştırma Butonu ve Barı */
+        .btn-karsilastir {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            color: #64748b;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .btn-karsilastir:hover {
+            background: #f1f5f9;
+            color: #2563eb;
+            transform: scale(1.1);
+        }
+
+        .btn-karsilastir.active {
+            background: #2563eb;
+            color: #ffffff;
+            border-color: #2563eb;
+        }
+
+        .karsilastir-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            z-index: 1050;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.25);
+            border-top: 2px solid #3b82f6;
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(100%); }
+            to { transform: translateY(0); }
+        }
+
+        .karsilastir-tablo-row {
+            border-bottom: 1px solid #e2e8f0;
+            padding: 12px 0;
+        }
+
+        .karsilastir-tablo-label {
+            font-weight: 700;
+            color: #475569;
+            font-size: 0.88rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
         @media print {
             body * {
                 visibility: hidden;
@@ -959,6 +1017,38 @@
         </div>
     </div>
 
+    <!-- Karşılaştırma Modalı -->
+    <div class="modal fade" id="karsilastirModal" tabindex="-1" aria-labelledby="karsilastirModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content rounded-4 border-0 shadow-lg">
+                <div class="modal-header bg-light border-0 py-3 px-4">
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="fa-solid fa-scale-balanced text-primary fs-4"></i>
+                        <h5 class="modal-title fw-bold" id="karsilastirModalLabel">Üniversite / Bölüm Karşılaştırma</h5>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+                </div>
+                <div class="modal-body p-4" id="karsilastirModalBody">
+                    <!-- Dinamik yan yana karşılaştırma sütunları -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky Bottom Karşılaştırma Barı -->
+    <div id="karsilastirBar" class="karsilastir-bar d-none">
+        <div class="container d-flex align-items-center justify-content-between py-2 px-3">
+            <div class="d-flex align-items-center gap-3 min-w-0">
+                <span class="fw-bold text-white d-none d-md-inline"><i class="fa-solid fa-scale-balanced me-2 text-primary"></i>Karşılaştırma Listesi</span>
+                <div id="karsilastirRozetler" class="d-flex gap-2 flex-wrap min-w-0"></div>
+            </div>
+            <div class="d-flex align-items-center gap-2 flex-shrink-0">
+                <button class="btn btn-sm btn-outline-light rounded-pill px-3" onclick="karsilastirTemizle()">Temizle</button>
+                <button class="btn btn-sm btn-primary rounded-pill px-4 fw-bold shadow" onclick="karsilastirModalAc()"><i class="fa-solid fa-scale-balanced me-1"></i>Karşılaştır (<span id="karsilastirSayisi">0</span>)</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Floating Tercih Listem Butonu -->
     <button onclick="tercihListesiModalAc()" class="floating-tercih-btn shadow-lg" id="btnFloatingTercih" title="Tercih Listem">
         <i class="fa-solid fa-heart fs-5"></i>
@@ -1115,6 +1205,7 @@
                     }
 
                     const favoriAktif = tercihMu(item.yokAtlasKodu);
+                    const karsilastirAktif = karsilastirMi(item.yokAtlasKodu);
                     
                     const ogrSiralama = parseInt(document.getElementById("siralamaInput").value);
                     let sansRozetiHtml = '';
@@ -1140,6 +1231,9 @@
                                             ${sansRozetiHtml}
                                         </div>
                                         <div class="d-flex align-items-center gap-2">
+                                            <button class="btn-karsilastir ${karsilastirAktif ? 'active' : ''}" data-kod-karsilastir="${item.yokAtlasKodu}" onclick="event.stopPropagation(); karsilastirToggle('${item.yokAtlasKodu}')" title="Karşılaştırmaya Ekle/Çıkar">
+                                                <i class="fa-solid fa-scale-balanced"></i>
+                                            </button>
                                             <button class="btn-favori ${favoriAktif ? 'active' : ''}" data-kod="${item.yokAtlasKodu}" onclick="event.stopPropagation(); tercihToggle('${item.yokAtlasKodu}')" title="Tercih Listeme Ekle/Çıkar">
                                                 <i class="${favoriAktif ? 'fa-solid' : 'fa-regular'} fa-heart"></i>
                                             </button>
@@ -1652,6 +1746,169 @@
                 return;
             }
             window.print();
+        }
+
+        // --- Karşılaştırma Modu Motoru ---
+        let karsilastirListesi = [];
+
+        function karsilastirMi(yokAtlasKodu) {
+            if (!yokAtlasKodu) return false;
+            return karsilastirListesi.some(item => String(item.yokAtlasKodu) === String(yokAtlasKodu));
+        }
+
+        function karsilastirToggle(yokAtlasKodu, itemData = null) {
+            if (!yokAtlasKodu) return;
+
+            const varMi = karsilastirMi(yokAtlasKodu);
+            if (varMi) {
+                karsilastirListesi = karsilastirListesi.filter(item => String(item.yokAtlasKodu) !== String(yokAtlasKodu));
+            } else {
+                if (karsilastirListesi.length >= 3) {
+                    alert("⚠️ Karşılaştırma ekranında yan yana en fazla 3 bölüm inceleyebilirsiniz.");
+                    return;
+                }
+
+                let hedefData = itemData;
+                if (!hedefData && typeof tumVeriler !== 'undefined') {
+                    hedefData = tumVeriler.find(x => String(x.yokAtlasKodu) === String(yokAtlasKodu));
+                }
+                if (hedefData) {
+                    karsilastirListesi.push(hedefData);
+                }
+            }
+
+            // Kartlardaki buton durumlarını güncelle
+            document.querySelectorAll(`.btn-karsilastir[data-kod-karsilastir="${yokAtlasKodu}"]`).forEach(btn => {
+                const yeniDurum = karsilastirMi(yokAtlasKodu);
+                if (yeniDurum) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+
+            karsilastirBarGuncelle();
+        }
+
+        function karsilastirTemizle() {
+            karsilastirListesi = [];
+            document.querySelectorAll('.btn-karsilastir').forEach(btn => btn.classList.remove('active'));
+            karsilastirBarGuncelle();
+        }
+
+        function karsilastirBarGuncelle() {
+            const bar = document.getElementById("karsilastirBar");
+            const rozetlerDiv = document.getElementById("karsilastirRozetler");
+            const sayiSpan = document.getElementById("karsilastirSayisi");
+
+            if (!bar) return;
+
+            if (karsilastirListesi.length === 0) {
+                bar.classList.add("d-none");
+                return;
+            }
+
+            bar.classList.remove("d-none");
+            if (sayiSpan) sayiSpan.innerText = karsilastirListesi.length;
+
+            if (rozetlerDiv) {
+                let html = '';
+                karsilastirListesi.forEach(item => {
+                    html += `
+                        <span class="badge bg-secondary text-white fw-normal p-2 d-inline-flex align-items-center gap-1" style="font-size:0.75rem;">
+                            <span class="text-truncate" style="max-width:130px;">${item.bolum}</span>
+                            <i class="fa-solid fa-xmark cursor-pointer ms-1 text-warning" onclick="karsilastirToggle('${item.yokAtlasKodu}')"></i>
+                        </span>
+                    `;
+                });
+                rozetlerDiv.innerHTML = html;
+            }
+        }
+
+        function karsilastirModalAc() {
+            if (karsilastirListesi.length === 0) {
+                alert("Karşılaştırma yapmak için lütfen en az 1 bölüm seçiniz.");
+                return;
+            }
+            karsilastirModalRender();
+            const modalEl = document.getElementById('karsilastirModal');
+            if (modalEl) {
+                const modal = new bootstrap.Modal(modalEl);
+                modal.show();
+            }
+        }
+
+        function karsilastirModalRender() {
+            const body = document.getElementById("karsilastirModalBody");
+            if (!body) return;
+
+            if (karsilastirListesi.length === 0) {
+                body.innerHTML = '<p class="text-center text-muted">Seçilen bölüm bulunamadı.</p>';
+                return;
+            }
+
+            const colClass = karsilastirListesi.length === 1 ? 'col-12' : (karsilastirListesi.length === 2 ? 'col-md-6' : 'col-md-4');
+
+            let html = '<div class="row g-4">';
+            karsilastirListesi.forEach((item, index) => {
+                const siralamaGoster = (item.basariSirasi) ? Number(item.basariSirasi).toLocaleString('tr-TR') : "Belirtilmemiş";
+                const tabanGoster = (item.tabanPuan) ? item.tabanPuan : "Dolmadı";
+                const rawTuru = (item.detaylar && item.detaylar.turu) ? item.detaylar.turu : "DEVLET";
+                const normalizedSehir = sehirNormalize(item.sehir);
+                const sehirVerisi = sehirDostuVerileri[normalizedSehir];
+                const dostuSkor = sehirVerisi ? `${sehirVerisi.not} (${sehirVerisi.puan} Puan)` : 'Veri Yok';
+                const rayli = (item.detaylar && item.detaylar.rayliSistem) ? item.detaylar.rayliSistem : "Bilgi bulunmamaktadır.";
+
+                html += `
+                    <div class="${colClass}">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+                            <div class="card-header bg-primary text-white p-3 d-flex justify-content-between align-items-start">
+                                <div>
+                                    <span class="badge bg-white text-primary mb-1 fw-bold">${item.puanTuru}</span>
+                                    <h6 class="fw-bold mb-0 text-white">${item.bolum}</h6>
+                                </div>
+                                <button class="btn btn-sm text-white opacity-75" onclick="karsilastirToggle('${item.yokAtlasKodu}')" title="Kaldır"><i class="fa-solid fa-xmark fs-5"></i></button>
+                            </div>
+                            <div class="card-body p-4 bg-white">
+                                <h6 class="fw-bold text-secondary mb-3">${item.universite}</h6>
+                                
+                                <div class="karsilastir-tablo-row">
+                                    <span class="karsilastir-tablo-label">YKS 2025 Başarı Sırası</span>
+                                    <div class="fs-4 fw-bold text-success mt-1">${siralamaGoster}</div>
+                                </div>
+                                
+                                <div class="karsilastir-tablo-row">
+                                    <span class="karsilastir-tablo-label">Taban Puan</span>
+                                    <div class="fs-5 fw-bold text-primary mt-1">${tabanGoster}</div>
+                                </div>
+                                
+                                <div class="karsilastir-tablo-row">
+                                    <span class="karsilastir-tablo-label">Üniversite Türü</span>
+                                    <div class="fw-semibold text-dark mt-1">${rawTuru}</div>
+                                </div>
+                                
+                                <div class="karsilastir-tablo-row">
+                                    <span class="karsilastir-tablo-label">Şehir & Yaşam Skoru</span>
+                                    <div class="fw-semibold text-dark mt-1"><i class="fa-solid fa-location-dot text-danger me-1"></i>${item.sehir} - <span class="badge bg-info text-dark">${dostuSkor}</span></div>
+                                </div>
+                                
+                                <div class="karsilastir-tablo-row">
+                                    <span class="karsilastir-tablo-label">Kampüs / Konum</span>
+                                    <div class="small text-secondary mt-1">${item.detaylar ? item.detaylar.konum : 'Merkez'}</div>
+                                </div>
+
+                                <div class="karsilastir-tablo-row border-0">
+                                    <span class="karsilastir-tablo-label">Ulaşım Ağı (Metro/Ring)</span>
+                                    <div class="small text-secondary mt-1">${rayli}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+            html += '</div>';
+
+            body.innerHTML = html;
         }
 
         document.addEventListener('DOMContentLoaded', () => {
