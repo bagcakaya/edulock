@@ -529,7 +529,7 @@
             padding: 25px 30px;
         }
 
-        /* Kazanma Şansı Rozetleri (Hayal, Hedef, Garanti) */
+        /* Kazanma Şansı, Burs ve Trend Rozetleri */
         .badge-hayal {
             background-color: #fff7ed;
             color: #ea580c;
@@ -548,6 +548,34 @@
             background-color: #eff6ff;
             color: #2563eb;
             border: 1px solid #dbeafe;
+            font-weight: 700;
+        }
+
+        .badge-burslu {
+            background-color: #dcfce7;
+            color: #15803d;
+            border: 1px solid #bbf7d0;
+            font-weight: 700;
+        }
+
+        .badge-indirimli {
+            background-color: #dbeafe;
+            color: #1d4ed8;
+            border: 1px solid #bfdbfe;
+            font-weight: 700;
+        }
+
+        .badge-ucretli {
+            background-color: #f1f5f9;
+            color: #475569;
+            border: 1px solid #e2e8f0;
+            font-weight: 600;
+        }
+
+        .badge-trend-up {
+            background-color: #fef2f2;
+            color: #dc2626;
+            border: 1px solid #fecaca;
             font-weight: 700;
         }
 
@@ -1207,6 +1235,27 @@
                     const favoriAktif = tercihMu(item.yokAtlasKodu);
                     const karsilastirAktif = karsilastirMi(item.yokAtlasKodu);
                     
+                    // Burs Etiketi Hesabı
+                    let bursRozetiHtml = '';
+                    const bolumAd = item.bolum || '';
+                    if (bolumAd.includes('Burslu') || bolumAd.includes('%100 Burslu')) {
+                        bursRozetiHtml = `<span class="badge-custom-type badge-burslu me-1"><i class="fa-solid fa-graduation-cap me-1"></i>Burslu</span>`;
+                    } else if (bolumAd.includes('%50 İndirimli')) {
+                        bursRozetiHtml = `<span class="badge-custom-type badge-indirimli me-1"><i class="fa-solid fa-tag me-1"></i>%50 İndirimli</span>`;
+                    } else if (bolumAd.includes('%25 İndirimli')) {
+                        bursRozetiHtml = `<span class="badge-custom-type badge-indirimli me-1"><i class="fa-solid fa-tag me-1"></i>%25 İndirimli</span>`;
+                    } else if (bolumAd.includes('Ücretli')) {
+                        bursRozetiHtml = `<span class="badge-custom-type badge-ucretli me-1"><i class="fa-solid fa-credit-card me-1"></i>Ücretli</span>`;
+                    }
+
+                    // Trend İndikatörü Hesabı
+                    let trendRozetiHtml = '';
+                    const populerKelimeler = ['yazılım', 'yapay zeka', 'bilgisayar', 'tıp', 'hukuk', 'diş', 'veri', 'siber', 'havacılık', 'pilotaj'];
+                    const bolumKucuk = bolumAd.toLowerCase();
+                    if (populerKelimeler.some(k => bolumKucuk.includes(k))) {
+                        trendRozetiHtml = `<span class="badge-custom-type badge-trend-up me-1" title="YKS Tercihlerinde Yüksek Talep Gören Bölüm">🔥 Yükselişte</span>`;
+                    }
+
                     const ogrSiralama = parseInt(document.getElementById("siralamaInput").value);
                     let sansRozetiHtml = '';
                     if (!isNaN(ogrSiralama) && ogrSiralama > 0 && item.basariSirasi) {
@@ -1228,6 +1277,8 @@
                                         <div class="d-flex gap-2 flex-wrap align-items-center">
                                             <span class="badge-custom">${item.puanTuru}</span>
                                             <span class="badge-custom-type ${turuClass}">${turuGoster}</span>
+                                            ${bursRozetiHtml}
+                                            ${trendRozetiHtml}
                                             ${sansRozetiHtml}
                                         </div>
                                         <div class="d-flex align-items-center gap-2">
