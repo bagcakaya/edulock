@@ -1012,6 +1012,11 @@
                                 <h5><i class="fa-solid fa-map-location-dot"></i> Şehir ve Kampüs</h5>
 
                                 <div class="mt-4 mb-4">
+                                    <p class="mb-2"><i class="fa-solid fa-globe text-primary me-2"></i> <strong>Resmi Web Sitesi:</strong> 
+                                        <a id="mdlUniWebLink" href="#" target="_blank" class="text-primary text-decoration-none fw-semibold">
+                                            <span id="mdlUniWeb"></span> <i class="fa-solid fa-arrow-up-right-from-square ms-1" style="font-size: 0.8rem;"></i>
+                                        </a>
+                                    </p>
                                     <p class="mb-2"><i class="fa-solid fa-location-dot text-muted me-2"></i> <strong>Konum:</strong> 
                                         <a id="mdlKonumLink" href="#" target="_blank" class="text-primary text-decoration-none fw-medium">
                                             <span id="mdlKonum"></span> <i class="fa-solid fa-up-right-from-square ms-1" style="font-size: 0.8rem;"></i>
@@ -1447,6 +1452,23 @@
             return `<img src="${logoUrl}" alt="${safeName}" class="uni-logo-img me-2 shadow-sm rounded-circle" style="width:${size}px; height:${size}px; object-fit:contain; background:#ffffff; padding:2px; border:1px solid rgba(0,0,0,0.1); vertical-align:middle;" onerror="uniLogoError(this, '${safeName}', ${size})">`;
         }
 
+        function uniWebsiteUrlGetir(uniName) {
+            if (!uniName) return '#';
+            const clean = uniName.replace(/\s*\([^)]*\)/, '').trim();
+            let domain = uniDomainOverrides[clean] || uniDomainOverrides[uniName];
+            if (!domain) {
+                const trMap = {'Ç':'c','Ğ':'g','İ':'i','Ö':'o','Ş':'s','Ü':'u','ç':'c','ğ':'g','ı':'i','ö':'o','ş':'s','ü':'u'};
+                let slug = clean.toLowerCase().replace(/[ÇĞİÖŞÜçğıöşü]/g, m => trMap[m] || m);
+                slug = slug.replace(/universitesi|universite|enstitusu|fakultesi/g, '').trim();
+                const words = slug.split(/\s+/).filter(Boolean);
+                domain = (words.join('') || 'edu') + '.edu.tr';
+            }
+            if (!domain.startsWith('http')) {
+                return `https://www.${domain}`;
+            }
+            return domain;
+        }
+
         // Verileri universiteler.js dosyasından (universiteVerileri) alıyoruz.
         let tumVeriler = (typeof universiteVerileri !== 'undefined') ? universiteVerileri : [];
         let filtrelenmisVeriler = [];
@@ -1755,6 +1777,11 @@
             document.getElementById('mdlSiralama').innerText = (item.basariSirasi) ? Number(item.basariSirasi).toLocaleString('tr-TR') : "Belirtilmemiş";
             document.getElementById('mdlTavan').innerText = (item.tavanPuan) ? item.tavanPuan : "-";
             document.getElementById('mdlKontenjan').innerText = item.kontenjan;
+
+            const webUrl = uniWebsiteUrlGetir(item.universite);
+            const displayWeb = webUrl.replace('https://www.', '').replace('https://', '');
+            document.getElementById('mdlUniWebLink').href = webUrl;
+            document.getElementById('mdlUniWeb').innerText = displayWeb;
 
             const konumMetni = (item.detaylar && item.detaylar.konum) ? item.detaylar.konum : item.sehir + " Kampüsü";
             document.getElementById('mdlKonum').innerText = konumMetni;
