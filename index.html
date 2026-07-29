@@ -1849,44 +1849,46 @@
             const depremIlleri = ['adana', 'adiyaman', 'diyarbakir', 'elazig', 'gaziantep', 'hatay', 'kahramanmaras', 'kilis', 'malatya', 'osmaniye', 'sanliurfa'];
             const isDepremIli = depremIlleri.includes(normalizedSehir);
 
+            let depremNotuHtml = '';
             if (isDepremIli) {
-                alertKutu.className = "alert d-flex flex-column align-items-center justify-content-center py-4 mb-0 text-center";
-                alertKutu.style.backgroundColor = "#fff5f5";
-                alertKutu.style.borderColor = "#fed7d7";
-                alertKutu.style.color = "#9b2c2c";
-                alertKutu.innerHTML = `
-                    <span class="fw-bold mb-2"><i class="fa-solid fa-ribbon me-2 text-danger"></i>Deprem Bölgesi Dayanışması</span>
-                    <span id="mdlOgrenciDostu" class="fs-6 text-center fw-medium px-2" style="line-height: 1.5;">6 Şubat 2023 deprem felaketi nedeniyle bu ilimiz endeks dışı tutulmuştur. Dayanışma ve saygıyla her zaman yanlarındayız. Tüm yitirdiğimiz canları rahmetle anıyoruz.</span>
+                depremNotuHtml = `
+                    <div class="mt-2 pt-2 border-top border-opacity-25 w-100 text-center" style="border-color: currentColor;">
+                        <span class="badge rounded-pill bg-danger bg-opacity-10 text-danger border border-danger border-opacity-25 px-2 py-1 mb-1" style="font-size: 0.72rem; font-weight: 600;">
+                            <i class="fa-solid fa-ribbon me-1"></i>Deprem Bölgesi Dayanışması
+                        </span>
+                        <p class="small mb-0 opacity-85 fw-medium" style="font-size: 0.78rem; line-height: 1.35;">6 Şubat 2023 deprem felaketi nedeniyle yitirdiğimiz tüm canları rahmetle anıyoruz.</p>
+                    </div>
                 `;
+            }
+
+            alertKutu.innerHTML = `
+                <span class="fw-bold mb-1"><i class="fa-solid fa-face-smile me-2"></i>Öğrenci Dostu mu?</span>
+                <span id="mdlOgrenciDostu" class="fs-5 text-center">${dostuMu}</span>
+                ${depremNotuHtml}
+            `;
+            
+            if (!sehirVerisi) {
+                alertKutu.className = "alert alert-secondary d-flex flex-column align-items-center justify-content-center py-3 mb-0";
+                alertKutu.style.backgroundColor = "#f8fafc";
+                alertKutu.style.borderColor = "#e2e8f0";
+                alertKutu.style.color = "#64748b";
             } else {
-                alertKutu.innerHTML = `
-                    <span class="fw-bold mb-1"><i class="fa-solid fa-face-smile me-2"></i>Öğrenci Dostu mu?</span>
-                    <span id="mdlOgrenciDostu" class="fs-5 text-center">${dostuMu}</span>
-                `;
-                
-                if (!sehirVerisi) {
-                    alertKutu.className = "alert alert-secondary d-flex flex-column align-items-center justify-content-center py-4 mb-0";
-                    alertKutu.style.backgroundColor = "#f8fafc";
-                    alertKutu.style.borderColor = "#e2e8f0";
-                    alertKutu.style.color = "#64748b";
+                const not = sehirVerisi.not;
+                if (not === "A+" || not === "A") {
+                    alertKutu.className = "alert alert-success d-flex flex-column align-items-center justify-content-center py-3 mb-0";
+                    alertKutu.style.backgroundColor = "#f0fdf4";
+                    alertKutu.style.borderColor = "#bbf7d0";
+                    alertKutu.style.color = "#166534";
+                } else if (not === "FF" || not === "D") {
+                    alertKutu.className = "alert alert-danger d-flex flex-column align-items-center justify-content-center py-3 mb-0";
+                    alertKutu.style.backgroundColor = "#fef2f2";
+                    alertKutu.style.borderColor = "#fecaca";
+                    alertKutu.style.color = "#991b1b";
                 } else {
-                    const not = sehirVerisi.not;
-                    if (not === "A+" || not === "A") {
-                        alertKutu.className = "alert alert-success d-flex flex-column align-items-center justify-content-center py-4 mb-0";
-                        alertKutu.style.backgroundColor = "#f0fdf4";
-                        alertKutu.style.borderColor = "#bbf7d0";
-                        alertKutu.style.color = "#166534";
-                    } else if (not === "FF" || not === "D") {
-                        alertKutu.className = "alert alert-danger d-flex flex-column align-items-center justify-content-center py-4 mb-0";
-                        alertKutu.style.backgroundColor = "#fef2f2";
-                        alertKutu.style.borderColor = "#fecaca";
-                        alertKutu.style.color = "#991b1b";
-                    } else {
-                        alertKutu.className = "alert alert-warning d-flex flex-column align-items-center justify-content-center py-4 mb-0";
-                        alertKutu.style.backgroundColor = "#fef3c7";
-                        alertKutu.style.borderColor = "#fde68a";
-                        alertKutu.style.color = "#92400e";
-                    }
+                    alertKutu.className = "alert alert-warning d-flex flex-column align-items-center justify-content-center py-3 mb-0";
+                    alertKutu.style.backgroundColor = "#fef3c7";
+                    alertKutu.style.borderColor = "#fde68a";
+                    alertKutu.style.color = "#92400e";
                 }
             }
 
