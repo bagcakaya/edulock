@@ -1369,9 +1369,66 @@
             "ŞIRNAK ÜNİVERSİTESİ": "sirnak.edu.tr"
         };
 
+        const uniDirectLogoMap = {
+            "FIRAT ÜNİVERSİTESİ": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/F%C4%B1rat_University_logo.svg/250px-F%C4%B1rat_University_logo.svg.png",
+            "FIRAT ÜNİVERSİTESİ (ELAZIĞ)": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/F%C4%B1rat_University_logo.svg/250px-F%C4%B1rat_University_logo.svg.png",
+            "HAKKARİ ÜNİVERSİTESİ": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Hakkari_University_logo.svg/250px-Hakkari_University_logo.svg.png",
+            "GAZİANTEP ÜNİVERSİTESİ": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Gaziantep_University_logo.svg/250px-Gaziantep_University_logo.svg.png",
+            "ŞIRNAK ÜNİVERSİTESİ": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/%C5%9E%C4%B1rnak_%C3%9Cniversitesi.jpg/250px-%C5%9E%C4%B1rnak_%C3%9Cniversitesi.jpg"
+        };
+
+        function uniLogoFallbackHtml(uniName, size = 24) {
+            if (!uniName) return '';
+            const clean = uniName.replace(/\s*\([^)]*\)/, '').trim();
+            const words = clean.split(/\s+/).filter(w => w && w.toUpperCase() !== 'ÜNİVERSİTESİ' && w.toUpperCase() !== 'ÜNİVERSİTE');
+            let initials = '';
+            if (words.length === 1) {
+                initials = words[0].substring(0, 2).toUpperCase();
+            } else if (words.length >= 2) {
+                initials = (words[0][0] + words[1][0]).toUpperCase();
+            } else {
+                initials = clean.substring(0, 2).toUpperCase();
+            }
+
+            let hash = 0;
+            for (let i = 0; i < clean.length; i++) {
+                hash = clean.charCodeAt(i) + ((hash << 5) - hash);
+            }
+            const colors = [
+                'linear-gradient(135deg, #6366f1 0%, #4f46e5 100%)',
+                'linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)',
+                'linear-gradient(135deg, #10b981 0%, #047857 100%)',
+                'linear-gradient(135deg, #f59e0b 0%, #b45309 100%)',
+                'linear-gradient(135deg, #ec4899 0%, #be185d 100%)',
+                'linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%)',
+                'linear-gradient(135deg, #06b6d4 0%, #0e7490 100%)',
+                'linear-gradient(135deg, #f97316 0%, #c2410c 100%)'
+            ];
+            const bgGradient = colors[Math.abs(hash) % colors.length];
+            const fontSize = Math.max(9, Math.floor(size * 0.42));
+
+            return `<span class="uni-avatar-badge me-2 shadow-sm d-inline-flex align-items-center justify-content-center fw-bold text-white rounded-circle" style="width:${size}px; height:${size}px; background:${bgGradient}; font-size:${fontSize}px; flex-shrink:0; vertical-align:middle; user-select:none; letter-spacing:-0.5px;">${initials}</span>`;
+        }
+
+        function uniLogoError(imgEl, uniName, size) {
+            try {
+                if (!imgEl || imgEl.dataset.failed) return;
+                imgEl.dataset.failed = "true";
+                const wrapper = document.createElement('div');
+                wrapper.innerHTML = uniLogoFallbackHtml(uniName, size);
+                const newEl = wrapper.firstElementChild;
+                if (imgEl.parentNode && newEl) {
+                    imgEl.parentNode.replaceChild(newEl, imgEl);
+                }
+            } catch(e) {}
+        }
+
         function uniLogoUrlGetir(uniName) {
             if (!uniName) return '';
             const clean = uniName.replace(/\s*\([^)]*\)/, '').trim();
+            if (uniDirectLogoMap[clean]) return uniDirectLogoMap[clean];
+            if (uniDirectLogoMap[uniName]) return uniDirectLogoMap[uniName];
+
             let domain = uniDomainOverrides[clean] || uniDomainOverrides[uniName];
             if (!domain) {
                 const trMap = {'Ç':'c','Ğ':'g','İ':'i','Ö':'o','Ş':'s','Ü':'u','ç':'c','ğ':'g','ı':'i','ö':'o','ş':'s','ü':'u'};
@@ -1386,7 +1443,8 @@
         function uniLogoHtmlGetir(uniName, size = 24) {
             if (!uniName) return '';
             const logoUrl = uniLogoUrlGetir(uniName);
-            return `<img src="${logoUrl}" alt="${uniName}" class="uni-logo-img me-2 shadow-sm rounded-circle" style="width:${size}px; height:${size}px; object-fit:contain; background:#ffffff; padding:2px; border:1px solid rgba(0,0,0,0.1); vertical-align:middle;" onerror="this.onerror=null; this.src='https://cdn-icons-png.flaticon.com/512/8074/8074788.png';">`;
+            const safeName = uniName.replace(/'/g, "\\'").replace(/"/g, "&quot;");
+            return `<img src="${logoUrl}" alt="${safeName}" class="uni-logo-img me-2 shadow-sm rounded-circle" style="width:${size}px; height:${size}px; object-fit:contain; background:#ffffff; padding:2px; border:1px solid rgba(0,0,0,0.1); vertical-align:middle;" onerror="uniLogoError(this, '${safeName}', ${size})">`;
         }
 
         // Verileri universiteler.js dosyasından (universiteVerileri) alıyoruz.
