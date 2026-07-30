@@ -924,16 +924,19 @@
 
         <div class="search-container mb-5">
             <div class="row g-3">
-                <div class="col-md-3">
-                    <input type="text" id="sehirInput" class="form-control" placeholder="Hangi Şehir? (Örn: Eskişehir)">
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <input type="text" id="uniInput" class="form-control" placeholder="Hangi Üniversite? (Örn: Medipol)">
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-2 col-md-4 col-sm-6">
                     <input type="text" id="bolumInput" class="form-control" placeholder="Hangi Bölüm? (Örn: Hukuk)">
                 </div>
-                <div class="col-md-2">
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <input type="text" id="sehirInput" class="form-control" placeholder="Hangi Şehir? (Örn: Eskişehir)">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
                     <input type="number" id="siralamaInput" class="form-control" placeholder="Sıralamanız (Örn: 50000)">
                 </div>
-                <div class="col-md-2">
+                <div class="col-lg-2 col-md-4 col-sm-6">
                     <select id="puanTuruSelect" class="form-select" onchange="yeniArama()">
                         <option value="Tümü" selected>Tüm Puan Türleri</option>
                         <option value="SAY">Sayısal (SAY)</option>
@@ -942,7 +945,7 @@
                         <option value="DİL">Yabancı Dil (DİL)</option>
                     </select>
                 </div>
-                <div class="col-md-2">
+                <div class="col-lg-2 col-md-4 col-sm-6">
                     <select id="uniTuruSelect" class="form-select" onchange="yeniArama()">
                         <option value="Tümü" selected>Tüm Üni Türleri</option>
                         <option value="DEVLET">Devlet</option>
@@ -1520,10 +1523,12 @@
         let suankiSayfa = 1;
         const sayfaBasinaKayit = 30; // Her sayfada 30 kart gösterilsin
 
-        // URL'den gelen parametreleri al (p: Puan Türü, bolum: Bölüm Adı, tur/turu: Üniversite Türü)
+        // URL'den gelen parametreleri al (p: Puan Türü, bolum: Bölüm Adı, uni/universite: Üniversite Adı, sehir: Şehir, tur/turu: Üniversite Türü)
         const urlParams = new URLSearchParams(window.location.search);
         const gelenPuan = urlParams.get('p');
         const gelenBolum = urlParams.get('bolum');
+        const gelenUni = urlParams.get('uni') || urlParams.get('universite');
+        const gelenSehir = urlParams.get('sehir');
         const gelenTur = urlParams.get('tur') || urlParams.get('turu');
 
         if (gelenPuan) {
@@ -1532,11 +1537,20 @@
         if (gelenBolum) {
             document.getElementById("bolumInput").value = gelenBolum;
         }
+        if (gelenUni) {
+            document.getElementById("uniInput").value = gelenUni;
+        }
+        if (gelenSehir) {
+            document.getElementById("sehirInput").value = gelenSehir;
+        }
         if (gelenTur) {
             document.getElementById("uniTuruSelect").value = gelenTur.toUpperCase();
         }
 
         // Enter tuşu ile arama yapılması için event listener'lar
+        document.getElementById("uniInput").addEventListener("keyup", function(e) {
+            if (e.key === "Enter") yeniArama();
+        });
         document.getElementById("sehirInput").addEventListener("keyup", function(e) {
             if (e.key === "Enter") yeniArama();
         });
@@ -1569,6 +1583,7 @@
 
             // Sadece ilk sayfa yüklenirken filtreleme yap
             if (suankiSayfa === 1) {
+                const uni = turkceNormalize(document.getElementById("uniInput").value);
                 const sehir = turkceNormalize(document.getElementById("sehirInput").value);
                 const bolum = turkceNormalize(document.getElementById("bolumInput").value);
                 const puanTuru = document.getElementById("puanTuruSelect").value;
@@ -1578,6 +1593,7 @@
                 const siralamaFiltreAktif = !isNaN(ogrSiralama) && ogrSiralama > 0;
 
                 filtrelenmisVeriler = tumVeriler.filter(item => {
+                    const uniUygun = uni ? turkceNormalize(item.universite).includes(uni) : true;
                     const sehirUygun = sehir ? turkceNormalize(item.sehir).includes(sehir) : true;
                     const bolumUygun = bolum ? turkceNormalize(item.bolum).includes(bolum) : true;
                     const puanTuruUygun = (puanTuru && puanTuru !== "Tümü") ? item.puanTuru === puanTuru : true;
@@ -1607,7 +1623,7 @@
                         }
                     }
 
-                    return sehirUygun && bolumUygun && puanTuruUygun && uniTuruUygun && siralamaAralikUygun;
+                    return uniUygun && sehirUygun && bolumUygun && puanTuruUygun && uniTuruUygun && siralamaAralikUygun;
                 });
 
                 // Sıralama girilmişse öğrencinin hedef sıralamasına en yakın olanları önceliğe al
