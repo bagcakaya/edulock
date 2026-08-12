@@ -1040,6 +1040,37 @@
                         </div>
                     </div>
                     
+                    <!-- Son 5 Yılın Gelişimi ve Karşılaştırma Tablosu (2021-2025) -->
+                    <div class="row g-4 mt-2">
+                        <div class="col-12">
+                            <div class="info-box gecmis" style="border-left: 5px solid #a855f7; background: #ffffff; border-radius: 16px; padding: 25px; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);">
+                                <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
+                                    <h5 class="text-primary font-weight-bold mb-0" style="color: #9333ea !important;"><i class="fa-solid fa-chart-line me-2"></i> Son 5 Yılın Gelişimi & Taban/Tavan Puan Geçmişi</h5>
+                                    <span class="badge rounded-pill px-3 py-2" style="font-size: 0.78rem; font-weight: 700; color: #9333ea; background-color: #f3e8ff; border: 1px solid #e9d5ff;">
+                                        <i class="fa-solid fa-clock-rotate-left me-1"></i>Son 5 Yılın YKS Trendi
+                                    </span>
+                                </div>
+                                <div class="table-responsive rounded-3 border">
+                                    <table class="table table-hover align-middle mb-0 text-center" style="font-size: 0.9rem;">
+                                        <thead class="table-light small text-uppercase fw-bold text-muted">
+                                            <tr>
+                                                <th style="padding: 12px;">Yıl</th>
+                                                <th>Taban Puan</th>
+                                                <th>Tavan Puan</th>
+                                                <th>Başarı Sıralaması</th>
+                                                <th>Kontenjan</th>
+                                                <th>Sıralama Trendi</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="mdlGecmisTabloBody">
+                                            <!-- Dinamik 5 Yıl Tablosu -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Ulaşım Bilgileri -->
                     <div class="row g-4 mt-2">
                         <div class="col-12">
@@ -1715,6 +1746,7 @@
                                         <div class="d-flex gap-2 flex-wrap align-items-center">
                                             <span class="badge-custom">${item.puanTuru}</span>
                                             <span class="badge-custom-type ${turuClass}">${turuGoster}</span>
+                                            <span class="badge bg-primary bg-opacity-10 text-primary border border-primary border-opacity-25 rounded-pill px-2 py-1 me-1" style="font-size: 0.72rem; font-weight: 700;"><i class="fa-solid fa-calendar-check me-1"></i>2025 YKS</span>
                                             ${bursRozetiHtml}
                                             ${trendRozetiHtml}
                                             ${sansRozetiHtml}
@@ -1906,6 +1938,58 @@
                     alertKutu.style.borderColor = "#fde68a";
                     alertKutu.style.color = "#92400e";
                 }
+            }
+
+            // Son 5 Yılın Gelişimi Tablosunu Doldur
+            const gecmisTabloBody = document.getElementById('mdlGecmisTabloBody');
+            if (gecmisTabloBody) {
+                gecmisTabloBody.innerHTML = '';
+                const gecmisData = item.gecmisYillar || {
+                    "2025": { tabanPuan: item.tabanPuan, tavanPuan: item.tavanPuan, basariSirasi: item.basariSirasi, kontenjan: item.kontenjan }
+                };
+                const yillar = Object.keys(gecmisData).sort((a, b) => b - a);
+                
+                yillar.forEach((yr, idx) => {
+                    const yrData = gecmisData[yr];
+                    const taban = yrData.tabanPuan ? yrData.tabanPuan : "Dolmadı";
+                    const tavan = yrData.tavanPuan ? yrData.tavanPuan : "-";
+                    const sir = yrData.basariSirasi ? yrData.basariSirasi : "Belirtilmemiş";
+                    const sirGoster = typeof sir === 'number' ? Number(sir).toLocaleString('tr-TR') : sir;
+                    const kont = yrData.kontenjan ? yrData.kontenjan : "-";
+                    
+                    let trendBadge = `<span class="badge bg-light text-secondary border">➖ Baz</span>`;
+                    if (typeof sir === 'number') {
+                        if (idx < yillar.length - 1) {
+                            const olderYr = yillar[idx + 1];
+                            const olderSir = gecmisData[olderYr] ? gecmisData[olderYr].basariSirasi : null;
+                            if (typeof olderSir === 'number') {
+                                const diff = olderSir - sir; // positive means rank improved
+                                if (diff > olderSir * 0.015) {
+                                    trendBadge = `<span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-25 rounded-pill px-2 py-1"><i class="fa-solid fa-arrow-trend-up me-1"></i>Yükselişte (+${Number(diff).toLocaleString('tr-TR')})</span>`;
+                                } else if (diff < -olderSir * 0.015) {
+                                    trendBadge = `<span class="badge bg-danger bg-opacity-10 text-danger border border-danger border-opacity-25 rounded-pill px-2 py-1"><i class="fa-solid fa-arrow-trend-down me-1"></i>Düşüşte (${Number(Math.abs(diff)).toLocaleString('tr-TR')})</span>`;
+                                } else {
+                                    trendBadge = `<span class="badge bg-info bg-opacity-10 text-info border border-info border-opacity-25 rounded-pill px-2 py-1"><i class="fa-solid fa-minus me-1"></i>İstikrarlı</span>`;
+                                }
+                            }
+                        } else {
+                            trendBadge = `<span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary border-opacity-25 rounded-pill px-2 py-1">Başlangıç</span>`;
+                        }
+                    }
+                    
+                    const isLatest = (idx === 0);
+                    const tr = document.createElement('tr');
+                    if (isLatest) tr.className = 'table-primary bg-opacity-10 fw-bold';
+                    tr.innerHTML = `
+                        <td class="fw-bold">${yr} ${isLatest ? '<span class="badge bg-primary rounded-pill ms-1" style="font-size:0.7rem;">Son Yıl</span>' : ''}</td>
+                        <td class="fw-semibold text-primary">${taban}</td>
+                        <td class="text-muted">${tavan}</td>
+                        <td class="fw-bold text-dark">${sirGoster}</td>
+                        <td><span class="badge bg-dark rounded-pill">${kont}</span></td>
+                        <td>${trendBadge}</td>
+                    `;
+                    gecmisTabloBody.appendChild(tr);
+                });
             }
 
             // Ulaşım Bilgileri
