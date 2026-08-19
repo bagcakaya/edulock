@@ -898,17 +898,17 @@
                     <li class="nav-item ms-lg-2">
                         <div class="dropdown">
                             <button class="btn btn-sm btn-light border rounded-pill px-3 py-1 dropdown-toggle fw-bold d-flex align-items-center gap-2 shadow-sm" type="button" id="langDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                                <span id="currentLangFlag">🇹🇷</span> <span id="currentLangText">TR</span>
+                                <span id="currentLangFlag"><img src="https://flagcdn.com/w40/tr.png" srcset="https://flagcdn.com/w80/tr.png 2x" width="20" height="14" alt="TR" style="border-radius:2px; object-fit:cover; vertical-align:middle;"></span> <span id="currentLangText">TR</span>
                             </button>
-                            <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0 rounded-3 mt-2" aria-labelledby="langDropdown" style="min-width: 130px;">
+                            <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0 rounded-3 mt-2" aria-labelledby="langDropdown" style="min-width: 140px;">
                                 <li>
                                     <button class="dropdown-item d-flex align-items-center gap-2 fw-semibold" onclick="setLanguage('tr')">
-                                        <span>🇹🇷</span> Türkçe (TR)
+                                        <img src="https://flagcdn.com/w40/tr.png" srcset="https://flagcdn.com/w80/tr.png 2x" width="20" height="14" alt="TR" style="border-radius:2px; object-fit:cover; vertical-align:middle;"> Türkçe (TR)
                                     </button>
                                 </li>
                                 <li>
                                     <button class="dropdown-item d-flex align-items-center gap-2 fw-semibold" onclick="setLanguage('en')">
-                                        <span>🇬🇧</span> English (EN)
+                                        <img src="https://flagcdn.com/w40/gb.png" srcset="https://flagcdn.com/w80/gb.png 2x" width="20" height="14" alt="EN" style="border-radius:2px; object-fit:cover; vertical-align:middle;"> English (EN)
                                     </button>
                                 </li>
                             </ul>
@@ -2692,7 +2692,11 @@
             const flagSpan = document.getElementById('currentLangFlag');
             const textSpan = document.getElementById('currentLangText');
             if (flagSpan && textSpan) {
-                flagSpan.innerText = lang === 'en' ? '🇬🇧' : '🇹🇷';
+                if (lang === 'en') {
+                    flagSpan.innerHTML = `<img src="https://flagcdn.com/w40/gb.png" srcset="https://flagcdn.com/w80/gb.png 2x" width="20" height="14" alt="EN" style="border-radius:2px; object-fit:cover; vertical-align:middle;">`;
+                } else {
+                    flagSpan.innerHTML = `<img src="https://flagcdn.com/w40/tr.png" srcset="https://flagcdn.com/w80/tr.png 2x" width="20" height="14" alt="TR" style="border-radius:2px; object-fit:cover; vertical-align:middle;">`;
+                }
                 textSpan.innerText = lang.toUpperCase();
             }
 
