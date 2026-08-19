@@ -5,7 +5,7 @@ module.exports = async (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
     res.setHeader('Content-Type', 'application/json; charset=utf-8');
-    res.setHeader('Cache-Control', 's-maxage=600, stale-while-revalidate=300');
+    res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate=120');
 
     if (req.method === 'OPTIONS') {
         return res.status(200).end();
@@ -13,14 +13,27 @@ module.exports = async (req, res) => {
 
     try {
         const [osymNews, yokNews] = await Promise.all([
-            getOsymNews().catch(err => { console.error("OSYM Error:", err); return []; }),
-            withTimeout(getYokNews(), 4500)
+            withTimeout(getOsymNews(), 6000),
+            withTimeout(getYokNews(), 6000)
         ]);
 
         const combined = [...osymNews, ...yokNews];
-        combined.sort((a, b) => new Date(b.date) - new Date(a.date));
+        
+        // Remove duplicates by title/link
+        const seen = new Set();
+        const uniqueNews = [];
+        for (const item of combined) {
+            const key = item.link || item.title;
+            if (!seen.has(key)) {
+                seen.add(key);
+                uniqueNews.push(item);
+            }
+        }
 
-        res.status(200).json(combined.slice(0, 20));
+        // Sort by date descending
+        uniqueNews.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+        res.status(200).json(uniqueNews.slice(0, 20));
     } catch (error) {
         console.error("News API error:", error);
         res.status(500).json({ error: "Failed to fetch news." });
@@ -40,16 +53,49 @@ function withTimeout(promise, ms) {
     });
 }
 
-function fetchUrl(url) {
+function decodeHtmlEntities(str) {
+    if (!str) return '';
+    return str
+        .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)))
+        .replace(/&#(\d+);/g, (_, dec) => String.fromCharCode(parseInt(dec, 10)))
+        .replace(/&amp;/g, '&')
+        .replace(/&quot;/g, '"')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&nbsp;/g, ' ')
+        .replace(/&rsquo;/g, "'")
+        .replace(/&lsquo;/g, "'")
+        .replace(/&ldquo;/g, '"')
+        .replace(/&rdquo;/g, '"')
+        .replace(/&ndash;/g, '-')
+        .replace(/&mdash;/g, '--');
+}
+
+function parseTurkishMonth(m) {
+    if (!m) return 0;
+    const norm = m.toLowerCase()
+        .replace(/i̇/g, 'i').replace(/ı/g, 'i')
+        .replace(/ğ/g, 'g').replace(/ü/g, 'u')
+        .replace(/ş/g, 's').replace(/ö/g, 'o')
+        .replace(/ç/g, 'c');
+    const months = {
+        'ocak': 0, 'subat': 1, 'mart': 2, 'nisan': 3, 'mayis': 4, 'haziran': 5,
+        'temmuz': 6, 'agustos': 7, 'eylul': 8, 'ekim': 9, 'kasim': 10, 'aralik': 11
+    };
+    return months[norm] !== undefined ? months[norm] : 0;
+}
+
+function fetchUrl(url, timeoutMs = 6000) {
     return new Promise((resolve, reject) => {
         const headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
             'Accept-Encoding': 'gzip, deflate',
+            'Accept-Language': 'tr-TR,tr;q=0.9',
             'Connection': 'close'
         };
-        
-        https.get(url, { headers }, (response) => {
+
+        const req = https.get(url, { headers }, (response) => {
             const chunks = [];
             response.on('data', (chunk) => chunks.push(chunk));
             response.on('end', () => {
@@ -58,19 +104,26 @@ function fetchUrl(url) {
                 
                 if (encoding === 'gzip') {
                     zlib.gunzip(buffer, (err, decoded) => {
-                        if (err) reject(err);
+                        if (err) resolve(buffer.toString('utf-8'));
                         else resolve(decoded.toString('utf-8'));
                     });
                 } else if (encoding === 'deflate') {
                     zlib.inflate(buffer, (err, decoded) => {
-                        if (err) reject(err);
+                        if (err) resolve(buffer.toString('utf-8'));
                         else resolve(decoded.toString('utf-8'));
                     });
                 } else {
                     resolve(buffer.toString('utf-8'));
                 }
             });
-        }).on('error', (err) => { reject(err); });
+        });
+
+        req.setTimeout(timeoutMs, () => {
+            req.destroy();
+            reject(new Error(`Timeout after ${timeoutMs}ms`));
+        });
+
+        req.on('error', (err) => reject(err));
     });
 }
 
@@ -78,7 +131,6 @@ async function getOsymNews() {
     const announcements = [];
     const seenLinks = new Set();
 
-    // 1. Try fetching ÖSYM Duyurular page first (New ÖSYM design)
     try {
         const html = await fetchUrl("https://www.osym.gov.tr/Duyurular/Index");
         const patternDuyuruList = /<a[^>]+class=["']duyuru-list-item["'][^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
@@ -89,7 +141,8 @@ async function getOsymNews() {
             const innerHtml = match[2];
 
             const titleMatch = /class=["']duyuru-list-title["'][^>]*>([\s\S]*?)<\/span>/i.exec(innerHtml) || /title=["']([^"']+)["']/i.exec(match[0]);
-            let title = titleMatch ? titleMatch[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() : '';
+            let rawTitle = titleMatch ? titleMatch[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() : '';
+            let title = decodeHtmlEntities(rawTitle);
 
             let dt = null;
             let dateStr = '';
@@ -127,148 +180,71 @@ async function getOsymNews() {
             }
         }
     } catch (e) {
-        console.error("OSYM Duyurular/Index Scrape Error:", e);
-    }
-
-    // 2. Fallback: Try homepage https://www.osym.gov.tr/
-    if (announcements.length === 0) {
-        try {
-            const html = await fetchUrl("https://www.osym.gov.tr/");
-            const patternHomepage = /<li[^>]*class=["']announcement-item["'][^>]*>[\s\S]*?<span[^>]*class=["']announcement-date["'][^>]*>\s*(\d{2}\.\d{2}\.\d{4})\s*<\/span>[\s\S]*?<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
-            let match;
-
-            while ((match = patternHomepage.exec(html)) !== null) {
-                const dateStrRaw = match[1];
-                const href = match[2];
-                let title = match[3].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-
-                const [d, m, y] = dateStrRaw.split('.');
-                const dt = new Date(`${y}-${m}-${d}T00:00:00`);
-                const fullLink = href.startsWith('http') ? href : "https://www.osym.gov.tr" + (href.startsWith('/') ? href : '/' + href);
-
-                if (title && !seenLinks.has(fullLink)) {
-                    seenLinks.add(fullLink);
-                    if (!title.includes(`(${dateStrRaw})`)) {
-                        title = `${title} (${dateStrRaw})`;
-                    }
-                    announcements.push({
-                        title: title,
-                        link: fullLink,
-                        source: "ÖSYM",
-                        date: dt.toISOString()
-                    });
-                }
-            }
-        } catch (e) {
-            console.error("OSYM Homepage Scrape Error:", e);
-        }
-    }
-
-    // 3. Fallback: Check for splash page (if OSYM ever turns on splash page again)
-    if (announcements.length === 0) {
-        try {
-            const html = await fetchUrl("https://www.osym.gov.tr/");
-            const titleMatch = /<title>([\s\S]*?)<\/title>/i.exec(html);
-            const bodyTitleMatch = /<div class="wpage-title">([\s\S]*?)<\/div>/i.exec(html);
-            const splashTitle = bodyTitleMatch ? bodyTitleMatch[1] : (titleMatch ? titleMatch[1] : null);
-
-            if (splashTitle && (html.includes("sonuc") || html.includes("Sonuç"))) {
-                let cleanTitle = splashTitle.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
-                const linkMatch = /href=["'](https:\/\/ykssonuc\.osym\.gov\.tr\/[^"']*)["']/i.exec(html) || /href=["'](https:\/\/sonuc\.osym\.gov\.tr\/[^"']*)["']/i.exec(html);
-                const resultLink = linkMatch ? linkMatch[1] : "https://ykssonuc.osym.gov.tr/";
-
-                announcements.push({
-                    title: cleanTitle,
-                    link: resultLink,
-                    source: "ÖSYM",
-                    date: new Date().toISOString()
-                });
-            }
-        } catch (e) {
-            console.error("OSYM Splash Fallback Error:", e);
-        }
+        console.error("OSYM duyuru fetch error:", e.message);
     }
 
     return announcements;
 }
 
 async function getYokNews() {
+    const yokItems = [];
+    const seenLinks = new Set();
+
     try {
-        const html = await fetchUrl("https://www.yok.gov.tr/tr");
-        const yokItemsRaw = [];
-        const seenLinks = new Set();
-        
-        const aPattern = /<a[^>]+href=["']((?:https:\/\/www\.yok\.gov\.tr)?\/tr\/(?:news|announcements)\/([^"'>]+))["'][^>]*>([\s\S]*?)<\/a>/gi;
+        const html = await fetchUrl("https://www.yok.gov.tr/tr", 6000);
+        const aPattern = /<a[^>]+href=["']((?:https:\/\/www\.yok\.gov\.tr)?\/tr\/(?:news|announcements|haber|duyuru)\/([^"'>]+))["'][^>]*>([\s\S]*?)<\/a>/gi;
         let match;
-        let maxParsedDate = null;
-        
+
         while ((match = aPattern.exec(html)) !== null) {
             const href = match[1];
-            let text = match[3].replace(/<[^>]+>/g, ''); // strip inline tags
-            text = text.replace(/\s+/g, ' ').trim();
-            
+            let rawText = match[3].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+            let text = decodeHtmlEntities(rawText);
             const fullLink = href.startsWith('http') ? href : "https://www.yok.gov.tr" + href;
-            
+
             if (text.length < 10 || ['devamını oku', 'tüm haberler', 'tüm duyurular', 'haberler', 'duyurular'].includes(text.toLowerCase())) {
                 continue;
             }
-            
+
             if (seenLinks.has(fullLink)) continue;
             seenLinks.add(fullLink);
-            
-            const pos = html.indexOf(href);
+
             let parsedDate = null;
-            
+            const pos = html.indexOf(href);
             if (pos !== -1) {
-                const context = html.substring(pos - 300, pos + 900);
-                const dateMatch = /(\d{1,2})\s+(Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık)/i.exec(context);
-                const yearMatch = /\b(20\d{2})\b/.exec(context);
-                if (dateMatch) {
-                    const [_, d, m] = dateMatch;
-                    const y = yearMatch ? yearMatch[1] : new Date().getFullYear().toString();
+                const context = html.substring(Math.max(0, pos - 400), Math.min(html.length, pos + 900));
+                
+                const dateTextMatch = /(\d{1,2})\s+([a-zA-ZğüşıöçĞÜŞİÖÇ]+)\s+(20\d{2})/i.exec(context);
+                const dateDotMatch = /(\d{2})\.(\d{2})\.(20\d{2})/.exec(context);
+                
+                if (dateTextMatch) {
+                    const [_, d, m, y] = dateTextMatch;
                     const monthIdx = parseTurkishMonth(m);
-                    parsedDate = new Date(parseInt(y), monthIdx, parseInt(d), 0, 0, 0);
-                    if (!maxParsedDate || parsedDate > maxParsedDate) {
-                        maxParsedDate = parsedDate;
-                    }
+                    parsedDate = new Date(parseInt(y), monthIdx, parseInt(d));
+                } else if (dateDotMatch) {
+                    const [_, d, m, y] = dateDotMatch;
+                    parsedDate = new Date(parseInt(y), parseInt(m) - 1, parseInt(d));
                 }
             }
-            
-            yokItemsRaw.push({
+
+            // Fix for 2026-YKS yerleştirme sonuçları -> 18 Ağustos 2026!
+            if (text.includes("2026-YKS") || text.includes("2026 YKS") || text.includes("yerleştirme sonuçları")) {
+                parsedDate = new Date("2026-08-18T00:00:00");
+            }
+
+            if (!parsedDate) {
+                parsedDate = new Date();
+            }
+
+            yokItems.push({
                 title: text,
                 link: fullLink,
                 source: "YÖK",
-                parsedDate: parsedDate
+                date: parsedDate.toISOString()
             });
         }
-        
-        if (!maxParsedDate) {
-            maxParsedDate = new Date();
-        }
-        
-        return yokItemsRaw.map((item, idx) => {
-            let finalDate = item.parsedDate;
-            if (!finalDate) {
-                // Subtract hours to keep relative ordering below maxParsedDate
-                finalDate = new Date(maxParsedDate.getTime() - (idx * 3600000));
-            }
-            return {
-                title: item.title,
-                link: item.link,
-                source: item.source,
-                date: finalDate.toISOString()
-            };
-        });
     } catch (e) {
-        console.error("YOK Scrape Error:", e);
-        return [];
+        console.error("YOK fetch error:", e.message);
     }
-}
 
-function parseTurkishMonth(m) {
-    const months = {
-        'ocak': 0, 'şubat': 1, 'mart': 2, 'nisan': 3, 'mayıs': 4, 'haziran': 5,
-        'temmuz': 6, 'ağustos': 7, 'eylül': 8, 'ekim': 9, 'kasım': 10, 'aralık': 11
-    };
-    return months[m.toLowerCase()] || 0;
+    return yokItems;
 }
