@@ -886,15 +886,34 @@
             </button>
             <div class="collapse navbar-collapse" id="anaMenu">
                 <ul class="navbar-nav ms-auto align-items-lg-center">
-                    <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fa-solid fa-house me-1"></i> Ana Sayfa</a></li>
-                    <li class="nav-item"><a class="nav-link" href="rehber.html"><i class="fa-solid fa-robot me-1"></i> Tercih Robotu</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fa-solid fa-house me-1"></i> <span data-i18n="nav_home">Ana Sayfa</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="rehber.html"><i class="fa-solid fa-robot me-1"></i> <span data-i18n="nav_robot">Tercih Robotu</span></a></li>
                     <li class="nav-item">
                         <button onclick="tercihListesiModalAc()" class="btn btn-outline-danger btn-sm rounded-pill px-3 py-1 fw-bold shadow-sm d-inline-flex align-items-center gap-2 ms-lg-2 my-1 my-lg-0" id="btnNavbarTercih">
-                            <i class="fa-solid fa-heart text-danger"></i> Tercih Listem <span class="badge bg-danger text-white rounded-pill" id="badgeTercihSayisi">0/24</span>
+                            <i class="fa-solid fa-heart text-danger"></i> <span data-i18n="nav_my_list">Tercih Listem</span> <span class="badge bg-danger text-white rounded-pill" id="badgeTercihSayisi">0/24</span>
                         </button>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="hakkimizda.html"><i class="fa-solid fa-circle-info me-1"></i> Hakkımızda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="iletisim.html"><i class="fa-solid fa-envelope me-1"></i> İletişim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hakkimizda.html"><i class="fa-solid fa-circle-info me-1"></i> <span data-i18n="nav_about">Hakkımızda</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="iletisim.html"><i class="fa-solid fa-envelope me-1"></i> <span data-i18n="nav_contact">İletişim</span></a></li>
+                    <li class="nav-item ms-lg-2">
+                        <div class="dropdown">
+                            <button class="btn btn-sm btn-light border rounded-pill px-3 py-1 dropdown-toggle fw-bold d-flex align-items-center gap-2 shadow-sm" type="button" id="langDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span id="currentLangFlag">🇹🇷</span> <span id="currentLangText">TR</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0 rounded-3 mt-2" aria-labelledby="langDropdown" style="min-width: 130px;">
+                                <li>
+                                    <button class="dropdown-item d-flex align-items-center gap-2 fw-semibold" onclick="setLanguage('tr')">
+                                        <span>🇹🇷</span> Türkçe (TR)
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item d-flex align-items-center gap-2 fw-semibold" onclick="setLanguage('en')">
+                                        <span>🇬🇧</span> English (EN)
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -902,8 +921,8 @@
 
     <div class="hero">
         <div class="container hero-content">
-            <h1 class="display-3 fw-bold mb-3">Geleceğini Şekillendir</h1>
-            <p class="fs-5 opacity-75 mb-0">Güncel verilerle hedeflerine en uygun üniversiteyi ve bölümü keşfet.</p>
+            <h1 class="display-3 fw-bold mb-3" data-i18n="hero_title">Geleceğini Şekillendir</h1>
+            <p class="fs-5 opacity-75 mb-0" data-i18n="hero_sub">Güncel verilerle hedeflerine en uygun üniversiteyi ve bölümü keşfet.</p>
         </div>
     </div>
 
@@ -911,11 +930,11 @@
         <div class="feature-teaser mb-5">
             <div class="row align-items-center">
                 <div class="col-md-9 text-center text-md-start">
-                    <h5 class="fw-bold mb-1 text-primary"><i class="fa-solid fa-wand-magic-sparkles me-2"></i>Karar Veremiyor musun?</h5>
-                    <p class="text-muted small mb-0">4 adımlık testimizi çöz, karakterine ve yeteneklerine en uygun mesleği robotumuzla keşfet.</p>
+                    <h5 class="fw-bold mb-1 text-primary"><i class="fa-solid fa-wand-magic-sparkles me-2"></i><span data-i18n="teaser_title">Karar Veremiyor musun?</span></h5>
+                    <p class="text-muted small mb-0" data-i18n="teaser_sub">4 adımlık testimizi çöz, karakterine ve yeteneklerine en uygun mesleği robotumuzla keşfet.</p>
                 </div>
                 <div class="col-md-3 text-center text-md-end mt-3 mt-md-0">
-                    <a href="rehber.html" class="btn btn-primary btn-sm px-4 py-2 rounded-pill fw-bold shadow-sm">
+                    <a href="rehber.html" class="btn btn-primary btn-sm px-4 py-2 rounded-pill fw-bold shadow-sm" data-i18n="teaser_btn">
                         Robotu Dene
                     </a>
                 </div>
@@ -925,20 +944,20 @@
         <div class="search-container mb-5">
             <div class="row g-3">
                 <div class="col-lg-2 col-md-4 col-sm-6">
-                    <input type="text" id="uniInput" class="form-control" placeholder="Hangi Üniversite? (Örn: Medipol)">
+                    <input type="text" id="uniInput" class="form-control" data-i18n-ph="ph_uni" placeholder="Hangi Üniversite? (Örn: Medipol)">
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-6">
-                    <input type="text" id="bolumInput" class="form-control" placeholder="Hangi Bölüm? (Örn: Hukuk)">
+                    <input type="text" id="bolumInput" class="form-control" data-i18n-ph="ph_bolum" placeholder="Hangi Bölüm? (Örn: Hukuk)">
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-6">
-                    <input type="text" id="sehirInput" class="form-control" placeholder="Hangi Şehir? (Örn: Eskişehir)">
+                    <input type="text" id="sehirInput" class="form-control" data-i18n-ph="ph_sehir" placeholder="Hangi Şehir? (Örn: Eskişehir)">
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-6">
-                    <input type="number" id="siralamaInput" class="form-control" placeholder="Sıralamanız (Örn: 50000)">
+                    <input type="number" id="siralamaInput" class="form-control" data-i18n-ph="ph_siralama" placeholder="Sıralamanız (Örn: 50000)">
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-6">
                     <select id="puanTuruSelect" class="form-select" onchange="yeniArama()">
-                        <option value="Tümü" selected>Tüm Puan Türleri</option>
+                        <option value="Tümü" selected data-i18n="opt_all_score">Tüm Puan Türleri</option>
                         <option value="SAY">Sayısal (SAY)</option>
                         <option value="EA">Eşit Ağırlık (EA)</option>
                         <option value="SÖZ">Sözel (SÖZ)</option>
@@ -947,15 +966,15 @@
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-6">
                     <select id="uniTuruSelect" class="form-select" onchange="yeniArama()">
-                        <option value="Tümü" selected>Tüm Üni Türleri</option>
-                        <option value="DEVLET">Devlet</option>
-                        <option value="VAKIF">Vakıf</option>
-                        <option value="KKTC">KKTC</option>
-                        <option value="YURTDISI">Yurtdışı</option>
+                        <option value="Tümü" selected data-i18n="opt_all_uni_type">Tüm Üni Türleri</option>
+                        <option value="DEVLET" data-i18n="opt_devlet">Devlet</option>
+                        <option value="VAKIF" data-i18n="opt_vakif">Vakıf</option>
+                        <option value="KKTC" data-i18n="opt_kktc">KKTC</option>
+                        <option value="YURTDISI" data-i18n="opt_yurtdisi">Yurtdışı</option>
                     </select>
                 </div>
                 <div class="col-12 d-grid mt-3">
-                    <button onclick="yeniArama()" class="btn btn-primary shadow-sm"><i class="fa-solid fa-magnifying-glass me-2"></i>Arama Yap & Sıralamama Göre Bölüm Bul</button>
+                    <button onclick="yeniArama()" class="btn btn-primary shadow-sm"><i class="fa-solid fa-magnifying-glass me-2"></i><span data-i18n="btn_search">Arama Yap & Sıralamama Göre Bölüm Bul</span></button>
                 </div>
             </div>
         </div>
@@ -2612,8 +2631,91 @@
             body.innerHTML = html;
         }
 
+        // --- Çoklu Dil (i18n) TR / EN Altyapısı ---
+        const i18n = {
+            tr: {
+                nav_home: "Ana Sayfa",
+                nav_robot: "Tercih Robotu",
+                nav_my_list: "Tercih Listem",
+                nav_about: "Hakkımızda",
+                nav_contact: "İletişim",
+                hero_title: "Geleceğini Şekillendir",
+                hero_sub: "Güncel verilerle hedeflerine en uygun üniversiteyi ve bölümü keşfet.",
+                teaser_title: "Karar Veremiyor musun?",
+                teaser_sub: "4 adımlık testimizi çöz, karakterine ve yeteneklerine en uygun mesleği robotumuzla keşfet.",
+                teaser_btn: "Robotu Dene",
+                ph_uni: "Hangi Üniversite? (Örn: Medipol)",
+                ph_bolum: "Hangi Bölüm? (Örn: Hukuk)",
+                ph_sehir: "Hangi Şehir? (Örn: Eskişehir)",
+                ph_siralama: "Sıralamanız (Örn: 50000)",
+                opt_all_score: "Tüm Puan Türleri",
+                opt_all_uni_type: "Tüm Üni Türleri",
+                opt_devlet: "Devlet",
+                opt_vakif: "Vakıf",
+                opt_kktc: "KKTC",
+                opt_yurtdisi: "Yurtdışı",
+                btn_search: "Arama Yap & Sıralamama Göre Bölüm Bul",
+                btn_load_more: "Diğer Bölümleri Keşfet"
+            },
+            en: {
+                nav_home: "Home",
+                nav_robot: "Preference Wizard",
+                nav_my_list: "My List",
+                nav_about: "About Us",
+                nav_contact: "Contact",
+                hero_title: "Shape Your Future",
+                hero_sub: "Explore universities and degree programs best tailored to your goals with up-to-date placement data.",
+                teaser_title: "Undecided About Your Career?",
+                teaser_sub: "Take our 4-step quiz to discover the ideal profession matching your personality and skills.",
+                teaser_btn: "Try AI Wizard",
+                ph_uni: "Which University? (e.g. Medipol)",
+                ph_bolum: "Which Program? (e.g. Law)",
+                ph_sehir: "Which City? (e.g. Istanbul)",
+                ph_siralama: "Your Rank (e.g. 50000)",
+                opt_all_score: "All Score Types",
+                opt_all_uni_type: "All University Types",
+                opt_devlet: "Public (Devlet)",
+                opt_vakif: "Private (Vakıf)",
+                opt_kktc: "TRNC (KKTC)",
+                opt_yurtdisi: "International",
+                btn_search: "Search & Match Degrees By My Rank",
+                btn_load_more: "Discover More Programs"
+            }
+        };
+
+        let currentLang = localStorage.getItem('edulock_lang') || 'tr';
+
+        function setLanguage(lang) {
+            currentLang = lang;
+            localStorage.setItem('edulock_lang', lang);
+            
+            const flagSpan = document.getElementById('currentLangFlag');
+            const textSpan = document.getElementById('currentLangText');
+            if (flagSpan && textSpan) {
+                flagSpan.innerText = lang === 'en' ? '🇬🇧' : '🇹🇷';
+                textSpan.innerText = lang.toUpperCase();
+            }
+
+            const dict = i18n[lang] || i18n.tr;
+
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (dict[key]) {
+                    el.innerText = dict[key];
+                }
+            });
+
+            document.querySelectorAll('[data-i18n-ph]').forEach(el => {
+                const key = el.getAttribute('data-i18n-ph');
+                if (dict[key]) {
+                    el.setAttribute('placeholder', dict[key]);
+                }
+            });
+        }
+
         document.addEventListener('DOMContentLoaded', () => {
             try { localStorage.removeItem("edulock_theme"); } catch(e){}
+            setLanguage(currentLang);
             tercihlerYukle();
             haberleriYukle();
         });
