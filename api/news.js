@@ -189,6 +189,7 @@ async function getOsymNews() {
 async function getYokNews() {
     const yokItems = [];
     const seenLinks = new Set();
+    const now = new Date();
 
     try {
         const html = await fetchUrl("https://www.yok.gov.tr/tr", 6000);
@@ -215,24 +216,38 @@ async function getYokNews() {
                 
                 const dateTextMatch = /(\d{1,2})\s+([a-zA-ZğüşıöçĞÜŞİÖÇ]+)\s+(20\d{2})/i.exec(context);
                 const dateDotMatch = /(\d{2})\.(\d{2})\.(20\d{2})/.exec(context);
+                const monthOnlyMatch = /(\d{1,2})\s+(Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık)/i.exec(context);
                 
                 if (dateTextMatch) {
                     const [_, d, m, y] = dateTextMatch;
                     const monthIdx = parseTurkishMonth(m);
-                    parsedDate = new Date(parseInt(y), monthIdx, parseInt(d));
+                    parsedDate = new Date(parseInt(y), monthIdx, parseInt(d), 12, 0, 0);
                 } else if (dateDotMatch) {
                     const [_, d, m, y] = dateDotMatch;
-                    parsedDate = new Date(parseInt(y), parseInt(m) - 1, parseInt(d));
+                    parsedDate = new Date(parseInt(y), parseInt(m) - 1, parseInt(d), 12, 0, 0);
+                } else if (monthOnlyMatch) {
+                    const [_, d, m] = monthOnlyMatch;
+                    const monthIdx = parseTurkishMonth(m);
+                    let year = now.getFullYear();
+                    if (monthIdx > now.getMonth()) {
+                        year = year - 1;
+                    }
+                    parsedDate = new Date(year, monthIdx, parseInt(d), 12, 0, 0);
                 }
             }
 
             // Fix for 2026-YKS yerleştirme sonuçları -> 18 Ağustos 2026!
             if (text.includes("2026-YKS") || text.includes("2026 YKS") || text.includes("yerleştirme sonuçları")) {
-                parsedDate = new Date("2026-08-18T00:00:00");
+                parsedDate = new Date("2026-08-18T12:00:00");
             }
 
             if (!parsedDate) {
                 parsedDate = new Date();
+            }
+
+            // Clamp any future dates
+            if (parsedDate > now) {
+                parsedDate.setFullYear(parsedDate.getFullYear() - 1);
             }
 
             yokItems.push({
