@@ -91,6 +91,25 @@
                     </li>
                     <li class="nav-item"><a class="nav-link" href="hakkimizda.html"><i class="fa-solid fa-circle-info me-1"></i> Hakkımızda</a></li>
                     <li class="nav-item"><a class="nav-link active" href="iletisim.html"><i class="fa-solid fa-envelope me-1"></i> İletişim</a></li>
+                    <li class="nav-item ms-lg-2">
+                        <div class="dropdown">
+                            <button class="btn btn-sm btn-light border rounded-pill px-3 py-1 dropdown-toggle fw-bold d-flex align-items-center gap-2 shadow-sm" type="button" id="langDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span id="currentLangFlag"><img src="https://flagcdn.com/w40/tr.png" srcset="https://flagcdn.com/w80/tr.png 2x" width="20" height="14" alt="TR" style="border-radius:2px; object-fit:cover; vertical-align:middle;"></span> <span id="currentLangText">TR</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0 rounded-3 mt-2" aria-labelledby="langDropdown" style="min-width: 140px;">
+                                <li>
+                                    <button class="dropdown-item d-flex align-items-center gap-2 fw-semibold" onclick="setLanguage('tr')">
+                                        <img src="https://flagcdn.com/w40/tr.png" srcset="https://flagcdn.com/w80/tr.png 2x" width="20" height="14" alt="TR" style="border-radius:2px; object-fit:cover; vertical-align:middle;"> Türkçe (TR)
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item d-flex align-items-center gap-2 fw-semibold" onclick="setLanguage('en')">
+                                        <img src="https://flagcdn.com/w40/gb.png" srcset="https://flagcdn.com/w80/gb.png 2x" width="20" height="14" alt="EN" style="border-radius:2px; object-fit:cover; vertical-align:middle;"> English (EN)
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -116,6 +135,41 @@
                     <p class="small text-muted mb-0">
                         <i class="fa-solid fa-clock me-1"></i> E-postalarınıza genellikle 24 saat içerisinde dönüş yapılmaktadır.
                     </p>
+
+                    <!-- Mobil Uygulamalarımız -->
+                    <div class="mt-5 pt-4 border-top">
+                        <!-- EduLock: Çöz ve Kazan -->
+                        <div class="mb-4">
+                            <p class="fw-semibold text-muted mb-3">
+                                <img src="edulock_cozvekazan_logo.png" alt="EduLock Logo" class="me-2" style="height: 28px; width: 28px; border-radius: 6px; object-fit: cover; vertical-align: middle;">
+                                EduLock: Çöz ve Kazan Mobil Uygulaması Yayında!
+                            </p>
+                            <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
+                                <a href="https://play.google.com/store/apps/details?id=com.bagcakaya.edulock.cozvekazan" target="_blank" class="store-badge">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play'den İndirin" style="height: 46px;">
+                                </a>
+                                <a href="https://apps.apple.com/tr/app/edulock-%C3%A7%C3%B6z-ve-kazan/id6778319605" target="_blank" class="store-badge">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store'dan İndirin" style="height: 46px;">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- EduTakip -->
+                        <div class="pt-4 border-top">
+                            <p class="fw-semibold text-muted mb-3">
+                                <img src="edutakip_logo.png" alt="EduTakip Logo" class="me-2" style="height: 28px; width: 28px; border-radius: 6px; object-fit: cover; vertical-align: middle;">
+                                EduTakip Mobil Uygulaması Yayında!
+                            </p>
+                            <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
+                                <a href="https://play.google.com/store/apps/details?id=com.agcakaya.edutakip" target="_blank" class="store-badge">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play'den İndirin" style="height: 46px;">
+                                </a>
+                                <a href="https://apps.apple.com/tr/app/edutakip/id6737402636" target="_blank" class="store-badge">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store'dan İndirin" style="height: 46px;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
