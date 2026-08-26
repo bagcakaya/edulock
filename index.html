@@ -1614,10 +1614,17 @@
             if (e.key === "Enter") yeniArama();
         });
 
-        // Sayfa açıldığında verileri yükle
+        // Sayfa açıldığında URL parametrelerini kontrol et ve verileri yükle
+        checkUrlParams();
         yeniArama();
 
-        function yeniArama() {
+        function yeniArama(isManual) {
+            if (isManual) {
+                window.customMinSira = undefined;
+                window.customMaxSira = undefined;
+                const bannerDiv = document.getElementById("siralamaHesapBanner");
+                if (bannerDiv) bannerDiv.style.display = "none";
+            }
             suankiSayfa = 1;
             document.getElementById("liste").innerHTML = "";
             filtreleVeGoster();
@@ -2773,7 +2780,6 @@
         document.addEventListener('DOMContentLoaded', () => {
             try { localStorage.removeItem("edulock_theme"); } catch(e){}
             setLanguage(currentLang);
-            checkUrlParams();
             tercihlerYukle();
             haberleriYukle();
         });
