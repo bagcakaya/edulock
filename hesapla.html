@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Net & 2026 YKS Sıralama Hesapla | EduLock</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #ec4899;
+            --bg-color: #f8fafc;
+            --surface: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #64748b;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            padding-top: 90px;
+        }
+
+        .navbar {
+            background: rgba(255, 255, 255, 0.85) !important;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            padding: 15px 0;
+        }
+        .navbar-brand {
+            color: var(--text-main) !important;
+            font-weight: 800;
+            font-size: 1.4rem;
+            letter-spacing: -0.5px;
+        }
+        .nav-link {
+            color: var(--text-muted) !important;
+            font-weight: 500;
+            margin-left: 15px;
+            transition: color 0.3s;
+        }
+        .nav-link:hover, .nav-link.active {
+            color: var(--primary) !important;
+        }
+
+        .calc-header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+        .calc-header h1 {
+            font-weight: 800;
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .card-custom {
+            background: var(--surface);
+            border-radius: 24px;
+            border: 1px solid rgba(0,0,0,0.06);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .type-pill-btn {
+            border-radius: 50rem;
+            font-weight: 700;
+            padding: 10px 24px;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .input-group-text-custom {
+            background: #f1f5f9;
+            font-weight: 600;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            border: 1px solid #e2e8f0;
+        }
+
+        .test-title {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--primary-dark);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .net-badge {
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--primary-dark);
+            font-weight: 700;
+            border-radius: 8px;
+            padding: 4px 10px;
+            font-size: 0.9rem;
+        }
+
+        .result-box {
+            background: linear-gradient(135deg, #4f46e5, #6366f1);
+            color: white;
+            border-radius: 24px;
+            padding: 35px;
+            text-align: center;
+            box-shadow: 0 15px 35px rgba(79, 70, 229, 0.3);
+        }
+
+        .result-rank {
+            font-size: 3rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin: 10px 0;
+            color: #fbbf24;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        }
+
+        .btn-target-redirect {
+            background: #fbbf24;
+            color: #0f172a;
+            font-weight: 800;
+            font-size: 1.1rem;
+            padding: 14px 28px;
+            border-radius: 50rem;
+            border: none;
+            box-shadow: 0 8px 20px rgba(251, 191, 36, 0.4);
+            transition: all 0.3s;
+        }
+        .btn-target-redirect:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 25px rgba(251, 191, 36, 0.5);
+            background: #f59e0b;
+            color: #0f172a;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" data-i18n="nav_brand">🎓 EduLock: Tercih ve Puan Rehberi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#anaMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="anaMenu">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-house me-1"></i> <span data-i18n="nav_home">Ana Sayfa</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="rehber.html"><i class="fa-solid fa-robot me-1"></i> <span data-i18n="nav_robot">Tercih Robotu</span></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="hesapla.html"><i class="fa-solid fa-calculator me-1"></i> <span data-i18n="nav_calc">Net & Sıralama</span></a></li>
+                    <li class="nav-item">
+                        <a href="index.html" class="btn btn-outline-danger btn-sm rounded-pill px-3 py-1 fw-bold shadow-sm d-inline-flex align-items-center gap-2 ms-lg-2 my-1 my-lg-0">
+                            <i class="fa-solid fa-heart text-danger"></i> <span data-i18n="nav_my_list">Tercih Listem</span>
+                        </a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="hakkimizda.html"><i class="fa-solid fa-circle-info me-1"></i> <span data-i18n="nav_about">Hakkımızda</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="iletisim.html"><i class="fa-solid fa-envelope me-1"></i> <span data-i18n="nav_contact">İletişim</span></a></li>
+                    <li class="nav-item ms-lg-2">
+                        <div class="dropdown">
+                            <button class="btn btn-sm btn-light border rounded-pill px-3 py-1 dropdown-toggle fw-bold d-flex align-items-center gap-2 shadow-sm" type="button" id="langDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span id="currentLangFlag"><img src="https://flagcdn.com/w40/tr.png" srcset="https://flagcdn.com/w80/tr.png 2x" width="20" height="14" alt="TR" style="border-radius:2px; object-fit:cover; vertical-align:middle;"></span> <span id="currentLangText">TR</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0 rounded-3 mt-2" aria-labelledby="langDropdown" style="min-width: 140px;">
+                                <li>
+                                    <button class="dropdown-item d-flex align-items-center gap-2 fw-semibold" onclick="setLanguage('tr')">
+                                        <img src="https://flagcdn.com/w40/tr.png" srcset="https://flagcdn.com/w80/tr.png 2x" width="20" height="14" alt="TR" style="border-radius:2px; object-fit:cover; vertical-align:middle;"> Türkçe (TR)
+                                    </button>
+                                </li>
+                                <li>
+                                    <button class="dropdown-item d-flex align-items-center gap-2 fw-semibold" onclick="setLanguage('en')">
+                                        <img src="https://flagcdn.com/w40/gb.png" srcset="https://flagcdn.com/w80/gb.png 2x" width="20" height="14" alt="EN" style="border-radius:2px; object-fit:cover; vertical-align:middle;"> English (EN)
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-4">
+        <div class="calc-header">
+            <h1 data-i18n="calc_header_title">2026 YKS Net & Sıralama Hesaplama</h1>
+            <p class="text-muted fs-5" data-i18n="calc_header_sub">Netlerinizi ve diploma notunuzu girin, 2026 YKS tahmini sıralamanızı ve size en uygun bölümleri keşfedin.</p>
+        </div>
+
+        <!-- Puan Türü Seçimi -->
+        <div class="text-center mb-4">
+            <div class="btn-group gap-2 flex-wrap" role="group" id="puanTuruBtnGroup">
+                <button type="button" class="btn btn-primary type-pill-btn shadow-sm" onclick="setPuanTuru('SAY')">Sayısal (SAY)</button>
+                <button type="button" class="btn btn-outline-primary type-pill-btn shadow-sm" onclick="setPuanTuru('EA')">Eşit Ağırlık (EA)</button>
+                <button type="button" class="btn btn-outline-primary type-pill-btn shadow-sm" onclick="setPuanTuru('SÖZ')">Sözel (SÖZ)</button>
+                <button type="button" class="btn btn-outline-primary type-pill-btn shadow-sm" onclick="setPuanTuru('DİL')">Yabancı Dil (DİL)</button>
+                <button type="button" class="btn btn-outline-primary type-pill-btn shadow-sm" onclick="setPuanTuru('TYT')">Ön Lisans (TYT)</button>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-8">
+                <!-- OBP ve Geçen Sene Durumu -->
+                <div class="card-custom">
+                    <div class="test-title"><i class="fa-solid fa-graduation-cap text-primary"></i> <span data-i18n="obp_title">OBP (Diploma Notu) Bilgisi</span></div>
+                    <div class="row g-3 align-items-center">
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold small text-muted" data-i18n="obp_label">Diploma Notunuz (50 - 100):</label>
+                            <input type="number" id="inputObp" class="form-control form-control-lg fw-bold text-primary" min="50" max="100" value="85" oninput="hesapla()">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-check mt-3">
+                                <input class="form-check-input" type="checkbox" id="checkKirikObp" onchange="hesapla()">
+                                <label class="form-check-label fw-semibold small text-danger" for="checkKirikObp" data-i18n="obp_broken_label">
+                                    Geçen sene bir bölüme yerleştim (OBP puanım yarıya düşsün)
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TYT Testi -->
+                <div class="card-custom">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div class="test-title mb-0"><i class="fa-solid fa-pen-ruler text-primary"></i> <span>TYT (Temel Yeterlilik Testi)</span></div>
+                        <span class="net-badge" id="badgeTytToplamNet">TYT Toplam Net: 0.00</span>
+                    </div>
+
+                    <div class="row g-3">
+                        <!-- Türkçe -->
+                        <div class="col-md-6 col-lg-3">
+                            <label class="form-label small fw-semibold">Türkçe (40)</label>
+                            <div class="input-group input-group-sm mb-1">
+                                <span class="input-group-text input-group-text-custom">D</span>
+                                <input type="number" id="tytTurkD" class="form-control fw-bold" min="0" max="40" value="30" oninput="hesapla()">
+                                <span class="input-group-text input-group-text-custom">Y</span>
+                                <input type="number" id="tytTurkY" class="form-control fw-bold" min="0" max="40" value="5" oninput="hesapla()">
+                            </div>
+                            <div class="small text-muted text-end fw-bold" id="netTytTurk">Net: 28.75</div>
+                        </div>
+
+                        <!-- Sosyal -->
+                        <div class="col-md-6 col-lg-3">
+                            <label class="form-label small fw-semibold">Sosyal (20)</label>
+                            <div class="input-group input-group-sm mb-1">
+                                <span class="input-group-text input-group-text-custom">D</span>
+                                <input type="number" id="tytSosD" class="form-control fw-bold" min="0" max="20" value="15" oninput="hesapla()">
+                                <span class="input-group-text input-group-text-custom">Y</span>
+                                <input type="number" id="tytSosY" class="form-control fw-bold" min="0" max="20" value="3" oninput="hesapla()">
+                            </div>
+                            <div class="small text-muted text-end fw-bold" id="netTytSos">Net: 14.25</div>
+                        </div>
+
+                        <!-- Mat -->
+                        <div class="col-md-6 col-lg-3">
+                            <label class="form-label small fw-semibold">Matematik (40)</label>
+                            <div class="input-group input-group-sm mb-1">
+                                <span class="input-group-text input-group-text-custom">D</span>
+                                <input type="number" id="tytMatD" class="form-control fw-bold" min="0" max="40" value="25" oninput="hesapla()">
+                                <span class="input-group-text input-group-text-custom">Y</span>
+                                <input type="number" id="tytMatY" class="form-control fw-bold" min="0" max="40" value="4" oninput="hesapla()">
+                            </div>
+                            <div class="small text-muted text-end fw-bold" id="netTytMat">Net: 24.00</div>
+                        </div>
+
+                        <!-- Fen -->
+                        <div class="col-md-6 col-lg-3">
+                            <label class="form-label small fw-semibold">Fen Bilimleri (20)</label>
+                            <div class="input-group input-group-sm mb-1">
+                                <span class="input-group-text input-group-text-custom">D</span>
+                                <input type="number" id="tytFenD" class="form-control fw-bold" min="0" max="20" value="12" oninput="hesapla()">
+                                <span class="input-group-text input-group-text-custom">Y</span>
+                                <input type="number" id="tytFenY" class="form-control fw-bold" min="0" max="20" value="4" oninput="hesapla()">
+                            </div>
+                            <div class="small text-muted text-end fw-bold" id="netTytFen">Net: 11.00</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AYT / YDT Testleri -->
+                <div class="card-custom" id="cardAyt">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div class="test-title mb-0"><i class="fa-solid fa-book-open text-primary"></i> <span id="titleAlanTesti">AYT (Alan Yeterlilik Testi)</span></div>
+                        <span class="net-badge" id="badgeAytToplamNet">AYT Toplam Net: 0.00</span>
+                    </div>
+
+                    <div class="row g-3" id="containerAytFields">
+                        <!-- Dinamik alanlar JS ile doldurulacak -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sağ Sonuç Kartı -->
+            <div class="col-lg-4">
+                <div class="result-box sticky-top" style="top: 100px; z-index: 10;">
+                    <h5 class="fw-bold text-white-50 text-uppercase tracking-wider small mb-2" data-i18n="res_card_title">2026 YKS TAHMİNİ SONUCUNUZ</h5>
+                    
+                    <div class="mb-3">
+                        <span class="badge bg-white text-dark rounded-pill px-3 py-1 font-weight-bold" id="resPuanTuruBadge">SAYISAL (SAY)</span>
+                    </div>
+
+                    <div class="small opacity-75" data-i18n="res_puan_label">Yerleştirme Puanınız</div>
+                    <div class="display-6 fw-bold text-white mb-3" id="resYerlestirmePuan">412.85</div>
+
+                    <hr class="border-white opacity-25">
+
+                    <div class="small opacity-75" data-i18n="res_rank_label">2026 Tahmini Başarı Sıranız</div>
+                    <div class="result-rank" id="resTahminiSira">48.500</div>
+
+                    <div class="badge bg-warning text-dark px-3 py-2 rounded-pill fw-bold mb-4" id="resBandBadge">
+                        ±30.000 Bant: 18.500 - 78.500
+                    </div>
+
+                    <div>
+                        <button class="btn btn-target-redirect w-100 shadow" onclick="bolumleriGoster()">
+                            <i class="fa-solid fa-wand-magic-sparkles me-2"></i>
+                            <span data-i18n="btn_view_matching_degs">Bu Sıralamayla Bölümleri Gör</span>
+                        </button>
+                    </div>
+                    <p class="small text-white-50 mt-3 mb-0" data-i18n="res_info_sub">
+                        Resmi ÖSYM 2026 sayısal verileri ve kümülatif dağılım eğrisi ile hesaplanmaktadır.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-4 text-center text-muted border-top bg-white mt-auto">
+        <p class="mb-1">© 2026 <strong>EduLock: Tercih ve Puan Rehberi</strong> - Tüm hakları saklıdır.</p>
+        <p class="small">İletişim: <a href="iletisim.html" class="text-decoration-none text-primary">info@edulock.com.tr</a> | <a href="privacy.html" class="text-decoration-none text-primary">Gizlilik Politikası</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let currentPuanTuru = 'SAY';
+
+        const fieldsConfig = {
+            SAY: [
+                { id: 'aytMat', name: 'AYT Matematik', max: 40, d: 24, y: 4 },
+                { id: 'aytFiz', name: 'Fizik', max: 14, d: 8, y: 2 },
+                { id: 'aytKim', name: 'Kimya', max: 13, d: 7, y: 1 },
+                { id: 'aytBiyo', name: 'Biyoloji', max: 13, d: 8, y: 2 }
+            ],
+            EA: [
+                { id: 'aytMat', name: 'AYT Matematik', max: 40, d: 24, y: 4 },
+                { id: 'aytEdeb', name: 'T. Dili ve Edebiyatı', max: 24, d: 18, y: 3 },
+                { id: 'aytTar1', name: 'Tarih-1', max: 10, d: 7, y: 1 },
+                { id: 'aytCog1', name: 'Coğrafya-1', max: 6, d: 5, y: 1 }
+            ],
+            SÖZ: [
+                { id: 'aytEdeb', name: 'T. Dili ve Edebiyatı', max: 24, d: 18, y: 3 },
+                { id: 'aytTar1', name: 'Tarih-1', max: 10, d: 7, y: 1 },
+                { id: 'aytCog1', name: 'Coğrafya-1', max: 6, d: 5, y: 1 },
+                { id: 'aytTar2', name: 'Tarih-2', max: 11, d: 8, y: 2 },
+                { id: 'aytCog2', name: 'Coğrafya-2', max: 11, d: 8, y: 1 },
+                { id: 'aytFel', name: 'Felsefe Grubu', max: 12, d: 9, y: 1 },
+                { id: 'aytDkab', name: 'Din Kültürü (DKAB)', max: 6, d: 5, y: 0 }
+            ],
+            DİL: [
+                { id: 'ydtDil', name: 'Yabancı Dil (YDT)', max: 80, d: 65, y: 5 }
+            ],
+            TYT: []
+        };
+
+        function setPuanTuru(type) {
+            currentPuanTuru = type;
+            
+            // Highlight active button
+            const btns = document.querySelectorAll('#puanTuruBtnGroup button');
+            btns.forEach(b => {
+                b.className = 'btn btn-outline-primary type-pill-btn shadow-sm';
+            });
+            if (event && event.target) {
+                event.target.className = 'btn btn-primary type-pill-btn shadow-sm';
+            }
+
+            // Render AYT fields
+            renderAytFields();
+            hesapla();
+        }
+
+        function renderAytFields() {
+            const container = document.getElementById('containerAytFields');
+            const cardAyt = document.getElementById('cardAyt');
+
+            if (currentPuanTuru === 'TYT') {
+                cardAyt.style.display = 'none';
+                return;
+            }
+            cardAyt.style.display = 'block';
+
+            const fields = fieldsConfig[currentPuanTuru] || [];
+            let html = '';
+
+            fields.forEach(f => {
+                const colSize = currentPuanTuru === 'DİL' ? '12' : (fields.length > 4 ? 'col-md-6 col-lg-3' : 'col-md-6 col-lg-3');
+                html += `
+                    <div class="${colSize}">
+                        <label class="form-label small fw-semibold">${f.name} (${f.max})</label>
+                        <div class="input-group input-group-sm mb-1">
+                            <span class="input-group-text input-group-text-custom">D</span>
+                            <input type="number" id="${f.id}D" class="form-control fw-bold" min="0" max="${f.max}" value="${f.d}" oninput="hesapla()">
+                            <span class="input-group-text input-group-text-custom">Y</span>
+                            <input type="number" id="${f.id}Y" class="form-control fw-bold" min="0" max="${f.max}" value="${f.y}" oninput="hesapla()">
+                        </div>
+                        <div class="small text-muted text-end fw-bold" id="net_${f.id}">Net: 0.00</div>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        function getNet(dId, yId) {
+            const dEl = document.getElementById(dId);
+            const yEl = document.getElementById(yId);
+            if (!dEl || !yEl) return 0;
+            const d = parseFloat(dEl.value) || 0;
+            const y = parseFloat(yEl.value) || 0;
+            return Math.max(0, d - (y / 4));
+        }
+
+        function hesapla() {
+            // TYT Netleri
+            const netTurk = getNet('tytTurkD', 'tytTurkY');
+            const netSos = getNet('tytSosD', 'tytSosY');
+            const netMat = getNet('tytMatD', 'tytMatY');
+            const netFen = getNet('tytFenD', 'tytFenY');
+
+            document.getElementById('netTytTurk').innerText = `Net: ${netTurk.toFixed(2)}`;
+            document.getElementById('netTytSos').innerText = `Net: ${netSos.toFixed(2)}`;
+            document.getElementById('netTytMat').innerText = `Net: ${netMat.toFixed(2)}`;
+            document.getElementById('netTytFen').innerText = `Net: ${netFen.toFixed(2)}`;
+
+            const tytToplamNet = netTurk + netSos + netMat + netFen;
+            document.getElementById('badgeTytToplamNet').innerText = `TYT Toplam Net: ${tytToplamNet.toFixed(2)}`;
+
+            // OBP Puanı
+            const obpInput = parseFloat(document.getElementById('inputObp').value) || 85;
+            const isKirik = document.getElementById('checkKirikObp').checked;
+            const obpKatkisi = isKirik ? (obpInput * 5 * 0.06) : (obpInput * 5 * 0.12);
+
+            // TYT Ham Puan
+            let tytHam = 100 + (netTurk * 3.3) + (netMat * 3.3) + (netSos * 3.4) + (netFen * 3.4);
+
+            let aytToplamNet = 0;
+            let yerlestirmePuan = 0;
+
+            const fields = fieldsConfig[currentPuanTuru] || [];
+            fields.forEach(f => {
+                const net = getNet(`${f.id}D`, `${f.id}Y`);
+                aytToplamNet += net;
+                const netEl = document.getElementById(`net_${f.id}`);
+                if (netEl) netEl.innerText = `Net: ${net.toFixed(2)}`;
+            });
+
+            if (currentPuanTuru !== 'TYT') {
+                document.getElementById('badgeAytToplamNet').innerText = `AYT Toplam Net: ${aytToplamNet.toFixed(2)}`;
+            }
+
+            if (currentPuanTuru === 'TYT') {
+                yerlestirmePuan = tytHam + obpKatkisi;
+            } else if (currentPuanTuru === 'SAY') {
+                const nMat = getNet('aytMatD', 'aytMatY');
+                const nFiz = getNet('aytFizD', 'aytFizY');
+                const nKim = getNet('aytKimD', 'aytKimY');
+                const nBio = getNet('aytBiyoD', 'aytBiyoY');
+                let aytHam = (nMat * 3.0) + (nFiz * 2.85) + (nKim * 3.07) + (nBio * 3.07);
+                yerlestirmePuan = 100 + (tytHam * 0.4) + (aytHam * 0.6) + obpKatkisi;
+            } else if (currentPuanTuru === 'EA') {
+                const nMat = getNet('aytMatD', 'aytMatY');
+                const nEdeb = getNet('aytEdebD', 'aytEdebY');
+                const nTar1 = getNet('aytTar1D', 'aytTar1Y');
+                const nCog1 = getNet('aytCog1D', 'aytCog1Y');
+                let aytHam = (nMat * 3.0) + (nEdeb * 3.0) + (nTar1 * 2.8) + (nCog1 * 3.3);
+                yerlestirmePuan = 100 + (tytHam * 0.4) + (aytHam * 0.6) + obpKatkisi;
+            } else if (currentPuanTuru === 'SÖZ') {
+                const nEdeb = getNet('aytEdebD', 'aytEdebY');
+                const nTar1 = getNet('aytTar1D', 'aytTar1Y');
+                const nCog1 = getNet('aytCog1D', 'aytCog1Y');
+                const nTar2 = getNet('aytTar2D', 'aytTar2Y');
+                const nCog2 = getNet('aytCog2D', 'aytCog2Y');
+                const nFel = getNet('aytFelD', 'aytFelY');
+                const nDkab = getNet('aytDkabD', 'aytDkabY');
+                let aytHam = (nEdeb * 3.0) + (nTar1 * 2.8) + (nCog1 * 3.3) + (nTar2 * 2.91) + (nCog2 * 2.91) + (nFel * 3.0) + (nDkab * 3.3);
+                yerlestirmePuan = 100 + (tytHam * 0.4) + (aytHam * 0.6) + obpKatkisi;
+            } else if (currentPuanTuru === 'DİL') {
+                const nYdt = getNet('ydtDilD', 'ydtDilY');
+                let aytHam = nYdt * 3.0;
+                yerlestirmePuan = 100 + (tytHam * 0.4) + (aytHam * 0.6) + obpKatkisi;
+            }
+
+            // Clamping score max 560
+            yerlestirmePuan = Math.min(560, Math.max(100, yerlestirmePuan));
+
+            // 2026 YKS Ranking Estimation Model
+            let tahminiSira = tahminEt2026Siralama(yerlestirmePuan, currentPuanTuru);
+
+            // Calculate ±30.000 band
+            let minBand = Math.max(1, tahminiSira - 30000);
+            let maxBand = tahminiSira + 30000;
+
+            // Render Results UI
+            document.getElementById('resPuanTuruBadge').innerText = `${currentPuanTuru} PUAN TÜRÜ`;
+            document.getElementById('resYerlestirmePuan').innerText = yerlestirmePuan.toFixed(2);
+            document.getElementById('resTahminiSira').innerText = tahminiSira.toLocaleString('tr-TR');
+            document.getElementById('resBandBadge').innerText = `±30.000 Bant: ${minBand.toLocaleString('tr-TR')} - ${maxBand.toLocaleString('tr-TR')}`;
+
+            window.computedResult = {
+                puanTuru: currentPuanTuru,
+                siralama: tahminiSira,
+                minBand: minBand,
+                maxBand: maxBand
+            };
+        }
+
+        function tahminEt2026Siralama(puan, tur) {
+            // ÖSYM 2026 YKS Cumulative rank estimation curves
+            if (tur === 'SAY') {
+                if (puan >= 520) return Math.round(100 + (560 - puan) * 20);
+                if (puan >= 480) return Math.round(1000 + (520 - puan) * 150);
+                if (puan >= 420) return Math.round(7000 + (480 - puan) * 550);
+                if (puan >= 350) return Math.round(40000 + (420 - puan) * 1200);
+                if (puan >= 280) return Math.round(124000 + (350 - puan) * 2500);
+                return Math.round(300000 + (280 - puan) * 4000);
+            } else if (tur === 'EA') {
+                if (puan >= 480) return Math.round(200 + (540 - puan) * 50);
+                if (puan >= 420) return Math.round(3200 + (480 - puan) * 300);
+                if (puan >= 360) return Math.round(21000 + (420 - puan) * 900);
+                if (puan >= 300) return Math.round(75000 + (360 - puan) * 2200);
+                return Math.round(210000 + (300 - puan) * 3500);
+            } else if (tur === 'SÖZ') {
+                if (puan >= 460) return Math.round(150 + (520 - puan) * 40);
+                if (puan >= 400) return Math.round(2500 + (460 - puan) * 250);
+                if (puan >= 340) return Math.round(17500 + (400 - puan) * 700);
+                if (puan >= 280) return Math.round(60000 + (340 - puan) * 1800);
+                return Math.round(170000 + (280 - puan) * 3000);
+            } else if (tur === 'DİL') {
+                if (puan >= 480) return Math.round(100 + (540 - puan) * 40);
+                if (puan >= 420) return Math.round(2500 + (480 - puan) * 200);
+                if (puan >= 350) return Math.round(14500 + (420 - puan) * 600);
+                return Math.round(56000 + (350 - puan) * 1500);
+            } else {
+                // TYT
+                if (puan >= 450) return Math.round(1000 + (500 - puan) * 200);
+                if (puan >= 380) return Math.round(11000 + (450 - puan) * 1000);
+                if (puan >= 300) return Math.round(80000 + (380 - puan) * 4000);
+                return Math.round(400000 + (300 - puan) * 6000);
+            }
+        }
+
+        function bolumleriGoster() {
+            if (!window.computedResult) return;
+            const res = window.computedResult;
+            const targetUrl = `index.html?puanTuru=${res.puanTuru}&siralama=${res.siralama}&minSira=${res.minBand}&maxSira=${res.maxBand}`;
+            window.location.href = targetUrl;
+        }
+
+        // --- i18n ---
+        const i18n = {
+            tr: {
+                nav_brand: "🎓 EduLock: Tercih ve Puan Rehberi",
+                nav_home: "Ana Sayfa",
+                nav_robot: "Tercih Robotu",
+                nav_calc: "Net & Sıralama",
+                nav_my_list: "Tercih Listem",
+                nav_about: "Hakkımızda",
+                nav_contact: "İletişim",
+                calc_header_title: "2026 YKS Net & Sıralama Hesaplama",
+                calc_header_sub: "Netlerinizi ve diploma notunuzu girin, 2026 YKS tahmini sıralamanızı ve size en uygun bölümleri keşfedin.",
+                obp_title: "OBP (Diploma Notu) Bilgisi",
+                obp_label: "Diploma Notunuz (50 - 100):",
+                obp_broken_label: "Geçen sene bir bölüme yerleştim (OBP puanım yarıya düşsün)",
+                res_card_title: "2026 YKS TAHMİNİ SONUCUNUZ",
+                res_puan_label: "Yerleştirme Puanınız",
+                res_rank_label: "2026 Tahmini Başarı Sıranız",
+                btn_view_matching_degs: "Bu Sıralamayla Bölümleri Gör",
+                res_info_sub: "Resmi ÖSYM 2026 sayısal verileri ve kümülatif dağılım eğrisi ile hesaplanmaktadır."
+            },
+            en: {
+                nav_brand: "🎓 EduLock: Preference & Rank Guide",
+                nav_home: "Home",
+                nav_robot: "Preference Wizard",
+                nav_calc: "Nets & Ranking",
+                nav_my_list: "My List",
+                nav_about: "About Us",
+                nav_contact: "Contact",
+                calc_header_title: "2026 YKS Net & Ranking Calculator",
+                calc_header_sub: "Enter your correct/wrong counts and diploma score to calculate your estimated 2026 rank and match programs.",
+                obp_title: "OBP (Diploma Score) Info",
+                obp_label: "Diploma Score (50 - 100):",
+                obp_broken_label: "I placed in a program last year (Half OBP penalty)",
+                res_card_title: "ESTIMATED 2026 YKS RESULT",
+                res_puan_label: "Your Placement Score",
+                res_rank_label: "Estimated 2026 Success Rank",
+                btn_view_matching_degs: "View Programs For This Rank",
+                res_info_sub: "Calculated using official ÖSYM 2026 placement statistics and cumulative distribution curves."
+            }
+        };
+
+        let currentLang = localStorage.getItem('edulock_lang') || 'tr';
+
+        function setLanguage(lang) {
+            currentLang = lang;
+            localStorage.setItem('edulock_lang', lang);
+            
+            const flagSpan = document.getElementById('currentLangFlag');
+            const textSpan = document.getElementById('currentLangText');
+            if (flagSpan && textSpan) {
+                if (lang === 'en') {
+                    flagSpan.innerHTML = `<img src="https://flagcdn.com/w40/gb.png" srcset="https://flagcdn.com/w80/gb.png 2x" width="20" height="14" alt="EN" style="border-radius:2px; object-fit:cover; vertical-align:middle;">`;
+                } else {
+                    flagSpan.innerHTML = `<img src="https://flagcdn.com/w40/tr.png" srcset="https://flagcdn.com/w80/tr.png 2x" width="20" height="14" alt="TR" style="border-radius:2px; object-fit:cover; vertical-align:middle;">`;
+                }
+                textSpan.innerText = lang.toUpperCase();
+            }
+
+            const dict = i18n[lang] || i18n.tr;
+
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (dict[key]) {
+                    el.innerText = dict[key];
+                }
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            setLanguage(currentLang);
+            renderAytFields();
+            hesapla();
+        });
+    </script>
+</body>
+</html>

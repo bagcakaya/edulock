@@ -888,6 +888,7 @@
                 <ul class="navbar-nav ms-auto align-items-lg-center">
                     <li class="nav-item"><a class="nav-link active" href="index.html"><i class="fa-solid fa-house me-1"></i> <span data-i18n="nav_home">Ana Sayfa</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="rehber.html"><i class="fa-solid fa-robot me-1"></i> <span data-i18n="nav_robot">Tercih Robotu</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="hesapla.html"><i class="fa-solid fa-calculator me-1"></i> <span data-i18n="nav_calc">Net & Sıralama</span></a></li>
                     <li class="nav-item">
                         <button onclick="tercihListesiModalAc()" class="btn btn-outline-danger btn-sm rounded-pill px-3 py-1 fw-bold shadow-sm d-inline-flex align-items-center gap-2 ms-lg-2 my-1 my-lg-0" id="btnNavbarTercih">
                             <i class="fa-solid fa-heart text-danger"></i> <span data-i18n="nav_my_list">Tercih Listem</span> <span class="badge bg-danger text-white rounded-pill" id="badgeTercihSayisi">0/24</span>
@@ -927,6 +928,8 @@
     </div>
 
     <div class="container pb-5">
+        <div id="siralamaHesapBanner" style="display: none;"></div>
+
         <div class="feature-teaser mb-5">
             <div class="row align-items-center">
                 <div class="col-md-9 text-center text-md-start">
@@ -1663,7 +1666,14 @@
                     }
 
                     let siralamaAralikUygun = true;
-                    if (siralamaFiltreAktif) {
+                    if (window.customMinSira !== undefined && window.customMaxSira !== undefined) {
+                        const itemSir = item.basariSirasi ? parseInt(item.basariSirasi) : null;
+                        if (itemSir) {
+                            siralamaAralikUygun = (itemSir >= window.customMinSira && itemSir <= window.customMaxSira);
+                        } else {
+                            siralamaAralikUygun = false;
+                        }
+                    } else if (siralamaFiltreAktif) {
                         const itemSir = item.basariSirasi ? parseInt(item.basariSirasi) : null;
                         if (itemSir) {
                             // Öğrenci sıralamasının %70-%135 aralığındaki bölümleri getir
@@ -2631,11 +2641,53 @@
             body.innerHTML = html;
         }
 
+        function checkUrlParams() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const puanTuru = urlParams.get('puanTuru');
+            const siralama = urlParams.get('siralama');
+            const minSira = urlParams.get('minSira');
+            const maxSira = urlParams.get('maxSira');
+
+            if (minSira && maxSira) {
+                window.customMinSira = parseInt(minSira);
+                window.customMaxSira = parseInt(maxSira);
+
+                if (puanTuru) {
+                    const sel = document.getElementById("puanTuruSelect");
+                    if (sel) sel.value = puanTuru;
+                }
+                if (siralama) {
+                    const inp = document.getElementById("siralamaInput");
+                    if (inp) inp.value = siralama;
+                }
+
+                // Banner göster
+                const bannerDiv = document.getElementById("siralamaHesapBanner");
+                if (bannerDiv) {
+                    const formattedSir = parseInt(siralama).toLocaleString('tr-TR');
+                    const formattedMin = parseInt(minSira).toLocaleString('tr-TR');
+                    const formattedMax = parseInt(maxSira).toLocaleString('tr-TR');
+                    bannerDiv.innerHTML = `
+                        <div class="alert alert-info rounded-4 border-0 shadow-sm d-flex align-items-center justify-content-between p-3 mb-4 flex-wrap gap-2">
+                            <div>
+                                <i class="fa-solid fa-wand-magic-sparkles me-2 fs-5 text-primary"></i>
+                                <strong>Hesaplanan 2026 Sıralamanıza Göre Filtrelendi:</strong> 
+                                <span><strong>${formattedSir}</strong> sıralamanız için <strong>±30.000 bandındaki (${formattedMin} - ${formattedMax})</strong> bölümler listelenmektedir.</span>
+                            </div>
+                            <a href="index.html" class="btn btn-sm btn-outline-secondary rounded-pill px-3 fw-bold ms-auto" style="white-space: nowrap;">Tümünü Göster</a>
+                        </div>
+                    `;
+                    bannerDiv.style.display = "block";
+                }
+            }
+        }
+
         // --- Çoklu Dil (i18n) TR / EN Altyapısı ---
         const i18n = {
             tr: {
                 nav_home: "Ana Sayfa",
                 nav_robot: "Tercih Robotu",
+                nav_calc: "Net & Sıralama",
                 nav_my_list: "Tercih Listem",
                 nav_about: "Hakkımızda",
                 nav_contact: "İletişim",
@@ -2660,6 +2712,7 @@
             en: {
                 nav_home: "Home",
                 nav_robot: "Preference Wizard",
+                nav_calc: "Nets & Ranking",
                 nav_my_list: "My List",
                 nav_about: "About Us",
                 nav_contact: "Contact",
@@ -2720,6 +2773,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             try { localStorage.removeItem("edulock_theme"); } catch(e){}
             setLanguage(currentLang);
+            checkUrlParams();
             tercihlerYukle();
             haberleriYukle();
         });
