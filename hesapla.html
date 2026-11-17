@@ -435,13 +435,191 @@
 
                 <!-- AYT / YDT Testleri -->
                 <div class="card-custom" id="cardAyt">
-                    <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-3">
-                        <div class="test-title mb-0"><i class="fa-solid fa-book-open"></i> <span id="titleAlanTesti">2. Oturum: AYT (Alan Yeterlilik Testi)</span></div>
-                        <span class="net-badge" id="badgeAytToplamNet">AYT Toplam Net: 0.00</span>
+                    <div class="d-flex flex-wrap justify-content-between align-items-center border-bottom pb-3 mb-3 gap-2">
+                        <div>
+                            <div class="test-title mb-1"><i class="fa-solid fa-book-open"></i> <span id="titleAlanTesti">2. Oturum: AYT (Alan Yeterlilik Testleri) & YDT</span></div>
+                            <div class="text-muted" style="font-size: 0.8rem;">Çözdüğünüz testlerin doğru ve yanlış sayılarını girin. Sağ panelden hedef puan türünüzü (SAY, EA, SÖZ, DİL, TYT) seçebilirsiniz.</div>
+                        </div>
+                        <span class="net-badge" id="badgeAytToplamNet">Seçili Alan Neti: 0.00</span>
                     </div>
 
-                    <div class="row g-3" id="containerAytFields">
-                        <!-- Dinamik alanlar JS ile doldurulacak -->
+                    <!-- 1. AYT Matematik ve Fen Bilimleri (Sayısal & EA Ortak/İlgili) -->
+                    <div class="p-3 rounded-2 mb-3 ayt-group-box" id="groupMatFen" style="background: var(--bg-color); border: 1px solid var(--border-color);">
+                        <div class="d-flex justify-content-between align-items-center mb-2 pb-1 border-bottom">
+                            <span class="fw-bold small text-uppercase" style="color: var(--primary); font-family: var(--font-mono);">
+                                <i class="fa-solid fa-square-root-variable me-1"></i> Matematik (40) & Fen Bilimleri Testi (40)
+                            </span>
+                            <div class="d-flex gap-1">
+                                <span class="badge" style="background: var(--primary); font-family: var(--font-mono); font-size: 0.68rem;">SAY</span>
+                                <span class="badge" style="background: #475569; font-family: var(--font-mono); font-size: 0.68rem;">EA (Matematik)</span>
+                            </div>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-md-6 col-lg-3">
+                                <label class="form-label small fw-semibold">AYT Matematik (40)</label>
+                                <div class="input-group input-group-sm mb-1">
+                                    <span class="input-group-text input-group-text-custom">D</span>
+                                    <input type="number" id="aytMatD" class="form-control fw-bold" min="0" max="40" value="24" oninput="hesapla()">
+                                    <span class="input-group-text input-group-text-custom">Y</span>
+                                    <input type="number" id="aytMatY" class="form-control fw-bold" min="0" max="40" value="4" oninput="hesapla()">
+                                </div>
+                                <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="net_aytMat">Net: 23.00</div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <label class="form-label small fw-semibold">Fizik (14)</label>
+                                <div class="input-group input-group-sm mb-1">
+                                    <span class="input-group-text input-group-text-custom">D</span>
+                                    <input type="number" id="aytFizD" class="form-control fw-bold" min="0" max="14" value="8" oninput="hesapla()">
+                                    <span class="input-group-text input-group-text-custom">Y</span>
+                                    <input type="number" id="aytFizY" class="form-control fw-bold" min="0" max="14" value="2" oninput="hesapla()">
+                                </div>
+                                <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="net_aytFiz">Net: 7.50</div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <label class="form-label small fw-semibold">Kimya (13)</label>
+                                <div class="input-group input-group-sm mb-1">
+                                    <span class="input-group-text input-group-text-custom">D</span>
+                                    <input type="number" id="aytKimD" class="form-control fw-bold" min="0" max="13" value="7" oninput="hesapla()">
+                                    <span class="input-group-text input-group-text-custom">Y</span>
+                                    <input type="number" id="aytKimY" class="form-control fw-bold" min="0" max="13" value="1" oninput="hesapla()">
+                                </div>
+                                <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="net_aytKim">Net: 6.75</div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <label class="form-label small fw-semibold">Biyoloji (13)</label>
+                                <div class="input-group input-group-sm mb-1">
+                                    <span class="input-group-text input-group-text-custom">D</span>
+                                    <input type="number" id="aytBiyoD" class="form-control fw-bold" min="0" max="13" value="8" oninput="hesapla()">
+                                    <span class="input-group-text input-group-text-custom">Y</span>
+                                    <input type="number" id="aytBiyoY" class="form-control fw-bold" min="0" max="13" value="2" oninput="hesapla()">
+                                </div>
+                                <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="net_aytBiyo">Net: 7.50</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. Türk Dili ve Edebiyatı - Sosyal Bilimler-1 Testi (40 Soru) -->
+                    <div class="p-3 rounded-2 mb-3 ayt-group-box" id="groupEdebSos1" style="background: var(--bg-color); border: 1px solid var(--border-color);">
+                        <div class="d-flex justify-content-between align-items-center mb-2 pb-1 border-bottom">
+                            <span class="fw-bold small text-uppercase" style="color: var(--primary); font-family: var(--font-mono);">
+                                <i class="fa-solid fa-feather-pointed me-1"></i> Türk Dili ve Edebiyatı – Sosyal Bilimler-1 Testi (40)
+                            </span>
+                            <div class="d-flex gap-1">
+                                <span class="badge" style="background: var(--accent-teal); font-family: var(--font-mono); font-size: 0.68rem;">EA</span>
+                                <span class="badge" style="background: var(--secondary); font-family: var(--font-mono); font-size: 0.68rem;">SÖZ</span>
+                            </div>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <label class="form-label small fw-semibold">T. Dili ve Edebiyatı (24)</label>
+                                <div class="input-group input-group-sm mb-1">
+                                    <span class="input-group-text input-group-text-custom">D</span>
+                                    <input type="number" id="aytEdebD" class="form-control fw-bold" min="0" max="24" value="16" oninput="hesapla()">
+                                    <span class="input-group-text input-group-text-custom">Y</span>
+                                    <input type="number" id="aytEdebY" class="form-control fw-bold" min="0" max="24" value="4" oninput="hesapla()">
+                                </div>
+                                <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="net_aytEdeb">Net: 15.00</div>
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label small fw-semibold">Tarih-1 (10)</label>
+                                <div class="input-group input-group-sm mb-1">
+                                    <span class="input-group-text input-group-text-custom">D</span>
+                                    <input type="number" id="aytTar1D" class="form-control fw-bold" min="0" max="10" value="7" oninput="hesapla()">
+                                    <span class="input-group-text input-group-text-custom">Y</span>
+                                    <input type="number" id="aytTar1Y" class="form-control fw-bold" min="0" max="10" value="1" oninput="hesapla()">
+                                </div>
+                                <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="net_aytTar1">Net: 6.75</div>
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label small fw-semibold">Coğrafya-1 (6)</label>
+                                <div class="input-group input-group-sm mb-1">
+                                    <span class="input-group-text input-group-text-custom">D</span>
+                                    <input type="number" id="aytCog1D" class="form-control fw-bold" min="0" max="6" value="5" oninput="hesapla()">
+                                    <span class="input-group-text input-group-text-custom">Y</span>
+                                    <input type="number" id="aytCog1Y" class="form-control fw-bold" min="0" max="6" value="1" oninput="hesapla()">
+                                </div>
+                                <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="net_aytCog1">Net: 4.75</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3. Sosyal Bilimler-2 Testi (40 Soru) -->
+                    <div class="p-3 rounded-2 mb-3 ayt-group-box" id="groupSos2" style="background: var(--bg-color); border: 1px solid var(--border-color);">
+                        <div class="d-flex justify-content-between align-items-center mb-2 pb-1 border-bottom">
+                            <span class="fw-bold small text-uppercase" style="color: var(--primary); font-family: var(--font-mono);">
+                                <i class="fa-solid fa-landmark me-1"></i> Sosyal Bilimler-2 Testi (40)
+                            </span>
+                            <span class="badge" style="background: var(--secondary); font-family: var(--font-mono); font-size: 0.68rem;">SÖZ</span>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-md-6 col-lg-3">
+                                <label class="form-label small fw-semibold">Tarih-2 (11)</label>
+                                <div class="input-group input-group-sm mb-1">
+                                    <span class="input-group-text input-group-text-custom">D</span>
+                                    <input type="number" id="aytTar2D" class="form-control fw-bold" min="0" max="11" value="8" oninput="hesapla()">
+                                    <span class="input-group-text input-group-text-custom">Y</span>
+                                    <input type="number" id="aytTar2Y" class="form-control fw-bold" min="0" max="11" value="2" oninput="hesapla()">
+                                </div>
+                                <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="net_aytTar2">Net: 7.50</div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <label class="form-label small fw-semibold">Coğrafya-2 (11)</label>
+                                <div class="input-group input-group-sm mb-1">
+                                    <span class="input-group-text input-group-text-custom">D</span>
+                                    <input type="number" id="aytCog2D" class="form-control fw-bold" min="0" max="11" value="8" oninput="hesapla()">
+                                    <span class="input-group-text input-group-text-custom">Y</span>
+                                    <input type="number" id="aytCog2Y" class="form-control fw-bold" min="0" max="11" value="1" oninput="hesapla()">
+                                </div>
+                                <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="net_aytCog2">Net: 7.75</div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <label class="form-label small fw-semibold">Felsefe Grubu (12)</label>
+                                <div class="input-group input-group-sm mb-1">
+                                    <span class="input-group-text input-group-text-custom">D</span>
+                                    <input type="number" id="aytFelD" class="form-control fw-bold" min="0" max="12" value="9" oninput="hesapla()">
+                                    <span class="input-group-text input-group-text-custom">Y</span>
+                                    <input type="number" id="aytFelY" class="form-control fw-bold" min="0" max="12" value="1" oninput="hesapla()">
+                                </div>
+                                <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="net_aytFel">Net: 8.75</div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <label class="form-label small fw-semibold">Din Kültürü / DKAB (6)</label>
+                                <div class="input-group input-group-sm mb-1">
+                                    <span class="input-group-text input-group-text-custom">D</span>
+                                    <input type="number" id="aytDkabD" class="form-control fw-bold" min="0" max="6" value="5" oninput="hesapla()">
+                                    <span class="input-group-text input-group-text-custom">Y</span>
+                                    <input type="number" id="aytDkabY" class="form-control fw-bold" min="0" max="6" value="0" oninput="hesapla()">
+                                </div>
+                                <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="net_aytDkab">Net: 5.00</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4. 3. Oturum: YDT (Yabancı Dil Testi - 80 Soru) -->
+                    <div class="p-3 rounded-2 ayt-group-box" id="groupYdt" style="background: var(--bg-color); border: 1px solid var(--border-color);">
+                        <div class="d-flex justify-content-between align-items-center mb-2 pb-1 border-bottom">
+                            <span class="fw-bold small text-uppercase" style="color: var(--primary); font-family: var(--font-mono);">
+                                <i class="fa-solid fa-language me-1"></i> 3. Oturum: YDT – Yabancı Dil Testi (80)
+                            </span>
+                            <span class="badge bg-dark" style="font-family: var(--font-mono); font-size: 0.68rem;">DİL</span>
+                        </div>
+                        <div class="row g-3 align-items-center">
+                            <div class="col-md-6">
+                                <label class="form-label small fw-semibold">Yabancı Dil (İngilizce / Almanca / Fransızca) (80)</label>
+                                <div class="input-group input-group-sm mb-1">
+                                    <span class="input-group-text input-group-text-custom">D</span>
+                                    <input type="number" id="ydtDilD" class="form-control fw-bold" min="0" max="80" value="65" oninput="hesapla()">
+                                    <span class="input-group-text input-group-text-custom">Y</span>
+                                    <input type="number" id="ydtDilY" class="form-control fw-bold" min="0" max="80" value="5" oninput="hesapla()">
+                                </div>
+                                <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="net_ydtDil">Net: 63.75</div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="small text-muted">
+                                    Dil puanı ile öğrenci alan lisans programları için TYT (%40) ve YDT (%60) ağırlığı kullanılır.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -455,7 +633,7 @@
                     </div>
 
                     <div class="p-3 rounded-2 mb-3" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);">
-                        <div class="small text-white-50 mb-1" data-i18n="res_puan_label">Yerleştirme Puanınız</div>
+                        <div class="small text-white-50 mb-1" data-i18n="res_puan_label">Seçili Yerleştirme Puanınız</div>
                         <div class="fs-2 fw-bold text-white" style="font-family: var(--font-mono);" id="resYerlestirmePuan">412.85</div>
                     </div>
 
@@ -464,6 +642,14 @@
                         <div class="result-rank" id="resTahminiSira">48.500</div>
                         <div class="d-inline-block px-2 py-1 rounded-1 small fw-semibold" style="background: rgba(13, 110, 82, 0.35); border: 1px solid #10b981; color: #a7f3d0; font-family: var(--font-mono); font-size: 0.78rem;" id="resBandBadge">
                             ±30.000 Bant: 18.500 - 78.500
+                        </div>
+                    </div>
+
+                    <!-- Tüm Puan Türleri Hızlı Tablosu -->
+                    <div class="mb-3 p-2 rounded-2" style="background: rgba(0,0,0,0.2); border: 1px solid rgba(255,255,255,0.1);">
+                        <div class="small text-white-50 mb-2 px-1" style="font-size: 0.72rem; font-family: var(--font-mono); text-transform: uppercase;">Tüm Puan Türleri (Seçmek İçin Tıklayın)</div>
+                        <div id="allScoresSummaryTable" class="d-flex flex-column gap-1" style="font-family: var(--font-mono); font-size: 0.8rem;">
+                            <!-- JS ile tüm puan türleri burada listelenir -->
                         </div>
                     </div>
 
@@ -492,81 +678,57 @@
     <script>
         let currentPuanTuru = 'SAY';
 
-        const fieldsConfig = {
-            SAY: [
-                { id: 'aytMat', name: 'AYT Matematik', max: 40, d: 24, y: 4 },
-                { id: 'aytFiz', name: 'Fizik', max: 14, d: 8, y: 2 },
-                { id: 'aytKim', name: 'Kimya', max: 13, d: 7, y: 1 },
-                { id: 'aytBiyo', name: 'Biyoloji', max: 13, d: 8, y: 2 }
-            ],
-            EA: [
-                { id: 'aytMat', name: 'AYT Matematik', max: 40, d: 24, y: 4 },
-                { id: 'aytEdeb', name: 'T. Dili ve Edebiyatı', max: 24, d: 18, y: 3 },
-                { id: 'aytTar1', name: 'Tarih-1', max: 10, d: 7, y: 1 },
-                { id: 'aytCog1', name: 'Coğrafya-1', max: 6, d: 5, y: 1 }
-            ],
-            SÖZ: [
-                { id: 'aytEdeb', name: 'T. Dili ve Edebiyatı', max: 24, d: 18, y: 3 },
-                { id: 'aytTar1', name: 'Tarih-1', max: 10, d: 7, y: 1 },
-                { id: 'aytCog1', name: 'Coğrafya-1', max: 6, d: 5, y: 1 },
-                { id: 'aytTar2', name: 'Tarih-2', max: 11, d: 8, y: 2 },
-                { id: 'aytCog2', name: 'Coğrafya-2', max: 11, d: 8, y: 1 },
-                { id: 'aytFel', name: 'Felsefe Grubu', max: 12, d: 9, y: 1 },
-                { id: 'aytDkab', name: 'Din Kültürü (DKAB)', max: 6, d: 5, y: 0 }
-            ],
-            DİL: [
-                { id: 'ydtDil', name: 'Yabancı Dil (YDT)', max: 80, d: 65, y: 5 }
-            ],
-            TYT: []
-        };
+        const allAytFieldIds = [
+            'aytMat', 'aytFiz', 'aytKim', 'aytBiyo',
+            'aytEdeb', 'aytTar1', 'aytCog1',
+            'aytTar2', 'aytCog2', 'aytFel', 'aytDkab',
+            'ydtDil'
+        ];
 
         function setPuanTuru(type) {
             currentPuanTuru = type;
             
-            // Highlight active button
+            // Highlight active button in top bar
             const btns = document.querySelectorAll('#puanTuruBtnGroup button');
-            btns.forEach(b => {
-                b.className = 'btn btn-outline-primary type-pill-btn';
+            const order = ['SAY', 'EA', 'SÖZ', 'DİL', 'TYT'];
+            btns.forEach((b, idx) => {
+                if (order[idx] === type) {
+                    b.className = 'btn btn-primary type-pill-btn';
+                } else {
+                    b.className = 'btn btn-outline-primary type-pill-btn';
+                }
             });
-            if (event && event.target) {
-                event.target.className = 'btn btn-primary type-pill-btn';
-            }
 
-            // Render AYT fields
-            renderAytFields();
+            highlightActiveGroups();
             hesapla();
         }
 
-        function renderAytFields() {
-            const container = document.getElementById('containerAytFields');
-            const cardAyt = document.getElementById('cardAyt');
+        function highlightActiveGroups() {
+            const gMatFen = document.getElementById('groupMatFen');
+            const gEdebSos1 = document.getElementById('groupEdebSos1');
+            const gSos2 = document.getElementById('groupSos2');
+            const gYdt = document.getElementById('groupYdt');
 
-            if (currentPuanTuru === 'TYT') {
-                cardAyt.style.display = 'none';
-                return;
-            }
-            cardAyt.style.display = 'block';
-
-            const fields = fieldsConfig[currentPuanTuru] || [];
-            let html = '';
-
-            fields.forEach(f => {
-                const colSize = currentPuanTuru === 'DİL' ? '12' : (fields.length > 4 ? 'col-md-6 col-lg-3' : 'col-md-6 col-lg-3');
-                html += `
-                    <div class="${colSize}">
-                        <label class="form-label small fw-semibold">${f.name} (${f.max})</label>
-                        <div class="input-group input-group-sm mb-1">
-                            <span class="input-group-text input-group-text-custom">D</span>
-                            <input type="number" id="${f.id}D" class="form-control fw-bold" min="0" max="${f.max}" value="${f.d}" oninput="hesapla()">
-                            <span class="input-group-text input-group-text-custom">Y</span>
-                            <input type="number" id="${f.id}Y" class="form-control fw-bold" min="0" max="${f.max}" value="${f.y}" oninput="hesapla()">
-                        </div>
-                        <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="net_${f.id}">Net: 0.00</div>
-                    </div>
-                `;
+            [gMatFen, gEdebSos1, gSos2, gYdt].forEach(el => {
+                if (el) {
+                    el.style.borderColor = 'var(--border-color)';
+                    el.style.borderLeftWidth = '1px';
+                }
             });
 
-            container.innerHTML = html;
+            if (currentPuanTuru === 'SAY' && gMatFen) {
+                gMatFen.style.borderColor = '#14213d';
+                gMatFen.style.borderLeft = '4px solid #14213d';
+            } else if (currentPuanTuru === 'EA') {
+                if (gMatFen) { gMatFen.style.borderColor = '#0d6e52'; gMatFen.style.borderLeft = '4px solid #0d6e52'; }
+                if (gEdebSos1) { gEdebSos1.style.borderColor = '#0d6e52'; gEdebSos1.style.borderLeft = '4px solid #0d6e52'; }
+            } else if (currentPuanTuru === 'SÖZ') {
+                if (gEdebSos1) { gEdebSos1.style.borderColor = '#b93829'; gEdebSos1.style.borderLeft = '4px solid #b93829'; }
+                if (gSos2) { gSos2.style.borderColor = '#b93829'; gSos2.style.borderLeft = '4px solid #b93829'; }
+            } else if (currentPuanTuru === 'DİL' && gYdt) {
+                gYdt.style.borderColor = '#14213d';
+                gYdt.style.borderLeft = '4px solid #14213d';
+            }
         }
 
         function getNet(dId, yId) {
@@ -601,58 +763,47 @@
             // TYT Ham Puan
             let tytHam = 100 + (netTurk * 3.3) + (netMat * 3.3) + (netSos * 3.4) + (netFen * 3.4);
 
-            let aytToplamNet = 0;
-            let yerlestirmePuan = 0;
-
-            const fields = fieldsConfig[currentPuanTuru] || [];
-            fields.forEach(f => {
-                const net = getNet(`${f.id}D`, `${f.id}Y`);
-                aytToplamNet += net;
-                const netEl = document.getElementById(`net_${f.id}`);
+            // Her bir AYT / YDT dersinin netini güncelle
+            allAytFieldIds.forEach(id => {
+                const net = getNet(`${id}D`, `${id}Y`);
+                const netEl = document.getElementById(`net_${id}`);
                 if (netEl) netEl.innerText = `Net: ${net.toFixed(2)}`;
             });
 
-            if (currentPuanTuru !== 'TYT') {
-                document.getElementById('badgeAytToplamNet').innerText = `AYT Toplam Net: ${aytToplamNet.toFixed(2)}`;
-            }
+            const nMat = getNet('aytMatD', 'aytMatY');
+            const nFiz = getNet('aytFizD', 'aytFizY');
+            const nKim = getNet('aytKimD', 'aytKimY');
+            const nBio = getNet('aytBiyoD', 'aytBiyoY');
+            const nEdeb = getNet('aytEdebD', 'aytEdebY');
+            const nTar1 = getNet('aytTar1D', 'aytTar1Y');
+            const nCog1 = getNet('aytCog1D', 'aytCog1Y');
+            const nTar2 = getNet('aytTar2D', 'aytTar2Y');
+            const nCog2 = getNet('aytCog2D', 'aytCog2Y');
+            const nFel = getNet('aytFelD', 'aytFelY');
+            const nDkab = getNet('aytDkabD', 'aytDkabY');
+            const nYdt = getNet('ydtDilD', 'ydtDilY');
 
-            if (currentPuanTuru === 'TYT') {
-                yerlestirmePuan = tytHam + obpKatkisi;
-            } else if (currentPuanTuru === 'SAY') {
-                const nMat = getNet('aytMatD', 'aytMatY');
-                const nFiz = getNet('aytFizD', 'aytFizY');
-                const nKim = getNet('aytKimD', 'aytKimY');
-                const nBio = getNet('aytBiyoD', 'aytBiyoY');
-                let aytHam = (nMat * 3.0) + (nFiz * 2.85) + (nKim * 3.07) + (nBio * 3.07);
-                yerlestirmePuan = 100 + (tytHam * 0.4) + (aytHam * 0.6) + obpKatkisi;
-            } else if (currentPuanTuru === 'EA') {
-                const nMat = getNet('aytMatD', 'aytMatY');
-                const nEdeb = getNet('aytEdebD', 'aytEdebY');
-                const nTar1 = getNet('aytTar1D', 'aytTar1Y');
-                const nCog1 = getNet('aytCog1D', 'aytCog1Y');
-                let aytHam = (nMat * 3.0) + (nEdeb * 3.0) + (nTar1 * 2.8) + (nCog1 * 3.3);
-                yerlestirmePuan = 100 + (tytHam * 0.4) + (aytHam * 0.6) + obpKatkisi;
-            } else if (currentPuanTuru === 'SÖZ') {
-                const nEdeb = getNet('aytEdebD', 'aytEdebY');
-                const nTar1 = getNet('aytTar1D', 'aytTar1Y');
-                const nCog1 = getNet('aytCog1D', 'aytCog1Y');
-                const nTar2 = getNet('aytTar2D', 'aytTar2Y');
-                const nCog2 = getNet('aytCog2D', 'aytCog2Y');
-                const nFel = getNet('aytFelD', 'aytFelY');
-                const nDkab = getNet('aytDkabD', 'aytDkabY');
-                let aytHam = (nEdeb * 3.0) + (nTar1 * 2.8) + (nCog1 * 3.3) + (nTar2 * 2.91) + (nCog2 * 2.91) + (nFel * 3.0) + (nDkab * 3.3);
-                yerlestirmePuan = 100 + (tytHam * 0.4) + (aytHam * 0.6) + obpKatkisi;
-            } else if (currentPuanTuru === 'DİL') {
-                const nYdt = getNet('ydtDilD', 'ydtDilY');
-                let aytHam = nYdt * 3.0;
-                yerlestirmePuan = 100 + (tytHam * 0.4) + (aytHam * 0.6) + obpKatkisi;
-            }
+            // 5 Puan Türünü de Eşzamanlı Hesapla
+            const scores = {
+                SAY: Math.min(560, Math.max(100, 100 + (tytHam * 0.4) + (((nMat * 3.0) + (nFiz * 2.85) + (nKim * 3.07) + (nBio * 3.07)) * 0.6) + obpKatkisi)),
+                EA:  Math.min(560, Math.max(100, 100 + (tytHam * 0.4) + (((nMat * 3.0) + (nEdeb * 3.0) + (nTar1 * 2.8) + (nCog1 * 3.3)) * 0.6) + obpKatkisi)),
+                SÖZ: Math.min(560, Math.max(100, 100 + (tytHam * 0.4) + (((nEdeb * 3.0) + (nTar1 * 2.8) + (nCog1 * 3.3) + (nTar2 * 2.91) + (nCog2 * 2.91) + (nFel * 3.0) + (nDkab * 3.3)) * 0.6) + obpKatkisi)),
+                DİL: Math.min(560, Math.max(100, 100 + (tytHam * 0.4) + ((nYdt * 3.0) * 0.6) + obpKatkisi)),
+                TYT: Math.min(560, Math.max(100, tytHam + obpKatkisi))
+            };
 
-            // Clamping score max 560
-            yerlestirmePuan = Math.min(560, Math.max(100, yerlestirmePuan));
+            const netsByType = {
+                SAY: nMat + nFiz + nKim + nBio,
+                EA: nMat + nEdeb + nTar1 + nCog1,
+                SÖZ: nEdeb + nTar1 + nCog1 + nTar2 + nCog2 + nFel + nDkab,
+                DİL: nYdt,
+                TYT: tytToplamNet
+            };
 
-            // 2026 YKS Ranking Estimation Model
-            let tahminiSira = tahminEt2026Siralama(yerlestirmePuan, currentPuanTuru);
+            document.getElementById('badgeAytToplamNet').innerText = `${currentPuanTuru} Alan Neti: ${netsByType[currentPuanTuru].toFixed(2)}`;
+
+            const yerlestirmePuan = scores[currentPuanTuru];
+            const tahminiSira = tahminEt2026Siralama(yerlestirmePuan, currentPuanTuru);
 
             // Calculate ±30.000 band
             let minBand = Math.max(1, tahminiSira - 30000);
@@ -663,6 +814,25 @@
             document.getElementById('resYerlestirmePuan').innerText = yerlestirmePuan.toFixed(2);
             document.getElementById('resTahminiSira').innerText = tahminiSira.toLocaleString('tr-TR');
             document.getElementById('resBandBadge').innerText = `±30.000 Bant: ${minBand.toLocaleString('tr-TR')} - ${maxBand.toLocaleString('tr-TR')}`;
+
+            // Render All 5 Score Types Mini Table
+            const summaryTable = document.getElementById('allScoresSummaryTable');
+            if (summaryTable) {
+                let tableHtml = '';
+                ['SAY', 'EA', 'SÖZ', 'DİL', 'TYT'].forEach(t => {
+                    const p = scores[t];
+                    const s = tahminEt2026Siralama(p, t);
+                    const isAct = (t === currentPuanTuru);
+                    tableHtml += `
+                        <div onclick="setPuanTuru('${t}')" class="d-flex justify-content-between align-items-center px-2 py-1 rounded-1" style="cursor: pointer; background: ${isAct ? 'rgba(255,255,255,0.16)' : 'transparent'}; border: 1px solid ${isAct ? 'rgba(255,255,255,0.3)' : 'transparent'};">
+                            <span class="fw-bold ${isAct ? 'text-warning' : 'text-white'}">${t}</span>
+                            <span class="text-white-50">${p.toFixed(2)} Puan</span>
+                            <span class="fw-bold text-white">${s.toLocaleString('tr-TR')}.</span>
+                        </div>
+                    `;
+                });
+                summaryTable.innerHTML = tableHtml;
+            }
 
             window.computedResult = {
                 puanTuru: currentPuanTuru,
@@ -785,7 +955,7 @@
 
         document.addEventListener('DOMContentLoaded', () => {
             setLanguage(currentLang);
-            renderAytFields();
+            highlightActiveGroups();
             hesapla();
         });
     </script>
