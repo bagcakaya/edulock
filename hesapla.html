@@ -26,12 +26,46 @@
         body {
             font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
             background-color: var(--bg-color);
+            background-image: url("data:image/svg+xml,%3Csvg width='280' height='280' viewBox='0 0 280 280' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%2314213d' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' opacity='0.075'%3E%3Cpath d='M35 45 L65 32 L95 45 L65 58 Z'/%3E%3Cpath d='M47 51 V66 C47 71 83 71 83 66 V51'/%3E%3Cpath d='M91 47 V68 M89 68 H93'/%3E%3Cpath d='M175 48 L210 30 L245 48 Z'/%3E%3Cpath d='M180 48 H240 M180 78 H240 M176 82 H244'/%3E%3Cpath d='M188 48 V78 M202 48 V78 M218 48 V78 M232 48 V78'/%3E%3Cpath d='M38 175 C48 170 58 170 65 175 C72 170 82 170 92 175 V205 C82 200 72 200 65 205 C58 200 48 200 38 205 Z'/%3E%3Cpath d='M65 175 V205'/%3E%3Ccircle cx='210' cy='172' r='4'/%3E%3Cpath d='M208 176 L195 212 M212 176 L225 212 M199 196 H221'/%3E%3Cpath d='M118 110 V145 H158'/%3E%3Cpath d='M122 140 L132 128 L142 133 L154 115'/%3E%3Ccircle cx='154' cy='115' r='2.5'/%3E%3Crect x='115' y='230' width='46' height='14' rx='4'/%3E%3Cpath d='M135 230 V244 M141 230 V244 M138 244 L134 252 M138 244 L142 252'/%3E%3C/g%3E%3C/svg%3E");
+            background-attachment: fixed;
             color: var(--text-main);
             min-height: 100vh;
             display: flex;
             flex-direction: column;
             padding-top: 76px;
             -webkit-font-smoothing: antialiased;
+            position: relative;
+        }
+
+        body::before,
+        body::after {
+            content: '';
+            position: fixed;
+            pointer-events: none;
+            z-index: 0;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        body::before {
+            bottom: 20px;
+            left: 20px;
+            width: 280px;
+            height: 280px;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%2314213d' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' opacity='0.06'%3E%3Cpath d='M20 85 L100 40 L180 85 Z'/%3E%3Crect x='30' y='85' width='140' height='8'/%3E%3Cpath d='M42 93 V155 M70 93 V155 M100 93 V155 M130 93 V155 M158 93 V155'/%3E%3Crect x='25' y='155' width='150' height='10'/%3E%3Crect x='15' y='165' width='170' height='12'/%3E%3Ccircle cx='100' cy='68' r='10'/%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        body::after {
+            top: 130px;
+            right: 25px;
+            width: 260px;
+            height: 260px;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%2314213d' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' opacity='0.06'%3E%3Cpath d='M20 70 L100 35 L180 70 L100 105 Z'/%3E%3Cpath d='M50 84 V125 C50 142 150 142 150 125 V84'/%3E%3Cpath d='M168 76 V135 M162 135 H174'/%3E%3Ccircle cx='100' cy='70' r='5'/%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
         }
 
         .navbar {

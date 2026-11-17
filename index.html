@@ -34,8 +34,44 @@
         body {
             font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
             background-color: var(--bg-color);
+            background-image: url("data:image/svg+xml,%3Csvg width='280' height='280' viewBox='0 0 280 280' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%2314213d' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' opacity='0.075'%3E%3C!-- Graduation Cap --%3E%3Cpath d='M35 45 L65 32 L95 45 L65 58 Z'/%3E%3Cpath d='M47 51 V66 C47 71 83 71 83 66 V51'/%3E%3Cpath d='M91 47 V68 M89 68 H93'/%3E%3C!-- University Columns --%3E%3Cpath d='M175 48 L210 30 L245 48 Z'/%3E%3Cpath d='M180 48 H240 M180 78 H240 M176 82 H244'/%3E%3Cpath d='M188 48 V78 M202 48 V78 M218 48 V78 M232 48 V78'/%3E%3C!-- Open Book --%3E%3Cpath d='M38 175 C48 170 58 170 65 175 C72 170 82 170 92 175 V205 C82 200 72 200 65 205 C58 200 48 200 38 205 Z'/%3E%3Cpath d='M65 175 V205'/%3E%3C!-- Compass & Protractor --%3E%3Ccircle cx='210' cy='172' r='4'/%3E%3Cpath d='M208 176 L195 212 M212 176 L225 212 M199 196 H221'/%3E%3C!-- Math & Atom / Graph --%3E%3Cpath d='M118 110 V145 H158'/%3E%3Cpath d='M122 140 L132 128 L142 133 L154 115'/%3E%3Ccircle cx='154' cy='115' r='2.5'/%3E%3C!-- Diploma Scroll --%3E%3Crect x='115' y='230' width='46' height='14' rx='4'/%3E%3Cpath d='M135 230 V244 M141 230 V244 M138 244 L134 252 M138 244 L142 252'/%3E%3C/g%3E%3C/svg%3E");
+            background-attachment: fixed;
             color: var(--text-main);
             -webkit-font-smoothing: antialiased;
+            position: relative;
+        }
+
+        body::before,
+        body::after {
+            content: '';
+            position: fixed;
+            pointer-events: none;
+            z-index: 0;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        /* Sol Alt Büyük Yarı-Opak Akademik Kampüs & Kitap Filigranı */
+        body::before {
+            bottom: 20px;
+            left: 20px;
+            width: 300px;
+            height: 300px;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%2314213d' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' opacity='0.06'%3E%3Cpath d='M20 85 L100 40 L180 85 Z'/%3E%3Crect x='30' y='85' width='140' height='8'/%3E%3Cpath d='M42 93 V155 M70 93 V155 M100 93 V155 M130 93 V155 M158 93 V155'/%3E%3Crect x='25' y='155' width='150' height='10'/%3E%3Crect x='15' y='165' width='170' height='12'/%3E%3Ccircle cx='100' cy='68' r='10'/%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        /* Sağ Üst/Orta Büyük Yarı-Opak Kep, Pusula & Başarı Grafiği Filigranı */
+        body::after {
+            top: 140px;
+            right: 25px;
+            width: 280px;
+            height: 280px;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%2314213d' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' opacity='0.06'%3E%3Cpath d='M20 70 L100 35 L180 70 L100 105 Z'/%3E%3Cpath d='M50 84 V125 C50 142 150 142 150 125 V84'/%3E%3Cpath d='M168 76 V135 M162 135 H174'/%3E%3Ccircle cx='100' cy='70' r='5'/%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
         }
 
         /* Navbar */
@@ -109,7 +145,10 @@
 
         /* Editorial Header (Hero) */
         .hero {
-            background: var(--surface);
+            background-color: var(--surface);
+            background-image: url("data:image/svg+xml,%3Csvg width='520' height='240' viewBox='0 0 520 240' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%2314213d' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' opacity='0.065'%3E%3C!-- Classical University Library & Dome --%3E%3Cpath d='M280 95 A55 55 0 0 1 390 95'/%3E%3Cpath d='M335 40 V22 M328 28 H342'/%3E%3Cpath d='M250 115 L335 72 L420 115 Z'/%3E%3Crect x='260' y='115' width='150' height='8'/%3E%3Cpath d='M275 123 V195 M305 123 V195 M335 123 V195 M365 123 V195 M395 123 V195'/%3E%3Crect x='245' y='195' width='180' height='10'/%3E%3Crect x='235' y='205' width='200' height='12'/%3E%3C!-- Academic Compass & Globe Lines --%3E%3Ccircle cx='110' cy='130' r='58' stroke-dasharray='4 4'/%3E%3Ccircle cx='110' cy='130' r='42'/%3E%3Cellipse cx='110' cy='130' rx='20' ry='42'/%3E%3Cpath d='M68 130 H152 M75 108 H145 M75 152 H145'/%3E%3C!-- Open Book Emblem --%3E%3Cpath d='M445 140 C458 133 472 133 480 140 C488 133 502 133 515 140 V185 C502 178 488 178 480 185 C472 178 458 178 445 185 Z'/%3E%3Cpath d='M480 140 V185'/%3E%3C/g%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 5% bottom -5px;
             color: var(--text-main);
             padding: 115px 0 36px 0;
             border-bottom: 1px solid var(--border-color);
@@ -305,6 +344,8 @@
         }
 
         @media print {
+            body::before,
+            body::after,
             body > *:not(#tercihListesiModal) {
                 display: none !important;
             }
