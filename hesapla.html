@@ -6,141 +6,245 @@
     <title>Net & 2026 YKS Sıralama Hesapla | EduLock</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary: #6366f1;
-            --primary-dark: #4f46e5;
-            --secondary: #ec4899;
-            --bg-color: #f8fafc;
+            --primary: #14213d;
+            --primary-dark: #0b1324;
+            --secondary: #b93829;
+            --accent-teal: #0d6e52;
+            --bg-color: #f6f5f0;
             --surface: #ffffff;
-            --text-main: #0f172a;
-            --text-muted: #64748b;
+            --surface-subtle: #efece6;
+            --border-color: #dcd9d0;
+            --border-subtle: #e8e6df;
+            --text-main: #111827;
+            --text-muted: #5f6672;
+            --font-mono: 'IBM Plex Mono', monospace;
         }
 
         body {
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-main);
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-            padding-top: 90px;
+            padding-top: 76px;
+            -webkit-font-smoothing: antialiased;
         }
 
         .navbar {
-            background: rgba(255, 255, 255, 0.85) !important;
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-            padding: 15px 0;
+            background: var(--surface) !important;
+            border-bottom: 1px solid var(--border-color);
+            padding: 12px 0;
         }
         .navbar-brand {
-            color: var(--text-main) !important;
+            color: var(--primary) !important;
             font-weight: 800;
-            font-size: 1.4rem;
+            font-size: 1.25rem;
+            letter-spacing: -0.4px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .brand-mark {
+            width: 32px;
+            height: 32px;
+            background: var(--primary);
+            color: #ffffff;
+            border-radius: 6px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            font-weight: 700;
             letter-spacing: -0.5px;
+            flex-shrink: 0;
+        }
+        .brand-divider {
+            color: var(--border-color);
+            font-weight: 400;
+            margin: 0 2px;
+        }
+        .brand-sub {
+            font-weight: 600;
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            letter-spacing: 0;
         }
         .nav-link {
             color: var(--text-muted) !important;
-            font-weight: 500;
-            margin-left: 15px;
-            transition: color 0.3s;
+            font-weight: 600;
+            font-size: 0.92rem;
+            padding: 8px 12px !important;
+            margin-left: 4px;
+            border-radius: 6px;
+            transition: all 0.15s ease;
         }
-        .nav-link:hover, .nav-link.active {
+        .nav-link:hover {
             color: var(--primary) !important;
+            background: rgba(20, 33, 61, 0.04);
+        }
+        .nav-link.active {
+            color: var(--primary) !important;
+            background: var(--surface-subtle);
+            font-weight: 700;
         }
 
-        .calc-header {
-            text-align: center;
-            margin-bottom: 35px;
+        .page-header-strip {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border-color);
+            padding: 28px 0;
+            margin-bottom: 28px;
         }
-        .calc-header h1 {
+
+        .calc-kicker {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-family: var(--font-mono);
+            font-size: 0.74rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.6px;
+            color: var(--accent-teal);
+            background: #ecfdf5;
+            border: 1px solid #a7f3d0;
+            padding: 3px 9px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .page-header-strip h1 {
             font-weight: 800;
-            font-size: 2.5rem;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            font-size: 2rem;
+            letter-spacing: -0.6px;
+            color: var(--primary);
+            margin-bottom: 6px;
         }
 
         .card-custom {
             background: var(--surface);
-            border-radius: 24px;
-            border: 1px solid rgba(0,0,0,0.06);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
-            padding: 30px;
-            margin-bottom: 30px;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+
+        .segmented-bar {
+            background: var(--surface-subtle);
+            border: 1px solid var(--border-color);
+            padding: 5px;
+            border-radius: 8px;
+            display: inline-flex;
+            flex-wrap: wrap;
+            gap: 4px;
         }
 
         .type-pill-btn {
-            border-radius: 50rem;
+            border-radius: 6px;
             font-weight: 700;
-            padding: 10px 24px;
-            transition: all 0.3s;
-            border: 2px solid transparent;
+            font-size: 0.88rem;
+            padding: 8px 18px;
+            transition: all 0.15s ease;
+            border: 1px solid transparent;
+        }
+
+        .btn-primary.type-pill-btn {
+            background: var(--primary);
+            color: #ffffff;
+            border-color: var(--primary);
+        }
+
+        .btn-outline-primary.type-pill-btn {
+            background: transparent;
+            color: var(--text-main);
+            border-color: transparent;
+        }
+        .btn-outline-primary.type-pill-btn:hover {
+            background: #ffffff;
+            color: var(--primary);
+            border-color: var(--border-color);
         }
 
         .input-group-text-custom {
-            background: #f1f5f9;
-            font-weight: 600;
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            border: 1px solid #e2e8f0;
+            font-family: var(--font-mono);
+            background: var(--surface-subtle);
+            font-weight: 700;
+            font-size: 0.78rem;
+            color: var(--text-main);
+            border: 1px solid #c8c4b8;
+        }
+
+        .form-control {
+            font-family: var(--font-mono);
+            border: 1px solid #c8c4b8;
+            border-radius: 6px;
+        }
+        .form-control:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(20, 33, 61, 0.1);
         }
 
         .test-title {
             font-weight: 700;
-            font-size: 1.1rem;
-            color: var(--primary-dark);
-            margin-bottom: 15px;
+            font-size: 1rem;
+            color: var(--primary);
+            margin-bottom: 16px;
             display: flex;
             align-items: center;
             gap: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
         }
 
         .net-badge {
-            background: rgba(99, 102, 241, 0.1);
-            color: var(--primary-dark);
+            font-family: var(--font-mono);
+            background: var(--surface-subtle);
+            color: var(--primary);
+            border: 1px solid var(--border-color);
             font-weight: 700;
-            border-radius: 8px;
+            border-radius: 4px;
             padding: 4px 10px;
-            font-size: 0.9rem;
+            font-size: 0.82rem;
         }
 
         .result-box {
-            background: linear-gradient(135deg, #4f46e5, #6366f1);
+            background: var(--primary);
             color: white;
-            border-radius: 24px;
-            padding: 35px;
-            text-align: center;
-            box-shadow: 0 15px 35px rgba(79, 70, 229, 0.3);
+            border-radius: 10px;
+            border: 1px solid var(--primary-dark);
+            padding: 28px 24px;
+            text-align: left;
         }
 
         .result-rank {
-            font-size: 3rem;
-            font-weight: 800;
+            font-family: var(--font-mono);
+            font-variant-numeric: tabular-nums;
+            font-size: 2.65rem;
+            font-weight: 700;
             letter-spacing: -1px;
-            margin: 10px 0;
-            color: #fbbf24;
-            text-shadow: 0 2px 10px rgba(0,0,0,0.15);
+            margin: 6px 0 14px 0;
+            color: #ffffff;
+            line-height: 1.1;
         }
 
         .btn-target-redirect {
-            background: #fbbf24;
-            color: #0f172a;
-            font-weight: 800;
-            font-size: 1.1rem;
-            padding: 14px 28px;
-            border-radius: 50rem;
-            border: none;
-            box-shadow: 0 8px 20px rgba(251, 191, 36, 0.4);
-            transition: all 0.3s;
+            background: var(--secondary);
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 0.95rem;
+            padding: 13px 20px;
+            border-radius: 6px;
+            border: 1px solid #992b1e;
+            transition: all 0.15s ease;
         }
         .btn-target-redirect:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 12px 25px rgba(251, 191, 36, 0.5);
-            background: #f59e0b;
-            color: #0f172a;
+            background: #9e2d20;
+            color: #ffffff;
+            transform: translateY(-1px);
         }
     </style>
 </head>
@@ -148,36 +252,41 @@
 
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html" data-i18n="nav_brand">🎓 EduLock: Tercih ve Puan Rehberi</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#anaMenu">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-mark">EL</span>
+                <span>EduLock</span>
+                <span class="brand-divider d-none d-sm-inline">|</span>
+                <span class="brand-sub d-none d-sm-inline" data-i18n="nav_brand">YKS Tercih Kılavuzu</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#anaMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="anaMenu">
                 <ul class="navbar-nav ms-auto align-items-lg-center">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-house me-1"></i> <span data-i18n="nav_home">Ana Sayfa</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="rehber.html"><i class="fa-solid fa-robot me-1"></i> <span data-i18n="nav_robot">Tercih Robotu</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-table-list me-1"></i> <span data-i18n="nav_home">Programlar</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="rehber.html"><i class="fa-solid fa-compass me-1"></i> <span data-i18n="nav_robot">Eğilim Testi</span></a></li>
                     <li class="nav-item"><a class="nav-link active" href="hesapla.html"><i class="fa-solid fa-calculator me-1"></i> <span data-i18n="nav_calc">Net & Sıralama</span></a></li>
                     <li class="nav-item">
-                        <a href="index.html" class="btn btn-outline-danger btn-sm rounded-pill px-3 py-1 fw-bold shadow-sm d-inline-flex align-items-center gap-2 ms-lg-2 my-1 my-lg-0">
-                            <i class="fa-solid fa-heart text-danger"></i> <span data-i18n="nav_my_list">Tercih Listem</span>
+                        <a href="index.html" class="btn btn-outline-danger btn-sm px-3 py-1 fw-bold d-inline-flex align-items-center gap-2 ms-lg-2 my-1 my-lg-0" style="border-radius: 6px;">
+                            <i class="fa-regular fa-bookmark"></i> <span data-i18n="nav_my_list">Tercih Listem</span>
                         </a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="hakkimizda.html"><i class="fa-solid fa-circle-info me-1"></i> <span data-i18n="nav_about">Hakkımızda</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="iletisim.html"><i class="fa-solid fa-envelope me-1"></i> <span data-i18n="nav_contact">İletişim</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="hakkimizda.html"><span data-i18n="nav_about">Hakkımızda</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="iletisim.html"><span data-i18n="nav_contact">İletişim</span></a></li>
                     <li class="nav-item ms-lg-2">
                         <div class="dropdown">
-                            <button class="btn btn-sm btn-light border rounded-pill px-3 py-1 dropdown-toggle fw-bold d-flex align-items-center gap-2 shadow-sm" type="button" id="langDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                                <span id="currentLangFlag"><img src="https://flagcdn.com/w40/tr.png" srcset="https://flagcdn.com/w80/tr.png 2x" width="20" height="14" alt="TR" style="border-radius:2px; object-fit:cover; vertical-align:middle;"></span> <span id="currentLangText">TR</span>
+                            <button class="btn btn-sm btn-light border px-2 py-1 dropdown-toggle fw-bold d-flex align-items-center gap-2" style="border-radius: 6px; font-size: 0.82rem;" type="button" id="langDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span id="currentLangFlag"><img src="https://flagcdn.com/w40/tr.png" srcset="https://flagcdn.com/w80/tr.png 2x" width="18" height="13" alt="TR" style="border-radius:2px; object-fit:cover; vertical-align:middle;"></span> <span id="currentLangText">TR</span>
                             </button>
-                            <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0 rounded-3 mt-2" aria-labelledby="langDropdown" style="min-width: 140px;">
+                            <ul class="dropdown-menu dropdown-menu-end shadow-sm border rounded-2 mt-1" aria-labelledby="langDropdown" style="min-width: 140px;">
                                 <li>
-                                    <button class="dropdown-item d-flex align-items-center gap-2 fw-semibold" onclick="setLanguage('tr')">
-                                        <img src="https://flagcdn.com/w40/tr.png" srcset="https://flagcdn.com/w80/tr.png 2x" width="20" height="14" alt="TR" style="border-radius:2px; object-fit:cover; vertical-align:middle;"> Türkçe (TR)
+                                    <button class="dropdown-item d-flex align-items-center gap-2 fw-semibold small py-2" onclick="setLanguage('tr')">
+                                        <img src="https://flagcdn.com/w40/tr.png" srcset="https://flagcdn.com/w80/tr.png 2x" width="18" height="13" alt="TR" style="border-radius:2px; object-fit:cover; vertical-align:middle;"> Türkçe (TR)
                                     </button>
                                 </li>
                                 <li>
-                                    <button class="dropdown-item d-flex align-items-center gap-2 fw-semibold" onclick="setLanguage('en')">
-                                        <img src="https://flagcdn.com/w40/gb.png" srcset="https://flagcdn.com/w80/gb.png 2x" width="20" height="14" alt="EN" style="border-radius:2px; object-fit:cover; vertical-align:middle;"> English (EN)
+                                    <button class="dropdown-item d-flex align-items-center gap-2 fw-semibold small py-2" onclick="setLanguage('en')">
+                                        <img src="https://flagcdn.com/w40/gb.png" srcset="https://flagcdn.com/w80/gb.png 2x" width="18" height="13" alt="EN" style="border-radius:2px; object-fit:cover; vertical-align:middle;"> English (EN)
                                     </button>
                                 </li>
                             </ul>
@@ -188,38 +297,44 @@
         </div>
     </nav>
 
-    <div class="container py-4">
-        <div class="calc-header">
-            <h1 data-i18n="calc_header_title">2026 YKS Net & Sıralama Hesaplama</h1>
-            <p class="text-muted fs-5" data-i18n="calc_header_sub">Netlerinizi ve diploma notunuzu girin, 2026 YKS tahmini sıralamanızı ve size en uygun bölümleri keşfedin.</p>
-        </div>
-
-        <!-- Puan Türü Seçimi -->
-        <div class="text-center mb-4">
-            <div class="btn-group gap-2 flex-wrap" role="group" id="puanTuruBtnGroup">
-                <button type="button" class="btn btn-primary type-pill-btn shadow-sm" onclick="setPuanTuru('SAY')">Sayısal (SAY)</button>
-                <button type="button" class="btn btn-outline-primary type-pill-btn shadow-sm" onclick="setPuanTuru('EA')">Eşit Ağırlık (EA)</button>
-                <button type="button" class="btn btn-outline-primary type-pill-btn shadow-sm" onclick="setPuanTuru('SÖZ')">Sözel (SÖZ)</button>
-                <button type="button" class="btn btn-outline-primary type-pill-btn shadow-sm" onclick="setPuanTuru('DİL')">Yabancı Dil (DİL)</button>
-                <button type="button" class="btn btn-outline-primary type-pill-btn shadow-sm" onclick="setPuanTuru('TYT')">Ön Lisans (TYT)</button>
+    <div class="page-header-strip">
+        <div class="container">
+            <div class="d-flex flex-column flex-lg-row align-items-lg-end justify-content-between gap-3">
+                <div>
+                    <div class="calc-kicker"><i class="fa-solid fa-sliders"></i> ÖSYM KÜMÜLATİF SIRALAMA SİMÜLASYONU</div>
+                    <h1 data-i18n="calc_header_title">2026 YKS Puan ve Başarı Sıralaması Hesaplama</h1>
+                    <p class="text-muted mb-0" data-i18n="calc_header_sub">TYT/AYT doğru-yanlış sayılarınızı ve diploma notunuzu girerek tahmini sıralamanızı ve ±30.000 bandındaki programları görüntüleyin.</p>
+                </div>
+                <!-- Puan Türü Seçimi -->
+                <div class="flex-shrink-0">
+                    <div class="segmented-bar" role="group" id="puanTuruBtnGroup">
+                        <button type="button" class="btn btn-primary type-pill-btn" onclick="setPuanTuru('SAY')">Sayısal (SAY)</button>
+                        <button type="button" class="btn btn-outline-primary type-pill-btn" onclick="setPuanTuru('EA')">Eşit Ağırlık (EA)</button>
+                        <button type="button" class="btn btn-outline-primary type-pill-btn" onclick="setPuanTuru('SÖZ')">Sözel (SÖZ)</button>
+                        <button type="button" class="btn btn-outline-primary type-pill-btn" onclick="setPuanTuru('DİL')">Dil (DİL)</button>
+                        <button type="button" class="btn btn-outline-primary type-pill-btn" onclick="setPuanTuru('TYT')">Ön Lisans (TYT)</button>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
 
+    <div class="container pb-5">
         <div class="row g-4">
             <div class="col-lg-8">
                 <!-- OBP ve Geçen Sene Durumu -->
                 <div class="card-custom">
-                    <div class="test-title"><i class="fa-solid fa-graduation-cap text-primary"></i> <span data-i18n="obp_title">OBP (Diploma Notu) Bilgisi</span></div>
+                    <div class="test-title border-bottom pb-2"><i class="fa-solid fa-graduation-cap"></i> <span data-i18n="obp_title">Ortaöğretim Başarı Puanı (OBP)</span></div>
                     <div class="row g-3 align-items-center">
-                        <div class="col-md-6">
-                            <label class="form-label fw-semibold small text-muted" data-i18n="obp_label">Diploma Notunuz (50 - 100):</label>
-                            <input type="number" id="inputObp" class="form-control form-control-lg fw-bold text-primary" min="50" max="100" value="85" oninput="hesapla()">
+                        <div class="col-md-5">
+                            <label class="form-label fw-semibold small text-muted" data-i18n="obp_label">Diploma Notunuz (50 – 100):</label>
+                            <input type="number" id="inputObp" class="form-control fw-bold" min="50" max="100" value="85" oninput="hesapla()">
                         </div>
-                        <div class="col-md-6">
-                            <div class="form-check mt-3">
-                                <input class="form-check-input" type="checkbox" id="checkKirikObp" onchange="hesapla()">
-                                <label class="form-check-label fw-semibold small text-danger" for="checkKirikObp" data-i18n="obp_broken_label">
-                                    Geçen sene bir bölüme yerleştim (OBP puanım yarıya düşsün)
+                        <div class="col-md-7">
+                            <div class="form-check mt-3 p-3 rounded-2" style="background: var(--bg-color); border: 1px solid var(--border-subtle);">
+                                <input class="form-check-input ms-0 me-2" type="checkbox" id="checkKirikObp" onchange="hesapla()">
+                                <label class="form-check-label fw-semibold small text-dark" for="checkKirikObp" data-i18n="obp_broken_label">
+                                    Önceki yıl bir programa yerleştim (Kırık OBP: Katsayı 0.12 yerine 0.06 uygulanır)
                                 </label>
                             </div>
                         </div>
@@ -228,8 +343,8 @@
 
                 <!-- TYT Testi -->
                 <div class="card-custom">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="test-title mb-0"><i class="fa-solid fa-pen-ruler text-primary"></i> <span>TYT (Temel Yeterlilik Testi)</span></div>
+                    <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-3">
+                        <div class="test-title mb-0"><i class="fa-solid fa-list-check"></i> <span>1. Oturum: TYT (Temel Yeterlilik Testi)</span></div>
                         <span class="net-badge" id="badgeTytToplamNet">TYT Toplam Net: 0.00</span>
                     </div>
 
@@ -243,31 +358,31 @@
                                 <span class="input-group-text input-group-text-custom">Y</span>
                                 <input type="number" id="tytTurkY" class="form-control fw-bold" min="0" max="40" value="5" oninput="hesapla()">
                             </div>
-                            <div class="small text-muted text-end fw-bold" id="netTytTurk">Net: 28.75</div>
+                            <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="netTytTurk">Net: 28.75</div>
                         </div>
 
                         <!-- Sosyal -->
                         <div class="col-md-6 col-lg-3">
-                            <label class="form-label small fw-semibold">Sosyal (20)</label>
+                            <label class="form-label small fw-semibold">Sosyal Bilimler (20)</label>
                             <div class="input-group input-group-sm mb-1">
                                 <span class="input-group-text input-group-text-custom">D</span>
                                 <input type="number" id="tytSosD" class="form-control fw-bold" min="0" max="20" value="15" oninput="hesapla()">
                                 <span class="input-group-text input-group-text-custom">Y</span>
                                 <input type="number" id="tytSosY" class="form-control fw-bold" min="0" max="20" value="3" oninput="hesapla()">
                             </div>
-                            <div class="small text-muted text-end fw-bold" id="netTytSos">Net: 14.25</div>
+                            <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="netTytSos">Net: 14.25</div>
                         </div>
 
                         <!-- Mat -->
                         <div class="col-md-6 col-lg-3">
-                            <label class="form-label small fw-semibold">Matematik (40)</label>
+                            <label class="form-label small fw-semibold">Temel Matematik (40)</label>
                             <div class="input-group input-group-sm mb-1">
                                 <span class="input-group-text input-group-text-custom">D</span>
                                 <input type="number" id="tytMatD" class="form-control fw-bold" min="0" max="40" value="25" oninput="hesapla()">
                                 <span class="input-group-text input-group-text-custom">Y</span>
                                 <input type="number" id="tytMatY" class="form-control fw-bold" min="0" max="40" value="4" oninput="hesapla()">
                             </div>
-                            <div class="small text-muted text-end fw-bold" id="netTytMat">Net: 24.00</div>
+                            <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="netTytMat">Net: 24.00</div>
                         </div>
 
                         <!-- Fen -->
@@ -279,15 +394,15 @@
                                 <span class="input-group-text input-group-text-custom">Y</span>
                                 <input type="number" id="tytFenY" class="form-control fw-bold" min="0" max="20" value="4" oninput="hesapla()">
                             </div>
-                            <div class="small text-muted text-end fw-bold" id="netTytFen">Net: 11.00</div>
+                            <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="netTytFen">Net: 11.00</div>
                         </div>
                     </div>
                 </div>
 
                 <!-- AYT / YDT Testleri -->
                 <div class="card-custom" id="cardAyt">
-                    <div class="d-flex justify-content-between align-items-center mb-3">
-                        <div class="test-title mb-0"><i class="fa-solid fa-book-open text-primary"></i> <span id="titleAlanTesti">AYT (Alan Yeterlilik Testi)</span></div>
+                    <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-3">
+                        <div class="test-title mb-0"><i class="fa-solid fa-book-open"></i> <span id="titleAlanTesti">2. Oturum: AYT (Alan Yeterlilik Testi)</span></div>
                         <span class="net-badge" id="badgeAytToplamNet">AYT Toplam Net: 0.00</span>
                     </div>
 
@@ -299,33 +414,33 @@
 
             <!-- Sağ Sonuç Kartı -->
             <div class="col-lg-4">
-                <div class="result-box sticky-top" style="top: 100px; z-index: 10;">
-                    <h5 class="fw-bold text-white-50 text-uppercase tracking-wider small mb-2" data-i18n="res_card_title">2026 YKS TAHMİNİ SONUCUNUZ</h5>
-                    
-                    <div class="mb-3">
-                        <span class="badge bg-white text-dark rounded-pill px-3 py-1 font-weight-bold" id="resPuanTuruBadge">SAYISAL (SAY)</span>
+                <div class="result-box sticky-top" style="top: 96px; z-index: 10;">
+                    <div class="d-flex align-items-center justify-content-between border-bottom border-secondary pb-3 mb-3">
+                        <span class="small fw-bold text-uppercase" style="font-family: var(--font-mono); color: #cbd5e1; letter-spacing: 0.5px;" data-i18n="res_card_title">HESAPLAMA ÖZETİ</span>
+                        <span class="badge bg-white text-dark px-2 py-1 fw-bold" style="font-family: var(--font-mono); border-radius: 4px;" id="resPuanTuruBadge">SAY PUAN TÜRÜ</span>
                     </div>
 
-                    <div class="small opacity-75" data-i18n="res_puan_label">Yerleştirme Puanınız</div>
-                    <div class="display-6 fw-bold text-white mb-3" id="resYerlestirmePuan">412.85</div>
+                    <div class="p-3 rounded-2 mb-3" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);">
+                        <div class="small text-white-50 mb-1" data-i18n="res_puan_label">Yerleştirme Puanınız</div>
+                        <div class="fs-2 fw-bold text-white" style="font-family: var(--font-mono);" id="resYerlestirmePuan">412.85</div>
+                    </div>
 
-                    <hr class="border-white opacity-25">
-
-                    <div class="small opacity-75" data-i18n="res_rank_label">2026 Tahmini Başarı Sıranız</div>
-                    <div class="result-rank" id="resTahminiSira">48.500</div>
-
-                    <div class="badge bg-warning text-dark px-3 py-2 rounded-pill fw-bold mb-4" id="resBandBadge">
-                        ±30.000 Bant: 18.500 - 78.500
+                    <div class="p-3 rounded-2 mb-3" style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);">
+                        <div class="small text-white-50 mb-1" data-i18n="res_rank_label">2026 Tahmini Başarı Sıranız</div>
+                        <div class="result-rank" id="resTahminiSira">48.500</div>
+                        <div class="d-inline-block px-2 py-1 rounded-1 small fw-semibold" style="background: rgba(13, 110, 82, 0.35); border: 1px solid #10b981; color: #a7f3d0; font-family: var(--font-mono); font-size: 0.78rem;" id="resBandBadge">
+                            ±30.000 Bant: 18.500 - 78.500
+                        </div>
                     </div>
 
                     <div>
-                        <button class="btn btn-target-redirect w-100 shadow" onclick="bolumleriGoster()">
-                            <i class="fa-solid fa-wand-magic-sparkles me-2"></i>
-                            <span data-i18n="btn_view_matching_degs">Bu Sıralamayla Bölümleri Gör</span>
+                        <button class="btn btn-target-redirect w-100" onclick="bolumleriGoster()">
+                            <i class="fa-solid fa-table-list me-2"></i>
+                            <span data-i18n="btn_view_matching_degs">Bu Sıralamayla Programları Gör</span>
                         </button>
                     </div>
-                    <p class="small text-white-50 mt-3 mb-0" data-i18n="res_info_sub">
-                        Resmi ÖSYM 2026 sayısal verileri ve kümülatif dağılım eğrisi ile hesaplanmaktadır.
+                    <p class="small text-white-50 mt-3 mb-0" style="font-size: 0.76rem; line-height: 1.45;" data-i18n="res_info_sub">
+                        * ÖSYM 2026 YKS kümülatif yığılma verileriyle hesaplanan tahmini başarı sırasıdır.
                     </p>
                 </div>
             </div>
@@ -333,8 +448,10 @@
     </div>
 
     <footer class="py-4 text-center text-muted border-top bg-white mt-auto">
-        <p class="mb-1">© 2026 <strong>EduLock: Tercih ve Puan Rehberi</strong> - Tüm hakları saklıdır.</p>
-        <p class="small">İletişim: <a href="iletisim.html" class="text-decoration-none text-primary">info@edulock.com.tr</a> | <a href="privacy.html" class="text-decoration-none text-primary">Gizlilik Politikası</a></p>
+        <div class="container d-flex flex-column flex-sm-row align-items-center justify-content-between gap-2 small">
+            <div>© 2026 <strong>EduLock</strong> — YKS Tercih ve Yükseköğretim Programları Rehberi</div>
+            <div>İletişim: <a href="iletisim.html" class="text-decoration-none text-dark fw-semibold">info@edulock.com.tr</a> <span class="mx-1">|</span> <a href="privacy.html" class="text-decoration-none text-dark fw-semibold">Gizlilik Politikası</a></div>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -375,10 +492,10 @@
             // Highlight active button
             const btns = document.querySelectorAll('#puanTuruBtnGroup button');
             btns.forEach(b => {
-                b.className = 'btn btn-outline-primary type-pill-btn shadow-sm';
+                b.className = 'btn btn-outline-primary type-pill-btn';
             });
             if (event && event.target) {
-                event.target.className = 'btn btn-primary type-pill-btn shadow-sm';
+                event.target.className = 'btn btn-primary type-pill-btn';
             }
 
             // Render AYT fields
@@ -410,7 +527,7 @@
                             <span class="input-group-text input-group-text-custom">Y</span>
                             <input type="number" id="${f.id}Y" class="form-control fw-bold" min="0" max="${f.max}" value="${f.y}" oninput="hesapla()">
                         </div>
-                        <div class="small text-muted text-end fw-bold" id="net_${f.id}">Net: 0.00</div>
+                        <div class="small text-muted text-end fw-bold" style="font-family: var(--font-mono);" id="net_${f.id}">Net: 0.00</div>
                     </div>
                 `;
             });
@@ -566,42 +683,42 @@
         // --- i18n ---
         const i18n = {
             tr: {
-                nav_brand: "🎓 EduLock: Tercih ve Puan Rehberi",
-                nav_home: "Ana Sayfa",
-                nav_robot: "Tercih Robotu",
+                nav_brand: "YKS Tercih Kılavuzu",
+                nav_home: "Programlar",
+                nav_robot: "Eğilim Testi",
                 nav_calc: "Net & Sıralama",
                 nav_my_list: "Tercih Listem",
                 nav_about: "Hakkımızda",
                 nav_contact: "İletişim",
-                calc_header_title: "2026 YKS Net & Sıralama Hesaplama",
-                calc_header_sub: "Netlerinizi ve diploma notunuzu girin, 2026 YKS tahmini sıralamanızı ve size en uygun bölümleri keşfedin.",
-                obp_title: "OBP (Diploma Notu) Bilgisi",
-                obp_label: "Diploma Notunuz (50 - 100):",
-                obp_broken_label: "Geçen sene bir bölüme yerleştim (OBP puanım yarıya düşsün)",
-                res_card_title: "2026 YKS TAHMİNİ SONUCUNUZ",
+                calc_header_title: "2026 YKS Puan ve Başarı Sıralaması Hesaplama",
+                calc_header_sub: "TYT/AYT doğru-yanlış sayılarınızı ve diploma notunuzu girerek tahmini sıralamanızı ve ±30.000 bandındaki programları görüntüleyin.",
+                obp_title: "Ortaöğretim Başarı Puanı (OBP)",
+                obp_label: "Diploma Notunuz (50 – 100):",
+                obp_broken_label: "Önceki yıl bir programa yerleştim (Kırık OBP: Katsayı 0.12 yerine 0.06 uygulanır)",
+                res_card_title: "HESAPLAMA ÖZETİ",
                 res_puan_label: "Yerleştirme Puanınız",
                 res_rank_label: "2026 Tahmini Başarı Sıranız",
-                btn_view_matching_degs: "Bu Sıralamayla Bölümleri Gör",
-                res_info_sub: "Resmi ÖSYM 2026 sayısal verileri ve kümülatif dağılım eğrisi ile hesaplanmaktadır."
+                btn_view_matching_degs: "Bu Sıralamayla Programları Gör",
+                res_info_sub: "* ÖSYM 2026 YKS kümülatif yığılma verileriyle hesaplanan tahmini başarı sırasıdır."
             },
             en: {
-                nav_brand: "🎓 EduLock: Preference & Rank Guide",
-                nav_home: "Home",
-                nav_robot: "Preference Wizard",
+                nav_brand: "YKS Preference Guide",
+                nav_home: "Programs",
+                nav_robot: "Aptitude Quiz",
                 nav_calc: "Nets & Ranking",
                 nav_my_list: "My List",
                 nav_about: "About Us",
                 nav_contact: "Contact",
-                calc_header_title: "2026 YKS Net & Ranking Calculator",
-                calc_header_sub: "Enter your correct/wrong counts and diploma score to calculate your estimated 2026 rank and match programs.",
-                obp_title: "OBP (Diploma Score) Info",
-                obp_label: "Diploma Score (50 - 100):",
-                obp_broken_label: "I placed in a program last year (Half OBP penalty)",
-                res_card_title: "ESTIMATED 2026 YKS RESULT",
-                res_puan_label: "Your Placement Score",
+                calc_header_title: "2026 YKS Score & Ranking Calculator",
+                calc_header_sub: "Enter your correct/wrong counts and diploma score to calculate your estimated 2026 rank and view matching programs.",
+                obp_title: "Secondary Education GPA (OBP)",
+                obp_label: "Diploma Score (50 – 100):",
+                obp_broken_label: "I enrolled in a program last year (Half OBP coefficient: 0.06 instead of 0.12)",
+                res_card_title: "CALCULATION SUMMARY",
+                res_puan_label: "Placement Score",
                 res_rank_label: "Estimated 2026 Success Rank",
                 btn_view_matching_degs: "View Programs For This Rank",
-                res_info_sub: "Calculated using official ÖSYM 2026 placement statistics and cumulative distribution curves."
+                res_info_sub: "* Estimated rank calculated using official ÖSYM 2026 cumulative score distribution."
             }
         };
 

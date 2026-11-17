@@ -6,47 +6,104 @@
     <title>Gizlilik Politikası | Burak AĞCAKAYA Mobil Uygulamaları</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary: #6366f1;
-            --secondary: #ec4899;
-            --text-main: #1e293b;
-            --text-muted: #64748b;
+            --primary: #14213d;
+            --secondary: #b93829;
+            --accent-teal: #0d6e52;
+            --bg-color: #f6f5f0;
+            --surface: #ffffff;
+            --surface-subtle: #efece6;
+            --border-color: #dcd9d0;
+            --text-main: #111827;
+            --text-muted: #5f6672;
+            --font-mono: 'IBM Plex Mono', monospace;
         }
 
         body {
-            font-family: 'Outfit', sans-serif;
-            background-color: #f8fafc;
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-color);
             color: var(--text-main);
-            padding-top: 100px;
+            padding-top: 86px;
+            -webkit-font-smoothing: antialiased;
         }
 
         .navbar {
-            background: rgba(255, 255, 255, 0.8) !important;
-            backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(0,0,0,0.05);
+            background: var(--surface) !important;
+            border-bottom: 1px solid var(--border-color);
+            padding: 12px 0;
         }
 
-        .navbar-brand { font-weight: 800; color: var(--primary) !important; }
+        .navbar-brand {
+            color: var(--primary) !important;
+            font-weight: 800;
+            font-size: 1.25rem;
+            letter-spacing: -0.4px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .brand-mark {
+            width: 32px;
+            height: 32px;
+            background: var(--primary);
+            color: #ffffff;
+            border-radius: 6px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            flex-shrink: 0;
+        }
+
+        .brand-divider {
+            color: var(--border-color);
+            font-weight: 400;
+            margin: 0 2px;
+        }
+
+        .brand-sub {
+            font-weight: 600;
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            letter-spacing: 0;
+        }
+
+        .nav-link {
+            color: var(--text-muted) !important;
+            font-weight: 600;
+            font-size: 0.92rem;
+            padding: 8px 12px !important;
+            margin-left: 4px;
+            border-radius: 6px;
+        }
+
+        .nav-link:hover {
+            color: var(--primary) !important;
+            background: rgba(20, 33, 61, 0.04);
+        }
 
         .policy-card {
-            background: white;
-            border-radius: 30px;
-            padding: 50px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.03);
-            border: 1px solid rgba(0,0,0,0.05);
+            background: var(--surface);
+            border-radius: 10px;
+            padding: 40px;
+            border: 1px solid var(--border-color);
         }
 
         .app-section {
             border-left: 4px solid var(--primary);
             padding-left: 20px;
-            margin-top: 30px;
-            margin-bottom: 30px;
+            margin-top: 28px;
+            margin-bottom: 28px;
         }
 
         .app-section.edulock {
-            border-left-color: var(--secondary);
+            border-left-color: var(--accent-teal);
         }
     </style>
 </head>
@@ -54,16 +111,22 @@
 
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">🎓 EduLock: Tercih ve Puan Rehberi</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#anaMenu">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-mark">EL</span>
+                <span>EduLock</span>
+                <span class="brand-divider d-none d-sm-inline">|</span>
+                <span class="brand-sub d-none d-sm-inline">YKS Tercih Kılavuzu</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#anaMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="anaMenu">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-house me-1"></i> Ana Sayfa</a></li>
-                    <li class="nav-item"><a class="nav-link" href="rehber.html"><i class="fa-solid fa-robot me-1"></i> Tercih Robotu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="hakkimizda.html"><i class="fa-solid fa-circle-info me-1"></i> Hakkımızda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="iletisim.html"><i class="fa-solid fa-envelope me-1"></i> İletişim</a></li>
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-table-list me-1"></i> Programlar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="rehber.html"><i class="fa-solid fa-compass me-1"></i> Eğilim Testi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hesapla.html"><i class="fa-solid fa-calculator me-1"></i> Net & Sıralama</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hakkimizda.html">Hakkımızda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
                 </ul>
             </div>
         </div>
@@ -73,12 +136,12 @@
         <div class="row justify-content-center">
             <div class="col-lg-10">
                 <div class="policy-card">
-                    <h1 class="fw-bold mb-3 text-center">Gizlilik Politikası</h1>
-                    <p class="text-muted text-center mb-5">Son Güncelleme: 9 Temmuz 2026</p>
+                    <h2 class="fw-bold mb-1" style="color: var(--primary);">Gizlilik Politikası ve Aydınlatma Metni</h2>
+                    <p class="text-muted small mb-4" style="font-family: var(--font-mono);">Son Güncelleme: 9 Temmuz 2026</p>
                     
-                    <div class="alert alert-primary rounded-4 p-4 mb-5 border-0" style="background-color: rgba(99, 102, 241, 0.08); color: var(--primary);">
-                        <h5 class="fw-bold mb-2"><i class="fa-solid fa-shield-halved me-2"></i> Kapsam ve Geliştirici Bilgisi</h5>
-                        <p class="mb-0 small" style="line-height: 1.6;">
+                    <div class="p-3 rounded-2 mb-4" style="background-color: var(--bg-color); border: 1px solid var(--border-color);">
+                        <h6 class="fw-bold mb-2" style="color: var(--primary);"><i class="fa-solid fa-shield-halved me-2"></i> Kapsam ve Geliştirici Bilgisi</h6>
+                        <p class="mb-0 small text-muted" style="line-height: 1.6;">
                             Bu Gizlilik Politikası metni, bireysel geliştirici <strong>Burak AĞCAKAYA</strong> tarafından geliştirilen 
                             <strong>EduLock: Çöz ve Kazan</strong> ve <strong>EduTakip</strong> mobil uygulamaları (bundan sonra ayrı ayrı veya birlikte "Uygulama" olarak anılacaktır) 
                             ile ilgili veri toplama, işleme ve kullanıcı gizliliği kurallarını açıklamaktadır.

@@ -6,193 +6,235 @@
     <title>EduLock: Tercih ve Puan Rehberi - Tercih Robotu</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary: #6366f1;
-            --primary-dark: #4f46e5;
-            --secondary: #ec4899;
-            --bg-color: #f8fafc;
+            --primary: #14213d;
+            --primary-dark: #0b1324;
+            --secondary: #b93829;
+            --accent-teal: #0d6e52;
+            --bg-color: #f6f5f0;
             --surface: #ffffff;
-            --text-main: #0f172a;
-            --text-muted: #64748b;
+            --surface-subtle: #efece6;
+            --border-color: #dcd9d0;
+            --border-subtle: #e8e6df;
+            --text-main: #111827;
+            --text-muted: #5f6672;
+            --font-mono: 'IBM Plex Mono', monospace;
         }
 
         body {
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-main);
             min-height: 100vh;
             display: flex;
             flex-direction: column;
+            -webkit-font-smoothing: antialiased;
         }
 
         /* Navbar */
         .navbar {
-            background: rgba(255, 255, 255, 0.85) !important;
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-            padding: 15px 0;
-            transition: all 0.3s ease;
+            background: var(--surface) !important;
+            border-bottom: 1px solid var(--border-color);
+            padding: 12px 0;
         }
         .navbar-brand {
-            color: var(--text-main) !important;
+            color: var(--primary) !important;
             font-weight: 800;
-            font-size: 1.4rem;
+            font-size: 1.25rem;
+            letter-spacing: -0.4px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .brand-mark {
+            width: 32px;
+            height: 32px;
+            background: var(--primary);
+            color: #ffffff;
+            border-radius: 6px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            font-weight: 700;
             letter-spacing: -0.5px;
+            flex-shrink: 0;
+        }
+        .brand-divider {
+            color: var(--border-color);
+            font-weight: 400;
+            margin: 0 2px;
+        }
+        .brand-sub {
+            font-weight: 600;
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            letter-spacing: 0;
         }
         .nav-link {
             color: var(--text-muted) !important;
-            font-weight: 500;
-            margin-left: 15px;
-            transition: color 0.3s;
+            font-weight: 600;
+            font-size: 0.92rem;
+            padding: 8px 12px !important;
+            margin-left: 4px;
+            border-radius: 6px;
+            transition: all 0.15s ease;
         }
-        .nav-link:hover, .nav-link.active {
+        .nav-link:hover {
             color: var(--primary) !important;
+            background: rgba(20, 33, 61, 0.04);
         }
-
-        /* Hero Background / Overall page background effect */
-        .page-bg {
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            z-index: -1;
-            overflow: hidden;
-            background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(236, 72, 153, 0.05) 100%);
-        }
-        .page-bg::before {
-            content: ''; position: absolute; width: 400px; height: 400px;
-            background: rgba(99, 102, 241, 0.15); border-radius: 50%;
-            top: -100px; left: -100px; filter: blur(60px);
-        }
-        .page-bg::after {
-            content: ''; position: absolute; width: 300px; height: 300px;
-            background: rgba(236, 72, 153, 0.15); border-radius: 50%;
-            bottom: -50px; right: -50px; filter: blur(40px);
+        .nav-link.active {
+            color: var(--primary) !important;
+            background: var(--surface-subtle);
+            font-weight: 700;
         }
 
         /* Wizard Card */
         .wizard-card {
             background: var(--surface);
-            border-radius: 24px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
-            padding: 50px;
-            margin-top: 40px;
-            margin-bottom: 40px;
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 40px 36px;
+            margin-top: 36px;
+            margin-bottom: 36px;
             position: relative;
             z-index: 10;
         }
         
         .step-title {
-            color: var(--text-main);
+            color: var(--primary);
             font-weight: 800;
-            margin-bottom: 25px;
+            font-size: 1.7rem;
+            margin-bottom: 10px;
             letter-spacing: -0.5px;
         }
 
         /* Buttons (SAY, EA, vs) */
         .btn-alan {
-            border-radius: 16px;
-            padding: 24px;
+            border-radius: 8px;
+            padding: 22px 20px;
             font-weight: 700;
-            font-size: 1.1rem;
-            border: 2px solid transparent;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-size: 1rem;
+            border: 1px solid var(--border-color);
+            background: var(--bg-color);
+            color: var(--primary);
+            transition: all 0.15s ease;
             width: 100%;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 14px;
         }
-        .btn-alan-say { background: rgba(99, 102, 241, 0.08); color: var(--primary); border-color: rgba(99, 102, 241, 0.2); }
-        .btn-alan-say:hover { background: var(--primary); color: white; transform: translateY(-4px); box-shadow: 0 12px 24px rgba(99, 102, 241, 0.25); }
-        
-        .btn-alan-ea { background: rgba(245, 158, 11, 0.08); color: #d97706; border-color: rgba(245, 158, 11, 0.2); }
-        .btn-alan-ea:hover { background: #f59e0b; color: white; transform: translateY(-4px); box-shadow: 0 12px 24px rgba(245, 158, 11, 0.25); }
-
-        .btn-alan-soz { background: rgba(16, 185, 129, 0.08); color: #059669; border-color: rgba(16, 185, 129, 0.2); }
-        .btn-alan-soz:hover { background: #10b981; color: white; transform: translateY(-4px); box-shadow: 0 12px 24px rgba(16, 185, 129, 0.25); }
-
-        .btn-alan-dil { background: rgba(236, 72, 153, 0.08); color: var(--secondary); border-color: rgba(236, 72, 153, 0.2); }
-        .btn-alan-dil:hover { background: var(--secondary); color: white; transform: translateY(-4px); box-shadow: 0 12px 24px rgba(236, 72, 153, 0.25); }
-
-        .btn-alan-tyt { background: rgba(14, 165, 233, 0.08); color: #0284c7; border-color: rgba(14, 165, 233, 0.2); }
-        .btn-alan-tyt:hover { background: #0ea5e9; color: white; transform: translateY(-4px); box-shadow: 0 12px 24px rgba(14, 165, 233, 0.25); }
+        .btn-alan:hover {
+            background: var(--primary);
+            color: #ffffff;
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+        .btn-alan i {
+            width: 42px;
+            height: 42px;
+            border-radius: 6px;
+            background: var(--surface);
+            border: 1px solid var(--border-color);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            flex-shrink: 0;
+        }
+        .btn-alan:hover i {
+            background: rgba(255,255,255,0.12);
+            border-color: rgba(255,255,255,0.2);
+            color: #ffffff;
+        }
 
         /* Progress Bar */
         .progress {
-            height: 12px;
-            border-radius: 10px;
-            margin-bottom: 40px;
-            background-color: #e2e8f0;
+            height: 8px;
+            border-radius: 4px;
+            margin-bottom: 32px;
+            background-color: var(--surface-subtle);
+            border: 1px solid var(--border-color);
             overflow: hidden;
-            box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
         }
         .progress-bar {
-            background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
-            border-radius: 10px;
-            transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            background: var(--primary);
+            transition: width 0.4s ease;
         }
 
         /* Checkbox labels styling */
         .btn-check-label {
-            border: 2px solid #e2e8f0;
-            border-radius: 14px;
-            transition: all 0.2s;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            transition: all 0.15s;
             color: var(--text-main);
-            background: white;
-            font-weight: 500;
+            background: var(--surface);
+            font-weight: 600;
+            font-size: 0.94rem;
         }
         .btn-check:checked + .btn-check-label {
             border-color: var(--primary);
-            background-color: rgba(99, 102, 241, 0.05);
+            background-color: var(--surface-subtle);
             color: var(--primary);
             font-weight: 700;
-            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.1);
+        }
+        .btn-check:checked + .btn-check-label .form-check-circle {
+            background-color: var(--primary);
+            border-color: var(--primary) !important;
         }
         .btn-check-label:hover {
-            border-color: rgba(99, 102, 241, 0.3);
-            transform: translateY(-1px);
+            border-color: var(--primary);
         }
 
         .question-box {
-            font-size: 1.3rem;
-            font-weight: 600;
-            margin-bottom: 40px;
-            color: var(--text-main);
-            line-height: 1.6;
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 32px;
+            color: var(--primary);
+            line-height: 1.55;
+            background: var(--bg-color);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 28px 24px;
         }
 
         /* Main CTA */
         .btn-cta {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            background: var(--primary);
             color: white;
-            border: none;
-            border-radius: 14px;
-            font-weight: 600;
-            padding: 16px 30px;
-            transition: all 0.3s;
-            box-shadow: 0 10px 20px rgba(99, 102, 241, 0.2);
+            border: 1px solid var(--primary);
+            border-radius: 6px;
+            font-weight: 700;
+            padding: 13px 26px;
+            transition: all 0.15s;
         }
         .btn-cta:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 15px 30px rgba(99, 102, 241, 0.3);
+            background: var(--primary-dark);
             color: white;
         }
 
         /* Answer Buttons */
         .btn-answer {
-            border-radius: 14px;
-            padding: 14px 20px;
-            font-weight: 600;
-            border: 2px solid;
-            transition: all 0.2s;
+            border-radius: 6px;
+            padding: 13px 20px;
+            font-weight: 700;
+            border: 1.5px solid;
+            transition: all 0.15s;
             flex: 1;
         }
-        .btn-answer-yes { color: #10b981; border-color: #10b981; background: transparent; }
-        .btn-answer-yes:hover { background: #10b981; color: white; transform: translateY(-2px); box-shadow: 0 8px 15px rgba(16, 185, 129, 0.2); }
+        .btn-answer-yes { color: var(--accent-teal); border-color: var(--accent-teal); background: #ffffff; }
+        .btn-answer-yes:hover { background: var(--accent-teal); color: white; }
         
-        .btn-answer-no { color: #ef4444; border-color: #ef4444; background: transparent; }
-        .btn-answer-no:hover { background: #ef4444; color: white; transform: translateY(-2px); box-shadow: 0 8px 15px rgba(239, 68, 68, 0.2); }
+        .btn-answer-no { color: var(--secondary); border-color: var(--secondary); background: #ffffff; }
+        .btn-answer-no:hover { background: var(--secondary); color: white; }
 
-        .btn-answer-mid { color: #64748b; border-color: #64748b; background: transparent; }
-        .btn-answer-mid:hover { background: #64748b; color: white; transform: translateY(-2px); box-shadow: 0 8px 15px rgba(100, 116, 139, 0.2); }
+        .btn-answer-mid { color: #4b5563; border-color: #9ca3af; background: #ffffff; }
+        .btn-answer-mid:hover { background: #4b5563; color: white; }
 
         /* Custom scrollbar for bolumListesi */
         #bolumListesi::-webkit-scrollbar { width: 6px; }
@@ -202,32 +244,39 @@
     </style>
 </head>
 <body>
-<div class="page-bg"></div>
 
 <nav class="navbar navbar-expand-lg sticky-top">
   <div class="container">
     <a class="navbar-brand" href="index.html">
-        <i class="fa-solid fa-graduation-cap me-2 text-primary"></i>EduLock: Tercih ve Puan Rehberi
+        <span class="brand-mark">EL</span>
+        <span>EduLock</span>
+        <span class="brand-divider d-none d-sm-inline">|</span>
+        <span class="brand-sub d-none d-sm-inline">YKS Tercih Kılavuzu</span>
     </a>
     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#anaMenu">
-      <i class="fa-solid fa-bars fs-4 text-dark"></i>
+      <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="anaMenu">
-      <ul class="navbar-nav ms-auto">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
         <li class="nav-item">
-          <a class="nav-link" href="index.html"><i class="fa-solid fa-house me-1"></i> Ana Sayfa</a>
+          <a class="nav-link" href="index.html"><i class="fa-solid fa-table-list me-1"></i> Programlar</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="rehber.html"><i class="fa-solid fa-robot me-1"></i> Tercih Robotu</a>
+          <a class="nav-link active" href="rehber.html"><i class="fa-solid fa-compass me-1"></i> Eğilim Testi</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="hesapla.html"><i class="fa-solid fa-calculator me-1"></i> Net & Sıralama</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="hakkimizda.html"><i class="fa-solid fa-circle-info me-1"></i> Hakkımızda</a>
+          <a href="index.html" class="btn btn-outline-danger btn-sm px-3 py-1 fw-bold d-inline-flex align-items-center gap-2 ms-lg-2 my-1 my-lg-0" style="border-radius: 6px;">
+            <i class="fa-regular fa-bookmark"></i> Tercih Listem
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="iletisim.html"><i class="fa-solid fa-envelope me-1"></i> İletişim</a>
+          <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="iletisim.html">İletişim</a>
         </li>
       </ul>
     </div>
@@ -238,54 +287,79 @@
     <div class="row justify-content-center">
         <div class="col-lg-8">
             <div class="wizard-card">
-                
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                    <span class="small fw-bold text-uppercase" style="font-family: var(--font-mono); color: var(--text-muted); letter-spacing: 0.5px;">BÖLÜM & KARAKTER UYUM ANALİZİ</span>
+                    <span class="small text-muted" style="font-family: var(--font-mono);">4 ADIM</span>
+                </div>
                 <div class="progress">
-                    <div id="progressBar" class="progress-bar" role="progressbar" style="width: 0%"></div>
+                    <div id="progressBar" class="progress-bar" role="progressbar" style="width: 10%"></div>
                 </div>
 
                 <!-- ADIM 1 -->
-                <div id="step1" class="text-center">
-                    <h3 class="step-title">Lisedeki Alanın Nedir?</h3>
-                    <p class="text-muted mb-4">Sana en uygun bölümleri bulmamız için öncelikle alanını seçmelisin.</p>
-                    <div class="row g-3 mt-2">
+                <div id="step1">
+                    <h3 class="step-title">1. Puan Türünüzü Seçin</h3>
+                    <p class="text-muted mb-4">Analiz edilecek lisans veya ön lisans programlarını listelemek için YKS puan türünüzü belirleyin.</p>
+                    <div class="row g-3 mt-1">
                         <div class="col-sm-6">
-                            <button onclick="alanSec('SAY')" class="btn-alan btn-alan-say">
-                                <i class="fa-solid fa-square-root-variable d-block mb-2 fs-3"></i>SAYISAL (SAY)
+                            <button onclick="alanSec('SAY')" class="btn-alan">
+                                <i class="fa-solid fa-square-root-variable fs-5"></i>
+                                <div>
+                                    <div>SAYISAL (SAY)</div>
+                                    <div class="small fw-normal opacity-75">Mühendislik, Tıp, Fen Bilimleri</div>
+                                </div>
                             </button>
                         </div>
                         <div class="col-sm-6">
-                            <button onclick="alanSec('EA')" class="btn-alan btn-alan-ea">
-                                <i class="fa-solid fa-scale-balanced d-block mb-2 fs-3"></i>EŞİT AĞIRLIK (EA)
+                            <button onclick="alanSec('EA')" class="btn-alan">
+                                <i class="fa-solid fa-scale-balanced fs-5"></i>
+                                <div>
+                                    <div>EŞİT AĞIRLIK (EA)</div>
+                                    <div class="small fw-normal opacity-75">Hukuk, İşletme, Psikoloji, İktisat</div>
+                                </div>
                             </button>
                         </div>
                         <div class="col-sm-6">
-                            <button onclick="alanSec('SÖZ')" class="btn-alan btn-alan-soz">
-                                <i class="fa-solid fa-book-open d-block mb-2 fs-3"></i>SÖZEL (SÖZ)
+                            <button onclick="alanSec('SÖZ')" class="btn-alan">
+                                <i class="fa-solid fa-book-open fs-5"></i>
+                                <div>
+                                    <div>SÖZEL (SÖZ)</div>
+                                    <div class="small fw-normal opacity-75">İletişim, Tarih, Özel Eğitim, Gastronomi</div>
+                                </div>
                             </button>
                         </div>
                         <div class="col-sm-6">
-                            <button onclick="alanSec('DİL')" class="btn-alan btn-alan-dil">
-                                <i class="fa-solid fa-language d-block mb-2 fs-3"></i>YABANCI DİL (DİL)
+                            <button onclick="alanSec('DİL')" class="btn-alan">
+                                <i class="fa-solid fa-language fs-5"></i>
+                                <div>
+                                    <div>YABANCI DİL (DİL)</div>
+                                    <div class="small fw-normal opacity-75">Mütercim-Tercümanlık, Dil Bilimi</div>
+                                </div>
                             </button>
                         </div>
-                        <div class="col-12 mt-4">
-                            <h5 class="text-muted mb-3 fs-6">Veya 2 Yıllık Bölümler İçin:</h5>
-                            <button onclick="alanSec('TYT')" class="btn-alan btn-alan-tyt w-100">
-                                <i class="fa-solid fa-user-nurse d-block mb-2 fs-3"></i>ÖNLİSANS (TYT - 2 YILLIK)
+                        <div class="col-12 mt-3">
+                            <button onclick="alanSec('TYT')" class="btn-alan w-100">
+                                <i class="fa-solid fa-layer-group fs-5"></i>
+                                <div>
+                                    <div>ÖN LİSANS (TYT – 2 YILLIK PROGRAMLAR)</div>
+                                    <div class="small fw-normal opacity-75">Bilgisayar Programcılığı, Sağlık Teknikerliği, Sivil Havacılık</div>
+                                </div>
                             </button>
                         </div>
                     </div>
                 </div>
 
                 <!-- ADIM 2 -->
-                <div id="step2" style="display:none;" class="text-center">
-                    <h3 class="step-title">Arada Kaldığın Bölümleri Seç</h3>
-                    <p class="text-muted mb-4">Analiz yapabilmemiz için listelenen bölümlerden <strong>en az 2 tanesini</strong> seçmelisin.</p>
-                    <div id="bolumListesi" class="row g-3 overflow-auto text-start" style="max-height: 400px; padding: 10px;">
+                <div id="step2" style="display:none;">
+                    <h3 class="step-title">2. Kararsız Kaldığınız Bölümleri İşaretleyin</h3>
+                    <p class="text-muted mb-4">Karşılaştırmalı uyum testi için aşağıdaki listeden <strong>en az 2 bölüm</strong> seçin.</p>
+                    <div id="bolumListesi" class="row g-2 overflow-auto text-start border rounded-2 p-2 bg-light" style="max-height: 400px;">
                         <!-- JS ile dolacak -->
                     </div>
-                    <div class="mt-5 text-end">
-                        <button onclick="sorularaGec()" class="btn-cta w-100 w-sm-auto">
+                    <div class="mt-4 d-flex justify-content-between align-items-center">
+                        <button onclick="location.reload()" class="btn btn-outline-secondary btn-sm px-3" style="border-radius: 6px;">
+                            <i class="fa-solid fa-arrow-left me-1"></i> Alan Değiştir
+                        </button>
+                        <button onclick="sorularaGec()" class="btn-cta">
                             Analize Başla <i class="fa-solid fa-arrow-right ms-2"></i>
                         </button>
                     </div>
@@ -293,46 +367,44 @@
 
                 <!-- ADIM 3 -->
                 <div id="step3" style="display:none;">
-                    <div class="text-center mb-4">
-                        <span class="badge bg-light text-primary border px-3 py-2 rounded-pill mb-3" id="soruKategoriBaslik"></span>
+                    <div class="mb-3">
+                        <span class="badge text-dark border px-2 py-1 mb-2" style="background: var(--surface-subtle); font-family: var(--font-mono); border-radius: 4px;" id="soruKategoriBaslik"></span>
                         <div class="question-box" id="soruMetni">
                             Sorular yükleniyor...
                         </div>
                     </div>
                     
-                    <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-5">
+                    <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-4">
                         <button onclick="cevapVer(0)" class="btn-answer btn-answer-no">
-                            <i class="fa-solid fa-xmark me-2"></i>Hayır
+                            <i class="fa-solid fa-xmark me-2"></i>Bana Uygun Değil (Hayır)
                         </button>
                         <button onclick="cevapVer(0.5)" class="btn-answer btn-answer-mid">
                             <i class="fa-solid fa-minus me-2"></i>Kararsızım
                         </button>
                         <button onclick="cevapVer(1)" class="btn-answer btn-answer-yes">
-                            <i class="fa-solid fa-check me-2"></i>Evet
+                            <i class="fa-solid fa-check me-2"></i>Bana Uygun (Evet)
                         </button>
                     </div>
                 </div>
 
                 <!-- ADIM 4 -->
-                <div id="step4" style="display:none;" class="text-center">
-                    <div class="mb-4">
-                        <div class="d-inline-block p-3 rounded-circle" style="background: rgba(16, 185, 129, 0.1); color: #10b981;">
-                            <i class="fa-solid fa-clipboard-check fs-1"></i>
-                        </div>
+                <div id="step4" style="display:none;">
+                    <div class="border-bottom pb-3 mb-4">
+                        <span class="badge px-2 py-1 mb-2" style="background: #ecfdf5; color: var(--accent-teal); border: 1px solid #a7f3d0; font-family: var(--font-mono); border-radius: 4px;">ANALİZ TAMAMLANDI</span>
+                        <h2 class="step-title mb-1">Bölüm Uyum Raporunuz</h2>
+                        <p class="text-muted mb-0">Yanıtlarınıza göre çalışma koşulları ve akademik beklentilerinize en uygun bölümler aşağıda sıralanmıştır.</p>
                     </div>
-                    <h2 class="step-title mb-2">Analiz Sonucun Hazır</h2>
-                    <p class="text-muted mb-5">Verdiğin cevaplara göre kişiliğine ve hedeflerine en uygun bölümler aşağıda sıralandı.</p>
                     
-                    <div id="sonucListesi" class="mt-4 mb-5 text-start">
+                    <div id="sonucListesi" class="mt-3 mb-4 text-start">
                         <!-- JS ile dolacak -->
                     </div>
 
-                    <div class="d-grid gap-3">
-                        <button onclick="anaSayfayaGit()" class="btn-cta fs-5 py-3">
-                            <i class="fa-solid fa-trophy me-2 text-warning"></i> Kazanan Bölümü İncele
+                    <div class="d-flex flex-column flex-sm-row gap-2">
+                        <button onclick="anaSayfayaGit()" class="btn-cta flex-grow-1 py-3">
+                            <i class="fa-solid fa-table-list me-2"></i> En Uygun Bölümün Üniversitelerini Gör
                         </button>
-                        <button onclick="location.reload()" class="btn btn-light text-muted border-0 py-3 rounded-4 fw-medium hover-bg-light">
-                            <i class="fa-solid fa-rotate-right me-2"></i>Testi Tekrarla
+                        <button onclick="location.reload()" class="btn btn-outline-secondary py-3 px-4 fw-semibold" style="border-radius: 6px;">
+                            <i class="fa-solid fa-rotate-right me-2"></i>Yeniden Başla
                         </button>
                     </div>
                 </div>
@@ -342,9 +414,11 @@
     </div>
 </div>
 
-    <footer class="py-5 text-center text-muted border-top mt-5">
-        <p class="mb-1">© 2026 <strong>EduLock: Tercih ve Puan Rehberi</strong> - Tüm hakları saklıdır.</p>
-        <p class="small">İletişim: <a href="iletisim.html" class="text-decoration-none text-primary">info@edulock.com.tr</a> | <a href="privacy.html" class="text-decoration-none text-primary">Gizlilik Politikası</a></p>
+    <footer class="py-4 text-center text-muted border-top mt-auto bg-white">
+        <div class="container d-flex flex-column flex-sm-row align-items-center justify-content-between gap-2 small">
+            <div>© 2026 <strong>EduLock</strong> — YKS Tercih ve Yükseköğretim Programları Rehberi</div>
+            <div>İletişim: <a href="iletisim.html" class="text-decoration-none text-dark fw-semibold">info@edulock.com.tr</a> <span class="mx-1">|</span> <a href="privacy.html" class="text-decoration-none text-dark fw-semibold">Gizlilik Politikası</a></div>
+        </div>
     </footer>
 
 <script>
@@ -936,24 +1010,23 @@
             return bYuzde - aYuzde;
         });
 
-        siraliBolumler.forEach(bolum => {
+        siraliBolumler.forEach((bolum, idx) => {
             const soruSayisi = bolumVerileri[secilenAlan][bolum].length;
             const alinanPuan = puanlar[bolum];
             let yuzde = Math.round((alinanPuan / soruSayisi) * 100);
             
-            // Renk belirle
-            let renk = "linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%)";
-            if(yuzde < 50) renk = "#94a3b8"; // slate-400
-            if(yuzde > 80) renk = "linear-gradient(90deg, #10b981 0%, #34d399 100%)"; // emerald
+            let renk = "#14213d";
+            if(yuzde < 50) renk = "#9ca3af";
+            if(yuzde >= 75) renk = "#0d6e52";
 
             sonucDiv.innerHTML += `
-                <div class="mb-4 bg-light p-4 rounded-4 border">
-                    <div class="d-flex justify-content-between mb-3 align-items-center">
-                        <span class="fw-bold fs-5 text-dark"><i class="fa-solid fa-star me-2 text-warning"></i>${bolum}</span>
-                        <span class="badge bg-white text-dark border px-3 py-2 rounded-pill shadow-sm">%${yuzde} Uygun</span>
+                <div class="mb-3 p-3 rounded-2 border" style="background: var(--bg-color); border-color: var(--border-color) !important;">
+                    <div class="d-flex justify-content-between mb-2 align-items-center">
+                        <span class="fw-bold text-dark"><span class="badge bg-dark me-2" style="font-family: var(--font-mono); border-radius: 4px;">#${idx + 1}</span>${bolum}</span>
+                        <span class="badge bg-white text-dark border px-2 py-1" style="font-family: var(--font-mono); border-radius: 4px;">%${yuzde} Uyum</span>
                     </div>
-                    <div class="progress" style="height: 16px; background-color: #f1f5f9;">
-                        <div class="progress-bar" role="progressbar" style="width: ${yuzde}%; background: ${renk}; border-radius: 10px;"></div>
+                    <div class="progress mb-0" style="height: 10px; background-color: #e5e7eb; border-radius: 4px;">
+                        <div class="progress-bar" role="progressbar" style="width: ${yuzde}%; background: ${renk}; border-radius: 4px;"></div>
                     </div>
                 </div>
             `;

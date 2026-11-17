@@ -6,106 +6,173 @@
     <title>İletişim | EduLock: Tercih ve Puan Rehberi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary: #6366f1;
-            --secondary: #ec4899;
-            --bg-color: #f8fafc;
-            --text-main: #1e293b;
-            --text-muted: #64748b;
+            --primary: #14213d;
+            --primary-dark: #0b1324;
+            --secondary: #b93829;
+            --accent-teal: #0d6e52;
+            --bg-color: #f6f5f0;
+            --surface: #ffffff;
+            --surface-subtle: #efece6;
+            --border-color: #dcd9d0;
+            --border-subtle: #e8e6df;
+            --text-main: #111827;
+            --text-muted: #5f6672;
+            --font-mono: 'IBM Plex Mono', monospace;
         }
 
         body {
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
             background-color: var(--bg-color);
             color: var(--text-main);
-            padding-top: 100px;
+            padding-top: 86px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            -webkit-font-smoothing: antialiased;
         }
 
         .navbar {
-            background: rgba(255, 255, 255, 0.85) !important;
-            backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(0,0,0,0.05);
+            background: var(--surface) !important;
+            border-bottom: 1px solid var(--border-color);
+            padding: 12px 0;
         }
 
-        .navbar-brand { font-weight: 800; color: var(--primary) !important; }
+        .navbar-brand {
+            color: var(--primary) !important;
+            font-weight: 800;
+            font-size: 1.25rem;
+            letter-spacing: -0.4px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .brand-mark {
+            width: 32px;
+            height: 32px;
+            background: var(--primary);
+            color: #ffffff;
+            border-radius: 6px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            flex-shrink: 0;
+        }
+
+        .brand-divider {
+            color: var(--border-color);
+            font-weight: 400;
+            margin: 0 2px;
+        }
+
+        .brand-sub {
+            font-weight: 600;
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            letter-spacing: 0;
+        }
 
         .nav-link {
-            font-weight: 500;
-            color: var(--text-main) !important;
-            transition: all 0.3s;
+            color: var(--text-muted) !important;
+            font-weight: 600;
+            font-size: 0.92rem;
+            padding: 8px 12px !important;
+            margin-left: 4px;
+            border-radius: 6px;
+            transition: all 0.15s ease;
         }
 
-        .nav-link:hover, .nav-link.active { color: var(--primary) !important; }
+        .nav-link:hover {
+            color: var(--primary) !important;
+            background: rgba(20, 33, 61, 0.04);
+        }
+
+        .nav-link.active {
+            color: var(--primary) !important;
+            background: var(--surface-subtle);
+            font-weight: 700;
+        }
 
         .contact-card {
-            background: white;
-            border-radius: 30px;
-            padding: 50px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.03);
-            border: 1px solid rgba(0,0,0,0.05);
+            background: var(--surface);
+            border-radius: 10px;
+            padding: 40px 36px;
+            border: 1px solid var(--border-color);
             text-align: center;
         }
 
         .contact-icon {
-            width: 80px;
-            height: 80px;
-            background: rgba(99, 102, 241, 0.1);
+            width: 56px;
+            height: 56px;
+            background: var(--surface-subtle);
+            border: 1px solid var(--border-color);
             color: var(--primary);
-            border-radius: 50%;
+            border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2.5rem;
-            margin: 0 auto 30px;
+            font-size: 1.5rem;
+            margin: 0 auto 20px;
         }
 
         .email-link {
-            font-size: 1.5rem;
+            font-family: var(--font-mono);
+            font-size: 1.3rem;
             font-weight: 700;
-            color: var(--text-main);
+            color: var(--primary);
             text-decoration: none;
-            transition: color 0.3s;
+            transition: color 0.15s;
         }
 
-        .email-link:hover { color: var(--primary); }
+        .email-link:hover { color: var(--secondary); }
     </style>
 </head>
 <body>
 
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html" data-i18n="nav_brand">🎓 EduLock: Tercih ve Puan Rehberi</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#anaMenu">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-mark">EL</span>
+                <span>EduLock</span>
+                <span class="brand-divider d-none d-sm-inline">|</span>
+                <span class="brand-sub d-none d-sm-inline" data-i18n="nav_brand">YKS Tercih Kılavuzu</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#anaMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="anaMenu">
                 <ul class="navbar-nav ms-auto align-items-lg-center">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-house me-1"></i> <span data-i18n="nav_home">Ana Sayfa</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="rehber.html"><i class="fa-solid fa-robot me-1"></i> <span data-i18n="nav_robot">Tercih Robotu</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-table-list me-1"></i> <span data-i18n="nav_home">Programlar</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="rehber.html"><i class="fa-solid fa-compass me-1"></i> <span data-i18n="nav_robot">Eğilim Testi</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="hesapla.html"><i class="fa-solid fa-calculator me-1"></i> <span data-i18n="nav_calc">Net & Sıralama</span></a></li>
                     <li class="nav-item">
-                        <a href="index.html" class="btn btn-outline-danger btn-sm rounded-pill px-3 py-1 fw-bold shadow-sm d-inline-flex align-items-center gap-2 ms-lg-2 my-1 my-lg-0">
-                            <i class="fa-solid fa-heart text-danger"></i> <span data-i18n="nav_my_list">Tercih Listem</span>
+                        <a href="index.html" class="btn btn-outline-danger btn-sm px-3 py-1 fw-bold d-inline-flex align-items-center gap-2 ms-lg-2 my-1 my-lg-0" style="border-radius: 6px;">
+                            <i class="fa-regular fa-bookmark"></i> <span data-i18n="nav_my_list">Tercih Listem</span>
                         </a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="hakkimizda.html"><i class="fa-solid fa-circle-info me-1"></i> <span data-i18n="nav_about">Hakkımızda</span></a></li>
-                    <li class="nav-item"><a class="nav-link active" href="iletisim.html"><i class="fa-solid fa-envelope me-1"></i> <span data-i18n="nav_contact">İletişim</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="hakkimizda.html"><span data-i18n="nav_about">Hakkımızda</span></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="iletisim.html"><span data-i18n="nav_contact">İletişim</span></a></li>
                     <li class="nav-item ms-lg-2">
                         <div class="dropdown">
-                            <button class="btn btn-sm btn-light border rounded-pill px-3 py-1 dropdown-toggle fw-bold d-flex align-items-center gap-2 shadow-sm" type="button" id="langDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                                <span id="currentLangFlag"><img src="https://flagcdn.com/w40/tr.png" srcset="https://flagcdn.com/w80/tr.png 2x" width="20" height="14" alt="TR" style="border-radius:2px; object-fit:cover; vertical-align:middle;"></span> <span id="currentLangText">TR</span>
+                            <button class="btn btn-sm btn-light border px-2 py-1 dropdown-toggle fw-bold d-flex align-items-center gap-2" style="border-radius: 6px; font-size: 0.82rem;" type="button" id="langDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span id="currentLangFlag"><img src="https://flagcdn.com/w40/tr.png" srcset="https://flagcdn.com/w80/tr.png 2x" width="18" height="13" alt="TR" style="border-radius:2px; object-fit:cover; vertical-align:middle;"></span> <span id="currentLangText">TR</span>
                             </button>
-                            <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0 rounded-3 mt-2" aria-labelledby="langDropdown" style="min-width: 140px;">
+                            <ul class="dropdown-menu dropdown-menu-end shadow-sm border rounded-2 mt-1" aria-labelledby="langDropdown" style="min-width: 140px;">
                                 <li>
-                                    <button class="dropdown-item d-flex align-items-center gap-2 fw-semibold" onclick="setLanguage('tr')">
-                                        <img src="https://flagcdn.com/w40/tr.png" srcset="https://flagcdn.com/w80/tr.png 2x" width="20" height="14" alt="TR" style="border-radius:2px; object-fit:cover; vertical-align:middle;"> Türkçe (TR)
+                                    <button class="dropdown-item d-flex align-items-center gap-2 fw-semibold small py-2" onclick="setLanguage('tr')">
+                                        <img src="https://flagcdn.com/w40/tr.png" srcset="https://flagcdn.com/w80/tr.png 2x" width="18" height="13" alt="TR" style="border-radius:2px; object-fit:cover; vertical-align:middle;"> Türkçe (TR)
                                     </button>
                                 </li>
                                 <li>
-                                    <button class="dropdown-item d-flex align-items-center gap-2 fw-semibold" onclick="setLanguage('en')">
-                                        <img src="https://flagcdn.com/w40/gb.png" srcset="https://flagcdn.com/w80/gb.png 2x" width="20" height="14" alt="EN" style="border-radius:2px; object-fit:cover; vertical-align:middle;"> English (EN)
+                                    <button class="dropdown-item d-flex align-items-center gap-2 fw-semibold small py-2" onclick="setLanguage('en')">
+                                        <img src="https://flagcdn.com/w40/gb.png" srcset="https://flagcdn.com/w80/gb.png 2x" width="18" height="13" alt="EN" style="border-radius:2px; object-fit:cover; vertical-align:middle;"> English (EN)
                                     </button>
                                 </li>
                             </ul>
@@ -116,64 +183,64 @@
         </div>
     </nav>
 
-    <div class="container py-5">
+    <div class="container py-4">
         <div class="row justify-content-center">
             <div class="col-md-8 col-lg-6">
                 <div class="contact-card">
                     <div class="contact-icon">
-                        <i class="fa-solid fa-paper-plane"></i>
+                        <i class="fa-regular fa-envelope"></i>
                     </div>
-                    <h1 class="fw-bold mb-3" data-i18n="contact_title">Bizimle İletişime Geçin</h1>
-                    <p class="text-muted mb-4" data-i18n="contact_sub">
-                        Sorularınız, önerileriniz, reklam iş birlikleri veya teknik destek için bize dilediğiniz zaman e-posta gönderebilirsiniz.
+                    <h2 class="fw-bold mb-2" style="color: var(--primary);" data-i18n="contact_title">İletişim ve Destek</h2>
+                    <p class="text-muted mb-4 small" data-i18n="contact_sub">
+                        Veri düzeltme talepleri, önerileriniz, kurumsal iş birlikleri veya teknik destek için bizimle doğrudan e-posta üzerinden iletişime geçebilirsiniz.
                     </p>
                     
-                    <div class="p-4 bg-light rounded-4 mb-4 position-relative shadow-sm" style="border: 2px dashed rgba(99, 102, 241, 0.4); cursor: pointer; transition: all 0.3s;" onclick="emailGonder()">
-                        <span class="text-muted small d-block mb-1 font-weight-bold" data-i18n="contact_official_label">RESMİ İLETİŞİM ADRESİMİZ</span>
-                        <a href="mailto:info@edulock.com.tr" class="email-link d-inline-flex align-items-center justify-content-center gap-2 mb-2" onclick="event.stopPropagation();">
-                            <i class="fa-solid fa-envelope text-primary"></i> info@edulock.com.tr
+                    <div class="p-4 rounded-2 mb-3 position-relative" style="background: var(--bg-color); border: 1px solid var(--border-color); cursor: pointer;" onclick="emailGonder()">
+                        <span class="text-muted d-block mb-1 fw-bold" style="font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.5px;" data-i18n="contact_official_label">RESMİ E-POSTA ADRESİMİZ</span>
+                        <a href="mailto:info@edulock.com.tr" class="email-link d-inline-flex align-items-center justify-content-center gap-2 mb-3" onclick="event.stopPropagation();">
+                            info@edulock.com.tr
                         </a>
                         <div>
-                            <button type="button" onclick="event.stopPropagation(); epostaKopyala();" class="btn btn-sm btn-outline-primary rounded-pill px-3 py-1 fw-semibold shadow-sm">
-                                <i class="fa-solid fa-copy me-1"></i> <span data-i18n="copy_email">E-Postayı Kopyala</span>
+                            <button type="button" onclick="event.stopPropagation(); epostaKopyala();" class="btn btn-sm btn-outline-dark px-3 py-1 fw-semibold" style="border-radius: 6px;">
+                                <i class="fa-regular fa-copy me-1"></i> <span data-i18n="copy_email">Adresi Kopyala</span>
                             </button>
                         </div>
                     </div>
 
                     <p class="small text-muted mb-0">
-                        <i class="fa-solid fa-clock me-1"></i> <span data-i18n="contact_response_time">E-postalarınıza genellikle 24 saat içerisinde dönüş yapılmaktadır.</span>
+                        <i class="fa-regular fa-clock me-1"></i> <span data-i18n="contact_response_time">Taleplerinize genellikle 24 saat içerisinde yanıt verilmektedir.</span>
                     </p>
 
                     <!-- Mobil Uygulamalarımız -->
-                    <div class="mt-5 pt-4 border-top">
+                    <div class="mt-4 pt-4 border-top">
                         <!-- EduLock: Çöz ve Kazan -->
                         <div class="mb-4">
-                            <p class="fw-semibold text-muted mb-3">
-                                <img src="edulock_cozvekazan_logo.png" alt="EduLock Logo" class="me-2" style="height: 28px; width: 28px; border-radius: 6px; object-fit: cover; vertical-align: middle;">
-                                <span data-i18n="app1_title">EduLock: Çöz ve Kazan Mobil Uygulaması Yayında!</span>
+                            <p class="fw-semibold text-dark small mb-3">
+                                <img src="edulock_cozvekazan_logo.png" alt="EduLock Logo" class="me-2" style="height: 26px; width: 26px; border-radius: 6px; object-fit: cover; vertical-align: middle;">
+                                <span data-i18n="app1_title">EduLock: Çöz ve Kazan Mobil Uygulaması</span>
                             </p>
                             <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <a href="https://play.google.com/store/apps/details?id=com.bagcakaya.edulock.cozvekazan" target="_blank" class="store-badge">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play'den İndirin" style="height: 46px;">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play'den İndirin" style="height: 42px;">
                                 </a>
                                 <a href="https://apps.apple.com/tr/app/edulock-%C3%A7%C3%B6z-ve-kazan/id6778319605" target="_blank" class="store-badge">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store'dan İndirin" style="height: 46px;">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store'dan İndirin" style="height: 42px;">
                                 </a>
                             </div>
                         </div>
 
                         <!-- EduTakip -->
-                        <div class="pt-4 border-top">
-                            <p class="fw-semibold text-muted mb-3">
-                                <img src="edutakip_logo.png" alt="EduTakip Logo" class="me-2" style="height: 28px; width: 28px; border-radius: 6px; object-fit: cover; vertical-align: middle;">
-                                <span data-i18n="app2_title">EduTakip Mobil Uygulaması Yayında!</span>
+                        <div class="pt-3 border-top">
+                            <p class="fw-semibold text-dark small mb-3">
+                                <img src="edutakip_logo.png" alt="EduTakip Logo" class="me-2" style="height: 26px; width: 26px; border-radius: 6px; object-fit: cover; vertical-align: middle;">
+                                <span data-i18n="app2_title">EduTakip Mobil Uygulaması</span>
                             </p>
                             <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
                                 <a href="https://play.google.com/store/apps/details?id=com.agcakaya.edutakip" target="_blank" class="store-badge">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play'den İndirin" style="height: 46px;">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play'den İndirin" style="height: 42px;">
                                 </a>
                                 <a href="https://apps.apple.com/tr/app/edutakip/id6778349898" target="_blank" class="store-badge">
-                                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store'dan İndirin" style="height: 46px;">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store'dan İndirin" style="height: 42px;">
                                 </a>
                             </div>
                         </div>
@@ -183,9 +250,11 @@
         </div>
     </div>
 
-    <footer class="py-5 text-center text-muted border-top bg-white mt-5">
-        <p class="mb-1">© 2026 <strong>EduLock: Tercih ve Puan Rehberi</strong> - Tüm hakları saklıdır.</p>
-        <p class="small">İletişim: <a href="iletisim.html" class="text-decoration-none text-primary">info@edulock.com.tr</a> | <a href="privacy.html" class="text-decoration-none text-primary">Gizlilik Politikası</a></p>
+    <footer class="py-4 text-center text-muted border-top bg-white mt-auto">
+        <div class="container d-flex flex-column flex-sm-row align-items-center justify-content-between gap-2 small">
+            <div>© 2026 <strong>EduLock</strong> — YKS Tercih ve Yükseköğretim Programları Rehberi</div>
+            <div>İletişim: <a href="iletisim.html" class="text-decoration-none text-dark fw-semibold">info@edulock.com.tr</a> <span class="mx-1">|</span> <a href="privacy.html" class="text-decoration-none text-dark fw-semibold">Gizlilik Politikası</a></div>
+        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -205,36 +274,36 @@
 
         const i18n = {
             tr: {
-                nav_brand: "🎓 EduLock: Tercih ve Puan Rehberi",
-                nav_home: "Ana Sayfa",
-                nav_robot: "Tercih Robotu",
+                nav_brand: "YKS Tercih Kılavuzu",
+                nav_home: "Programlar",
+                nav_robot: "Eğilim Testi",
                 nav_calc: "Net & Sıralama",
                 nav_my_list: "Tercih Listem",
                 nav_about: "Hakkımızda",
                 nav_contact: "İletişim",
-                contact_title: "Bizimle İletişime Geçin",
-                contact_sub: "Sorularınız, önerileriniz, reklam iş birlikleri veya teknik destek için bize dilediğiniz zaman e-posta gönderebilirsiniz.",
-                contact_official_label: "RESMİ İLETİŞİM ADRESİMİZ",
-                contact_response_time: "E-postalarınıza genellikle 24 saat içerisinde dönüş yapılmaktadır.",
-                app1_title: "EduLock: Çöz ve Kazan Mobil Uygulaması Yayında!",
-                app2_title: "EduTakip Mobil Uygulaması Yayında!",
-                copy_email: "E-Postayı Kopyala"
+                contact_title: "İletişim ve Destek",
+                contact_sub: "Veri düzeltme talepleri, önerileriniz, kurumsal iş birlikleri veya teknik destek için bizimle doğrudan e-posta üzerinden iletişime geçebilirsiniz.",
+                contact_official_label: "RESMİ E-POSTA ADRESİMİZ",
+                contact_response_time: "Taleplerinize genellikle 24 saat içerisinde yanıt verilmektedir.",
+                app1_title: "EduLock: Çöz ve Kazan Mobil Uygulaması",
+                app2_title: "EduTakip Mobil Uygulaması",
+                copy_email: "Adresi Kopyala"
             },
             en: {
-                nav_brand: "🎓 EduLock: Preference & Rank Guide",
-                nav_home: "Home",
-                nav_robot: "Preference Wizard",
+                nav_brand: "YKS Preference Guide",
+                nav_home: "Programs",
+                nav_robot: "Aptitude Quiz",
                 nav_calc: "Nets & Ranking",
                 nav_my_list: "My List",
                 nav_about: "About Us",
-                nav_contact: "Contact Us",
-                contact_title: "Get in Touch With Us",
-                contact_sub: "Feel free to email us anytime for your questions, suggestions, sponsorships, or technical support.",
-                contact_official_label: "OUR OFFICIAL CONTACT EMAIL",
-                contact_response_time: "Emails are usually answered within 24 hours.",
-                app1_title: "EduLock: Solve & Win Mobile App is Live!",
-                app2_title: "EduTakip Mobile App is Live!",
-                copy_email: "Copy Email Address"
+                nav_contact: "Contact",
+                contact_title: "Contact & Support",
+                contact_sub: "Feel free to email us directly for data inquiries, suggestions, partnerships, or technical support.",
+                contact_official_label: "OFFICIAL CONTACT EMAIL",
+                contact_response_time: "Inquiries are typically answered within 24 hours.",
+                app1_title: "EduLock: Solve & Win Mobile App",
+                app2_title: "EduTakip Mobile App",
+                copy_email: "Copy Email"
             }
         };
 
