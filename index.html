@@ -862,23 +862,89 @@
             animation: rotation 0.8s linear infinite;
         }
 
-        .btn-load-more {
+        /* Pagination (Sayfalama) */
+        .results-meta-bar {
             background: var(--surface);
-            color: var(--primary);
-            border: 1.5px solid var(--primary);
-            padding: 12px 32px;
-            border-radius: 6px;
-            font-weight: 700;
-            font-size: 0.92rem;
-            transition: all 0.15s ease;
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 10px 16px;
+            font-size: 0.86rem;
+            color: var(--text-muted);
         }
 
-        .btn-load-more:hover {
+        .pagination-console {
+            background: var(--surface);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 16px 20px;
+            box-shadow: 0 1px 3px rgba(17, 24, 39, 0.02);
+        }
+
+        .page-btn {
+            font-family: var(--font-mono);
+            font-variant-numeric: tabular-nums;
+            background: var(--bg-color);
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+            min-width: 38px;
+            height: 38px;
+            padding: 0 11px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            user-select: none;
+        }
+
+        .page-btn:hover:not(:disabled):not(.active) {
+            background: var(--surface-subtle);
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        .page-btn.active {
             background: var(--primary);
-            color: white;
+            color: #ffffff;
+            border-color: var(--primary);
+            font-weight: 700;
+            cursor: default;
+        }
+
+        .page-btn:disabled {
+            opacity: 0.42;
+            cursor: not-allowed;
+        }
+
+        .page-ellipsis {
+            font-family: var(--font-mono);
+            color: var(--text-muted);
+            padding: 0 6px;
+            font-weight: 700;
+            user-select: none;
+        }
+
+        .page-jump-input {
+            font-family: var(--font-mono);
+            width: 68px;
+            height: 38px;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-main);
+            background: #ffffff;
+        }
+
+        .page-jump-input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(20, 33, 61, 0.1);
         }
 
         @keyframes rotation {
@@ -1051,18 +1117,16 @@
             </div>
         </div>
 
+        <div id="sonucBilgiSeridi" class="results-meta-bar d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3" style="display:none !important;"></div>
+
         <div id="liste" class="row g-3"></div>
 
-        <div class="text-center mt-5">
-            <button id="btnDahaFazla" class="btn btn-load-more" onclick="dahaFazlaGetir()" style="display:none;">
-                <span data-i18n="btn_load_more">Daha Fazla Program Yükle</span>
-                <i class="fa-solid fa-chevron-down"></i>
-            </button>
-            <div id="yukleniyorYazisi" class="mt-4" style="display:none;">
-                <span class="loader"></span>
-                <p class="text-muted mt-3 fw-medium small">Program verileri yükleniyor...</p>
-            </div>
+        <div id="yukleniyorYazisi" class="text-center mt-4" style="display:none;">
+            <span class="loader"></span>
+            <p class="text-muted mt-3 fw-medium small">Program verileri yükleniyor...</p>
         </div>
+
+        <div id="sayfalamaKonteynir" class="mt-4" style="display:none;"></div>
     </div>
 
     <!-- Modal -->
@@ -1698,23 +1762,140 @@
                 if (bannerDiv) bannerDiv.style.display = "none";
             }
             suankiSayfa = 1;
-            document.getElementById("liste").innerHTML = "";
-            filtreleVeGoster();
+            filtreleVeGoster(true);
         }
 
-        function dahaFazlaGetir() {
-            suankiSayfa++;
-            filtreleVeGoster();
+        function sayfaDegistir(hedefSayfa) {
+            const toplamSayfa = Math.max(1, Math.ceil(filtrelenmisVeriler.length / sayfaBasinaKayit));
+            const yeniSayfa = Math.max(1, Math.min(toplamSayfa, parseInt(hedefSayfa) || 1));
+            if (yeniSayfa === suankiSayfa) return;
+            suankiSayfa = yeniSayfa;
+            filtreleVeGoster(false);
+
+            const ustBar = document.getElementById("sonucBilgiSeridi") || document.getElementById("liste");
+            if (ustBar) {
+                const y = ustBar.getBoundingClientRect().top + window.pageYOffset - 110;
+                window.scrollTo({ top: Math.max(0, y), behavior: "smooth" });
+            }
         }
 
-        function filtreleVeGoster() {
-            const btnDahaFazla = document.getElementById("btnDahaFazla");
+        function sayfayaGitInput() {
+            const inp = document.getElementById("pageJumpInput");
+            if (!inp) return;
+            sayfaDegistir(inp.value);
+        }
+
+        function sayfalamaRender() {
+            const ustSerit = document.getElementById("sonucBilgiSeridi");
+            const altKonteynir = document.getElementById("sayfalamaKonteynir");
+            const toplamKayit = filtrelenmisVeriler.length;
+
+            if (toplamKayit === 0) {
+                if (ustSerit) ustSerit.style.setProperty("display", "none", "important");
+                if (altKonteynir) altKonteynir.style.display = "none";
+                return;
+            }
+
+            const lang = (typeof currentLang !== 'undefined' && currentLang) ? currentLang : (localStorage.getItem('edulock_lang') || 'tr');
+            const isEn = (lang === 'en');
+            const toplamSayfa = Math.ceil(toplamKayit / sayfaBasinaKayit);
+            const baslangicNo = ((suankiSayfa - 1) * sayfaBasinaKayit) + 1;
+            const bitisNo = Math.min(suankiSayfa * sayfaBasinaKayit, toplamKayit);
+
+            // 1. Üst Bilgi Şeridi
+            if (ustSerit) {
+                ustSerit.style.removeProperty("display");
+                ustSerit.innerHTML = isEn ? `
+                    <div>
+                        <i class="fa-solid fa-layer-group me-2" style="color: var(--primary);"></i>
+                        Showing <strong class="text-dark" style="font-family: var(--font-mono);">${baslangicNo.toLocaleString('en-US')} – ${bitisNo.toLocaleString('en-US')}</strong> of <strong class="text-dark" style="font-family: var(--font-mono);">${toplamKayit.toLocaleString('en-US')}</strong> programs
+                    </div>
+                    <div>
+                        <span class="badge bg-light text-dark border px-2 py-1" style="font-family: var(--font-mono); border-radius: 4px;">Page ${suankiSayfa.toLocaleString('en-US')} / ${toplamSayfa.toLocaleString('en-US')}</span>
+                    </div>
+                ` : `
+                    <div>
+                        <i class="fa-solid fa-layer-group me-2" style="color: var(--primary);"></i>
+                        Toplam <strong class="text-dark" style="font-family: var(--font-mono);">${toplamKayit.toLocaleString('tr-TR')}</strong> programdan <strong class="text-dark" style="font-family: var(--font-mono);">${baslangicNo.toLocaleString('tr-TR')} – ${bitisNo.toLocaleString('tr-TR')}</strong> arası gösteriliyor
+                    </div>
+                    <div>
+                        <span class="badge bg-light text-dark border px-2 py-1" style="font-family: var(--font-mono); border-radius: 4px;">Sayfa ${suankiSayfa.toLocaleString('tr-TR')} / ${toplamSayfa.toLocaleString('tr-TR')}</span>
+                    </div>
+                `;
+            }
+
+            // 2. Alt Sayfalama Konsolu
+            if (!altKonteynir) return;
+            if (toplamSayfa <= 1) {
+                altKonteynir.style.display = "none";
+                return;
+            }
+
+            altKonteynir.style.display = "block";
+
+            // Sayfa numaraları dizisini oluştur (1 ... [aktif-2 .. aktif+2] ... son)
+            const pages = [];
+            const delta = 2;
+            const left = Math.max(2, suankiSayfa - delta);
+            const right = Math.min(toplamSayfa - 1, suankiSayfa + delta);
+
+            pages.push(1);
+            if (left > 2) pages.push('...');
+            for (let i = left; i <= right; i++) {
+                pages.push(i);
+            }
+            if (right < toplamSayfa - 1) pages.push('...');
+            if (toplamSayfa > 1) pages.push(toplamSayfa);
+
+            let buttonsHtml = `
+                <button class="page-btn" onclick="sayfaDegistir(${suankiSayfa - 1})" ${suankiSayfa === 1 ? 'disabled' : ''} title="${isEn ? 'Previous Page' : 'Önceki Sayfa'}">
+                    <i class="fa-solid fa-chevron-left" style="font-size: 0.72rem;"></i>
+                    <span class="d-none d-sm-inline">${isEn ? 'Prev' : 'Önceki'}</span>
+                </button>
+            `;
+
+            pages.forEach(p => {
+                if (p === '...') {
+                    buttonsHtml += `<span class="page-ellipsis">…</span>`;
+                } else {
+                    const isActive = (p === suankiSayfa);
+                    buttonsHtml += `
+                        <button class="page-btn ${isActive ? 'active' : ''}" onclick="sayfaDegistir(${p})">
+                            ${p.toLocaleString('tr-TR')}
+                        </button>
+                    `;
+                }
+            });
+
+            buttonsHtml += `
+                <button class="page-btn" onclick="sayfaDegistir(${suankiSayfa + 1})" ${suankiSayfa === toplamSayfa ? 'disabled' : ''} title="${isEn ? 'Next Page' : 'Sonraki Sayfa'}">
+                    <span class="d-none d-sm-inline">${isEn ? 'Next' : 'Sonraki'}</span>
+                    <i class="fa-solid fa-chevron-right" style="font-size: 0.72rem;"></i>
+                </button>
+            `;
+
+            altKonteynir.innerHTML = `
+                <div class="pagination-console d-flex flex-column flex-lg-row align-items-center justify-content-between gap-3">
+                    <div class="small text-muted order-2 order-lg-1" style="font-family: var(--font-mono);">
+                        ${isEn ? `Page <strong class="text-dark">${suankiSayfa}</strong> of <strong class="text-dark">${toplamSayfa.toLocaleString('en-US')}</strong> (${toplamKayit.toLocaleString('en-US')} results)` : `Sayfa <strong class="text-dark">${suankiSayfa}</strong> / <strong class="text-dark">${toplamSayfa.toLocaleString('tr-TR')}</strong> (${toplamKayit.toLocaleString('tr-TR')} sonuç)`}
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center flex-wrap gap-1 order-1 order-lg-2">
+                        ${buttonsHtml}
+                    </div>
+                    <div class="d-flex align-items-center gap-2 order-3">
+                        <span class="small text-muted" style="font-size: 0.8rem;">${isEn ? 'Go to:' : 'Sayfaya git:'}</span>
+                        <input type="number" id="pageJumpInput" class="page-jump-input" min="1" max="${toplamSayfa}" value="${suankiSayfa}" onkeydown="if(event.key==='Enter') sayfayaGitInput()">
+                        <button class="page-btn" onclick="sayfayaGitInput()">${isEn ? 'Go' : 'Git'}</button>
+                    </div>
+                </div>
+            `;
+        }
+
+        function filtreleVeGoster(yenidenFiltrele = false) {
             const yukleniyor = document.getElementById("yukleniyorYazisi");
-            btnDahaFazla.style.display = "none";
-            yukleniyor.style.display = "block";
+            const listeDiv = document.getElementById("liste");
 
-            // Sadece ilk sayfa yüklenirken filtreleme yap
-            if (suankiSayfa === 1) {
+            if (yenidenFiltrele || filtrelenmisVeriler.length === 0 && suankiSayfa === 1) {
                 const uni = turkceNormalize(document.getElementById("uniInput").value);
                 const sehir = turkceNormalize(document.getElementById("sehirInput").value);
                 const bolum = turkceNormalize(document.getElementById("bolumInput").value);
@@ -1776,127 +1957,123 @@
                 });
             }
 
-            // Gecikme ile göster (gerçekçi arama hissi için)
-            setTimeout(() => {
-                yukleniyor.style.display = "none";
+            if (yukleniyor) yukleniyor.style.display = "none";
 
-                if (filtrelenmisVeriler.length === 0 && suankiSayfa === 1) {
-                    document.getElementById("liste").innerHTML = '<div class="col-12"><div class="alert alert-warning p-4 rounded-4 text-center border-0 shadow-sm"><i class="fa-solid fa-circle-exclamation fs-3 mb-2 d-block"></i>Aradığınız kriterlere uygun sonuç bulunamadı.</div></div>';
-                    return;
+            if (filtrelenmisVeriler.length === 0) {
+                listeDiv.innerHTML = '<div class="col-12"><div class="alert alert-warning p-4 rounded-3 text-center border"><i class="fa-solid fa-circle-exclamation fs-3 mb-2 d-block"></i>Aradığınız kriterlere uygun sonuç bulunamadı.</div></div>';
+                sayfalamaRender();
+                return;
+            }
+
+            const baslangicIndex = (suankiSayfa - 1) * sayfaBasinaKayit;
+            const gosterilecekData = filtrelenmisVeriler.slice(baslangicIndex, baslangicIndex + sayfaBasinaKayit);
+            let kartlarHtml = '';
+
+            gosterilecekData.forEach(item => {
+                const itemString = JSON.stringify(item).replace(/"/g, '&quot;');
+                const tabanGoster = (item.tabanPuan) ? item.tabanPuan : "Dolmadı";
+                const siralamaGoster = (item.basariSirasi) ? Number(item.basariSirasi).toLocaleString('tr-TR') : "Belirtilmemiş";
+
+                // Üniversite Türü belirleme
+                const rawTuru = (item.detaylar && item.detaylar.turu) ? item.detaylar.turu : "DEVLET";
+                let turuGoster = "Devlet";
+                let turuClass = "badge-devlet";
+                if (rawTuru === "VAKIF" || rawTuru === "VAKIF MYO") {
+                    turuGoster = "Vakıf";
+                    turuClass = "badge-vakif";
+                } else if (rawTuru === "KKTC") {
+                    turuGoster = "KKTC";
+                    turuClass = "badge-kktc";
+                } else if (rawTuru.includes("YURTDISI")) {
+                    turuGoster = "Yurtdışı";
+                    turuClass = "badge-yurtdisi";
                 }
 
-                const listeDiv = document.getElementById("liste");
-                const baslangicIndex = (suankiSayfa - 1) * sayfaBasinaKayit;
-                const gosterilecekData = filtrelenmisVeriler.slice(baslangicIndex, baslangicIndex + sayfaBasinaKayit);
+                const favoriAktif = tercihMu(item.yokAtlasKodu);
+                const karsilastirAktif = karsilastirMi(item.yokAtlasKodu);
+                
+                // Burs Etiketi Hesabı
+                let bursRozetiHtml = '';
+                const bolumAd = item.bolum || '';
+                if (bolumAd.includes('Burslu') || bolumAd.includes('%100 Burslu')) {
+                    bursRozetiHtml = `<span class="badge-custom-type badge-burslu">Burslu</span>`;
+                } else if (bolumAd.includes('%50 İndirimli')) {
+                    bursRozetiHtml = `<span class="badge-custom-type badge-indirimli">%50 İndirimli</span>`;
+                } else if (bolumAd.includes('%25 İndirimli')) {
+                    bursRozetiHtml = `<span class="badge-custom-type badge-indirimli">%25 İndirimli</span>`;
+                } else if (bolumAd.includes('Ücretli')) {
+                    bursRozetiHtml = `<span class="badge-custom-type badge-ucretli">Ücretli</span>`;
+                }
 
-                gosterilecekData.forEach(item => {
-                    const itemString = JSON.stringify(item).replace(/"/g, '&quot;');
-                    const tabanGoster = (item.tabanPuan) ? item.tabanPuan : "Dolmadı";
-                    const siralamaGoster = (item.basariSirasi) ? Number(item.basariSirasi).toLocaleString('tr-TR') : "Belirtilmemiş";
+                // Trend İndikatörü Hesabı
+                let trendRozetiHtml = '';
+                const populerKelimeler = ['yazılım', 'yapay zeka', 'bilgisayar', 'tıp', 'hukuk', 'diş', 'veri', 'siber', 'havacılık', 'pilotaj'];
+                const bolumKucuk = bolumAd.toLowerCase();
+                if (populerKelimeler.some(k => bolumKucuk.includes(k))) {
+                    trendRozetiHtml = `<span class="badge-custom-type badge-trend-up" title="YKS Tercihlerinde Yüksek Talep Gören Bölüm">Yüksek Talep</span>`;
+                }
 
-                    // Üniversite Türü belirleme
-                    const rawTuru = (item.detaylar && item.detaylar.turu) ? item.detaylar.turu : "DEVLET";
-                    let turuGoster = "Devlet";
-                    let turuClass = "badge-devlet";
-                    if (rawTuru === "VAKIF" || rawTuru === "VAKIF MYO") {
-                        turuGoster = "Vakıf";
-                        turuClass = "badge-vakif";
-                    } else if (rawTuru === "KKTC") {
-                        turuGoster = "KKTC";
-                        turuClass = "badge-kktc";
-                    } else if (rawTuru.includes("YURTDISI")) {
-                        turuGoster = "Yurtdışı";
-                        turuClass = "badge-yurtdisi";
+                const ogrSiralama = parseInt(document.getElementById("siralamaInput").value);
+                let sansRozetiHtml = '';
+                if (!isNaN(ogrSiralama) && ogrSiralama > 0 && item.basariSirasi) {
+                    const itemSir = parseInt(item.basariSirasi);
+                    if (itemSir < ogrSiralama * 0.90) {
+                        sansRozetiHtml = `<span class="badge-custom-type badge-hayal" title="Kazanma Şansı: Üst Tercih">Üst Tercih</span>`;
+                    } else if (itemSir <= ogrSiralama * 1.15) {
+                        sansRozetiHtml = `<span class="badge-custom-type badge-hedef" title="Kazanma Şansı: İdeal Hedef">İdeal Hedef</span>`;
+                    } else {
+                        sansRozetiHtml = `<span class="badge-custom-type badge-garanti" title="Kazanma Şansı: Güvenli Tercih">Güvenli Tercih</span>`;
                     }
+                }
 
-                    const favoriAktif = tercihMu(item.yokAtlasKodu);
-                    const karsilastirAktif = karsilastirMi(item.yokAtlasKodu);
-                    
-                    // Burs Etiketi Hesabı
-                    let bursRozetiHtml = '';
-                    const bolumAd = item.bolum || '';
-                    if (bolumAd.includes('Burslu') || bolumAd.includes('%100 Burslu')) {
-                        bursRozetiHtml = `<span class="badge-custom-type badge-burslu">Burslu</span>`;
-                    } else if (bolumAd.includes('%50 İndirimli')) {
-                        bursRozetiHtml = `<span class="badge-custom-type badge-indirimli">%50 İndirimli</span>`;
-                    } else if (bolumAd.includes('%25 İndirimli')) {
-                        bursRozetiHtml = `<span class="badge-custom-type badge-indirimli">%25 İndirimli</span>`;
-                    } else if (bolumAd.includes('Ücretli')) {
-                        bursRozetiHtml = `<span class="badge-custom-type badge-ucretli">Ücretli</span>`;
-                    }
-
-                    // Trend İndikatörü Hesabı
-                    let trendRozetiHtml = '';
-                    const populerKelimeler = ['yazılım', 'yapay zeka', 'bilgisayar', 'tıp', 'hukuk', 'diş', 'veri', 'siber', 'havacılık', 'pilotaj'];
-                    const bolumKucuk = bolumAd.toLowerCase();
-                    if (populerKelimeler.some(k => bolumKucuk.includes(k))) {
-                        trendRozetiHtml = `<span class="badge-custom-type badge-trend-up" title="YKS Tercihlerinde Yüksek Talep Gören Bölüm">Yüksek Talep</span>`;
-                    }
-
-                    const ogrSiralama = parseInt(document.getElementById("siralamaInput").value);
-                    let sansRozetiHtml = '';
-                    if (!isNaN(ogrSiralama) && ogrSiralama > 0 && item.basariSirasi) {
-                        const itemSir = parseInt(item.basariSirasi);
-                        if (itemSir < ogrSiralama * 0.90) {
-                            sansRozetiHtml = `<span class="badge-custom-type badge-hayal" title="Kazanma Şansı: Üst Tercih">Üst Tercih</span>`;
-                        } else if (itemSir <= ogrSiralama * 1.15) {
-                            sansRozetiHtml = `<span class="badge-custom-type badge-hedef" title="Kazanma Şansı: İdeal Hedef">İdeal Hedef</span>`;
-                        } else {
-                            sansRozetiHtml = `<span class="badge-custom-type badge-garanti" title="Kazanma Şansı: Güvenli Tercih">Güvenli Tercih</span>`;
-                        }
-                    }
-
-                    const kart = `
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card position-relative" onclick="detayGoster(${itemString})">
-                                <div class="card-body d-flex flex-column">
-                                    <div class="d-flex justify-content-between align-items-start mb-3 gap-2">
-                                        <div class="d-flex gap-1 flex-wrap align-items-center">
-                                            <span class="badge-custom">${item.puanTuru}</span>
-                                            <span class="badge-custom-type ${turuClass}">${turuGoster}</span>
-                                            ${bursRozetiHtml}
-                                            ${trendRozetiHtml}
-                                            ${sansRozetiHtml}
-                                        </div>
-                                        <div class="d-flex align-items-center gap-1 flex-shrink-0">
-                                            <button class="btn-karsilastir ${karsilastirAktif ? 'active' : ''}" data-kod-karsilastir="${item.yokAtlasKodu}" onclick="event.stopPropagation(); karsilastirToggle('${item.yokAtlasKodu}')" title="Karşılaştırmaya Ekle/Çıkar">
-                                                <i class="fa-solid fa-scale-balanced" style="font-size: 0.8rem;"></i>
-                                            </button>
-                                            <button class="btn-favori ${favoriAktif ? 'active' : ''}" data-kod="${item.yokAtlasKodu}" onclick="event.stopPropagation(); tercihToggle('${item.yokAtlasKodu}')" title="Tercih Listeme Ekle/Çıkar">
-                                                <i class="${favoriAktif ? 'fa-solid' : 'fa-regular'} fa-heart" style="font-size: 0.85rem;"></i>
-                                            </button>
-                                        </div>
+                kartlarHtml += `
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card position-relative" onclick="detayGoster(${itemString})">
+                            <div class="card-body d-flex flex-column">
+                                <div class="d-flex justify-content-between align-items-start mb-3 gap-2">
+                                    <div class="d-flex gap-1 flex-wrap align-items-center">
+                                        <span class="badge-custom">${item.puanTuru}</span>
+                                        <span class="badge-custom-type ${turuClass}">${turuGoster}</span>
+                                        ${bursRozetiHtml}
+                                        ${trendRozetiHtml}
+                                        ${sansRozetiHtml}
                                     </div>
-                                    <h5 class="univ-title text-truncate" title="${item.bolum}">${item.bolum}</h5>
-                                    <h6 class="univ-subtitle mb-2 d-flex align-items-center gap-2 text-truncate" title="${item.universite}">${uniLogoHtmlGetir(item.universite, 20)}<span class="text-truncate">${item.universite}</span></h6>
-                                    
-                                    <div class="mt-auto pt-2">
-                                        <div class="d-flex align-items-center justify-content-between text-muted mb-2" style="font-size: 0.8rem;">
-                                            <span><i class="fa-solid fa-location-dot me-1" style="color: var(--secondary);"></i>${item.sehir}</span>
-                                            <span style="font-family: var(--font-mono); font-size: 0.74rem; color: #8c929e;">Kod: ${item.yokAtlasKodu || '-'}</span>
+                                    <div class="d-flex align-items-center gap-1 flex-shrink-0">
+                                        <button class="btn-karsilastir ${karsilastirAktif ? 'active' : ''}" data-kod-karsilastir="${item.yokAtlasKodu}" onclick="event.stopPropagation(); karsilastirToggle('${item.yokAtlasKodu}')" title="Karşılaştırmaya Ekle/Çıkar">
+                                            <i class="fa-solid fa-scale-balanced" style="font-size: 0.8rem;"></i>
+                                        </button>
+                                        <button class="btn-favori ${favoriAktif ? 'active' : ''}" data-kod="${item.yokAtlasKodu}" onclick="event.stopPropagation(); tercihToggle('${item.yokAtlasKodu}')" title="Tercih Listeme Ekle/Çıkar">
+                                            <i class="${favoriAktif ? 'fa-solid' : 'fa-regular'} fa-heart" style="font-size: 0.85rem;"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <h5 class="univ-title text-truncate" title="${item.bolum}">${item.bolum}</h5>
+                                <h6 class="univ-subtitle mb-2 d-flex align-items-center gap-2 text-truncate" title="${item.universite}">${uniLogoHtmlGetir(item.universite, 20)}<span class="text-truncate">${item.universite}</span></h6>
+                                
+                                <div class="mt-auto pt-2">
+                                    <div class="d-flex align-items-center justify-content-between text-muted mb-2" style="font-size: 0.8rem;">
+                                        <span><i class="fa-solid fa-location-dot me-1" style="color: var(--secondary);"></i>${item.sehir}</span>
+                                        <span style="font-family: var(--font-mono); font-size: 0.74rem; color: #8c929e;">Kod: ${item.yokAtlasKodu || '-'}</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center data-well">
+                                        <div class="d-flex flex-column text-start">
+                                            <span class="text-muted" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.4px; font-weight: 600;">Taban Puan</span>
+                                            <strong class="data-num" style="color: var(--primary);">${tabanGoster}</strong>
                                         </div>
-                                        <div class="d-flex justify-content-between align-items-center data-well">
-                                            <div class="d-flex flex-column text-start">
-                                                <span class="text-muted" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.4px; font-weight: 600;">Taban Puan</span>
-                                                <strong class="data-num" style="color: var(--primary);">${tabanGoster}</strong>
-                                            </div>
-                                            <div class="d-flex flex-column text-end border-start ps-3">
-                                                <span class="text-muted" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.4px; font-weight: 600;">2026 Sıralama</span>
-                                                <strong class="data-num" style="color: var(--accent-teal);">${siralamaGoster}</strong>
-                                            </div>
+                                        <div class="d-flex flex-column text-end border-start ps-3">
+                                            <span class="text-muted" style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.4px; font-weight: 600;">2026 Sıralama</span>
+                                            <strong class="data-num" style="color: var(--accent-teal);">${siralamaGoster}</strong>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    `;
-                    listeDiv.innerHTML += kart;
-                });
+                    </div>
+                `;
+            });
 
-                if (baslangicIndex + sayfaBasinaKayit < filtrelenmisVeriler.length) {
-                    btnDahaFazla.style.display = "inline-flex";
-                }
-            }, 300);
+            listeDiv.innerHTML = kartlarHtml;
+            sayfalamaRender();
         }
 
         // Tanımsız olan baslangic() çağrısı kaldırıldı.
@@ -2848,6 +3025,10 @@
                     el.setAttribute('placeholder', dict[key]);
                 }
             });
+
+            if (typeof sayfalamaRender === 'function') {
+                sayfalamaRender();
+            }
         }
 
         document.addEventListener('DOMContentLoaded', () => {
