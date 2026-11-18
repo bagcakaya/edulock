@@ -1711,6 +1711,9 @@
         let filtrelenmisVeriler = [];
         let suankiSayfa = 1;
         const sayfaBasinaKayit = 30; // Her sayfada 30 kart gösterilsin
+        var tercihListesi = [];
+        var karsilastirListesi = [];
+        var currentLang = localStorage.getItem('edulock_lang') || 'tr';
 
         // URL'den gelen parametreleri al (p: Puan Türü, bolum: Bölüm Adı, uni/universite: Üniversite Adı, sehir: Şehir, tur/turu: Üniversite Türü)
         const urlParams = new URLSearchParams(window.location.search);
@@ -1738,21 +1741,17 @@
 
         // Enter tuşu ile arama yapılması için event listener'lar
         document.getElementById("uniInput").addEventListener("keyup", function(e) {
-            if (e.key === "Enter") yeniArama();
+            if (e.key === "Enter") yeniArama(true);
         });
         document.getElementById("sehirInput").addEventListener("keyup", function(e) {
-            if (e.key === "Enter") yeniArama();
+            if (e.key === "Enter") yeniArama(true);
         });
         document.getElementById("bolumInput").addEventListener("keyup", function(e) {
-            if (e.key === "Enter") yeniArama();
+            if (e.key === "Enter") yeniArama(true);
         });
         document.getElementById("siralamaInput").addEventListener("keyup", function(e) {
-            if (e.key === "Enter") yeniArama();
+            if (e.key === "Enter") yeniArama(true);
         });
-
-        // Sayfa açıldığında URL parametrelerini kontrol et ve verileri yükle
-        checkUrlParams();
-        yeniArama();
 
         function yeniArama(isManual) {
             if (isManual) {
@@ -2389,8 +2388,6 @@
         }
         
         // --- Tercih Listem (LocalStorage) Motoru ---
-        let tercihListesi = [];
-
         function tercihlerYukle() {
             try {
                 const kayitli = localStorage.getItem("edulock_tercih_listesi");
@@ -2734,8 +2731,6 @@
         }
 
         // --- Karşılaştırma Modu Motoru ---
-        let karsilastirListesi = [];
-
         function karsilastirMi(yokAtlasKodu) {
             if (!yokAtlasKodu) return false;
             return karsilastirListesi.some(item => String(item.yokAtlasKodu) === String(yokAtlasKodu));
@@ -2993,8 +2988,6 @@
             }
         };
 
-        let currentLang = localStorage.getItem('edulock_lang') || 'tr';
-
         function setLanguage(lang) {
             currentLang = lang;
             localStorage.setItem('edulock_lang', lang);
@@ -3031,10 +3024,14 @@
             }
         }
 
+        // Tüm fonksiyon ve değişkenler tanımlandıktan sonra ilk yüklemeyi başlat
+        tercihlerYukle();
+        checkUrlParams();
+        yeniArama();
+
         document.addEventListener('DOMContentLoaded', () => {
             try { localStorage.removeItem("edulock_theme"); } catch(e){}
             setLanguage(currentLang);
-            tercihlerYukle();
             haberleriYukle();
         });
     </script>
